@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "siklus-rbs-bank-umum-konvensional",
+    "name": "Siklus RBS Bank Umum Konvensional",
+    "day": 1,
+    "source": "existing",
+    "count": 15
+  },
+  {
+    "slug": "inklusi-keuangan",
+    "name": "Implementasi Peningkatan Inklusi Keuangan",
+    "day": 2,
+    "source": "existing",
+    "count": 10
+  },
+  {
+    "slug": "urun-dana",
+    "name": "Perizinan Layanan Urun Dana (SCF)",
+    "day": 3,
+    "source": "existing",
+    "count": 12
+  },
+  {
+    "slug": "aplikasi-pengawasan-perbankan",
+    "name": "Aplikasi Pengawasan Perbankan (DPKP)",
+    "day": 3,
+    "source": "existing",
+    "count": 15
+  },
+  {
+    "slug": "derivatif-bursa-karbon",
+    "name": "Transaksi Efek, Derivatif & Bursa Karbon",
+    "day": 4,
+    "source": "existing",
+    "count": 15
+  },
+  {
+    "slug": "muamalat-akad-syariah",
+    "name": "Pengantar Muamalat & Akad Syariah",
+    "day": 4,
+    "source": "existing",
+    "count": 24
+  },
+  {
+    "slug": "literasi-inklusi-keuangan",
+    "name": "Proses Bisnis Literasi & Inklusi Keuangan",
+    "day": 1,
+    "source": "generated",
+    "count": 12
+  },
+  {
+    "slug": "market-conduct",
+    "name": "Pengawasan Market Conduct",
+    "day": 1,
+    "source": "generated",
+    "count": 15
+  },
+  {
+    "slug": "perlindungan-konsumen",
+    "name": "Perlindungan Konsumen di SJK",
+    "day": 1,
+    "source": "generated",
+    "count": 15
+  },
+  {
+    "slug": "siklus-pengawasan-bank-umum",
+    "name": "Siklus Pengawasan Bank Umum",
+    "day": 2,
+    "source": "generated",
+    "count": 15
+  },
+  {
+    "slug": "pengawasan-asuransi-ppdp",
+    "name": "Pengawasan Asuransi (PPDP)",
+    "day": 2,
+    "source": "generated",
+    "count": 13
+  },
+  {
+    "slug": "siklus-pengawasan-pasar-modal",
+    "name": "Siklus Pengawasan Pasar Modal",
+    "day": 2,
+    "source": "generated",
+    "count": 14
+  },
+  {
+    "slug": "pengawasan-perusahaan-efek",
+    "name": "Pengawasan Perusahaan Efek & SCF",
+    "day": 3,
+    "source": "generated",
+    "count": 10
+  },
+  {
+    "slug": "siklus-pengawasan-perusahaan-pembiayaan",
+    "name": "Siklus Pengawasan Perusahaan Pembiayaan",
+    "day": 3,
+    "source": "generated",
+    "count": 10
+  },
+  {
+    "slug": "pengawasan-emiten-perusahaan-publik",
+    "name": "Pengawasan Emiten & Perusahaan Publik",
+    "day": 4,
+    "source": "generated",
+    "count": 11
+  }
+]

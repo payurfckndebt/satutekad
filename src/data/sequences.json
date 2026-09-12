@@ -1,0 +1,119 @@
+[
+  {
+    "id": "seq-rbs-cycle",
+    "categorySlug": "siklus-rbs-bank-umum-konvensional",
+    "prompt": "Urutkan tahapan Siklus Pengawasan Berdasarkan Risiko (RBS) Bank Umum",
+    "steps": [
+      "Pemahaman terhadap Bank (KYB)",
+      "Penilaian Risiko & Tingkat Kesehatan",
+      "Perencanaan Pengawasan (SP)",
+      "Pemeriksaan Berdasarkan Risiko",
+      "Forum Panel Pengawasan",
+      "Tindakan Pengawasan & Monitoring"
+    ]
+  },
+  {
+    "id": "seq-pemeriksaan-tematik",
+    "categorySlug": "market-conduct",
+    "prompt": "Urutkan tahapan Pemeriksaan Tematik Market Conduct",
+    "steps": [
+      "Entry Meeting",
+      "Pemeriksaan",
+      "Menyusun KHP",
+      "Pre-Exit Meeting",
+      "Exit Meeting"
+    ]
+  },
+  {
+    "id": "seq-idr-edr",
+    "categorySlug": "perlindungan-konsumen",
+    "prompt": "Urutkan alur penanganan pengaduan Konsumen",
+    "steps": [
+      "Konsumen menyampaikan pengaduan ke PUJK",
+      "PUJK menindaklanjuti (10 HK + 10 HK)",
+      "Konsumen menerima atau menolak tanggapan",
+      "Jika menolak, ajukan sengketa ke LAPS SJK",
+      "Penyelesaian melalui Mediasi/Arbitrase/Pendapat Mengikat"
+    ]
+  },
+  {
+    "id": "seq-rbe-tahapan",
+    "categorySlug": "siklus-pengawasan-bank-umum",
+    "prompt": "Urutkan tahapan Pemeriksaan Berdasarkan Risiko (RBE)",
+    "steps": [
+      "Perencanaan (Audit Working Plan)",
+      "Pelaksanaan (Field work)",
+      "Laporan Hasil Pemeriksaan",
+      "Monitoring Tindak Lanjut"
+    ]
+  },
+  {
+    "id": "seq-onsite-lp",
+    "categorySlug": "siklus-pengawasan-pasar-modal",
+    "prompt": "Urutkan tahapan Pengawasan Onsite Lembaga Penunjang Pasar Modal",
+    "steps": [
+      "Penyusunan Rencana Pemeriksaan Kepatuhan",
+      "Persiapan On-site",
+      "Pelaksanaan On-site",
+      "Closing Conference",
+      "Penyusunan Laporan Hasil Pemeriksaan"
+    ]
+  },
+  {
+    "id": "seq-onsite-pembiayaan",
+    "categorySlug": "siklus-pengawasan-perusahaan-pembiayaan",
+    "prompt": "Urutkan tahapan Pengawasan On-site Perusahaan Pembiayaan",
+    "steps": [
+      "Pra Entry Meeting (off site)",
+      "Pemeriksaan Langsung (on site)",
+      "Pra Exit Meeting",
+      "Exit Meeting",
+      "Penyusunan LHP"
+    ]
+  },
+  {
+    "id": "seq-perizinan-scf",
+    "categorySlug": "urun-dana",
+    "prompt": "Urutkan tahapan perizinan Penyelenggara Layanan Urun Dana",
+    "steps": [
+      "Persetujuan Prinsip",
+      "Persiapan oleh calon Penyelenggara",
+      "Izin Usaha",
+      "Penyelenggaraan kegiatan usaha LUD"
+    ]
+  },
+  {
+    "id": "seq-gugatan-ojk",
+    "categorySlug": "perlindungan-konsumen",
+    "prompt": "Urutkan alur Gugatan Perdata OJK",
+    "steps": [
+      "Tindakan pengawasan",
+      "Usulan gugatan & penyusunan daftar konsumen",
+      "Rapat Dewan Komisioner & pengumuman",
+      "Pendaftaran dan tahapan persidangan",
+      "Distribusi pembayaran ganti kerugian"
+    ]
+  },
+  {
+    "id": "seq-tks-rbbr",
+    "categorySlug": "pengawasan-asuransi-ppdp",
+    "prompt": "Urutkan dari peringkat komposit TERBAIK ke TERBURUK",
+    "steps": [
+      "PK1 - Sangat Sehat",
+      "PK2 - Sehat",
+      "PK3 - Cukup Sehat",
+      "PK4 - Kurang Sehat",
+      "PK5 - Tidak Sehat"
+    ]
+  },
+  {
+    "id": "seq-status-bank",
+    "categorySlug": "siklus-pengawasan-bank-umum",
+    "prompt": "Urutkan status pengawasan bank dari kondisi TERBAIK ke TERBURUK",
+    "steps": [
+      "Normal",
+      "Penyehatan (BDP)",
+      "Resolusi (BDR)"
+    ]
+  }
+]
