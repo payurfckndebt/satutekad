@@ -21,7 +21,7 @@ export default function TapToFill({ question, onAnswered }) {
       <h2 className="font-display font-bold text-xl text-ink leading-snug mb-3">
         {question.stem}
       </h2>
-      <div className="mb-6 rounded-2xl border-2 border-dashed border-tekad-gold/60 bg-tekad-gold/5 px-4 py-4 min-h-[3.5rem] flex items-center">
+      <div className="mb-6 rounded-2xl border-2 border-dashed border-tekad-red/60 bg-tekad-red/5 px-4 py-4 min-h-[3.5rem] flex items-center">
         {picked === null ? (
           <span className="text-ink-soft/50">___________________</span>
         ) : (

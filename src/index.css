@@ -5,13 +5,19 @@
 html, body, #root { height: 100%; }
 
 body {
-  background: #101A33;
+  background: #FFFFFF;
   font-family: 'Inter', sans-serif;
   -webkit-tap-highlight-color: transparent;
   overscroll-behavior-y: none;
+  color: #26141A;
 }
 
 .font-display { font-family: 'Plus Jakarta Sans', sans-serif; }
+
+/* mobile safe-area helpers */
+.safe-top { padding-top: max(env(safe-area-inset-top), 1rem); }
+.safe-bottom { padding-bottom: max(env(safe-area-inset-bottom), 1rem); }
+.pb-safe { padding-bottom: calc(1rem + env(safe-area-inset-bottom)); }
 
 /* button press feel, replacing default browser button chrome */
 .btn-solid {
@@ -28,6 +34,12 @@ body {
   100% { transform: scale(1); opacity: 1; }
 }
 .animate-pop { animation: pop-in 0.18s ease-out; }
+
+@keyframes fade-up {
+  0% { transform: translateY(8px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+.animate-fade-up { animation: fade-up 0.28s cubic-bezier(0.16, 1, 0.3, 1); }
 
 @keyframes shake {
   10%, 90% { transform: translateX(-1px); }
@@ -49,8 +61,18 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .animate-pop, .animate-shake, .animate-slide-up { animation: none; }
+  .animate-pop, .animate-shake, .animate-slide-up, .animate-fade-up { animation: none; }
 }
 
 ::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-thumb { background: #2A3655; border-radius: 4px; }
+::-webkit-scrollbar-thumb { background: #F3D2D7; border-radius: 4px; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+
+/* soft decorative blob used behind headers for a less "flat" feel */
+.tekad-blob {
+  position: absolute;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(214,41,61,0.14) 0%, rgba(214,41,61,0) 70%);
+  pointer-events: none;
+}

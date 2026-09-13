@@ -49,7 +49,7 @@ export default function MatchPairs({ pairs, onAnswered }) {
                 ${matched.includes(item.id)
                   ? 'border-transparent bg-ok/10 text-ok/60'
                   : selectedLeft === item.id
-                  ? 'border-tekad-gold bg-tekad-gold/10 text-ink'
+                  ? 'border-tekad-red bg-tekad-red/10 text-ink'
                   : wrongFlash?.leftId === item.id
                   ? 'border-bad bg-bad/10 text-bad animate-shake'
                   : 'border-ink-soft/20 bg-white text-ink active:scale-95'

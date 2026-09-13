@@ -45,7 +45,7 @@ export default function DragSort({ sequence, onAnswered }) {
                 ? item.i === idx
                   ? 'border-ok text-ok'
                   : 'border-bad text-bad'
-                : 'border-tekad-gold/50 text-ink active:scale-[0.98]'
+                : 'border-tekad-red/50 text-ink active:scale-[0.98]'
               }`}
           >
             <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-ink text-white text-xs font-bold">
@@ -75,7 +75,7 @@ export default function DragSort({ sequence, onAnswered }) {
       {placed.length === sequence.steps.length && !locked && (
         <button
           onClick={submit}
-          className="btn-solid mt-2 w-full rounded-2xl bg-tekad-gold border-b-4 border-tekad-goldDark py-3 font-display font-bold text-ink"
+          className="btn-solid mt-2 w-full rounded-2xl bg-tekad-red border-b-4 border-tekad-redDark py-3 font-display font-bold text-white"
         >
           Kunci Urutan
         </button>

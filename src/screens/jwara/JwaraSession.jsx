@@ -139,7 +139,7 @@ export default function JwaraSession({ category, allQuestions, onExit }) {
 
   if (phase === 'gameover') {
     return (
-      <div className="min-h-screen bg-ink flex flex-col items-center justify-center px-6 text-center">
+      <div className="min-h-screen bg-tekad-red flex flex-col items-center justify-center px-6 text-center">
         <div className="text-6xl mb-4">💔</div>
         <h1 className="font-display font-extrabold text-2xl text-white mb-2">Nyawa Habis</h1>
         <p className="text-white/60 mb-8 max-w-xs">
@@ -147,7 +147,7 @@ export default function JwaraSession({ category, allQuestions, onExit }) {
         </p>
         <button
           onClick={retryLevel}
-          className="btn-solid w-full max-w-xs rounded-2xl bg-tekad-gold border-b-4 border-tekad-goldDark py-3 font-display font-bold text-ink"
+          className="btn-solid w-full max-w-xs rounded-2xl bg-white border-b-4 border-white/40 py-3 font-display font-bold text-tekad-red"
         >
           Ulangi Level
         </button>
@@ -161,7 +161,7 @@ export default function JwaraSession({ category, allQuestions, onExit }) {
   if (phase === 'complete') {
     const accuracy = attemptCount ? Math.round((correctCount / totalForward) * 100) : 100;
     return (
-      <div className="min-h-screen bg-ink flex flex-col items-center justify-center px-6 text-center relative overflow-hidden">
+      <div className="min-h-screen bg-tekad-red flex flex-col items-center justify-center px-6 text-center relative overflow-hidden">
         <Confetti />
         <div className="text-6xl mb-4">🏆</div>
         <h1 className="font-display font-extrabold text-2xl text-white mb-1">Level Selesai!</h1>
@@ -173,7 +173,7 @@ export default function JwaraSession({ category, allQuestions, onExit }) {
         </div>
         <button
           onClick={nextLevel}
-          className="btn-solid w-full max-w-xs rounded-2xl bg-tekad-gold border-b-4 border-tekad-goldDark py-3 font-display font-bold text-ink"
+          className="btn-solid w-full max-w-xs rounded-2xl bg-white border-b-4 border-white/40 py-3 font-display font-bold text-tekad-red"
         >
           Lanjut Level Berikutnya
         </button>
@@ -196,7 +196,7 @@ export default function JwaraSession({ category, allQuestions, onExit }) {
 
       <main className="flex-1 px-5 pt-4 pb-28">
         {phase === 'retry' && (
-          <p className="mb-3 inline-block rounded-full bg-tekad-gold/15 text-tekad-goldDark text-xs font-bold px-3 py-1">
+          <p className="mb-3 inline-block rounded-full bg-tekad-red/15 text-tekad-redDark text-xs font-bold px-3 py-1">
             Sesi Ulangi · {retryQueue.length} tersisa
           </p>
         )}
@@ -237,9 +237,9 @@ function StepRenderer({ step, onAnswered, locked }) {
 
 function Stat({ label, value }) {
   return (
-    <div className="rounded-2xl bg-white/5 border border-white/10 py-3">
-      <div className="font-display font-extrabold text-lg text-tekad-gold">{value}</div>
-      <div className="text-[11px] text-white/50 uppercase tracking-wide">{label}</div>
+    <div className="rounded-2xl bg-white/15 border border-white/25 py-3">
+      <div className="font-display font-extrabold text-lg text-white">{value}</div>
+      <div className="text-[11px] text-white/70 uppercase tracking-wide">{label}</div>
     </div>
   );
 }

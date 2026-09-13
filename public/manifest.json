@@ -1,0 +1,12 @@
+{
+  "name": "SatuTekad",
+  "short_name": "SatuTekad",
+  "description": "Try out sertifikasi PCAM 9 & MLE 2026",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#D6293D",
+  "icons": [
+    { "src": "/tekad-mark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

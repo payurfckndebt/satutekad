@@ -24,11 +24,10 @@ export default function TryOutScreen({ onExit }) {
   }
 
   if (length) {
-    const pool = questions.slice(0, length); // McqRunner shuffles internally
     return (
       <McqRunner
         key={runKey}
-        title="Try Out Keseluruhan"
+        title="FullTek"
         questions={pickRandom(questions, length)}
         timeLimitMin={Math.round(length * 1.2)}
         onFinish={setResult}
@@ -38,19 +37,19 @@ export default function TryOutScreen({ onExit }) {
   }
 
   return (
-    <div className="min-h-screen bg-paper flex flex-col px-6 py-8">
-      <button onClick={onExit} className="self-start text-ink-soft/60 text-2xl leading-none mb-6">←</button>
-      <h1 className="font-display font-extrabold text-2xl text-ink mb-2">Try Out Keseluruhan</h1>
+    <div className="min-h-screen bg-paper flex flex-col px-6 pt-6 pb-safe">
+      <button onClick={onExit} className="self-start text-ink text-2xl leading-none mb-6">←</button>
+      <h1 className="font-display font-extrabold text-2xl text-ink mb-2">FullTek</h1>
       <p className="text-ink-soft/70 mb-8 leading-relaxed">
-        Campuran soal dari file terlampir dan soal buatan Claude, diambil acak dari seluruh 206 soal,
-        15 kategori. Pilih jumlah soal untuk sesi ini.
+        Simulasi ujian bertimer, soal diambil acak dari seluruh {questions.length} soal, {' '}
+        {new Set(questions.map((q) => q.categorySlug)).size} materi. Pilih jumlah soal untuk sesi ini.
       </p>
       <div className="space-y-3">
         {LENGTHS.map((n) => (
           <button
             key={n}
             onClick={() => setLength(n)}
-            className="w-full flex items-center justify-between rounded-2xl border-2 border-ink-soft/15 bg-white px-5 py-4 text-left active:scale-[0.98] transition-transform"
+            className="w-full flex items-center justify-between rounded-2xl border-2 border-tekad-redSoft bg-white px-5 py-4 text-left active:scale-[0.98] transition-transform"
           >
             <span className="font-display font-bold text-ink">{n} Soal</span>
             <span className="text-ink-soft/50 text-sm">~{Math.round(n * 1.2)} menit</span>

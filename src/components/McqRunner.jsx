@@ -54,7 +54,7 @@ export default function McqRunner({ title, questions, timeLimitMin, onFinish, on
           <button onClick={onExit} className="text-ink-soft/60 text-2xl leading-none">×</button>
           <div className="h-2 flex-1 rounded-full bg-ink-soft/15 overflow-hidden">
             <div
-              className="h-full bg-ink rounded-full transition-all"
+              className="h-full bg-tekad-red rounded-full transition-all"
               style={{ width: `${((index) / shuffled.length) * 100}%` }}
             />
           </div>
@@ -99,7 +99,7 @@ export default function McqRunner({ title, questions, timeLimitMin, onFinish, on
         <div className="fixed inset-x-0 bottom-0 bg-white border-t border-ink-soft/10 px-5 py-4">
           <button
             onClick={next}
-            className="btn-solid w-full rounded-2xl bg-ink border-b-4 border-black/40 py-3 font-display font-bold text-white"
+            className="btn-solid w-full rounded-2xl bg-tekad-red border-b-4 border-tekad-redDark py-3 font-display font-bold text-white"
           >
             {index + 1 >= shuffled.length ? 'Lihat Hasil' : 'Soal Berikutnya'}
           </button>

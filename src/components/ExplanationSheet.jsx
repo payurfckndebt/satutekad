@@ -5,7 +5,7 @@ export default function ExplanationSheet({ correct, text, onContinue }) {
         className={`px-5 pt-4 pb-6 rounded-t-3xl border-t-4 ${
           correct ? 'bg-ok/10 border-ok' : 'bg-bad/10 border-bad'
         } backdrop-blur-sm`}
-        style={{ background: correct ? '#EAF7EF' : '#FDEAEA' }}
+        style={{ background: correct ? '#E8F6EE' : '#FBE7E9' }}
       >
         <div className={`flex items-center gap-2 font-display font-bold text-lg ${correct ? 'text-ok' : 'text-bad'}`}>
           <span className="text-2xl leading-none">{correct ? '✓' : '✕'}</span>
