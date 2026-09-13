@@ -13,6 +13,7 @@ export default function ExamRunner({ title, questions, timeLimitMin, onFinish, o
   const [flagged, setFlagged] = useState(() => Array(total).fill(false));
   const [showNavigator, setShowNavigator] = useState(false);
   const [showExitConfirm, setShowExitConfirm] = useState(false);
+  const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
   const [showLowTimeWarning, setShowLowTimeWarning] = useState(false);
   const lowTimeShownRef = useRef(false);
   const startedAtRef = useRef(Date.now());
@@ -64,7 +65,11 @@ export default function ExamRunner({ title, questions, timeLimitMin, onFinish, o
     const score = Math.round((correctCount / total) * 100);
     const timeTakenSec = Math.round((Date.now() - startedAtRef.current) / 1000);
     addHistoryEntry({ title, score, correctCount, total, timeTakenSec });
-    onFinish({ score, correctCount, total, timeTakenSec });
+    onFinish({ score, correctCount, total, timeTakenSec, questions: shuffled, answers });
+  }
+
+  function requestSubmit() {
+    setShowSubmitConfirm(true);
   }
 
   const mm = secondsLeft !== null ? String(Math.floor(Math.max(0, secondsLeft) / 60)).padStart(2, '0') : null;
@@ -149,7 +154,7 @@ export default function ExamRunner({ title, questions, timeLimitMin, onFinish, o
         </button>
         {currentIndex + 1 >= total ? (
           <button
-            onClick={finish}
+            onClick={requestSubmit}
             className="btn-solid flex-[1.4] rounded-2xl bg-tekad-red border-b-4 border-tekad-redDark py-3 font-display font-bold text-white"
           >
             Selesai
@@ -197,11 +202,43 @@ export default function ExamRunner({ title, questions, timeLimitMin, onFinish, o
               })}
             </div>
             <button
-              onClick={finish}
+              onClick={requestSubmit}
               className="btn-solid mt-2 w-full rounded-2xl bg-tekad-red border-b-4 border-tekad-redDark py-3 font-display font-bold text-white"
             >
               Selesai & Lihat Skor
             </button>
+          </div>
+        </div>
+      )}
+
+      {showSubmitConfirm && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center px-6">
+          <div className="absolute inset-0 bg-ink/50" onClick={() => setShowSubmitConfirm(false)} />
+          <div className="relative bg-white rounded-3xl p-6 max-w-xs w-full text-center animate-pop">
+            <h3 className="font-display font-bold text-lg text-ink mb-2">Yakin mau selesaikan?</h3>
+            <p className="text-ink-soft/60 text-sm mb-1">
+              {answeredCount < total
+                ? `Masih ada ${total - answeredCount} soal yang belum dijawab.`
+                : 'Semua soal sudah dijawab.'}
+            </p>
+            {secondsLeft !== null && (
+              <p className="text-ink-soft/60 text-sm mb-6">Waktu tersisa: {mm}:{ss}.</p>
+            )}
+            {secondsLeft === null && <div className="mb-6" />}
+            <div className="flex gap-3">
+              <button
+                onClick={() => setShowSubmitConfirm(false)}
+                className="flex-1 rounded-2xl border-2 border-tekad-redSoft py-2.5 font-display font-bold text-ink"
+              >
+                Batal
+              </button>
+              <button
+                onClick={finish}
+                className="btn-solid flex-1 rounded-2xl bg-tekad-red border-b-4 border-tekad-redDark py-2.5 font-display font-bold text-white"
+              >
+                Selesaikan
+              </button>
+            </div>
           </div>
         </div>
       )}

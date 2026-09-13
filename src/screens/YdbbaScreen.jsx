@@ -2,7 +2,7 @@ import { useState } from 'react';
 import questions from '../data/questions.json';
 import categories from '../data/categories.json';
 import ExamRunner from '../components/ExamRunner';
-import ResultCard from '../components/ResultCard';
+import ResultFlow from '../components/ResultFlow';
 
 const existingCategories = categories.filter((c) => c.source === 'existing');
 const existingQuestions = questions.filter((q) => q.source === 'existing');
@@ -14,7 +14,7 @@ export default function YdbbaScreen({ onExit }) {
 
   if (result) {
     return (
-      <ResultCard
+      <ResultFlow
         result={result}
         onExit={onExit}
         onRetry={() => {

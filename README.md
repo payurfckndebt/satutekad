@@ -5,7 +5,7 @@ Palet warna merah + putih, dominan putih.
 
 ## Lima Mode
 
-- **FullTek** — simulasi ujian bertimer, gaya ujian asli: jawaban tidak langsung dikoreksi, ada penanda soal (flag), navigator untuk lompat ke soal manapun, skor baru muncul di akhir. Bisa keluar kapan saja tapi dikonfirmasi dulu. Ada peringatan saat waktu tersisa <1 menit.
+- **FullTek** — simulasi ujian bertimer, gaya ujian asli: jawaban tidak langsung dikoreksi, ada penanda soal (flag), navigator untuk lompat ke soal manapun, skor + **pembahasan lengkap** (soal mana yang benar/salah/tidak dijawab, jawaban benar, dan penjelasannya) baru muncul di akhir. Submit manual selalu dikonfirmasi dulu (nunjukin sisa soal belum dijawab + waktu tersisa); kalau waktu habis, otomatis selesai tanpa konfirmasi. Bisa keluar kapan saja tapi dikonfirmasi dulu. Ada peringatan saat waktu tersisa <1 menit.
 - **JWARA** — mode game ala Duolingo: 5 nyawa, streak/combo, 5 jenis micro-interaction. Tiap unit punya 3 tingkat kesulitan (Mudah → Sedang → Sulit) yang harus dibuka berurutan — Sedang/Sulit terkunci sampai tingkat sebelumnya selesai.
 - **Latihan Harian** — materi dikelompokkan per 4 hari pelatihan; sama gaya exam-runner-nya seperti FullTek (tanpa timer).
 - **YDBBA** — latihan fokus ke subset soal tertentu, per kategori atau semua sekaligus, gaya exam-runner sama.

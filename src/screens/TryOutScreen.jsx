@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import questions from '../data/questions.json';
 import ExamRunner from '../components/ExamRunner';
-import ResultCard from '../components/ResultCard';
+import ResultFlow from '../components/ResultFlow';
 
 const LENGTHS = [20, 40, 60];
 
@@ -12,7 +12,7 @@ export default function TryOutScreen({ onExit }) {
 
   if (result) {
     return (
-      <ResultCard
+      <ResultFlow
         result={result}
         onExit={onExit}
         onRetry={() => {

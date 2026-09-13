@@ -2,7 +2,7 @@ import { useState } from 'react';
 import categories from '../data/categories.json';
 import questions from '../data/questions.json';
 import ExamRunner from '../components/ExamRunner';
-import ResultCard from '../components/ResultCard';
+import ResultFlow from '../components/ResultFlow';
 
 const dayInfo = {
   1: { label: 'Hari 1', color: 'bg-[#D6293D]' },
@@ -19,7 +19,7 @@ export default function HarianScreen({ onExit }) {
 
   if (result) {
     return (
-      <ResultCard
+      <ResultFlow
         result={result}
         onExit={onExit}
         onRetry={() => {
