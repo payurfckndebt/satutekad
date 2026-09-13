@@ -23,7 +23,7 @@ export default function MatchPairs({ pairs, onAnswered }) {
       setMatched(next);
       setSelectedLeft(null);
       if (next.length === pairs.length) {
-        setTimeout(() => onAnswered(mistakes === 0), 350);
+        setTimeout(() => onAnswered(true), 350);
       }
     } else {
       setMistakes((m) => m + 1);

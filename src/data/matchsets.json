@@ -1,0 +1,92 @@
+[
+  { "categorySlug": "siklus-rbs-bank-umum-konvensional", "pairs": [
+    { "left": "KYB", "right": "Know Your Bank" },
+    { "left": "AWP", "right": "Audit Working Plan" },
+    { "left": "LHP", "right": "Laporan Hasil Pemeriksaan" },
+    { "left": "RBBR", "right": "Risiko, GCG, Rentabilitas, Modal" }
+  ]},
+  { "categorySlug": "inklusi-keuangan", "pairs": [
+    { "left": "TPAKD", "right": "Tim Percepatan Akses Keuangan Daerah" },
+    { "left": "Laku Pandai", "right": "Layanan Keuangan Tanpa Kantor" },
+    { "left": "SIMPEL", "right": "Simpanan Pelajar" },
+    { "left": "SNLIK", "right": "Strategi Literasi & Inklusi Keuangan" }
+  ]},
+  { "categorySlug": "urun-dana", "pairs": [
+    { "left": "SCF", "right": "Securities Crowdfunding" },
+    { "left": "LUD", "right": "Layanan Urun Dana" },
+    { "left": "Penerbit", "right": "Pihak yang menawarkan Efek" },
+    { "left": "Penyelenggara", "right": "Penyedia platform Urun Dana" }
+  ]},
+  { "categorySlug": "aplikasi-pengawasan-perbankan", "pairs": [
+    { "left": "SLIK", "right": "Sistem Layanan Informasi Keuangan" },
+    { "left": "APOLO", "right": "Aplikasi Pelaporan Online" },
+    { "left": "KOJK", "right": "Kantor OJK" },
+    { "left": "SIPB", "right": "Sistem Informasi Perbankan" }
+  ]},
+  { "categorySlug": "derivatif-bursa-karbon", "pairs": [
+    { "left": "IDXCarbon", "right": "Bursa Karbon Indonesia" },
+    { "left": "NEK", "right": "Nilai Ekonomi Karbon" },
+    { "left": "GRK", "right": "Gas Rumah Kaca" },
+    { "left": "Bursa Karbon", "right": "Sarana perdagangan karbon" }
+  ]},
+  { "categorySlug": "muamalat-akad-syariah", "pairs": [
+    { "left": "Mudharabah", "right": "Akad bagi hasil usaha" },
+    { "left": "Musyarakah", "right": "Akad kerja sama modal" },
+    { "left": "Murabahah", "right": "Akad jual beli margin" },
+    { "left": "Ijarah", "right": "Akad sewa-menyewa" }
+  ]},
+  { "categorySlug": "literasi-inklusi-keuangan", "pairs": [
+    { "left": "DPS", "right": "Dewan Pengawas Syariah" },
+    { "left": "Gharar", "right": "Ketidakpastian dalam akad" },
+    { "left": "Maysir", "right": "Perjudian/spekulasi" },
+    { "left": "OJK", "right": "Dibentuk lewat UU No 21/2011" }
+  ]},
+  { "categorySlug": "market-conduct", "pairs": [
+    { "left": "SIPERLU", "right": "Sistem verifikasi iklan" },
+    { "left": "SiPEDULI", "right": "Pelaporan self assessment PK" },
+    { "left": "SIMACS", "right": "Sistem sanksi Market Conduct" },
+    { "left": "Mystery Shopping", "right": "Menyamar beli produk" }
+  ]},
+  { "categorySlug": "perlindungan-konsumen", "pairs": [
+    { "left": "IDR", "right": "Internal Dispute Resolution" },
+    { "left": "EDR", "right": "External Dispute Resolution" },
+    { "left": "LAPS SJK", "right": "Lembaga penyelesaian sengketa SJK" },
+    { "left": "Perma 4/2025", "right": "Aturan gugatan perdata OJK" }
+  ]},
+  { "categorySlug": "siklus-pengawasan-bank-umum", "pairs": [
+    { "left": "BDP", "right": "Bank Dalam Penyehatan" },
+    { "left": "BDR", "right": "Bank Dalam Resolusi" },
+    { "left": "RBE", "right": "Risk Based Examination" },
+    { "left": "DPS", "right": "Dewan Pengawas Syariah" }
+  ]},
+  { "categorySlug": "pengawasan-asuransi-ppdp", "pairs": [
+    { "left": "RBC", "right": "Rasio Tingkat Solvabilitas" },
+    { "left": "Pialang Asuransi", "right": "Wakil kepentingan Pemegang Polis" },
+    { "left": "Reasuransi", "right": "Pertanggungan ulang risiko" },
+    { "left": "PK1", "right": "Peringkat Komposit Sangat Sehat" }
+  ]},
+  { "categorySlug": "siklus-pengawasan-pasar-modal", "pairs": [
+    { "left": "BAE", "right": "Biro Administrasi Efek" },
+    { "left": "Wali Amanat", "right": "Wakil pemegang Efek utang" },
+    { "left": "Bank Kustodian", "right": "Penitipan Efek nasabah" },
+    { "left": "C-BEST", "right": "Sistem penyelesaian Efek KSEI" }
+  ]},
+  { "categorySlug": "pengawasan-perusahaan-efek", "pairs": [
+    { "left": "PRKPE", "right": "Peringkat Risiko Komposit" },
+    { "left": "MKBD", "right": "Modal Kerja Bersih Disesuaikan" },
+    { "left": "PTT", "right": "Perintah Tindakan Tertentu" },
+    { "left": "PT", "right": "Perintah Tertulis" }
+  ]},
+  { "categorySlug": "siklus-pengawasan-perusahaan-pembiayaan", "pairs": [
+    { "left": "Modal Kerja", "right": "Pembiayaan habis 1 siklus usaha" },
+    { "left": "Multiguna", "right": "Pembiayaan konsumsi" },
+    { "left": "RBS V2", "right": "PDK 1/PDK.06/2025" },
+    { "left": "UUS", "right": "Unit Usaha Syariah" }
+  ]},
+  { "categorySlug": "pengawasan-emiten-perusahaan-publik", "pairs": [
+    { "left": "AKSes", "right": "Sistem pelaporan kepemilikan saham" },
+    { "left": "RUPS", "right": "Rapat Umum Pemegang Saham" },
+    { "left": "LKTT", "right": "Laporan Keuangan Tengah Tahunan" },
+    { "left": "Disclosure", "right": "Fokus pengawasan Emiten" }
+  ]}
+]

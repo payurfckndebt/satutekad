@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import questions from '../data/questions.json';
-import McqRunner from '../components/McqRunner';
+import ExamRunner from '../components/ExamRunner';
 import ResultCard from '../components/ResultCard';
 
 const LENGTHS = [20, 40, 60];
@@ -25,7 +25,7 @@ export default function TryOutScreen({ onExit }) {
 
   if (length) {
     return (
-      <McqRunner
+      <ExamRunner
         key={runKey}
         title="FullTek"
         questions={pickRandom(questions, length)}

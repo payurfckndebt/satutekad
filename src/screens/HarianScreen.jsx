@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import categories from '../data/categories.json';
 import questions from '../data/questions.json';
-import McqRunner from '../components/McqRunner';
+import ExamRunner from '../components/ExamRunner';
 import ResultCard from '../components/ResultCard';
 
 const dayInfo = {
@@ -35,7 +35,7 @@ export default function HarianScreen({ onExit }) {
       ? questions.filter((q) => categories.find((c) => c.slug === q.categorySlug)?.day === day)
       : questions.filter((q) => q.categorySlug === picked.slug);
     return (
-      <McqRunner key={runKey} title={picked.name} questions={pool} onFinish={setResult} onExit={onExit} />
+      <ExamRunner key={runKey} title={picked.name} questions={pool} onFinish={setResult} onExit={onExit} />
     );
   }
 

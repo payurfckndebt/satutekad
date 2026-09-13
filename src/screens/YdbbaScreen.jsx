@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import questions from '../data/questions.json';
 import categories from '../data/categories.json';
-import McqRunner from '../components/McqRunner';
+import ExamRunner from '../components/ExamRunner';
 import ResultCard from '../components/ResultCard';
 
 const existingCategories = categories.filter((c) => c.source === 'existing');
@@ -29,7 +29,7 @@ export default function YdbbaScreen({ onExit }) {
     const pool = picked === 'all' ? existingQuestions : existingQuestions.filter((q) => q.categorySlug === picked);
     const title = picked === 'all' ? 'YDBBA' : existingCategories.find((c) => c.slug === picked)?.name;
     return (
-      <McqRunner
+      <ExamRunner
         key={runKey}
         title={title}
         questions={pool}

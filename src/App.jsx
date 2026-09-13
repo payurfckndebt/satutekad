@@ -5,6 +5,7 @@ import YdbbaScreen from './screens/YdbbaScreen';
 import JwaraMap from './screens/jwara/JwaraMap';
 import HarianScreen from './screens/HarianScreen';
 import BankSoalScreen from './screens/BankSoalScreen';
+import HistoryScreen from './screens/HistoryScreen';
 
 export default function App() {
   const [mode, setMode] = useState('home');
@@ -14,6 +15,7 @@ export default function App() {
   if (mode === 'jwara') return <JwaraMap onExit={() => setMode('home')} />;
   if (mode === 'harian') return <HarianScreen onExit={() => setMode('home')} />;
   if (mode === 'banksoal') return <BankSoalScreen onExit={() => setMode('home')} />;
+  if (mode === 'history') return <HistoryScreen onExit={() => setMode('home')} />;
 
   return <HomeScreen onSelect={setMode} />;
 }

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import categories from '../../data/categories.json';
 import questions from '../../data/questions.json';
-import JwaraSession from './JwaraSession';
+import JwaraUnitPath from './JwaraUnitPath';
 
 const dayLabel = { 1: 'Hari 1', 2: 'Hari 2', 3: 'Hari 3', 4: 'Hari 4' };
 
@@ -9,7 +9,7 @@ export default function JwaraMap({ onExit }) {
   const [active, setActive] = useState(null);
 
   if (active) {
-    return <JwaraSession category={active} allQuestions={questions} onExit={() => setActive(null)} />;
+    return <JwaraUnitPath category={active} allQuestions={questions} onExit={() => setActive(null)} />;
   }
 
   const byDay = [1, 2, 3, 4].map((d) => ({

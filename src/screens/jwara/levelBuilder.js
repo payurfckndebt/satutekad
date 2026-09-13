@@ -1,10 +1,29 @@
 import { shuffle, uid } from '../../lib/utils';
 import sequences from '../../data/sequences.json';
+import matchsets from '../../data/matchsets.json';
 
-// Cycles through a category's question pool (reshuffling on wraparound) and
-// packages the next batch into one level's worth of steps.
-export function makeLevel(categorySlug, allQuestions, cursorRef, levelNumber) {
-  const pool = allQuestions.filter((q) => q.categorySlug === categorySlug);
+const TIER_FALLBACK = {
+  easy: ['easy'],
+  medium: ['medium', 'easy'],
+  hard: ['hard', 'medium'],
+};
+
+function poolForTier(pool, tier) {
+  const allowed = TIER_FALLBACK[tier] || ['easy', 'medium', 'hard'];
+  const candidates = pool.filter((q) => allowed.includes(q.difficulty));
+  return candidates.length >= 4 ? candidates : pool;
+}
+
+// Cycles through a category's (tier-filtered) question pool, reshuffling on
+// wraparound, and packages the next batch into one level's worth of steps.
+// cursorsByTier keys each tier's cursor separately so easy/medium/hard don't
+// interfere with each other's rotation.
+export function makeLevel(categorySlug, allQuestions, cursorsByTier, levelNumber, tier = 'easy') {
+  const fullPool = allQuestions.filter((q) => q.categorySlug === categorySlug);
+  const pool = poolForTier(fullPool, tier);
+
+  if (!cursorsByTier[tier]) cursorsByTier[tier] = { order: [], pos: 0 };
+  const cursorRef = cursorsByTier[tier];
 
   function nextN(n) {
     const out = [];
@@ -20,11 +39,11 @@ export function makeLevel(categorySlug, allQuestions, cursorRef, levelNumber) {
   }
 
   const singles = nextN(4); // rapid, tapfill, swipe, rapid2
-  const matchSrc = nextN(Math.min(4, pool.length));
   const catSequences = sequences.filter((s) => s.categorySlug === categorySlug);
   const sequence = catSequences.length
     ? catSequences[levelNumber % catSequences.length]
     : sequences[levelNumber % sequences.length];
+  const matchSet = matchsets.find((m) => m.categorySlug === categorySlug) || matchsets[0];
 
   const steps = [
     { id: uid(), kind: 'rapid', question: singles[0] },
@@ -34,20 +53,12 @@ export function makeLevel(categorySlug, allQuestions, cursorRef, levelNumber) {
     {
       id: uid(),
       kind: 'matchpairs',
-      pairs: matchSrc.map((q) => ({
-        id: q.id,
-        left: truncate(q.stem, 70),
-        right: q.options[q.correctIndex],
-      })),
+      pairs: matchSet.pairs.map((p, i) => ({ id: `${categorySlug}-${i}`, left: p.left, right: p.right })),
     },
     { id: uid(), kind: 'dragsort', sequence },
   ];
 
   return steps;
-}
-
-function truncate(text, n) {
-  return text.length > n ? text.slice(0, n - 1).trimEnd() + '…' : text;
 }
 
 // Turns a plain MCQ into a true/false statement for the swipe template.

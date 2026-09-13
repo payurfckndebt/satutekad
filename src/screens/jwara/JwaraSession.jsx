@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { makeLevel } from './levelBuilder';
 import LivesBar from '../../components/LivesBar';
 import ProgressBar from '../../components/ProgressBar';
@@ -12,12 +12,12 @@ import MatchPairs from './steps/MatchPairs';
 import DragSort from './steps/DragSort';
 
 const MAX_LIVES = 5;
+const TIER_LABEL = { easy: 'Mudah', medium: 'Sedang', hard: 'Sulit' };
+const NEXT_TIER = { easy: 'medium', medium: 'hard', hard: null };
 
 function explanationFor(step, correct) {
   if (step.kind === 'matchpairs') {
-    return correct
-      ? 'Semua pasangan cocok — mantap!'
-      : 'Ada pasangan yang keliru. Kartu ini akan muncul lagi di sesi Ulangi.';
+    return 'Semua pasangan cocok — mantap!';
   }
   if (step.kind === 'dragsort') {
     return correct
@@ -35,10 +35,10 @@ function explanationFor(step, correct) {
   return correct ? `Betul — "${opt}".` : `Bukan itu. Jawaban yang tepat: "${opt}".`;
 }
 
-export default function JwaraSession({ category, allQuestions, onExit }) {
-  const cursorRef = useRef({ order: [], pos: 0 });
+export default function JwaraSession({ category, allQuestions, tier = 'easy', onExit, onTierPassed, onGoToTier }) {
+  const cursorsByTier = useRef({});
   const [levelNumber, setLevelNumber] = useState(0);
-  const [steps, setSteps] = useState(() => makeLevel(category.slug, allQuestions, cursorRef.current, 0));
+  const [steps, setSteps] = useState(() => makeLevel(category.slug, allQuestions, cursorsByTier.current, 0, tier));
 
   const [phase, setPhase] = useState('forward'); // forward | retry | complete | gameover
   const [stepIndex, setStepIndex] = useState(0);
@@ -57,6 +57,7 @@ export default function JwaraSession({ category, allQuestions, onExit }) {
   const progressMax = totalForward + (phase !== 'forward' ? retryQueue.length : 0);
 
   const currentStep = phase === 'retry' ? retryQueue[0] : steps[stepIndex];
+  const nextTier = NEXT_TIER[tier];
 
   function handleAnswered(correct) {
     setAttemptCount((n) => n + 1);
@@ -93,6 +94,7 @@ export default function JwaraSession({ category, allQuestions, onExit }) {
           setPhase('retry');
         } else {
           setPhase('complete');
+          if (onTierPassed) onTierPassed(tier);
         }
       } else {
         setStepIndex(next);
@@ -104,7 +106,10 @@ export default function JwaraSession({ category, allQuestions, onExit }) {
       if (wasCorrect) {
         const rest = retryQueue.slice(1);
         setRetryQueue(rest);
-        if (rest.length === 0) setPhase('complete');
+        if (rest.length === 0) {
+          setPhase('complete');
+          if (onTierPassed) onTierPassed(tier);
+        }
       } else {
         // send the missed item to the back of the retry queue
         setRetryQueue([...retryQueue.slice(1), retryQueue[0]]);
@@ -112,19 +117,7 @@ export default function JwaraSession({ category, allQuestions, onExit }) {
     }
   }
 
-  function retryLevel() {
-    setLives(MAX_LIVES);
-    setStreak(0);
-    setStepIndex(0);
-    setRetryQueue([]);
-    setPendingResult(null);
-    setPhase('forward');
-    setSteps(makeLevel(category.slug, allQuestions, cursorRef.current, levelNumber));
-  }
-
-  function nextLevel() {
-    const n = levelNumber + 1;
-    setLevelNumber(n);
+  function resetRunState() {
     setLives(MAX_LIVES);
     setStreak(0);
     setStepIndex(0);
@@ -134,7 +127,18 @@ export default function JwaraSession({ category, allQuestions, onExit }) {
     setCorrectCount(0);
     setAttemptCount(0);
     setPhase('forward');
-    setSteps(makeLevel(category.slug, allQuestions, cursorRef.current, n));
+  }
+
+  function retryLevel() {
+    resetRunState();
+    setSteps(makeLevel(category.slug, allQuestions, cursorsByTier.current, levelNumber, tier));
+  }
+
+  function nextLevel() {
+    const n = levelNumber + 1;
+    setLevelNumber(n);
+    resetRunState();
+    setSteps(makeLevel(category.slug, allQuestions, cursorsByTier.current, n, tier));
   }
 
   if (phase === 'gameover') {
@@ -164,20 +168,34 @@ export default function JwaraSession({ category, allQuestions, onExit }) {
       <div className="min-h-screen bg-tekad-red flex flex-col items-center justify-center px-6 text-center relative overflow-hidden">
         <Confetti />
         <div className="text-6xl mb-4">🏆</div>
-        <h1 className="font-display font-extrabold text-2xl text-white mb-1">Level Selesai!</h1>
+        <h1 className="font-display font-extrabold text-2xl text-white mb-1">Tingkat {TIER_LABEL[tier]} Selesai!</h1>
         <p className="text-white/60 mb-6">{category.name}</p>
         <div className="grid grid-cols-3 gap-3 w-full max-w-xs mb-8">
           <Stat label="Akurasi" value={`${accuracy}%`} />
           <Stat label="XP" value={`+${xp}`} />
           <Stat label="Nyawa" value={`${lives}/${MAX_LIVES}`} />
         </div>
-        <button
-          onClick={nextLevel}
-          className="btn-solid w-full max-w-xs rounded-2xl bg-white border-b-4 border-white/40 py-3 font-display font-bold text-tekad-red"
-        >
-          Lanjut Level Berikutnya
-        </button>
-        <button onClick={onExit} className="mt-4 text-white/50 text-sm underline">
+        {nextTier ? (
+          <button
+            onClick={() => onGoToTier && onGoToTier(nextTier)}
+            className="btn-solid w-full max-w-xs rounded-2xl bg-white border-b-4 border-white/40 py-3 font-display font-bold text-tekad-red"
+          >
+            Lanjut ke Tingkat {TIER_LABEL[nextTier]} →
+          </button>
+        ) : (
+          <button
+            onClick={nextLevel}
+            className="btn-solid w-full max-w-xs rounded-2xl bg-white border-b-4 border-white/40 py-3 font-display font-bold text-tekad-red"
+          >
+            Latihan Lagi
+          </button>
+        )}
+        {nextTier && (
+          <button onClick={nextLevel} className="mt-3 text-white/70 text-sm underline">
+            Ulangi tingkat ini dulu
+          </button>
+        )}
+        <button onClick={onExit} className="mt-3 text-white/50 text-sm underline">
           Keluar ke peta unit
         </button>
       </div>
@@ -195,11 +213,16 @@ export default function JwaraSession({ category, allQuestions, onExit }) {
       {streak >= 3 && !pendingResult && <StreakToast streak={streak} />}
 
       <main className="flex-1 px-5 pt-4 pb-28">
-        {phase === 'retry' && (
-          <p className="mb-3 inline-block rounded-full bg-tekad-red/15 text-tekad-redDark text-xs font-bold px-3 py-1">
-            Sesi Ulangi · {retryQueue.length} tersisa
-          </p>
-        )}
+        <p className="mb-3 inline-flex items-center gap-2">
+          <span className="rounded-full bg-tekad-redSoft text-tekad-red text-xs font-bold px-3 py-1">
+            Tingkat {TIER_LABEL[tier]}
+          </span>
+          {phase === 'retry' && (
+            <span className="rounded-full bg-tekad-red/15 text-tekad-redDark text-xs font-bold px-3 py-1">
+              Sesi Ulangi · {retryQueue.length} tersisa
+            </span>
+          )}
+        </p>
         <StepRenderer step={currentStep} onAnswered={handleAnswered} locked={!!pendingResult} />
       </main>
 

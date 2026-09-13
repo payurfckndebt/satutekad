@@ -1,4 +1,5 @@
 import { KKM } from '../lib/utils';
+import { formatDuration } from '../lib/history';
 
 export default function ResultCard({ result, onRetry, onExit }) {
   const passed = result.score >= KKM;
@@ -12,9 +13,13 @@ export default function ResultCard({ result, onRetry, onExit }) {
       <p className={`font-display font-bold mb-6 relative ${passed ? 'text-ok' : 'text-bad'}`}>
         {passed ? 'LULUS' : 'BELUM LULUS'} · KKM {KKM}
       </p>
-      <p className="text-ink-soft/60 mb-8 relative">
+      <p className="text-ink-soft/60 mb-1 relative">
         Benar {result.correctCount} dari {result.total} soal
       </p>
+      {typeof result.timeTakenSec === 'number' && (
+        <p className="text-ink-soft/40 text-sm mb-8 relative">Waktu pengerjaan: {formatDuration(result.timeTakenSec)}</p>
+      )}
+      {typeof result.timeTakenSec !== 'number' && <div className="mb-8" />}
       <button
         onClick={onRetry}
         className="btn-solid relative w-full max-w-xs rounded-2xl bg-tekad-red border-b-4 border-tekad-redDark py-3 font-display font-bold text-white"

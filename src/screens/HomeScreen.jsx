@@ -6,12 +6,20 @@ export default function HomeScreen({ onSelect }) {
       <div className="tekad-blob w-72 h-72 -top-16 -right-16" />
       <div className="tekad-blob w-56 h-56 top-40 -left-20" />
 
-      <div className="relative px-6 safe-top pb-6">
-        <div className="flex items-center gap-3 mb-1.5">
-          <img src="/tekad-mark.svg" alt="" className="h-11 w-11 rounded-xl" />
-          <h1 className="font-display font-extrabold text-3xl text-ink">SatuTekad</h1>
+      <div className="relative px-6 safe-top pb-6 flex items-start justify-between gap-3">
+        <div>
+          <div className="flex items-center gap-3 mb-1.5">
+            <img src="/tekad-mark.svg" alt="" className="h-11 w-11 rounded-xl" />
+            <h1 className="font-display font-extrabold text-3xl text-ink">SatuTekad</h1>
+          </div>
+          <p className="text-ink-soft/60 text-sm">{questions.length} soal siap latihan, empat cara belajar.</p>
         </div>
-        <p className="text-ink-soft/60 text-sm">{questions.length} soal siap latihan, empat cara belajar.</p>
+        <button
+          onClick={() => onSelect('history')}
+          className="shrink-0 mt-1 flex items-center gap-1.5 rounded-full border-2 border-tekad-redSoft bg-white px-3.5 py-2 text-xs font-bold text-tekad-red"
+        >
+          🕒 Riwayat
+        </button>
       </div>
 
       <div className="relative flex-1 px-5 space-y-3 pb-safe">
