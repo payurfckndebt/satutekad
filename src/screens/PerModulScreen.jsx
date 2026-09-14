@@ -1,9 +1,10 @@
 import { useMemo, useState } from 'react';
 import modul1Categories from '../data/modul1Categories.json';
 import modul1Questions from '../data/modul1Questions.json';
+import baseQuestions from '../data/questions.json';
 import ExamRunner from '../components/ExamRunner';
 import ResultFlow from '../components/ResultFlow';
-import { buildModulExam, modulExamBreakdown, TRYOUT_TARGET, TRYOUT_MINUTES, KKM } from '../lib/modulExam';
+import { buildModulExam, modulExamBreakdown, modul1TopicPool, TRYOUT_TARGET, TRYOUT_MINUTES, KKM } from '../lib/modulExam';
 
 const MODULES = [
   { id: 1, name: 'Modul 1', desc: 'Pendekatan Pengawasan', locked: false },
@@ -16,14 +17,12 @@ const SUBMODES = [
   {
     id: 'ai',
     title: 'Soal Campuran AI',
-    desc: 'Semua materi ikut, dibagi rata. Materi tanpa soal Kuis/Kisi-Kisi diisi soal buatan AI.',
-    filter: () => true,
+    desc: 'Semua materi ikut, dibagi rata — gabungan soal Kuis/Kisi-Kisi asli (kalau ada) dan soal buatan AI yang relevan dengan materinya.',
   },
   {
     id: 'kuiskisi',
     title: 'Soal Kuis dan Kisi2',
     desc: 'Hanya materi yang punya soal Kuis Kelas/Kisi-Kisi asli. Materi tanpa itu tidak diikutkan.',
-    filter: (q) => q.sourceType === 'kuis' || q.sourceType === 'kisikisi',
   },
 ];
 
@@ -35,13 +34,16 @@ export default function PerModulScreen({ onExit }) {
   const [runKey, setRunKey] = useState(0);
 
   const categories = modul1Categories; // only Modul 1 has content for now
-  const questions = modul1Questions;
+
+  function poolFor(mode) {
+    return (slug) => modul1TopicPool(slug, mode, modul1Questions, baseQuestions);
+  }
 
   const breakdowns = useMemo(() => {
     if (activeModul !== 1) return {};
     const out = {};
     for (const sm of SUBMODES) {
-      out[sm.id] = modulExamBreakdown(categories, questions, sm.filter, TRYOUT_TARGET);
+      out[sm.id] = modulExamBreakdown(categories, poolFor(sm.id), TRYOUT_TARGET);
     }
     return out;
   }, [activeModul]);
@@ -74,7 +76,7 @@ export default function PerModulScreen({ onExit }) {
   }
 
   function startSubmode(sm) {
-    const set = buildModulExam(categories, questions, sm.filter, TRYOUT_TARGET);
+    const set = buildModulExam(categories, poolFor(sm.id), TRYOUT_TARGET);
     if (set.length === 0) return; // handled inline by disabling the button
     setActiveSubmode(sm.id);
     setExamSet(set);
