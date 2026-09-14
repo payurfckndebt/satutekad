@@ -4,104 +4,134 @@
     "name": "Siklus RBS Bank Umum Konvensional",
     "day": 1,
     "source": "existing",
-    "count": 15
+    "count": 15,
+    "session": 1,
+    "origin": "base"
   },
   {
     "slug": "inklusi-keuangan",
     "name": "Implementasi Peningkatan Inklusi Keuangan",
     "day": 2,
     "source": "existing",
-    "count": 10
+    "count": 13,
+    "session": 1,
+    "origin": "base"
   },
   {
     "slug": "urun-dana",
     "name": "Perizinan Layanan Urun Dana (SCF)",
     "day": 3,
     "source": "existing",
-    "count": 12
+    "count": 21,
+    "session": 1,
+    "origin": "base"
   },
   {
     "slug": "aplikasi-pengawasan-perbankan",
     "name": "Aplikasi Pengawasan Perbankan (DPKP)",
     "day": 3,
     "source": "existing",
-    "count": 15
+    "count": 15,
+    "session": 2,
+    "origin": "base"
   },
   {
     "slug": "derivatif-bursa-karbon",
     "name": "Transaksi Efek, Derivatif & Bursa Karbon",
     "day": 4,
     "source": "existing",
-    "count": 15
+    "count": 20,
+    "session": 1,
+    "origin": "base"
   },
   {
     "slug": "muamalat-akad-syariah",
     "name": "Pengantar Muamalat & Akad Syariah",
     "day": 4,
     "source": "existing",
-    "count": 24
+    "count": 24,
+    "session": 2,
+    "origin": "base"
   },
   {
     "slug": "literasi-inklusi-keuangan",
     "name": "Proses Bisnis Literasi & Inklusi Keuangan",
     "day": 1,
     "source": "generated",
-    "count": 12
+    "count": 12,
+    "session": 2,
+    "origin": "base"
   },
   {
     "slug": "market-conduct",
     "name": "Pengawasan Market Conduct",
     "day": 1,
     "source": "generated",
-    "count": 15
+    "count": 15,
+    "session": 3,
+    "origin": "base"
   },
   {
     "slug": "perlindungan-konsumen",
     "name": "Perlindungan Konsumen di SJK",
     "day": 1,
     "source": "generated",
-    "count": 15
+    "count": 34,
+    "session": 4,
+    "origin": "base"
   },
   {
     "slug": "siklus-pengawasan-bank-umum",
     "name": "Siklus Pengawasan Bank Umum",
     "day": 2,
     "source": "generated",
-    "count": 15
+    "count": 15,
+    "session": 2,
+    "origin": "base"
   },
   {
     "slug": "pengawasan-asuransi-ppdp",
     "name": "Pengawasan Asuransi (PPDP)",
     "day": 2,
     "source": "generated",
-    "count": 13
+    "count": 13,
+    "session": 3,
+    "origin": "base"
   },
   {
     "slug": "siklus-pengawasan-pasar-modal",
     "name": "Siklus Pengawasan Pasar Modal",
     "day": 2,
     "source": "generated",
-    "count": 14
+    "count": 16,
+    "session": 4,
+    "origin": "base"
   },
   {
     "slug": "pengawasan-perusahaan-efek",
     "name": "Pengawasan Perusahaan Efek & SCF",
     "day": 3,
     "source": "generated",
-    "count": 10
+    "count": 10,
+    "session": 3,
+    "origin": "base"
   },
   {
     "slug": "siklus-pengawasan-perusahaan-pembiayaan",
     "name": "Siklus Pengawasan Perusahaan Pembiayaan",
     "day": 3,
     "source": "generated",
-    "count": 10
+    "count": 10,
+    "session": 4,
+    "origin": "base"
   },
   {
     "slug": "pengawasan-emiten-perusahaan-publik",
     "name": "Pengawasan Emiten & Perusahaan Publik",
     "day": 4,
     "source": "generated",
-    "count": 11
+    "count": 41,
+    "session": 3,
+    "origin": "base"
   }
 ]

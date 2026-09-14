@@ -4,8 +4,11 @@ import categories from '../data/categories.json';
 import ExamRunner from '../components/ExamRunner';
 import ResultFlow from '../components/ResultFlow';
 
-const existingCategories = categories.filter((c) => c.source === 'existing');
-const existingQuestions = questions.filter((q) => q.source === 'existing');
+const eligibleQuestions = questions.filter((q) => q.sourceType === 'kuis' || q.sourceType === 'kisikisi');
+const eligibleSlugs = new Set(eligibleQuestions.map((q) => q.categorySlug));
+const eligibleCategories = categories
+  .filter((c) => eligibleSlugs.has(c.slug))
+  .map((c) => ({ ...c, count: eligibleQuestions.filter((q) => q.categorySlug === c.slug).length }));
 
 export default function YdbbaScreen({ onExit }) {
   const [picked, setPicked] = useState(null); // null | 'all' | slug
@@ -26,8 +29,8 @@ export default function YdbbaScreen({ onExit }) {
   }
 
   if (picked) {
-    const pool = picked === 'all' ? existingQuestions : existingQuestions.filter((q) => q.categorySlug === picked);
-    const title = picked === 'all' ? 'YDBBA' : existingCategories.find((c) => c.slug === picked)?.name;
+    const pool = picked === 'all' ? eligibleQuestions : eligibleQuestions.filter((q) => q.categorySlug === picked);
+    const title = picked === 'all' ? 'YDBBA' : eligibleCategories.find((c) => c.slug === picked)?.name;
     return (
       <ExamRunner
         key={runKey}
@@ -44,7 +47,7 @@ export default function YdbbaScreen({ onExit }) {
       <button onClick={onExit} className="self-start text-ink text-2xl leading-none mb-6">←</button>
       <h1 className="font-display font-extrabold text-2xl text-ink mb-2">YDBBA</h1>
       <p className="text-ink-soft/70 mb-8 leading-relaxed">
-        Latihan fokus per materi, {existingQuestions.length} soal di {existingCategories.length} kategori.
+        Latihan fokus ke soal Kuis Kelas dan Kisi-Kisi asli, {eligibleQuestions.length} soal di {eligibleCategories.length} kategori.
       </p>
       <div className="space-y-3">
         <button
@@ -52,9 +55,9 @@ export default function YdbbaScreen({ onExit }) {
           className="w-full flex items-center justify-between rounded-2xl bg-tekad-red px-5 py-4 text-left active:scale-[0.98] transition-transform"
         >
           <span className="font-display font-bold text-white">Semua Kategori</span>
-          <span className="text-white/70 text-sm">{existingQuestions.length} soal</span>
+          <span className="text-white/70 text-sm">{eligibleQuestions.length} soal</span>
         </button>
-        {existingCategories.map((c) => (
+        {eligibleCategories.map((c) => (
           <button
             key={c.slug}
             onClick={() => setPicked(c.slug)}

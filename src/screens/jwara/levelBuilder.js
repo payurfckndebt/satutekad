@@ -78,5 +78,6 @@ function toStatement(question) {
     text: `${stem}${joiner}${opt}`,
     isTrue: optionIndex === question.correctIndex,
     correctOption: question.options[question.correctIndex],
+    sourceType: question.sourceType,
   };
 }

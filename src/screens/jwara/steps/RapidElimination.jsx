@@ -1,6 +1,8 @@
 import { useState } from 'react';
 
 // Tap the options you're sure are WRONG until only the correct one remains.
+import SourceBadge from '../../../components/SourceBadge';
+
 export default function RapidElimination({ question, onAnswered }) {
   const [eliminated, setEliminated] = useState([]);
   const [locked, setLocked] = useState(false);
@@ -28,9 +30,12 @@ export default function RapidElimination({ question, onAnswered }) {
 
   return (
     <div>
-      <p className="text-xs uppercase tracking-wide text-ink-soft/70 font-semibold mb-2">
-        Ketuk jawaban yang PASTI SALAH
-      </p>
+      <div className="flex items-center justify-between mb-2">
+        <p className="text-xs uppercase tracking-wide text-ink-soft/70 font-semibold">
+          Ketuk jawaban yang PASTI SALAH
+        </p>
+        <SourceBadge sourceType={question.sourceType} />
+      </div>
       <h2 className="font-display font-bold text-xl text-ink leading-snug mb-6 whitespace-pre-line">
         {question.stem}
       </h2>

@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import SourceBadge from '../components/SourceBadge';
 
 export default function ReviewScreen({ questions, answers, onBack }) {
   const [filter, setFilter] = useState('all');
@@ -78,10 +79,13 @@ function QuestionReviewCard({ number, q, picked, status, open, onToggle }) {
         <span className={`mt-0.5 shrink-0 h-6 w-6 rounded-full flex items-center justify-center text-xs font-bold ${badge.cls}`}>
           {badge.icon}
         </span>
-        <span className="font-medium text-ink text-sm leading-snug flex-1">
-          <span className="text-ink-soft/40 font-normal">Soal {number}. </span>
-          {q.stem}
-        </span>
+        <div className="flex-1">
+          <SourceBadge sourceType={q.sourceType} className="mb-1.5" />
+          <p className="font-medium text-ink text-sm leading-snug">
+            <span className="text-ink-soft/40 font-normal">Soal {number}. </span>
+            {q.stem}
+          </p>
+        </div>
       </button>
       {open && (
         <div className="px-4 pb-4 animate-fade-up">

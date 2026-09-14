@@ -24,10 +24,10 @@ export default function HomeScreen({ onSelect }) {
 
       <div className="relative flex-1 px-5 space-y-3 pb-safe">
         <BigCard
-          eyebrow="Simulasi Ujian"
-          title="FullTek"
-          desc="Try out dengan waktu, campuran seluruh materi."
-          onClick={() => onSelect('tryout')}
+          eyebrow="Try Out Terstruktur"
+          title="Per Modul"
+          desc="100 soal, 2 jam, KKM 75 — mengikuti struktur modul sertifikasi."
+          onClick={() => onSelect('permodul')}
           filled
         />
         <BigCard
@@ -39,8 +39,8 @@ export default function HomeScreen({ onSelect }) {
         />
         <BigCard
           eyebrow="Terstruktur"
-          title="Latihan Harian"
-          desc="Materi dibagi per hari pelatihan, 4 hari."
+          title="Latihan Berdasarkan Hari"
+          desc="Materi dibagi per hari pelatihan dan per sesi."
           onClick={() => onSelect('harian')}
         />
 

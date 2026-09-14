@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import questions from '../data/questions.json';
 import categories from '../data/categories.json';
+import SourceBadge from '../components/SourceBadge';
 
 export default function BankSoalScreen({ onExit }) {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -70,7 +71,10 @@ function QuestionCard({ q, open, onToggle }) {
     <div className="rounded-2xl border-2 border-tekad-redSoft bg-white overflow-hidden">
       <button onClick={onToggle} className="w-full text-left px-4 py-3.5 flex items-start gap-3">
         <span className="mt-0.5 text-ink-soft/40 text-lg leading-none">{open ? '−' : '+'}</span>
-        <span className="font-medium text-ink text-sm leading-snug flex-1">{q.stem}</span>
+        <span className="flex-1">
+          <SourceBadge sourceType={q.sourceType} className="mb-1.5" />
+          <span className="block font-medium text-ink text-sm leading-snug">{q.stem}</span>
+        </span>
       </button>
       {open && (
         <div className="px-4 pb-4 animate-fade-up">

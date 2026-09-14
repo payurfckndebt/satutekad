@@ -2,6 +2,8 @@ import { useRef, useState } from 'react';
 
 // statement: { text, isTrue } — pre-built by the level generator (either the
 // real True/False question, or an MCQ turned into a true/false statement).
+import SourceBadge from '../../../components/SourceBadge';
+
 export default function TrueFalseSwipe({ statement, onAnswered }) {
   const [drag, setDrag] = useState(0);
   const [resolved, setResolved] = useState(null); // 'true' | 'false' | null
@@ -37,9 +39,12 @@ export default function TrueFalseSwipe({ statement, onAnswered }) {
 
   return (
     <div>
-      <p className="text-xs uppercase tracking-wide text-ink-soft/70 font-semibold mb-2">
-        Geser kanan (Benar) atau kiri (Salah)
-      </p>
+      <div className="flex items-center justify-between mb-2">
+        <p className="text-xs uppercase tracking-wide text-ink-soft/70 font-semibold">
+          Geser kanan (Benar) atau kiri (Salah)
+        </p>
+        <SourceBadge sourceType={statement.sourceType} />
+      </div>
       <div className="relative h-64 select-none">
         <div
           onMouseDown={onPointerDown}

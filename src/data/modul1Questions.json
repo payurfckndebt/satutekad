@@ -1,0 +1,3234 @@
+[
+  {
+    "stem": "Konsep Lemon Principle dalam pasar modal menggambarkan kondisi dimana...",
+    "options": [
+      "Pembeli mengetahui informasi lebih banyak daripada penjual",
+      "Penjual mengetahui informasi lebih banyak daripada pembeli (asimetri informasi)",
+      "Seluruh pelaku pasar memiliki informasi yang sama",
+      "Harga saham selalu mencerminkan nilai wajar"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-001",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Konsep Lemon Principle dalam pasar modal menggambarkan kondisi dimana Penjual mengetahui informasi lebih banyak daripada pembeli (asimetri informasi).",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Jika investor tidak dapat membedakan perusahaan sehat dan bermasalah akibat Lemon Principle, dampaknya di pasar modal adalah...",
+    "options": [
+      "Perusahaan bagus semakin banyak masuk pasar",
+      "Investor menawar harga rendah untuk semua saham dan pasar menjadi tidak efisien",
+      "Harga saham menjadi sangat stabil",
+      "Regulasi menjadi tidak diperlukan"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-002",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Jika investor tidak dapat membedakan perusahaan sehat dan bermasalah akibat Lemon Principle, dampaknya di pasar modal adalah Investor menawar harga rendah untuk semua saham dan pasar menjadi tidak efisien.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Salah satu solusi untuk mencegah pasar modal dipenuhi 'lemon' (perusahaan bermasalah) adalah...",
+    "options": [
+      "Menghapus kewajiban pelaporan keuangan",
+      "Memastikan informasi yang disampaikan perusahaan akurat dan transparan",
+      "Membatasi jumlah investor domestik",
+      "Menghapus fungsi pengawasan OJK"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-003",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Salah satu solusi untuk mencegah pasar modal dipenuhi 'lemon' (perusahaan bermasalah) adalah Memastikan informasi yang disampaikan perusahaan akurat dan transparan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Dalam konteks Lemon Principle, perizinan lembaga pasar modal (manajer investasi, broker, underwriter, lembaga kliring) berfungsi sebagai...",
+    "options": [
+      "Formalitas administratif semata",
+      "Filter pertama yang menjaga hanya lembaga layak dan bertanggung jawab yang boleh beroperasi",
+      "Sumber pendapatan negara utama",
+      "Penghalang investasi asing"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-004",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Dalam konteks Lemon Principle, perizinan lembaga pasar modal (manajer investasi, broker, underwriter, lembaga kliring) berfungsi sebagai Filter pertama yang menjaga hanya lembaga layak dan bertanggung jawab yang boleh beroperasi.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pihak yang berperan sebagai underwriter (Penjamin Emisi Efek) dalam ekosistem pasar modal bertugas untuk...",
+    "options": [
+      "Mengawasi seluruh transaksi bursa",
+      "Menjamin penawaran umum Efek",
+      "Menyimpan dana nasabah",
+      "Menerbitkan peraturan OJK"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-005",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pihak yang berperan sebagai underwriter (Penjamin Emisi Efek) dalam ekosistem pasar modal bertugas untuk Menjamin penawaran umum Efek.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pernyataan Pendaftaran Penawaran Umum Efek dapat menjadi efektif paling lambat...",
+    "options": [
+      "10 hari kerja sejak PP diterima OJK secara lengkap",
+      "20 hari kerja sejak PP diterima OJK secara lengkap",
+      "30 hari kerja sejak PP diterima OJK secara lengkap",
+      "45 hari kerja sejak PP diterima OJK secara lengkap"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-006",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pernyataan Pendaftaran Penawaran Umum Efek dapat menjadi efektif paling lambat 20 hari kerja sejak PP diterima OJK secara lengkap.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pernyataan Pendaftaran juga dapat menjadi efektif 20 hari kerja sejak tanggal...",
+    "options": [
+      "RUPS diselenggarakan",
+      "Perubahan terakhir yang disampaikan Emiten atau yang diminta OJK dipenuhi",
+      "Prospektus dicetak",
+      "Saham dicatatkan di bursa"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-007",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pernyataan Pendaftaran juga dapat menjadi efektif 20 hari kerja sejak tanggal Perubahan terakhir yang disampaikan Emiten atau yang diminta OJK dipenuhi.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pelaksanaan Kegiatan Penawaran Umum Bersifat Ekuitas, Efek Bersifat Utang dan/atau Sukuk secara Elektronik diatur dalam...",
+    "options": [
+      "POJK Nomor 41/POJK.04/2020",
+      "POJK Nomor 30/POJK.04/2019",
+      "POJK Nomor 32/POJK.04/2015",
+      "POJK Nomor 36/POJK.04/2014"
+    ],
+    "correctIndex": 0,
+    "id": "M1CPM-008",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pelaksanaan Kegiatan Penawaran Umum Bersifat Ekuitas, Efek Bersifat Utang dan/atau Sukuk secara Elektronik diatur dalam POJK Nomor 41/POJK.04/2020.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Penawaran Umum Berkelanjutan Efek Bersifat Utang dan/atau Sukuk (kegiatan penawaran secara bertahap) diatur dalam...",
+    "options": [
+      "POJK Nomor 41/POJK.04/2020",
+      "POJK Nomor 36/POJK.04/2014",
+      "POJK Nomor 3/POJK.04/2021",
+      "POJK Nomor 14/POJK.04/2019"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-009",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Penawaran Umum Berkelanjutan Efek Bersifat Utang dan/atau Sukuk (kegiatan penawaran secara bertahap) diatur dalam POJK Nomor 36/POJK.04/2014.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Penambahan Modal Perusahaan Terbuka dengan Memberikan Hak Memesan Efek Terlebih Dahulu (HMETD/Rights Issue) diatur dalam...",
+    "options": [
+      "POJK Nomor 32/POJK.04/2015",
+      "POJK Nomor 41/POJK.04/2020",
+      "POJK Nomor 30/POJK.04/2019",
+      "POJK Nomor 3/POJK.04/2021"
+    ],
+    "correctIndex": 0,
+    "id": "M1CPM-010",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Penambahan Modal Perusahaan Terbuka dengan Memberikan Hak Memesan Efek Terlebih Dahulu (HMETD/Rights Issue) diatur dalam POJK Nomor 32/POJK.04/2015.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "POJK Nomor 14/POJK.04/2019 merupakan perubahan atas POJK yang mengatur...",
+    "options": [
+      "Penambahan Modal Perusahaan Terbuka (HMETD)",
+      "Penawaran Umum Elektronik",
+      "Lembaga Alternatif Penyelesaian Sengketa",
+      "Kesehatan Keuangan Perusahaan Asuransi"
+    ],
+    "correctIndex": 0,
+    "id": "M1CPM-011",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "POJK Nomor 14/POJK.04/2019 merupakan perubahan atas POJK yang mengatur Penambahan Modal Perusahaan Terbuka (HMETD).",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Penawaran Efek kepada Pemodal profesional dengan batasan maksimal sejumlah pihak tertentu (private placement) dibatasi maksimal...",
+    "options": [
+      "25 pihak",
+      "49 pihak",
+      "99 pihak",
+      "149 pihak"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-012",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Penawaran Efek kepada Pemodal profesional dengan batasan maksimal sejumlah pihak tertentu (private placement) dibatasi maksimal 49 pihak.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Penyelenggaraan kegiatan penawaran umum efek bersifat utang dan/atau sukuk secara elektronik salah satunya diatur dalam...",
+    "options": [
+      "POJK Nomor 3/POJK.04/2021",
+      "POJK Nomor 32/POJK.04/2015",
+      "POJK Nomor 14/POJK.04/2019",
+      "UU Nomor 21 Tahun 2011"
+    ],
+    "correctIndex": 0,
+    "id": "M1CPM-013",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Penyelenggaraan kegiatan penawaran umum efek bersifat utang dan/atau sukuk secara elektronik salah satunya diatur dalam POJK Nomor 3/POJK.04/2021.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pelaku di ekosistem Pasar Modal yang bertugas menghimpun dan menyalurkan dana masyarakat ke dalam portofolio Efek disebut...",
+    "options": [
+      "Wali Amanat",
+      "Manajer Investasi",
+      "Bank Kustodian",
+      "Biro Administrasi Efek"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-014",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pelaku di ekosistem Pasar Modal yang bertugas menghimpun dan menyalurkan dana masyarakat ke dalam portofolio Efek disebut Manajer Investasi.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Regulator yang berwenang atas sektor Pasar Modal, Derivatif Keuangan, dan Bursa Karbon dalam struktur pengaturan OJK adalah satu kesatuan yang sama, yaitu...",
+    "options": [
+      "Bank Indonesia",
+      "Otoritas Jasa Keuangan",
+      "Kementerian Keuangan",
+      "Bappebti"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-015",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Regulator yang berwenang atas sektor Pasar Modal, Derivatif Keuangan, dan Bursa Karbon dalam struktur pengaturan OJK adalah satu kesatuan yang sama, yaitu Otoritas Jasa Keuangan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pelaku Pasar Modal yang termasuk kategori Lembaga Penunjang antara lain Biro Administrasi Efek, Bank Kustodian, Wali Amanat, dan...",
+    "options": [
+      "Securities Crowdfunding (SCF)",
+      "Perusahaan Pemeringkat Efek",
+      "Manajer Investasi",
+      "Perantara Pedagang Efek"
+    ],
+    "correctIndex": 0,
+    "id": "M1CPM-016",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pelaku Pasar Modal yang termasuk kategori Lembaga Penunjang antara lain Biro Administrasi Efek, Bank Kustodian, Wali Amanat, dan Securities Crowdfunding (SCF).",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Perusahaan Efek yang menjalankan fungsi Penjamin Emisi Efek, Perantara Pedagang Efek, dan Manajer Investasi berperan sebagai...",
+    "options": [
+      "Regulator pasar modal",
+      "Pelaku utama industri Perusahaan Efek",
+      "Lembaga Penyimpanan dan Penyelesaian",
+      "Self-Regulatory Organization (SRO)"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-017",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Perusahaan Efek yang menjalankan fungsi Penjamin Emisi Efek, Perantara Pedagang Efek, dan Manajer Investasi berperan sebagai Pelaku utama industri Perusahaan Efek.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Hasil akhir yang diharapkan dari penerapan sistem perizinan dan keterbukaan informasi yang baik di pasar modal, berdasarkan konsep Lemon Principle, adalah...",
+    "options": [
+      "Menurunnya jumlah investor domestik",
+      "Kepercayaan investor dan aliran modal ke tempat yang paling produktif",
+      "Meningkatnya jumlah perusahaan bermasalah di bursa",
+      "Berkurangnya keterbukaan informasi Emiten"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-018",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Hasil akhir yang diharapkan dari penerapan sistem perizinan dan keterbukaan informasi yang baik di pasar modal, berdasarkan konsep Lemon Principle, adalah Kepercayaan investor dan aliran modal ke tempat yang paling produktif.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Tanpa sistem perizinan yang ketat dan selektif di pasar modal, Regulator berpotensi membuka pintu bagi pihak yang dapat...",
+    "options": [
+      "Meningkatkan kepercayaan publik",
+      "Merusak kepercayaan publik dan memicu krisis sistemik",
+      "Mempercepat proses IPO",
+      "Menstabilkan harga saham"
+    ],
+    "correctIndex": 1,
+    "id": "M1CPM-019",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Tanpa sistem perizinan yang ketat dan selektif di pasar modal, Regulator berpotensi membuka pintu bagi pihak yang dapat Merusak kepercayaan publik dan memicu krisis sistemik.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Efek Bersifat Utang atau Sukuk yang wajib diperingkat, dijamin, atau ditanggung minimal 100% mengacu pada kriteria dalam...",
+    "options": [
+      "POJK 30/POJK.04/2019",
+      "POJK 41/POJK.04/2020",
+      "POJK 32/POJK.04/2015",
+      "POJK 3/POJK.04/2021"
+    ],
+    "correctIndex": 0,
+    "id": "M1CPM-020",
+    "categorySlug": "m1-critical-point-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Efek Bersifat Utang atau Sukuk yang wajib diperingkat, dijamin, atau ditanggung minimal 100% mengacu pada kriteria dalam POJK 30/POJK.04/2019.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Akad (perjanjian) menurut Fatwa DSN No. 88 didefinisikan sebagai pertalian antara ijab dan qabul sesuai kehendak syariah yang menimbulkan...",
+    "options": [
+      "Kewajiban moral semata",
+      "Akibat hukum pada obyek akad",
+      "Kesepakatan lisan tanpa ikatan",
+      "Janji yang dapat dibatalkan sepihak"
+    ],
+    "correctIndex": 1,
+    "id": "M1AKS-001",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Akad (perjanjian) menurut Fatwa DSN No. 88 didefinisikan sebagai pertalian antara ijab dan qabul sesuai kehendak syariah yang menimbulkan Akibat hukum pada obyek akad.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Wa'd (janji) menurut Fatwa DSN No. 85/DSN-MUI/XII/2012 adalah pernyataan kehendak dari satu pihak (wa'id) untuk melakukan sesuatu yang baik kepada pihak lain yang disebut...",
+    "options": [
+      "Mudharib",
+      "Mau'ud",
+      "Shahibul Maal",
+      "Musta'jir"
+    ],
+    "correctIndex": 1,
+    "id": "M1AKS-002",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Wa'd (janji) menurut Fatwa DSN No. 85/DSN-MUI/XII/2012 adalah pernyataan kehendak dari satu pihak (wa'id) untuk melakukan sesuatu yang baik kepada pihak lain yang disebut Mau'ud.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Berbeda dengan Akad yang bersifat mengikat (mulzim) baik dari sisi hukum maupun agama, menurut pandangan Jumhur ulama Wa'ad/janji secara hukum (qadha'an)...",
+    "options": [
+      "Mengikat penuh seperti akad",
+      "Tidak mengikat",
+      "Mengikat hanya sebagian",
+      "Tergantung jumlah nominal"
+    ],
+    "correctIndex": 1,
+    "id": "M1AKS-003",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Berbeda dengan Akad yang bersifat mengikat (mulzim) baik dari sisi hukum maupun agama, menurut pandangan Jumhur ulama Wa'ad/janji secara hukum (qadha'an) Tidak mengikat.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Implementasi Wa'd (janji) dapat ditemukan pada produk-produk berikut, kecuali...",
+    "options": [
+      "Sukuk (Al-Bai' wal Isti'jar)",
+      "Akad IMBT",
+      "Akad Salam",
+      "Line Facility"
+    ],
+    "correctIndex": 2,
+    "id": "M1AKS-004",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "\"Akad Salam\" adalah pilihan yang TIDAK termasuk/TIDAK tepat pada soal ini (soal bertipe \"kecuali\").",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Salah satu syarat Ijab dan Qabul dalam rukun akad adalah harus bersambung dalam satu...",
+    "options": [
+      "Hari transaksi",
+      "Majlis akad",
+      "Tempat tinggal",
+      "Mata uang"
+    ],
+    "correctIndex": 1,
+    "id": "M1AKS-005",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Salah satu syarat Ijab dan Qabul dalam rukun akad adalah harus bersambung dalam satu Majlis akad.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Fatwa DSN-MUI Nomor 04/2000 & 111/2017 mengatur tentang akad...",
+    "options": [
+      "Salam",
+      "Istishna",
+      "Murabahah",
+      "Ijarah"
+    ],
+    "correctIndex": 2,
+    "id": "M1AKS-006",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Fatwa DSN-MUI Nomor 04/2000 & 111/2017 mengatur tentang akad Murabahah.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Akad jual beli dimana obyek/barang belum ada dan dipesankan untuk dibuatkan terlebih dahulu disebut...",
+    "options": [
+      "Salam",
+      "Istishna",
+      "Murabahah",
+      "Sharf"
+    ],
+    "correctIndex": 1,
+    "id": "M1AKS-007",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Akad jual beli dimana obyek/barang belum ada dan dipesankan untuk dibuatkan terlebih dahulu disebut Istishna.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pada akad Salam, cara pembayaran yang disyaratkan adalah...",
+    "options": [
+      "Cicilan bulanan",
+      "Cash dan utang",
+      "Harus cash di awal",
+      "Cash/cicil sesuai kesepakatan"
+    ],
+    "correctIndex": 2,
+    "id": "M1AKS-008",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pada akad Salam, cara pembayaran yang disyaratkan adalah Harus cash di awal.",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "Akad Ijarah Muntahiya Bittamlik (IMBT) diatur dalam Fatwa DSN Nomor...",
+    "options": [
+      "09/2000",
+      "44/2004",
+      "62/2007",
+      "112/2017"
+    ],
+    "correctIndex": 1,
+    "id": "M1AKS-009",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Akad Ijarah Muntahiya Bittamlik (IMBT) diatur dalam Fatwa DSN Nomor 44/2004.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Perbedaan mendasar antara akad Ijarah dan Ju'alah terletak pada subyek pelaksana, dimana pada akad Ju'alah subyeknya (Amil)...",
+    "options": [
+      "Harus tertentu dan disebutkan namanya",
+      "Boleh tidak tertentu",
+      "Wajib berbadan hukum",
+      "Harus disetujui OJK"
+    ],
+    "correctIndex": 1,
+    "id": "M1AKS-010",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Perbedaan mendasar antara akad Ijarah dan Ju'alah terletak pada subyek pelaksana, dimana pada akad Ju'alah subyeknya (Amil) Boleh tidak tertentu.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Dalam akad kerja sama bagi hasil Mudharabah, kontribusi modal berasal dari pihak yang disebut...",
+    "options": [
+      "Mudharib",
+      "Syarik",
+      "Shahibul Maal",
+      "Wakil"
+    ],
+    "correctIndex": 2,
+    "id": "M1AKS-011",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Dalam akad kerja sama bagi hasil Mudharabah, kontribusi modal berasal dari pihak yang disebut Shahibul Maal.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pada akad Musyarakah, kerugian ditanggung bersama secara proporsional sesuai dengan...",
+    "options": [
+      "Nisbah modal",
+      "Keinginan masing-masing mitra",
+      "Nisbah keuntungan yang disepakati",
+      "Kontribusi pekerjaan"
+    ],
+    "correctIndex": 0,
+    "id": "M1AKS-012",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pada akad Musyarakah, kerugian ditanggung bersama secara proporsional sesuai dengan Nisbah modal.",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "Akad yang berfungsi sebagai penjaminan pelunasan utang apabila pihak yang dijamin gagal bayar adalah...",
+    "options": [
+      "Hawalah",
+      "Kafalah",
+      "Qard",
+      "Rahn"
+    ],
+    "correctIndex": 1,
+    "id": "M1AKS-013",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Akad yang berfungsi sebagai penjaminan pelunasan utang apabila pihak yang dijamin gagal bayar adalah Kafalah.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Akad berupa kesediaan dan komitmen untuk membayarkan utang pihak lain (pengalihan utang) disebut...",
+    "options": [
+      "Kafalah",
+      "Hawalah",
+      "Wakalah",
+      "Hibah"
+    ],
+    "correctIndex": 1,
+    "id": "M1AKS-014",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Akad berupa kesediaan dan komitmen untuk membayarkan utang pihak lain (pengalihan utang) disebut Hawalah.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pada akad Rahn (gadai syariah), imbal hasil yang dapat diterima oleh pihak penerima gadai berupa...",
+    "options": [
+      "Bunga pinjaman",
+      "Ujrah tetap di awal",
+      "Biaya pemeliharaan (Mu'nah)",
+      "Bagi hasil usaha"
+    ],
+    "correctIndex": 2,
+    "id": "M1AKS-015",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pada akad Rahn (gadai syariah), imbal hasil yang dapat diterima oleh pihak penerima gadai berupa Biaya pemeliharaan (Mu'nah).",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Akad Wadiah dan Wakalah pada dasarnya bersifat...",
+    "options": [
+      "Komersial murni",
+      "Sosial",
+      "Spekulatif",
+      "Wajib berimbalan"
+    ],
+    "correctIndex": 1,
+    "id": "M1AKS-016",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Akad Wadiah dan Wakalah pada dasarnya bersifat Sosial.",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "Riba yang terjadi akibat pertukaran barang ribawi sejenis (emas, perak, gandum, kurma, garam) dengan kualitas/kuantitas yang tidak sama disebut riba...",
+    "options": [
+      "Nasiah",
+      "Jahiliyah",
+      "Fadl",
+      "Nasa'"
+    ],
+    "correctIndex": 2,
+    "id": "M1AKS-017",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Riba yang terjadi akibat pertukaran barang ribawi sejenis (emas, perak, gandum, kurma, garam) dengan kualitas/kuantitas yang tidak sama disebut riba Fadl.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Riba Nasiah terjadi dalam konteks utang-piutang dengan mengambil manfaat/keuntungan tambahan, yang dalam praktik konvensional setara dengan...",
+    "options": [
+      "Diskon pembayaran",
+      "Bunga kredit",
+      "Biaya administrasi",
+      "Denda keterlambatan"
+    ],
+    "correctIndex": 1,
+    "id": "M1AKS-018",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Riba Nasiah terjadi dalam konteks utang-piutang dengan mengambil manfaat/keuntungan tambahan, yang dalam praktik konvensional setara dengan Bunga kredit.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Ketidakpastian dalam suatu akad baik mengenai kualitas, kuantitas, maupun cara penyerahan obyek akad disebut...",
+    "options": [
+      "Riba",
+      "Maysir",
+      "Gharar",
+      "Ghabn"
+    ],
+    "correctIndex": 2,
+    "id": "M1AKS-019",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Ketidakpastian dalam suatu akad baik mengenai kualitas, kuantitas, maupun cara penyerahan obyek akad disebut Gharar.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Larangan dalam muamalah berupa penawaran semu (menawar barang tanpa niat membeli untuk menaikkan harga di mata pembeli lain) disebut...",
+    "options": [
+      "Ikhtikar",
+      "Tanajusy/Najsy",
+      "Tadlis",
+      "Risywah"
+    ],
+    "correctIndex": 1,
+    "id": "M1AKS-020",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Larangan dalam muamalah berupa penawaran semu (menawar barang tanpa niat membeli untuk menaikkan harga di mata pembeli lain) disebut Tanajusy/Najsy.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Penimbunan atau monopoli barang dalam larangan muamalah disebut...",
+    "options": [
+      "Ikhtikar",
+      "Ghabn",
+      "Dharar",
+      "Zulm"
+    ],
+    "correctIndex": 0,
+    "id": "M1AKS-021",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Penimbunan atau monopoli barang dalam larangan muamalah disebut Ikhtikar.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Tindakan menyembunyikan cacat pada obyek akad dalam larangan muamalah disebut...",
+    "options": [
+      "Ghabn",
+      "Tadlis",
+      "Maysir",
+      "Riba"
+    ],
+    "correctIndex": 1,
+    "id": "M1AKS-022",
+    "categorySlug": "m1-akad-syariah",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Tindakan menyembunyikan cacat pada obyek akad dalam larangan muamalah disebut Tadlis.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Gerakan Nasional Cerdas Keuangan (GENCARKAN) melibatkan seluruh pemangku kepentingan untuk meningkatkan literasi dan inklusi keuangan secara masif dan merata, dalam rangka mewujudkan masyarakat yang...",
+    "options": [
+      "Cerdas keuangan dan terhindar dari kejahatan finansial",
+      "Bebas dari kewajiban pajak",
+      "Memiliki rekening di seluruh bank",
+      "Terbebas dari regulasi OJK"
+    ],
+    "correctIndex": 0,
+    "id": "M1LIK-001",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Gerakan Nasional Cerdas Keuangan (GENCARKAN) melibatkan seluruh pemangku kepentingan untuk meningkatkan literasi dan inklusi keuangan secara masif dan merata, dalam rangka mewujudkan masyarakat yang Cerdas keuangan dan terhindar dari kejahatan finansial.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Tujuan utama GENCARKAN adalah...",
+    "options": [
+      "Menggantikan fungsi OJK PEDULI",
+      "Mengorkestrasi dan meningkatkan sinergi pelaksanaan kegiatan literasi dan inklusi keuangan oleh seluruh pemangku kepentingan",
+      "Menetapkan suku bunga tabungan nasional",
+      "Mengawasi transaksi valuta asing"
+    ],
+    "correctIndex": 1,
+    "id": "M1LIK-002",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Tujuan utama GENCARKAN adalah Mengorkestrasi dan meningkatkan sinergi pelaksanaan kegiatan literasi dan inklusi keuangan oleh seluruh pemangku kepentingan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Salah satu target GENCARKAN adalah Indeks inklusi keuangan Nasional mencapai 95% pada tahun...",
+    "options": [
+      "2025",
+      "2027",
+      "2029",
+      "2030"
+    ],
+    "correctIndex": 2,
+    "id": "M1LIK-003",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Salah satu target GENCARKAN adalah Indeks inklusi keuangan Nasional mencapai 95% pada tahun 2029.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Tema besar GENCARKAN adalah 'Masyarakat Cerdas Keuangan Menuju...'",
+    "options": [
+      "Indonesia Sejahtera 2035",
+      "Indonesia Emas 2045",
+      "Indonesia Maju 2030",
+      "Indonesia Berdaulat 2050"
+    ],
+    "correctIndex": 1,
+    "id": "M1LIK-004",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Jawaban yang tepat adalah \"Indonesia Emas 2045\".",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Target jangka panjang yang tertuang dalam latar belakang Target GENCARKAN adalah mencapai Indeks Inklusi Keuangan Nasional 98% pada...",
+    "options": [
+      "Tahun 2029",
+      "Perayaan Indonesia Emas 2045",
+      "Akhir masa jabatan Dewan Komisioner",
+      "Tahun 2035"
+    ],
+    "correctIndex": 1,
+    "id": "M1LIK-005",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Target jangka panjang yang tertuang dalam latar belakang Target GENCARKAN adalah mencapai Indeks Inklusi Keuangan Nasional 98% pada Perayaan Indonesia Emas 2045.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Salah satu segmen prioritas sasaran GENCARKAN adalah...",
+    "options": [
+      "Pejabat negara",
+      "Pelajar/Mahasiswa dan Pemuda/i",
+      "Investor asing",
+      "Direksi bank"
+    ],
+    "correctIndex": 1,
+    "id": "M1LIK-006",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Salah satu segmen prioritas sasaran GENCARKAN adalah Pelajar/Mahasiswa dan Pemuda/i.",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "OJK PEDULI adalah sebutan untuk...",
+    "options": [
+      "Aplikasi pengaduan konsumen OJK",
+      "Individu yang dibekali edukasi keuangan untuk melakukan Training of Community (ToC)",
+      "Sistem pengawasan bank berbasis risiko",
+      "Lembaga alternatif penyelesaian sengketa"
+    ],
+    "correctIndex": 1,
+    "id": "M1LIK-007",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "OJK PEDULI adalah sebutan untuk Individu yang dibekali edukasi keuangan untuk melakukan Training of Community (ToC).",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Tujuan dari program OJK PEDULI adalah meningkatkan literasi keuangan secara masif dan merata melalui...",
+    "options": [
+      "Subsidi bunga kredit",
+      "Multiplier effect",
+      "Penurunan pajak final",
+      "Merger perbankan"
+    ],
+    "correctIndex": 1,
+    "id": "M1LIK-008",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Tujuan dari program OJK PEDULI adalah meningkatkan literasi keuangan secara masif dan merata melalui Multiplier effect.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Target Literasi Keuangan dalam program OJK PEDULI mencakup edukasi keuangan ke seluruh kabupaten/kota serta menjangkau berapa juta Duta dan Agen Literasi dan Inklusi Keuangan?",
+    "options": [
+      "1 Juta",
+      "2 Juta",
+      "5 Juta",
+      "10 Juta"
+    ],
+    "correctIndex": 1,
+    "id": "M1LIK-009",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Jawaban yang tepat adalah \"2 Juta\".",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Salah satu Target Inklusi Keuangan pada program OJK PEDULI adalah mengakselerasi penggunaan produk keuangan oleh kelompok penyandang disabilitas sebesar...",
+    "options": [
+      "10%",
+      "20%",
+      "30%",
+      "50%"
+    ],
+    "correctIndex": 2,
+    "id": "M1LIK-010",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Salah satu Target Inklusi Keuangan pada program OJK PEDULI adalah mengakselerasi penggunaan produk keuangan oleh kelompok penyandang disabilitas sebesar 30%.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Target Inklusi Keuangan OJK PEDULI juga mencakup Kredit/Pembiayaan Melawan Rentenir yang menjangkau...",
+    "options": [
+      "800 ribu debitur",
+      "1,6 juta debitur",
+      "3 juta debitur",
+      "500 ribu debitur"
+    ],
+    "correctIndex": 1,
+    "id": "M1LIK-011",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Target Inklusi Keuangan OJK PEDULI juga mencakup Kredit/Pembiayaan Melawan Rentenir yang menjangkau 1,6 juta debitur.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Aplikasi Sistem OJK PEDULI dapat diakses melalui website dengan alamat...",
+    "options": [
+      "kontak157.ojk.go.id",
+      "dutaliterasikeuangan.id",
+      "peduli.ojk.go.id",
+      "sikapiuangmu.ojk.go.id"
+    ],
+    "correctIndex": 1,
+    "id": "M1LIK-012",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Aplikasi Sistem OJK PEDULI dapat diakses melalui website dengan alamat dutaliterasikeuangan.id.",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) dipublikasikan pertama kali pada...",
+    "options": [
+      "19 November 2013",
+      "27 Desember 2017",
+      "20 Desember 2021",
+      "1 Januari 2016"
+    ],
+    "correctIndex": 0,
+    "id": "M1LIK-013",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) dipublikasikan pertama kali pada 19 November 2013.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Publikasi SNLIK ketiga (setelah 2013 dan 2017) dilaksanakan pada...",
+    "options": [
+      "20 Desember 2021",
+      "27 Desember 2017",
+      "19 November 2013",
+      "30 Desember 2019"
+    ],
+    "correctIndex": 0,
+    "id": "M1LIK-014",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Publikasi SNLIK ketiga (setelah 2013 dan 2017) dilaksanakan pada 20 Desember 2021.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Hasil Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) disajikan dalam Indeks Komposit Nasional, Indeks Konvensional, dan...",
+    "options": [
+      "Indeks Syariah",
+      "Indeks Regional",
+      "Indeks Digital",
+      "Indeks UMKM"
+    ],
+    "correctIndex": 0,
+    "id": "M1LIK-015",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Hasil Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) disajikan dalam Indeks Komposit Nasional, Indeks Konvensional, dan Indeks Syariah.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Berdasarkan Pasal 28 UU Nomor 21 Tahun 2011, kewenangan OJK terkait pencegahan kerugian Konsumen dan masyarakat antara lain mencakup...",
+    "options": [
+      "Memberikan informasi dan edukasi kepada masyarakat",
+      "Menetapkan tarif pajak final",
+      "Menerbitkan izin usaha bank baru",
+      "Mengawasi kebijakan fiskal"
+    ],
+    "correctIndex": 0,
+    "id": "M1LIK-016",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Berdasarkan Pasal 28 UU Nomor 21 Tahun 2011, kewenangan OJK terkait pencegahan kerugian Konsumen dan masyarakat antara lain mencakup Memberikan informasi dan edukasi kepada masyarakat.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Kewenangan OJK dalam pelayanan pengaduan Konsumen diatur pada...",
+    "options": [
+      "Pasal 28 UU 21/2011",
+      "Pasal 29 UU 21/2011",
+      "Pasal 30 UU 21/2011",
+      "Pasal 31 UU 21/2011"
+    ],
+    "correctIndex": 1,
+    "id": "M1LIK-017",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Kewenangan OJK dalam pelayanan pengaduan Konsumen diatur pada Pasal 29 UU 21/2011.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Kewenangan OJK dalam pembelaan hukum bagi Konsumen diatur pada...",
+    "options": [
+      "Pasal 28 UU 21/2011",
+      "Pasal 29 UU 21/2011",
+      "Pasal 30 UU 21/2011",
+      "Pasal 31 UU 21/2011"
+    ],
+    "correctIndex": 2,
+    "id": "M1LIK-018",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Kewenangan OJK dalam pembelaan hukum bagi Konsumen diatur pada Pasal 30 UU 21/2011.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Ketentuan lebih lanjut mengenai pelaksanaan pencegahan kerugian Konsumen sebagaimana dimaksud Pasal 28-30 UU 21/2011 diatur dengan...",
+    "options": [
+      "Peraturan OJK",
+      "Peraturan Presiden",
+      "Peraturan Menteri Keuangan",
+      "Undang-Undang tersendiri"
+    ],
+    "correctIndex": 0,
+    "id": "M1LIK-019",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Ketentuan lebih lanjut mengenai pelaksanaan pencegahan kerugian Konsumen sebagaimana dimaksud Pasal 28-30 UU 21/2011 diatur dengan Peraturan OJK.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pasal 4 huruf c UU Nomor 21 Tahun 2011 menyatakan bahwa OJK dibentuk agar keseluruhan kegiatan di dalam sektor jasa keuangan mampu...",
+    "options": [
+      "Meningkatkan penerimaan pajak negara",
+      "Melindungi kepentingan Konsumen dan masyarakat",
+      "Menstabilkan nilai tukar rupiah",
+      "Mengurangi jumlah bank di Indonesia"
+    ],
+    "correctIndex": 1,
+    "id": "M1LIK-020",
+    "categorySlug": "m1-literasi-inklusi",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pasal 4 huruf c UU Nomor 21 Tahun 2011 menyatakan bahwa OJK dibentuk agar keseluruhan kegiatan di dalam sektor jasa keuangan mampu Melindungi kepentingan Konsumen dan masyarakat.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Aplikasi Portal Perlindungan Konsumen (APPK) dikembangkan OJK berlandaskan amanat dari Pasal 4 huruf c UU Nomor 21 Tahun 2011, yaitu mampu...",
+    "options": [
+      "Meningkatkan literasi keuangan digital",
+      "Melindungi kepentingan Konsumen dan masyarakat",
+      "Mengawasi transaksi valuta asing",
+      "Menetapkan suku bunga acuan"
+    ],
+    "correctIndex": 1,
+    "id": "M1PK-001",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Aplikasi Portal Perlindungan Konsumen (APPK) dikembangkan OJK berlandaskan amanat dari Pasal 4 huruf c UU Nomor 21 Tahun 2011, yaitu mampu Melindungi kepentingan Konsumen dan masyarakat.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "APPK dikembangkan sebagai bagian dari Sistem Layanan Konsumen Terintegrasi (SLKT) yang menghubungkan 4 pihak sekaligus, yaitu OJK, Konsumen, PUJK, dan...",
+    "options": [
+      "Bank Indonesia",
+      "Lembaga Alternatif Penyelesaian Sengketa Sektor Jasa Keuangan (LAPS SJK)",
+      "Kementerian Keuangan",
+      "Kepolisian"
+    ],
+    "correctIndex": 1,
+    "id": "M1PK-002",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "APPK dikembangkan sebagai bagian dari Sistem Layanan Konsumen Terintegrasi (SLKT) yang menghubungkan 4 pihak sekaligus, yaitu OJK, Konsumen, PUJK, dan Lembaga Alternatif Penyelesaian Sengketa Sektor Jasa Keuangan (LAPS SJK).",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "APPK secara resmi diluncurkan pada tanggal...",
+    "options": [
+      "1 Januari 2020",
+      "1 Januari 2021",
+      "29 Desember 2020",
+      "24 November 2020"
+    ],
+    "correctIndex": 1,
+    "id": "M1PK-003",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "APPK secara resmi diluncurkan pada tanggal 1 Januari 2021.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Versi 2.0 dari APPK mulai diterapkan pada tahun...",
+    "options": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "correctIndex": 2,
+    "id": "M1PK-004",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Versi 2.0 dari APPK mulai diterapkan pada tahun 2023.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Kanal telepon layanan konsumen dan masyarakat OJK yang terhubung dengan APPK adalah...",
+    "options": [
+      "(021) 157",
+      "(021) 500-157",
+      "1500-655",
+      "(021) 251-157"
+    ],
+    "correctIndex": 0,
+    "id": "M1PK-005",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Kanal telepon layanan konsumen dan masyarakat OJK yang terhubung dengan APPK adalah (021) 157.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Layanan yang dapat dimanfaatkan Konsumen dan masyarakat berdasarkan Pasal 93 POJK Nomor 22 Tahun 2023 meliputi layanan penerimaan informasi, layanan pemberian informasi, dan...",
+    "options": [
+      "Layanan pengaduan",
+      "Layanan investasi",
+      "Layanan pembukaan rekening",
+      "Layanan audit"
+    ],
+    "correctIndex": 0,
+    "id": "M1PK-006",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Layanan yang dapat dimanfaatkan Konsumen dan masyarakat berdasarkan Pasal 93 POJK Nomor 22 Tahun 2023 meliputi layanan penerimaan informasi, layanan pemberian informasi, dan Layanan pengaduan.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Landasan hukum penanganan pengaduan Konsumen yang mengatur objek penyelenggaraan Pelindungan Konsumen termasuk perilaku PUSK dalam penanganan pengaduan adalah...",
+    "options": [
+      "Pasal 231 UU P2SK",
+      "Pasal 235 UU P2SK",
+      "Pasal 93 POJK 22/2023",
+      "Pasal 245 UU P2SK"
+    ],
+    "correctIndex": 0,
+    "id": "M1PK-007",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Landasan hukum penanganan pengaduan Konsumen yang mengatur objek penyelenggaraan Pelindungan Konsumen termasuk perilaku PUSK dalam penanganan pengaduan adalah Pasal 231 UU P2SK.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Batas waktu penanganan pengaduan oleh PUJK pada Tahap Internal Dispute Resolution (IDR) adalah...",
+    "options": [
+      "5 HK + 5 HK",
+      "10 HK + 10 HK",
+      "15 HK + 15 HK",
+      "20 HK + 20 HK"
+    ],
+    "correctIndex": 1,
+    "id": "M1PK-008",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Batas waktu penanganan pengaduan oleh PUJK pada Tahap Internal Dispute Resolution (IDR) adalah 10 HK + 10 HK.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Salah satu kriteria PUJK dapat memperpanjang waktu penanganan pengaduan 10 HK adalah...",
+    "options": [
+      "PUJK sedang libur nasional",
+      "Pengaduan memerlukan penelitian khusus terhadap dokumen PUJK",
+      "Konsumen tidak setuju dengan perpanjangan",
+      "OJK belum menerima laporan bulanan"
+    ],
+    "correctIndex": 1,
+    "id": "M1PK-009",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Salah satu kriteria PUJK dapat memperpanjang waktu penanganan pengaduan 10 HK adalah Pengaduan memerlukan penelitian khusus terhadap dokumen PUJK.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Jika Konsumen memilih penyelesaian sengketa melalui pengadilan (litigasi), maka proses tersebut...",
+    "options": [
+      "Tetap dicatat dalam APPK",
+      "Tidak dicatat dalam APPK",
+      "Wajib melalui LAPS SJK terlebih dahulu",
+      "Otomatis dibatalkan oleh OJK"
+    ],
+    "correctIndex": 1,
+    "id": "M1PK-010",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Jika Konsumen memilih penyelesaian sengketa melalui pengadilan (litigasi), maka proses tersebut Tidak dicatat dalam APPK.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "LAPS SJK mendapat pengesahan sebagai badan hukum dari Kemenkumham pada tanggal...",
+    "options": [
+      "1 Januari 2021",
+      "29 Desember 2020",
+      "24 November 2020",
+      "2 Januari 2020"
+    ],
+    "correctIndex": 2,
+    "id": "M1PK-011",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "LAPS SJK mendapat pengesahan sebagai badan hukum dari Kemenkumham pada tanggal 24 November 2020.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Persetujuan OJK terhadap LAPS SJK sebagai LAPS di Sektor Jasa Keuangan diberikan pada tanggal...",
+    "options": [
+      "24 November 2020",
+      "29 Desember 2020",
+      "1 Januari 2021",
+      "31 Desember 2019"
+    ],
+    "correctIndex": 1,
+    "id": "M1PK-012",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Persetujuan OJK terhadap LAPS SJK sebagai LAPS di Sektor Jasa Keuangan diberikan pada tanggal 29 Desember 2020.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Sebelum LAPS SJK yang terintegrasi terbentuk, terdapat 6 Lembaga Alternatif Penyelesaian Sengketa untuk masing-masing sektor jasa keuangan, salah satunya BAPMI yang menangani sektor...",
+    "options": [
+      "Perbankan",
+      "Pasar Modal",
+      "Asuransi",
+      "Dana Pensiun"
+    ],
+    "correctIndex": 1,
+    "id": "M1PK-013",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Sebelum LAPS SJK yang terintegrasi terbentuk, terdapat 6 Lembaga Alternatif Penyelesaian Sengketa untuk masing-masing sektor jasa keuangan, salah satunya BAPMI yang menangani sektor Pasar Modal.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Dasar hukum LAPS SJK yang secara khusus mengatur pembentukan, tugas, wewenang, dan mekanisme pengawasan LAPS SJK adalah...",
+    "options": [
+      "UU Nomor 4 Tahun 2023",
+      "POJK Nomor 22 Tahun 2023",
+      "POJK Nomor 61 Tahun 2020",
+      "UU Nomor 21 Tahun 2011"
+    ],
+    "correctIndex": 2,
+    "id": "M1PK-014",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Dasar hukum LAPS SJK yang secara khusus mengatur pembentukan, tugas, wewenang, dan mekanisme pengawasan LAPS SJK adalah POJK Nomor 61 Tahun 2020.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Berdasarkan Pasal 245 ayat (2) huruf b UU P2SK, apabila tidak terdapat kesepakatan terhadap hasil penanganan pengaduan oleh PUSK, Konsumen dapat mengajukan sengketa kepada lembaga yang mendapat persetujuan otoritas sektor keuangan atau kepada...",
+    "options": [
+      "Kepolisian",
+      "Pengadilan",
+      "Kejaksaan",
+      "Ombudsman"
+    ],
+    "correctIndex": 1,
+    "id": "M1PK-015",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Berdasarkan Pasal 245 ayat (2) huruf b UU P2SK, apabila tidak terdapat kesepakatan terhadap hasil penanganan pengaduan oleh PUSK, Konsumen dapat mengajukan sengketa kepada lembaga yang mendapat persetujuan otoritas sektor keuangan atau kepada Pengadilan.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Berdasarkan Pasal 82 POJK Nomor 61 Tahun 2020, Konsumen dapat mengajukan sengketa kepada LAPS SJK yang mendapat persetujuan dari...",
+    "options": [
+      "Kementerian Keuangan",
+      "OJK",
+      "Bank Indonesia",
+      "Mahkamah Agung"
+    ],
+    "correctIndex": 1,
+    "id": "M1PK-016",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Berdasarkan Pasal 82 POJK Nomor 61 Tahun 2020, Konsumen dapat mengajukan sengketa kepada LAPS SJK yang mendapat persetujuan dari OJK.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Kewenangan OJK untuk melakukan pengawasan, pemeriksaan, dan pengenaan sanksi terhadap LAPS SJK diatur dalam...",
+    "options": [
+      "Pasal 82 POJK 61/2020",
+      "Pasal 83 POJK 61/2020",
+      "Pasal 93 POJK 22/2023",
+      "Pasal 231 UU P2SK"
+    ],
+    "correctIndex": 1,
+    "id": "M1PK-017",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Kewenangan OJK untuk melakukan pengawasan, pemeriksaan, dan pengenaan sanksi terhadap LAPS SJK diatur dalam Pasal 83 POJK 61/2020.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Guideline Penyelenggaraan Layanan Konsumen dan Masyarakat OJK dibuat sebagai tindak lanjut pelaksanaan coaching clinic tahun 2023 dalam rangka mendukung pelaksanaan fungsi...",
+    "options": [
+      "PEPK di daerah",
+      "DPKP Pusat",
+      "LAPS SJK",
+      "Satgas Pasti"
+    ],
+    "correctIndex": 0,
+    "id": "M1PK-018",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Guideline Penyelenggaraan Layanan Konsumen dan Masyarakat OJK dibuat sebagai tindak lanjut pelaksanaan coaching clinic tahun 2023 dalam rangka mendukung pelaksanaan fungsi PEPK di daerah.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Dokumen tambahan yang wajib dilengkapi apabila Konsumen menyampaikan pengaduan melalui APPK dan menguasakan pengaduannya adalah...",
+    "options": [
+      "Surat kuasa khusus",
+      "Akta notaris",
+      "Kartu keluarga",
+      "Slip gaji"
+    ],
+    "correctIndex": 0,
+    "id": "M1PK-019",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Dokumen tambahan yang wajib dilengkapi apabila Konsumen menyampaikan pengaduan melalui APPK dan menguasakan pengaduannya adalah Surat kuasa khusus.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pengaduan yang disampaikan Konsumen ke APPK wajib disertai surat pernyataan bahwa pengaduan tersebut...",
+    "options": [
+      "Sudah pernah ditolak sebelumnya",
+      "Tidak dalam proses lembaga peradilan, arbitrase, dan/atau LAPS SJK",
+      "Melibatkan lebih dari satu PUJK",
+      "Bernilai di atas Rp100 juta"
+    ],
+    "correctIndex": 1,
+    "id": "M1PK-020",
+    "categorySlug": "m1-perlindungan-konsumen",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pengaduan yang disampaikan Konsumen ke APPK wajib disertai surat pernyataan bahwa pengaduan tersebut Tidak dalam proses lembaga peradilan, arbitrase, dan/atau LAPS SJK.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Berdasarkan Pasal 234 ayat (1) UU Nomor 4 Tahun 2023, Pengawasan Perilaku Pasar (Market Conduct) dilaksanakan untuk memastikan kepatuhan PUSK dalam menerapkan ketentuan...",
+    "options": [
+      "Kehati-hatian dan permodalan",
+      "Pelindungan Konsumen dan masyarakat",
+      "Tata kelola perusahaan",
+      "Manajemen risiko kredit"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-001",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Berdasarkan Pasal 234 ayat (1) UU Nomor 4 Tahun 2023, Pengawasan Perilaku Pasar (Market Conduct) dilaksanakan untuk memastikan kepatuhan PUSK dalam menerapkan ketentuan Pelindungan Konsumen dan masyarakat.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "POJK Nomor 22 Tahun 2023 tentang Pelindungan Konsumen dan Masyarakat di Sektor Jasa Keuangan merupakan turunan dari amanat...",
+    "options": [
+      "UU Nomor 21 Tahun 2011",
+      "UU Nomor 4 Tahun 2023",
+      "UU Nomor 8 Tahun 1999",
+      "POJK Nomor 3 Tahun 2023"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-002",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "POJK Nomor 22 Tahun 2023 tentang Pelindungan Konsumen dan Masyarakat di Sektor Jasa Keuangan merupakan turunan dari amanat UU Nomor 4 Tahun 2023.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "POJK Nomor 22 Tahun 2023 terdiri dari...",
+    "options": [
+      "10 Bab dan 100 Pasal",
+      "13 Bab dan 125 Pasal",
+      "15 Bab dan 140 Pasal",
+      "12 Bab dan 110 Pasal"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-003",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "POJK Nomor 22 Tahun 2023 terdiri dari 13 Bab dan 125 Pasal.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Peraturan Dewan Komisioner yang mengatur Pengawasan Perilaku Pelaku Usaha Jasa Keuangan (Market Conduct) Sektor Jasa Keuangan adalah...",
+    "options": [
+      "PDK OJK Nomor 2/PDK.08/2024",
+      "PDK OJK Nomor 3/PDK.08/2024",
+      "SEDK Nomor 1/SEDK.08/2025",
+      "POJK Nomor 22 Tahun 2023"
+    ],
+    "correctIndex": 0,
+    "id": "M1MKC-004",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Peraturan Dewan Komisioner yang mengatur Pengawasan Perilaku Pelaku Usaha Jasa Keuangan (Market Conduct) Sektor Jasa Keuangan adalah PDK OJK Nomor 2/PDK.08/2024.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "PDK OJK Nomor 3/PDK.08/2024 mengatur tentang...",
+    "options": [
+      "Pengawasan Perilaku Pelaku Usaha Jasa Keuangan",
+      "Mekanisme Koordinasi Pelindungan Konsumen dan Masyarakat di SJK",
+      "Pedoman Pengenaan Sanksi Administratif",
+      "Pengendalian Kualitas Market Conduct"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-005",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "PDK OJK Nomor 3/PDK.08/2024 mengatur tentang Mekanisme Koordinasi Pelindungan Konsumen dan Masyarakat di SJK.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "SEDK Nomor 1/SEDK.08/2025 mengatur tentang Pedoman Pengenaan Sanksi Administratif Pengawasan Perilaku Pelaku Usaha Jasa Keuangan, Edukasi, dan...",
+    "options": [
+      "Perpajakan Sektor Jasa Keuangan",
+      "Pelindungan Konsumen",
+      "Manajemen Risiko Operasional",
+      "Tata Kelola Perusahaan"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-006",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "SEDK Nomor 1/SEDK.08/2025 mengatur tentang Pedoman Pengenaan Sanksi Administratif Pengawasan Perilaku Pelaku Usaha Jasa Keuangan, Edukasi, dan Pelindungan Konsumen.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "SEOJK Nomor 18/SEOJK.08/2024 mengatur tentang...",
+    "options": [
+      "Pedoman Pelaksanaan Layanan Pengaduan Konsumen",
+      "Penilaian Sendiri Terhadap Pemenuhan Ketentuan Pelindungan Konsumen dan Masyarakat",
+      "Peningkatan Literasi dan Inklusi Keuangan",
+      "Mekanisme Koordinasi Pelindungan Konsumen"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-007",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "SEOJK Nomor 18/SEOJK.08/2024 mengatur tentang Penilaian Sendiri Terhadap Pemenuhan Ketentuan Pelindungan Konsumen dan Masyarakat.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "SEOJK Nomor 17/SEOJK.07/2018 mengatur tentang Pedoman Pelaksanaan Layanan Pengaduan Konsumen di...",
+    "options": [
+      "Sektor Pasar Modal",
+      "Sektor Jasa Keuangan",
+      "Sektor Perbankan Syariah",
+      "Sektor Asuransi"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-008",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "SEOJK Nomor 17/SEOJK.07/2018 mengatur tentang Pedoman Pelaksanaan Layanan Pengaduan Konsumen di Sektor Jasa Keuangan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Salah satu isu Pelindungan Konsumen yang sering muncul adalah mis-leading/mis-selling, yaitu...",
+    "options": [
+      "Penawaran produk sesuai kebutuhan konsumen",
+      "Informasi yang menyesatkan dalam penawaran demi mencapai target pemasaran",
+      "Pemberian diskon kepada nasabah setia",
+      "Peningkatan literasi keuangan masyarakat"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-009",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Salah satu isu Pelindungan Konsumen yang sering muncul adalah mis-leading/mis-selling, yaitu Informasi yang menyesatkan dalam penawaran demi mencapai target pemasaran.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Berdasarkan materi kasus penagihan pada produk pembiayaan, salah satu bentuk pelanggaran perilaku penagihan adalah...",
+    "options": [
+      "Menagih sesuai jam operasional yang ditentukan",
+      "Menagih menggunakan kata kasar dan ancaman",
+      "Menunjukkan identitas resmi petugas penagih",
+      "Mengikuti SPO dan kode etik penagihan"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-010",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Berdasarkan materi kasus penagihan pada produk pembiayaan, salah satu bentuk pelanggaran perilaku penagihan adalah Menagih menggunakan kata kasar dan ancaman.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pelanggaran iklan yang tidak mencantumkan informasi pengenaan biaya layanan atau mencantumkan informasi tidak jelas mengacu pada ketentuan penyediaan informasi dalam...",
+    "options": [
+      "POJK 22 Tahun 2023",
+      "UU Nomor 21 Tahun 2011",
+      "POJK Nomor 3 Tahun 2023",
+      "SEOJK 17/SEOJK.07/2018"
+    ],
+    "correctIndex": 0,
+    "id": "M1MKC-011",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pelanggaran iklan yang tidak mencantumkan informasi pengenaan biaya layanan atau mencantumkan informasi tidak jelas mengacu pada ketentuan penyediaan informasi dalam POJK 22 Tahun 2023.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Sanksi yang dapat dikenakan kepada PUJK atas pelanggaran perilaku penagihan yang melanggar ketentuan meliputi sanksi administratif dan...",
+    "options": [
+      "Pencabutan izin usaha langsung",
+      "Perintah untuk melakukan perbaikan",
+      "Denda pidana",
+      "Tidak ada sanksi karena bukan pelanggaran berat"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-012",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Sanksi yang dapat dikenakan kepada PUJK atas pelanggaran perilaku penagihan yang melanggar ketentuan meliputi sanksi administratif dan Perintah untuk melakukan perbaikan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Isu maraknya penipuan jual beli/penawaran kegiatan keuangan ilegal atau judi online sering didahului dengan tata cara pembukaan...",
+    "options": [
+      "Rekening bank secara ilegal",
+      "Kartu kredit resmi",
+      "Deposito berjangka",
+      "Rekening efek"
+    ],
+    "correctIndex": 0,
+    "id": "M1MKC-013",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Isu maraknya penipuan jual beli/penawaran kegiatan keuangan ilegal atau judi online sering didahului dengan tata cara pembukaan Rekening bank secara ilegal.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Salah satu isu Pelindungan Konsumen terkait keamanan data adalah...",
+    "options": [
+      "Kebocoran data pribadi konsumen akibat kurangnya pengamanan infrastruktur",
+      "Peningkatan literasi digital konsumen",
+      "Kemudahan akses data bagi konsumen",
+      "Standarisasi data antar PUJK"
+    ],
+    "correctIndex": 0,
+    "id": "M1MKC-014",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Salah satu isu Pelindungan Konsumen terkait keamanan data adalah Kebocoran data pribadi konsumen akibat kurangnya pengamanan infrastruktur.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Fraud yang dilakukan oleh pegawai atau pihak afiliasi PUJK yang menyebabkan kerugian Konsumen termasuk dalam isu Pelindungan Konsumen kategori...",
+    "options": [
+      "Mis-selling",
+      "Kasus Fraud internal PUJK",
+      "Praktik bisnis unfair",
+      "Isu keamanan siber eksternal"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-015",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Fraud yang dilakukan oleh pegawai atau pihak afiliasi PUJK yang menyebabkan kerugian Konsumen termasuk dalam isu Pelindungan Konsumen kategori Kasus Fraud internal PUJK.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Ketidakmemadaian pelayanan kepada konsumen penyandang disabilitas termasuk dalam isu Pelindungan Konsumen terkait...",
+    "options": [
+      "Persaingan usaha",
+      "Perlakuan yang adil bagi konsumen berkebutuhan khusus",
+      "Kepatuhan pajak",
+      "Manajemen risiko likuiditas"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-016",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Ketidakmemadaian pelayanan kepada konsumen penyandang disabilitas termasuk dalam isu Pelindungan Konsumen terkait Perlakuan yang adil bagi konsumen berkebutuhan khusus.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Mekanisme IDR dan EDR yang belum memadai merupakan salah satu isu Pelindungan Konsumen yang berkaitan dengan...",
+    "options": [
+      "Penyelesaian pengaduan dan sengketa Konsumen",
+      "Kepatuhan pajak PUJK",
+      "Manajemen permodalan",
+      "Tata kelola produk investasi"
+    ],
+    "correctIndex": 0,
+    "id": "M1MKC-017",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Mekanisme IDR dan EDR yang belum memadai merupakan salah satu isu Pelindungan Konsumen yang berkaitan dengan Penyelesaian pengaduan dan sengketa Konsumen.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Tindak kejahatan keuangan yang menyalahgunakan ketidaktahuan dan itikad baik konsumen dalam memasarkan produk oleh pihak lain di era digital termasuk kategori...",
+    "options": [
+      "Kejahatan keuangan (cyber) yang merugikan Konsumen",
+      "Praktik bisnis yang sehat",
+      "Edukasi keuangan digital",
+      "Peningkatan inklusi keuangan"
+    ],
+    "correctIndex": 0,
+    "id": "M1MKC-018",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Tindak kejahatan keuangan yang menyalahgunakan ketidaktahuan dan itikad baik konsumen dalam memasarkan produk oleh pihak lain di era digital termasuk kategori Kejahatan keuangan (cyber) yang merugikan Konsumen.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Praktik bisnis yang 'unfair' antara PUJK ditandai dengan persaingan bisnis yang kurang sehat serta biaya dan risiko yang...",
+    "options": [
+      "Transparan dan adil",
+      "Kurang transparan dan tidak adil",
+      "Sudah sesuai standar internasional",
+      "Tidak relevan bagi konsumen"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-019",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Praktik bisnis yang 'unfair' antara PUJK ditandai dengan persaingan bisnis yang kurang sehat serta biaya dan risiko yang Kurang transparan dan tidak adil.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Otoritas sektor keuangan melakukan Pengawasan Perilaku Pasar secara langsung dan/atau tidak langsung sesuai dengan fungsi, tugas, dan wewenang yang diberikan berdasarkan...",
+    "options": [
+      "Kesepakatan internal OJK",
+      "Undang-Undang",
+      "Permintaan PUJK",
+      "Rekomendasi asosiasi industri"
+    ],
+    "correctIndex": 1,
+    "id": "M1MKC-020",
+    "categorySlug": "m1-market-conduct",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Otoritas sektor keuangan melakukan Pengawasan Perilaku Pasar secara langsung dan/atau tidak langsung sesuai dengan fungsi, tugas, dan wewenang yang diberikan berdasarkan Undang-Undang.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Sistem Pemantauan Transaksi Efek Terintegrasi OJK yang digunakan untuk mengawasi transaksi Efek bersifat Ekuitas (Saham/Waran) disebut...",
+    "options": [
+      "Daily Watching",
+      "SIPETRO",
+      "OSIDA",
+      "SIPB"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-001",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Sistem Pemantauan Transaksi Efek Terintegrasi OJK yang digunakan untuk mengawasi transaksi Efek bersifat Ekuitas (Saham/Waran) disebut SIPETRO.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Sistem yang digunakan untuk mengawasi transaksi Efek Bersifat Utang dan Sukuk (EBUS) adalah...",
+    "options": [
+      "SIPETRO",
+      "Daily Watching",
+      "C-BEST",
+      "SPRINT"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-002",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Sistem yang digunakan untuk mengawasi transaksi Efek Bersifat Utang dan Sukuk (EBUS) adalah Daily Watching.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Dalam melakukan fungsi dan tugas pengawasan transaksi Efek, OJK berkoordinasi dengan...",
+    "options": [
+      "Bank Indonesia",
+      "Self-Regulatory Organization (SRO)",
+      "Kementerian Keuangan",
+      "Kepolisian"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-003",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Dalam melakukan fungsi dan tugas pengawasan transaksi Efek, OJK berkoordinasi dengan Self-Regulatory Organization (SRO).",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "Salah satu tugas Departemen Pengawasan Lembaga Efek adalah melakukan penelaahan atas...",
+    "options": [
+      "Kebijakan fiskal pemerintah",
+      "Indikasi pelanggaran transaksi Efek di Bursa Efek dan di luar Bursa Efek",
+      "Anggaran belanja OJK",
+      "Kebijakan moneter Bank Indonesia"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-004",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Salah satu tugas Departemen Pengawasan Lembaga Efek adalah melakukan penelaahan atas Indikasi pelanggaran transaksi Efek di Bursa Efek dan di luar Bursa Efek.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pengawasan transaksi Efek diperlukan agar kegiatan di bidang Pasar Modal tercipta secara teratur, wajar, efisien, serta melindungi kepentingan...",
+    "options": [
+      "Regulator semata",
+      "Pemodal dan masyarakat",
+      "Emiten saja",
+      "Pemerintah pusat"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-005",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pengawasan transaksi Efek diperlukan agar kegiatan di bidang Pasar Modal tercipta secara teratur, wajar, efisien, serta melindungi kepentingan Pemodal dan masyarakat.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pengawasan transaksi Efek antara lain bertujuan melihat ada tidaknya indikasi awal tindakan Penipuan, Manipulasi Pasar, dan...",
+    "options": [
+      "Kesalahan pencatatan akuntansi",
+      "Perdagangan Orang Dalam (Insider Trading)",
+      "Keterlambatan pelaporan pajak",
+      "Perubahan struktur modal"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-006",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pengawasan transaksi Efek antara lain bertujuan melihat ada tidaknya indikasi awal tindakan Penipuan, Manipulasi Pasar, dan Perdagangan Orang Dalam (Insider Trading).",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Larangan terkait Penipuan, Manipulasi Pasar, dan Perdagangan Orang Dalam diatur dalam UUPM/UUP2SK pada beberapa pasal, di antaranya Pasal 90, 91, 92, 93, 95, 96, dan...",
+    "options": [
+      "Pasal 97",
+      "Pasal 100",
+      "Pasal 105",
+      "Pasal 110"
+    ],
+    "correctIndex": 0,
+    "id": "M1PMT-007",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Larangan terkait Penipuan, Manipulasi Pasar, dan Perdagangan Orang Dalam diatur dalam UUPM/UUP2SK pada beberapa pasal, di antaranya Pasal 90, 91, 92, 93, 95, 96, dan Pasal 97.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Pelaporan Transaksi Efek diatur dalam...",
+    "options": [
+      "POJK 22/POJK.04/2017",
+      "POJK 22/POJK.04/2019",
+      "POJK 3/POJK.04/2021",
+      "POJK 41/POJK.04/2020"
+    ],
+    "correctIndex": 0,
+    "id": "M1PMT-008",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pelaporan Transaksi Efek diatur dalam POJK 22/POJK.04/2017.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Ketentuan mengenai Transaksi Efek secara umum diatur dalam...",
+    "options": [
+      "POJK 22/POJK.04/2017",
+      "POJK 22/POJK.04/2019",
+      "POJK 30/POJK.04/2019",
+      "POJK 32/POJK.04/2015"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-009",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Ketentuan mengenai Transaksi Efek secara umum diatur dalam POJK 22/POJK.04/2019.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Dasar hukum pengawasan Pasar Modal salah satunya bersumber dari Pasal 3 Undang-Undang Pasar Modal (UUPM), yang secara umum memberikan wewenang kepada...",
+    "options": [
+      "Bank Indonesia",
+      "Otoritas Jasa Keuangan (Bapepam sebelumnya)",
+      "Kementerian BUMN",
+      "Bursa Efek Indonesia"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-010",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Dasar hukum pengawasan Pasar Modal salah satunya bersumber dari Pasal 3 Undang-Undang Pasar Modal (UUPM), yang secara umum memberikan wewenang kepada Otoritas Jasa Keuangan (Bapepam sebelumnya).",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Selain UUPM, dasar hukum pengawasan transaksi Efek turut merujuk pada UU Nomor 24 Tahun 2002 tentang Surat Utang Negara dan UU Nomor 19 Tahun 2008 tentang...",
+    "options": [
+      "Surat Berharga Syariah Negara (Sukuk Negara)",
+      "Pasar Modal Syariah",
+      "Bursa Karbon",
+      "Perbankan Syariah"
+    ],
+    "correctIndex": 0,
+    "id": "M1PMT-011",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Selain UUPM, dasar hukum pengawasan transaksi Efek turut merujuk pada UU Nomor 24 Tahun 2002 tentang Surat Utang Negara dan UU Nomor 19 Tahun 2008 tentang Surat Berharga Syariah Negara (Sukuk Negara).",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Sistem Daily Watching untuk pengawasan transaksi EBUS saat ini berada dalam tahap pengembangan untuk...",
+    "options": [
+      "Penghapusan seluruh fitur alert",
+      "Pembaruan infrastruktur dan otomasi alert pengawasan",
+      "Migrasi ke sistem SIPETRO",
+      "Penonaktifan sementara"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-012",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Sistem Daily Watching untuk pengawasan transaksi EBUS saat ini berada dalam tahap pengembangan untuk Pembaruan infrastruktur dan otomasi alert pengawasan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Menu Alert pada aplikasi Daily Watching berfungsi untuk...",
+    "options": [
+      "Mencetak laporan pajak",
+      "Men-setting/set-up parameter terkait aktivitas pengawasan",
+      "Menghitung kurs valuta asing",
+      "Mendaftarkan investor baru"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-013",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Menu Alert pada aplikasi Daily Watching berfungsi untuk Men-setting/set-up parameter terkait aktivitas pengawasan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Direktorat Pengawasan Lembaga Efek dan Lembaga Penunjang di OJK bertugas mengawasi Perusahaan Efek serta lembaga-lembaga penunjang seperti Bank Kustodian dan...",
+    "options": [
+      "Bank Sentral",
+      "Wali Amanat",
+      "Kementerian Keuangan",
+      "Bursa saham asing"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-014",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Direktorat Pengawasan Lembaga Efek dan Lembaga Penunjang di OJK bertugas mengawasi Perusahaan Efek serta lembaga-lembaga penunjang seperti Bank Kustodian dan Wali Amanat.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Penyelenggaraan kegiatan di bidang Pasar Modal secara elektronik salah satunya diatur dalam...",
+    "options": [
+      "POJK 3/POJK.04/2021",
+      "POJK 41/POJK.04/2020",
+      "POJK 30/POJK.04/2019",
+      "POJK 22/POJK.04/2017"
+    ],
+    "correctIndex": 0,
+    "id": "M1PMT-015",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Penyelenggaraan kegiatan di bidang Pasar Modal secara elektronik salah satunya diatur dalam POJK 3/POJK.04/2021.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Modul Reporting and Activity pada aplikasi Daily Watching berfungsi untuk...",
+    "options": [
+      "Menyimpan dokumen internal OJK",
+      "Menampilkan laporan dan aktivitas pengawasan transaksi EBUS",
+      "Menghitung premi asuransi",
+      "Mengelola data kepegawaian"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-016",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Modul Reporting and Activity pada aplikasi Daily Watching berfungsi untuk Menampilkan laporan dan aktivitas pengawasan transaksi EBUS.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Fungsi pengawasan transaksi Efek oleh OJK mencakup pemeriksaan teknis atas indikasi pelanggaran, yang dilakukan baik di Bursa Efek maupun...",
+    "options": [
+      "Hanya di kantor pusat OJK",
+      "Di luar Bursa Efek",
+      "Hanya pada saat RUPS",
+      "Hanya terhadap Emiten BUMN"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-017",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Fungsi pengawasan transaksi Efek oleh OJK mencakup pemeriksaan teknis atas indikasi pelanggaran, yang dilakukan baik di Bursa Efek maupun Di luar Bursa Efek.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Sistem pengawasan transaksi Efek bersifat Ekuitas (SIPETRO) menghasilkan output berupa...",
+    "options": [
+      "Alert pengawasan",
+      "Laporan pajak tahunan",
+      "Sertifikat kepatuhan",
+      "Izin usaha baru"
+    ],
+    "correctIndex": 0,
+    "id": "M1PMT-018",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Sistem pengawasan transaksi Efek bersifat Ekuitas (SIPETRO) menghasilkan output berupa Alert pengawasan.",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "Pasal 6 UU OJK menjadi salah satu dasar hukum yang relevan dalam pengawasan transaksi Efek karena mengatur...",
+    "options": [
+      "Tugas pengaturan dan pengawasan OJK terhadap kegiatan jasa keuangan",
+      "Tarif pajak transaksi saham",
+      "Struktur permodalan bursa efek",
+      "Ketentuan pidana pasar modal"
+    ],
+    "correctIndex": 0,
+    "id": "M1PMT-019",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pasal 6 UU OJK menjadi salah satu dasar hukum yang relevan dalam pengawasan transaksi Efek karena mengatur Tugas pengaturan dan pengawasan OJK terhadap kegiatan jasa keuangan.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Koordinasi antara OJK dan SRO (Self-Regulatory Organization) dalam pengawasan transaksi Efek bertujuan untuk...",
+    "options": [
+      "Menggantikan fungsi pengawasan OJK sepenuhnya",
+      "Mendukung efektivitas pengawasan transaksi Efek di pasar modal",
+      "Mengurangi jumlah SRO yang beroperasi",
+      "Menghapus kewajiban pelaporan Emiten"
+    ],
+    "correctIndex": 1,
+    "id": "M1PMT-020",
+    "categorySlug": "m1-siklus-tools-pm",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Koordinasi antara OJK dan SRO (Self-Regulatory Organization) dalam pengawasan transaksi Efek bertujuan untuk Mendukung efektivitas pengawasan transaksi Efek di pasar modal.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Dasar hukum pengawasan Bank berdasarkan Pasal 7 UU Nomor 21 Tahun 2011 memberikan wewenang OJK meliputi hal-hal berikut, kecuali...",
+    "options": [
+      "Pengaturan dan Pengawasan Mengenai Kelembagaan Bank",
+      "Pengaturan dan Pengawasan Mengenai Kesehatan Bank",
+      "Pengaturan dan Pengawasan Mengenai aspek kehati-hatian bank",
+      "Penetapan suku bunga acuan perbankan"
+    ],
+    "correctIndex": 3,
+    "id": "M1RBS-001",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "\"Penetapan suku bunga acuan perbankan\" adalah pilihan yang TIDAK termasuk/TIDAK tepat pada soal ini (soal bertipe \"kecuali\").",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Pendekatan pengawasan yang menitikberatkan pada pemenuhan aspek kepatuhan terhadap ketentuan disebut...",
+    "options": [
+      "Risk Based Supervision",
+      "Compliance Based Supervision",
+      "Forward Looking Supervision",
+      "Consolidated Supervision"
+    ],
+    "correctIndex": 1,
+    "id": "M1RBS-002",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pendekatan pengawasan yang menitikberatkan pada pemenuhan aspek kepatuhan terhadap ketentuan disebut Compliance Based Supervision.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Dalam Cakupan Pengawasan, pemeriksaan Bank baik secara berkala maupun setiap waktu apabila diperlukan termasuk dalam kategori...",
+    "options": [
+      "Pengawasan Langsung",
+      "Pengawasan Tidak Langsung",
+      "Pengawasan Insidentil",
+      "Pengawasan Preventif"
+    ],
+    "correctIndex": 0,
+    "id": "M1RBS-003",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Dalam Cakupan Pengawasan, pemeriksaan Bank baik secara berkala maupun setiap waktu apabila diperlukan termasuk dalam kategori Pengawasan Langsung.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Siklus Pengawasan Berdasarkan Risiko (RBS) lazimnya dilaksanakan selama satu periode pengawasan yaitu...",
+    "options": [
+      "6 bulan",
+      "1 tahun",
+      "2 tahun",
+      "Sesuai permintaan Bank"
+    ],
+    "correctIndex": 1,
+    "id": "M1RBS-004",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Siklus Pengawasan Berdasarkan Risiko (RBS) lazimnya dilaksanakan selama satu periode pengawasan yaitu 1 tahun.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Dokumen Know Your Bank (KYB) disusun mengacu pada...",
+    "options": [
+      "SEDK Nomor 3/SEDK.03/2023",
+      "SEDK Nomor 8/SEDK.03/2020",
+      "POJK Nomor 4/POJK.03/2016",
+      "SEOJK Nomor 14/SEOJK.03/2017"
+    ],
+    "correctIndex": 1,
+    "id": "M1RBS-005",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Dokumen Know Your Bank (KYB) disusun mengacu pada SEDK Nomor 8/SEDK.03/2020.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Struktur Analisis Komponen KYB mencakup hal-hal berikut, kecuali...",
+    "options": [
+      "Kepemilikan dan struktur kelompok usaha",
+      "Rencana Bisnis Bank",
+      "Profil Risiko dan Kinerja Keuangan Bank",
+      "Laporan Hasil RUPS Tahunan"
+    ],
+    "correctIndex": 3,
+    "id": "M1RBS-006",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "\"Laporan Hasil RUPS Tahunan\" adalah pilihan yang TIDAK termasuk/TIDAK tepat pada soal ini (soal bertipe \"kecuali\").",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Penilaian Tingkat Kesehatan Bank dengan peringkat PK-3 menggambarkan kondisi Bank yang...",
+    "options": [
+      "Sangat Sehat",
+      "Sehat",
+      "Cukup Sehat",
+      "Kurang Sehat"
+    ],
+    "correctIndex": 2,
+    "id": "M1RBS-007",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Penilaian Tingkat Kesehatan Bank dengan peringkat PK-3 menggambarkan kondisi Bank yang Cukup Sehat.",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "Penilaian Tingkat Kesehatan Bank diatur dalam...",
+    "options": [
+      "POJK No. 4/POJK.03/2016 dan SEOJK No. 14/SEOJK.03/2017",
+      "POJK No. 5 Tahun 2024",
+      "SEDK Nomor 3/SEDK.03/2023",
+      "UU Nomor 4 Tahun 2023"
+    ],
+    "correctIndex": 0,
+    "id": "M1RBS-008",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Penilaian Tingkat Kesehatan Bank diatur dalam POJK No. 4/POJK.03/2016 dan SEOJK No. 14/SEOJK.03/2017.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Berdasarkan UU Nomor 4 Tahun 2023 (UU P2SK), status pengawasan Bank yang menggantikan status Intensif dan Khusus adalah...",
+    "options": [
+      "Pengawasan Ketat dan Darurat",
+      "Penyehatan (BDP) dan Resolusi (BDR)",
+      "Observasi dan Investigasi",
+      "Peringatan dan Sanksi"
+    ],
+    "correctIndex": 1,
+    "id": "M1RBS-009",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Berdasarkan UU Nomor 4 Tahun 2023 (UU P2SK), status pengawasan Bank yang menggantikan status Intensif dan Khusus adalah Penyehatan (BDP) dan Resolusi (BDR).",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Supervisory Plan (SP) disusun mengacu pada...",
+    "options": [
+      "SEDK Nomor 3/SEDK.03/2023",
+      "SEDK Nomor 8/SEDK.03/2020",
+      "POJK Nomor 4/POJK.03/2016",
+      "UU Nomor 21 Tahun 2011"
+    ],
+    "correctIndex": 0,
+    "id": "M1RBS-010",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Supervisory Plan (SP) disusun mengacu pada SEDK Nomor 3/SEDK.03/2023.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Supervisory Plan disusun satu tahun sekali, paling lambat pada tanggal...",
+    "options": [
+      "30 November",
+      "15 Desember",
+      "31 Desember",
+      "1 Januari tahun berjalan"
+    ],
+    "correctIndex": 1,
+    "id": "M1RBS-011",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Supervisory Plan disusun satu tahun sekali, paling lambat pada tanggal 15 Desember.",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "Supervisory Plan direview setiap...",
+    "options": [
+      "Bulan",
+      "Triwulan",
+      "Semester",
+      "Tahun"
+    ],
+    "correctIndex": 1,
+    "id": "M1RBS-012",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Supervisory Plan direview setiap Triwulan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Format Supervisory Plan terdiri dari 3 bagian utama, yaitu Informasi Umum, Fokus Pengawasan, dan...",
+    "options": [
+      "Penetapan Strategi Pengawasan",
+      "Laporan Keuangan Bank",
+      "Riwayat Pemeriksaan",
+      "Daftar Pemegang Saham"
+    ],
+    "correctIndex": 0,
+    "id": "M1RBS-013",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Format Supervisory Plan terdiri dari 3 bagian utama, yaitu Informasi Umum, Fokus Pengawasan, dan Penetapan Strategi Pengawasan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Strategi pengawasan offsite (tidak langsung) merupakan bagian dari penyusunan...",
+    "options": [
+      "Know Your Bank",
+      "Penetapan Strategi Pengawasan dalam Supervisory Plan",
+      "Forum Panel Pengawasan",
+      "Laporan Hasil Pemeriksaan"
+    ],
+    "correctIndex": 1,
+    "id": "M1RBS-014",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Strategi pengawasan offsite (tidak langsung) merupakan bagian dari penyusunan Penetapan Strategi Pengawasan dalam Supervisory Plan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Selain 2 risiko umum sebagaimana Bank Umum Konvensional, RBS Cycle pada Bank Umum Syariah (BUS) dan Unit Usaha Syariah (UUS) menambahkan penilaian terhadap 2 risiko khusus, yaitu Risiko Investasi dan...",
+    "options": [
+      "Risiko Imbal Hasil",
+      "Risiko Kepatuhan Syariah",
+      "Risiko Akad",
+      "Risiko Zakat"
+    ],
+    "correctIndex": 0,
+    "id": "M1RBS-015",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Selain 2 risiko umum sebagaimana Bank Umum Konvensional, RBS Cycle pada Bank Umum Syariah (BUS) dan Unit Usaha Syariah (UUS) menambahkan penilaian terhadap 2 risiko khusus, yaitu Risiko Investasi dan Risiko Imbal Hasil.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Untuk Unit Usaha Syariah (UUS), tidak terdapat dokumen KYB dan SP tersendiri, dan proses Pemeriksaan UUS bersifat...",
+    "options": [
+      "Wajib setiap tahun",
+      "Opsional (tidak wajib)",
+      "Wajib setiap semester",
+      "Dilarang dilakukan"
+    ],
+    "correctIndex": 1,
+    "id": "M1RBS-016",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Untuk Unit Usaha Syariah (UUS), tidak terdapat dokumen KYB dan SP tersendiri, dan proses Pemeriksaan UUS bersifat Opsional (tidak wajib).",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Tugas Dewan Pengawas Syariah (DPS) adalah memberikan nasihat dan saran kepada direksi serta mengawasi kegiatan Bank agar sesuai dengan...",
+    "options": [
+      "Prinsip Syariah",
+      "Prinsip Kehati-hatian",
+      "Standar Akuntansi Keuangan",
+      "Kebijakan Direksi"
+    ],
+    "correctIndex": 0,
+    "id": "M1RBS-017",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Tugas Dewan Pengawas Syariah (DPS) adalah memberikan nasihat dan saran kepada direksi serta mengawasi kegiatan Bank agar sesuai dengan Prinsip Syariah.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Bank sebagai lembaga kepercayaan masyarakat menghimpun dana dari masyarakat dalam bentuk simpanan dan menyalurkannya dalam bentuk...",
+    "options": [
+      "Investasi saham",
+      "Kredit atau bentuk-bentuk lainnya",
+      "Deposito berjangka saja",
+      "Reksa dana"
+    ],
+    "correctIndex": 1,
+    "id": "M1RBS-018",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Bank sebagai lembaga kepercayaan masyarakat menghimpun dana dari masyarakat dalam bentuk simpanan dan menyalurkannya dalam bentuk Kredit atau bentuk-bentuk lainnya.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Tahapan Pengawasan Berdasarkan Risiko (RBS) yang berfungsi sebagai forum pengendalian kualitas hasil pengawasan Bank adalah...",
+    "options": [
+      "Perencanaan Pengawasan",
+      "Pemeriksaan Berdasarkan Risiko",
+      "Forum Panel Pengawasan",
+      "Tindakan Pengawasan dan Monitoring"
+    ],
+    "correctIndex": 2,
+    "id": "M1RBS-019",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Tahapan Pengawasan Berdasarkan Risiko (RBS) yang berfungsi sebagai forum pengendalian kualitas hasil pengawasan Bank adalah Forum Panel Pengawasan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Dasar hukum pengawasan sektor perbankan berdasarkan UU Nomor 4 Tahun 2023 (UU P2SK) diatur pada...",
+    "options": [
+      "Pasal 6",
+      "Pasal 7",
+      "Pasal 8",
+      "Pasal 28"
+    ],
+    "correctIndex": 0,
+    "id": "M1RBS-020",
+    "categorySlug": "m1-rbs-cycle",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Dasar hukum pengawasan sektor perbankan berdasarkan UU Nomor 4 Tahun 2023 (UU P2SK) diatur pada Pasal 6.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Berdasarkan Pasal 246 Kitab Undang-Undang Hukum Dagang (KUHD), Asuransi adalah suatu perjanjian dimana seorang penanggung mengikatkan diri kepada seorang tertanggung dengan menerima suatu...",
+    "options": [
+      "Jaminan aset",
+      "Premi",
+      "Deposito",
+      "Surat utang"
+    ],
+    "correctIndex": 1,
+    "id": "M1PPDP-001",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Berdasarkan Pasal 246 Kitab Undang-Undang Hukum Dagang (KUHD), Asuransi adalah suatu perjanjian dimana seorang penanggung mengikatkan diri kepada seorang tertanggung dengan menerima suatu Premi.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Usaha jasa penanggulangan risiko yang memberikan pembayaran kepada pemegang polis dalam hal tertanggung meninggal dunia atau tetap hidup disebut...",
+    "options": [
+      "Asuransi Umum",
+      "Asuransi Jiwa",
+      "Reasuransi",
+      "Penjaminan"
+    ],
+    "correctIndex": 1,
+    "id": "M1PPDP-002",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Usaha jasa penanggulangan risiko yang memberikan pembayaran kepada pemegang polis dalam hal tertanggung meninggal dunia atau tetap hidup disebut Asuransi Jiwa.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Usaha jasa pertanggungan ulang terhadap risiko yang dihadapi oleh perusahaan asuransi, perusahaan penjaminan, atau perusahaan reasuransi lainnya disebut...",
+    "options": [
+      "Asuransi Jiwa",
+      "Asuransi Umum",
+      "Reasuransi",
+      "Asuransi Kredit"
+    ],
+    "correctIndex": 2,
+    "id": "M1PPDP-003",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Usaha jasa pertanggungan ulang terhadap risiko yang dihadapi oleh perusahaan asuransi, perusahaan penjaminan, atau perusahaan reasuransi lainnya disebut Reasuransi.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Penilaian Kembali Pihak Utama pada Perusahaan Asuransi diatur dalam...",
+    "options": [
+      "POJK 34/2018 s.t.d.t.d 14/2021",
+      "POJK 28/2020",
+      "SEOJK 1/2021",
+      "POJK 5/2023"
+    ],
+    "correctIndex": 0,
+    "id": "M1PPDP-004",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Penilaian Kembali Pihak Utama pada Perusahaan Asuransi diatur dalam POJK 34/2018 s.t.d.t.d 14/2021.",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "Penilaian Tingkat Kesehatan Lembaga Jasa Keuangan Non-Bank (LJKNB) termasuk Perusahaan Asuransi diatur dalam...",
+    "options": [
+      "POJK 34/2018",
+      "POJK 28/2020",
+      "SEOJK 22/2021",
+      "POJK 5/2023"
+    ],
+    "correctIndex": 1,
+    "id": "M1PPDP-005",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Penilaian Tingkat Kesehatan Lembaga Jasa Keuangan Non-Bank (LJKNB) termasuk Perusahaan Asuransi diatur dalam POJK 28/2020.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Penerapan Manajemen Risiko dalam Penggunaan Teknologi Informasi bagi Perusahaan Asuransi diatur dalam...",
+    "options": [
+      "SEOJK 1/2021",
+      "SEOJK 22/2021",
+      "POJK 28/2020",
+      "POJK 34/2018"
+    ],
+    "correctIndex": 1,
+    "id": "M1PPDP-006",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Penerapan Manajemen Risiko dalam Penggunaan Teknologi Informasi bagi Perusahaan Asuransi diatur dalam SEOJK 22/2021.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "POJK Nomor 5 Tahun 2023 mengatur mengenai...",
+    "options": [
+      "Penilaian Kembali Pihak Utama",
+      "Kesehatan Keuangan Perusahaan Asuransi",
+      "Penerapan Manajemen Risiko TI",
+      "Tata Kelola Perusahaan Asuransi"
+    ],
+    "correctIndex": 1,
+    "id": "M1PPDP-007",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "POJK Nomor 5 Tahun 2023 mengatur mengenai Kesehatan Keuangan Perusahaan Asuransi.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pendekatan pengawasan Sektor Jasa Keuangan yang menitikberatkan pada penilaian kepatuhan terhadap peraturan perundang-undangan yang berlaku disebut...",
+    "options": [
+      "Risk Based Supervision",
+      "Compliance Based Supervision",
+      "Forward Looking Supervision",
+      "Prudential Supervision"
+    ],
+    "correctIndex": 1,
+    "id": "M1PPDP-008",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pendekatan pengawasan Sektor Jasa Keuangan yang menitikberatkan pada penilaian kepatuhan terhadap peraturan perundang-undangan yang berlaku disebut Compliance Based Supervision.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Siklus Pengawasan SJK berbasis Risk & Compliance Based diterapkan pada sektor Perasuransian, Dana Pensiun, dan...",
+    "options": [
+      "Pasar Modal",
+      "Perusahaan Pembiayaan",
+      "Perbankan Syariah",
+      "Bursa Karbon"
+    ],
+    "correctIndex": 1,
+    "id": "M1PPDP-009",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Siklus Pengawasan SJK berbasis Risk & Compliance Based diterapkan pada sektor Perasuransian, Dana Pensiun, dan Perusahaan Pembiayaan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Definisi Asuransi menurut UU Nomor 40 Tahun 2014 mendasarkan pada perjanjian antara perusahaan asuransi dan...",
+    "options": [
+      "Pemegang saham",
+      "Pemegang polis",
+      "Regulator",
+      "Reasuradur"
+    ],
+    "correctIndex": 1,
+    "id": "M1PPDP-010",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Definisi Asuransi menurut UU Nomor 40 Tahun 2014 mendasarkan pada perjanjian antara perusahaan asuransi dan Pemegang polis.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Berdasarkan Pasal 1 angka 10 UU Nomor 21 Tahun 2011, Lembaga Jasa Keuangan Lainnya meliputi pergadaian, lembaga penjaminan, lembaga pembiayaan ekspor Indonesia, perusahaan pembiayaan sekunder perumahan, dan...",
+    "options": [
+      "Lembaga pengelola dana masyarakat yang bersifat wajib",
+      "Perusahaan sekuritas",
+      "Bank umum syariah",
+      "Perusahaan pemeringkat efek"
+    ],
+    "correctIndex": 0,
+    "id": "M1PPDP-011",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Berdasarkan Pasal 1 angka 10 UU Nomor 21 Tahun 2011, Lembaga Jasa Keuangan Lainnya meliputi pergadaian, lembaga penjaminan, lembaga pembiayaan ekspor Indonesia, perusahaan pembiayaan sekunder perumahan, dan Lembaga pengelola dana masyarakat yang bersifat wajib.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Lembaga Keuangan Khusus/Sui Generis yang diawasi OJK meliputi PT Permodalan Nasional Madani (PNM), Lembaga Pembiayaan Ekspor Indonesia (LPEI), PT Sarana Multigriya Finansial, PT Sarana Multi Infrastruktur, dan...",
+    "options": [
+      "BP Tapera",
+      "PT Pegadaian",
+      "PT Taspen",
+      "PT Jamsostek"
+    ],
+    "correctIndex": 0,
+    "id": "M1PPDP-012",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Lembaga Keuangan Khusus/Sui Generis yang diawasi OJK meliputi PT Permodalan Nasional Madani (PNM), Lembaga Pembiayaan Ekspor Indonesia (LPEI), PT Sarana Multigriya Finansial, PT Sarana Multi Infrastruktur, dan BP Tapera.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Lembaga Keuangan Khusus secara umum merupakan lembaga/perusahaan yang didirikan untuk...",
+    "options": [
+      "Mencari keuntungan sebesar-besarnya bagi pemegang saham",
+      "Mendukung kebijakan Pemerintah di bidang tertentu",
+      "Menyaingi bank umum konvensional",
+      "Menggantikan fungsi OJK"
+    ],
+    "correctIndex": 1,
+    "id": "M1PPDP-013",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Lembaga Keuangan Khusus secara umum merupakan lembaga/perusahaan yang didirikan untuk Mendukung kebijakan Pemerintah di bidang tertentu.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Lembaga Pembiayaan Ekspor Indonesia (LPEI) menunjang kebijakan Pemerintah dalam rangka mendorong...",
+    "options": [
+      "Program ekspor nasional dan daya saing ekspor Indonesia",
+      "Investasi properti dalam negeri",
+      "Konsumsi rumah tangga",
+      "Pariwisata domestik"
+    ],
+    "correctIndex": 0,
+    "id": "M1PPDP-014",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Lembaga Pembiayaan Ekspor Indonesia (LPEI) menunjang kebijakan Pemerintah dalam rangka mendorong Program ekspor nasional dan daya saing ekspor Indonesia.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "PT Sarana Multigriya Finansial (Persero) didirikan untuk meningkatkan kapasitas dan kesinambungan pembiayaan...",
+    "options": [
+      "Kendaraan bermotor",
+      "Perumahan yang layak dan terjangkau",
+      "Pendidikan tinggi",
+      "Modal kerja UMKM"
+    ],
+    "correctIndex": 1,
+    "id": "M1PPDP-015",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "PT Sarana Multigriya Finansial (Persero) didirikan untuk meningkatkan kapasitas dan kesinambungan pembiayaan Perumahan yang layak dan terjangkau.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "PT Permodalan Nasional Madani (PNM) menyediakan layanan finansial terutama pembiayaan kredit mikro bagi...",
+    "options": [
+      "Perusahaan multinasional",
+      "Koperasi dan UMKM",
+      "Bank umum",
+      "Perusahaan asuransi"
+    ],
+    "correctIndex": 1,
+    "id": "M1PPDP-016",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "PT Permodalan Nasional Madani (PNM) menyediakan layanan finansial terutama pembiayaan kredit mikro bagi Koperasi dan UMKM.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "BP Tapera bertugas menghimpun dan menyediakan dana murah jangka panjang untuk pembiayaan perumahan bagi...",
+    "options": [
+      "Masyarakat berpenghasilan tinggi",
+      "Masyarakat Berpenghasilan Rendah (MBR)",
+      "Investor asing",
+      "Korporasi besar"
+    ],
+    "correctIndex": 1,
+    "id": "M1PPDP-017",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "BP Tapera bertugas menghimpun dan menyediakan dana murah jangka panjang untuk pembiayaan perumahan bagi Masyarakat Berpenghasilan Rendah (MBR).",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Dasar hukum pembentukan LPEI diatur dalam...",
+    "options": [
+      "UU No. 2 Tahun 2009 tentang Lembaga Pembiayaan Ekspor Indonesia",
+      "UU No. 21 Tahun 2011 tentang OJK",
+      "UU No. 40 Tahun 2014 tentang Perasuransian",
+      "POJK No. 5 Tahun 2023"
+    ],
+    "correctIndex": 0,
+    "id": "M1PPDP-018",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Dasar hukum pembentukan LPEI diatur dalam UU No. 2 Tahun 2009 tentang Lembaga Pembiayaan Ekspor Indonesia.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Kebijakan Dasar Pembiayaan Ekspor Nasional diatur dalam...",
+    "options": [
+      "POJK No. 9/POJK.05/2022",
+      "UU No. 4 Tahun 2023",
+      "Peraturan Pemerintah No. 43 Tahun 2019",
+      "UU No. 2 Tahun 2009"
+    ],
+    "correctIndex": 2,
+    "id": "M1PPDP-019",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Kebijakan Dasar Pembiayaan Ekspor Nasional diatur dalam Peraturan Pemerintah No. 43 Tahun 2019.",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "Pengawasan Lembaga Pembiayaan Ekspor Indonesia oleh OJK diatur dalam...",
+    "options": [
+      "POJK No. 9/POJK.05/2022",
+      "PP No. 43 Tahun 2019",
+      "UU No. 2 Tahun 2009",
+      "UU No. 21 Tahun 2011"
+    ],
+    "correctIndex": 0,
+    "id": "M1PPDP-020",
+    "categorySlug": "m1-ppdp",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pengawasan Lembaga Pembiayaan Ekspor Indonesia oleh OJK diatur dalam POJK No. 9/POJK.05/2022.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Perkembangan penerapan Risk Based pada pengawasan Perusahaan Pembiayaan dan Modal Ventura dimulai dari fase Compliance Based (1988-2014), kemudian dilanjutkan dengan...",
+    "options": [
+      "RBS Versi 1 (2015-2019) lalu RBS Versi 2 (2020-sekarang)",
+      "RBS Versi 2 lalu RBS Versi 1",
+      "Langsung menerapkan RBS Versi 2 tanpa Versi 1",
+      "Kembali ke Compliance Based"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-001",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Perkembangan penerapan Risk Based pada pengawasan Perusahaan Pembiayaan dan Modal Ventura dimulai dari fase Compliance Based (1988-2014), kemudian dilanjutkan dengan RBS Versi 1 (2015-2019) lalu RBS Versi 2 (2020-sekarang).",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Pada RBS Versi 1, penilaian Modul Umum untuk Perusahaan Pembiayaan mencakup Kepengurusan, Tata Kelola, Strategi, Operasional, Aset dan Liabilitas, serta...",
+    "options": [
+      "Dukungan Dana",
+      "Risiko Kepatuhan Syariah",
+      "Risiko Reputasi",
+      "Manajemen SDM"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-002",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pada RBS Versi 1, penilaian Modul Umum untuk Perusahaan Pembiayaan mencakup Kepengurusan, Tata Kelola, Strategi, Operasional, Aset dan Liabilitas, serta Dukungan Dana.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pada RBS Versi 1, Modul Khusus untuk Perusahaan Pembiayaan berfokus pada penilaian...",
+    "options": [
+      "Risiko Pembiayaan",
+      "Risiko Operasional",
+      "Risiko Likuiditas",
+      "Risiko Pasar"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-003",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pada RBS Versi 1, Modul Khusus untuk Perusahaan Pembiayaan berfokus pada penilaian Risiko Pembiayaan.",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "Salah satu proses pengawasan off-site Perusahaan Pembiayaan dan Modal Ventura adalah analisa data Early Warning System dan Laporan Bulanan untuk mengetahui adanya...",
+    "options": [
+      "Kenaikan jumlah nasabah baru",
+      "Kenaikan sampai batasan pelanggaran atas rasio keuangan Perusahaan",
+      "Perubahan struktur organisasi",
+      "Rencana ekspansi kantor cabang"
+    ],
+    "correctIndex": 1,
+    "id": "M1PVML-004",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Salah satu proses pengawasan off-site Perusahaan Pembiayaan dan Modal Ventura adalah analisa data Early Warning System dan Laporan Bulanan untuk mengetahui adanya Kenaikan sampai batasan pelanggaran atas rasio keuangan Perusahaan.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Compliance checklist pada pengawasan off-site dilakukan atas penyampaian laporan rutin dan non rutin, di antaranya Laporan Rencana Bisnis, Laporan Rencana Aksi Keuangan Berkelanjutan, dan...",
+    "options": [
+      "Laporan Bulanan",
+      "Laporan Pajak Tahunan",
+      "Laporan Audit Eksternal Independen",
+      "Laporan RUPS"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-005",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Compliance checklist pada pengawasan off-site dilakukan atas penyampaian laporan rutin dan non rutin, di antaranya Laporan Rencana Bisnis, Laporan Rencana Aksi Keuangan Berkelanjutan, dan Laporan Bulanan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Jika ditemukan pelanggaran penyampaian laporan pada tahap off-site, Pengawas memberikan...",
+    "options": [
+      "Surat peringatan/teguran sesuai ketentuan POJK",
+      "Pencabutan izin usaha langsung",
+      "Sanksi pidana",
+      "Penutupan kantor cabang"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-006",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Jika ditemukan pelanggaran penyampaian laporan pada tahap off-site, Pengawas memberikan Surat peringatan/teguran sesuai ketentuan POJK.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Tahapan pertama pengawasan on-site Perusahaan Pembiayaan dan Modal Ventura adalah...",
+    "options": [
+      "Entry Meeting",
+      "Pra Entry Meeting (off site)",
+      "Pelaksanaan Pemeriksaan Lapangan",
+      "Exit Meeting"
+    ],
+    "correctIndex": 1,
+    "id": "M1PVML-007",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Tahapan pertama pengawasan on-site Perusahaan Pembiayaan dan Modal Ventura adalah Pra Entry Meeting (off site).",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "Pada tahap Pemeriksaan Langsung (on-site), setelah Entry Meeting dan Pelaksanaan Pemeriksaan Lapangan, Pengawas melakukan Wawancara, Klarifikasi, dan...",
+    "options": [
+      "Go Live Sistem",
+      "Penandatanganan kontrak baru",
+      "Audit eksternal",
+      "Rapat pemegang saham"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-008",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pada tahap Pemeriksaan Langsung (on-site), setelah Entry Meeting dan Pelaksanaan Pemeriksaan Lapangan, Pengawas melakukan Wawancara, Klarifikasi, dan Go Live Sistem.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Bila diperlukan, dalam tahap Pemeriksaan Langsung Pengawas dapat melakukan kunjungan ke kantor cabang, DRC, dan...",
+    "options": [
+      "Debitur Lembaga Pembiayaan",
+      "Kantor pusat OJK",
+      "Bank mitra",
+      "Notaris"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-009",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Bila diperlukan, dalam tahap Pemeriksaan Langsung Pengawas dapat melakukan kunjungan ke kantor cabang, DRC, dan Debitur Lembaga Pembiayaan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Output dari tahap Pemeriksaan Langsung berupa dokumen yang merangkum temuan-temuan selama pemeriksaan disebut...",
+    "options": [
+      "Matriks Hasil Pemeriksaan",
+      "Berita Acara Pemeriksaan",
+      "Risalah Exit Meeting",
+      "Laporan Bulanan"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-010",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Output dari tahap Pemeriksaan Langsung berupa dokumen yang merangkum temuan-temuan selama pemeriksaan disebut Matriks Hasil Pemeriksaan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Tahap sebelum Exit Meeting yang membahas temuan-temuan pemeriksaan bersama Perusahaan disebut...",
+    "options": [
+      "Entry Meeting",
+      "Pra Exit Meeting",
+      "Pra Entry Meeting",
+      "Penyusunan LHP"
+    ],
+    "correctIndex": 1,
+    "id": "M1PVML-011",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Tahap sebelum Exit Meeting yang membahas temuan-temuan pemeriksaan bersama Perusahaan disebut Pra Exit Meeting.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pada tahap Pra Exit Meeting, Pengawas menyusun konsep Risalah pra-exit meeting dan...",
+    "options": [
+      "Menyampaikan temuan-temuan dan rekomendasi pemeriksaan",
+      "Mencabut izin usaha",
+      "Menerbitkan sanksi pidana",
+      "Melakukan RUPS Luar Biasa"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-012",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pada tahap Pra Exit Meeting, Pengawas menyusun konsep Risalah pra-exit meeting dan Menyampaikan temuan-temuan dan rekomendasi pemeriksaan.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Tahapan terakhir dalam siklus pengawasan on-site Perusahaan Pembiayaan dan Modal Ventura adalah...",
+    "options": [
+      "Exit Meeting",
+      "Penyusunan LHP",
+      "Tindak Lanjut",
+      "Pra Entry Meeting"
+    ],
+    "correctIndex": 1,
+    "id": "M1PVML-013",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Tahapan terakhir dalam siklus pengawasan on-site Perusahaan Pembiayaan dan Modal Ventura adalah Penyusunan LHP.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Salah satu output tahap Penyusunan LHP adalah menyampaikan surat pengantar LHP dan...",
+    "options": [
+      "Surat penegakan kepatuhan",
+      "Sertifikat kepatuhan",
+      "Piagam penghargaan",
+      "Surat izin baru"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-014",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Salah satu output tahap Penyusunan LHP adalah menyampaikan surat pengantar LHP dan Surat penegakan kepatuhan.",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "LJKNB wajib memelihara dan/atau meningkatkan Tingkat Kesehatan dengan menerapkan prinsip kehati-hatian dan...",
+    "options": [
+      "Manajemen risiko",
+      "Efisiensi biaya",
+      "Ekspansi pasar",
+      "Digitalisasi layanan"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-015",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "LJKNB wajib memelihara dan/atau meningkatkan Tingkat Kesehatan dengan menerapkan prinsip kehati-hatian dan Manajemen risiko.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Tanggung jawab untuk memelihara dan memantau Tingkat Kesehatan LJKNB berada pada...",
+    "options": [
+      "Direksi dan Dewan Komisaris",
+      "Pemegang saham minoritas",
+      "OJK sepenuhnya",
+      "Auditor eksternal"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-016",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Tanggung jawab untuk memelihara dan memantau Tingkat Kesehatan LJKNB berada pada Direksi dan Dewan Komisaris.",
+    "difficulty": "easy"
+  },
+  {
+    "stem": "Penilaian Tingkat Kesehatan LJKNB secara umum menggunakan pendekatan risiko (risk-based nonbank rating) secara...",
+    "options": [
+      "Individual",
+      "Konsolidasi sejak awal",
+      "Gabungan dengan bank induk",
+      "Tahunan tanpa pendekatan risiko"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-017",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Penilaian Tingkat Kesehatan LJKNB secara umum menggunakan pendekatan risiko (risk-based nonbank rating) secara Individual.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Dalam hal LJKNB melakukan pengendalian terhadap Perusahaan Anak, LJKNB wajib melakukan penilaian tingkat kesehatan dengan pendekatan risiko secara konsolidasi efektif berapa tahun sejak POJK diundangkan?",
+    "options": [
+      "1 tahun",
+      "2 tahun",
+      "3 tahun",
+      "5 tahun"
+    ],
+    "correctIndex": 2,
+    "id": "M1PVML-018",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Jawaban yang tepat adalah \"3 tahun\".",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "LJKNB yang menyelenggarakan sebagian usahanya berdasarkan prinsip syariah wajib melakukan penilaian tingkat kesehatan unit syariah dengan pendekatan risiko secara...",
+    "options": [
+      "Konsolidasi dengan unit konvensional",
+      "Individual",
+      "Gabungan seluruh grup usaha",
+      "Tidak wajib dinilai terpisah"
+    ],
+    "correctIndex": 1,
+    "id": "M1PVML-019",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "LJKNB yang menyelenggarakan sebagian usahanya berdasarkan prinsip syariah wajib melakukan penilaian tingkat kesehatan unit syariah dengan pendekatan risiko secara Individual.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Direktorat yang menangani pengawasan Lembaga Pembiayaan dan Perusahaan Modal Ventura di OJK adalah...",
+    "options": [
+      "Direktorat Pengawasan Lembaga Pembiayaan dan Perusahaan Modal Ventura",
+      "Direktorat Pengawasan Bank Umum",
+      "Direktorat Pengawasan Pasar Modal",
+      "Direktorat Pengawasan Asuransi"
+    ],
+    "correctIndex": 0,
+    "id": "M1PVML-020",
+    "categorySlug": "m1-pvml",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Direktorat yang menangani pengawasan Lembaga Pembiayaan dan Perusahaan Modal Ventura di OJK adalah Direktorat Pengawasan Lembaga Pembiayaan dan Perusahaan Modal Ventura.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "OSIDA merupakan singkatan dari...",
+    "options": [
+      "OJK Suptech Integrated Data Analytics",
+      "OJK System Integration Data Application",
+      "Online Supervisory Integrated Data Access",
+      "OJK Supervisory Technology and Data Automation"
+    ],
+    "correctIndex": 0,
+    "id": "M1TDP-001",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "OSIDA merupakan singkatan dari OJK Suptech Integrated Data Analytics.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pada kondisi pengolahan data pengawasan SAAT INI (sebelum OSIDA), proses pengolahan data bersifat...",
+    "options": [
+      "Otomatis penuh melalui EDW",
+      "Semi-manual, dijalankan di PC/Notebook Pengawas",
+      "Terpusat menggunakan Big Data Analytics",
+      "Dilakukan oleh pihak ketiga"
+    ],
+    "correctIndex": 1,
+    "id": "M1TDP-002",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pada kondisi pengolahan data pengawasan SAAT INI (sebelum OSIDA), proses pengolahan data bersifat Semi-manual, dijalankan di PC/Notebook Pengawas.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Salah satu kelemahan kondisi pengolahan data SAAT INI (sebelum OSIDA) adalah skenario pengujian/analisis...",
+    "options": [
+      "Sudah terstandarisasi penuh antar Pengawas",
+      "Berbeda-beda antar Pengawas (tidak ada standarisasi)",
+      "Dilakukan secara industry-wide",
+      "Menggunakan Artificial Intelligence"
+    ],
+    "correctIndex": 1,
+    "id": "M1TDP-003",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Salah satu kelemahan kondisi pengolahan data SAAT INI (sebelum OSIDA) adalah skenario pengujian/analisis Berbeda-beda antar Pengawas (tidak ada standarisasi).",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pada arah pengembangan KEDEPAN, infrastruktur pengolahan data pengawasan akan memanfaatkan...",
+    "options": [
+      "PC/Notebook Pengawas dengan kapasitas terbatas",
+      "Centralized, memanfaatkan EDW, Big Data Analytics & Artificial Intelligence",
+      "Hanya aplikasi SLIK",
+      "Penyimpanan data lokal di masing-masing satker"
+    ],
+    "correctIndex": 1,
+    "id": "M1TDP-004",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pada arah pengembangan KEDEPAN, infrastruktur pengolahan data pengawasan akan memanfaatkan Centralized, memanfaatkan EDW, Big Data Analytics & Artificial Intelligence.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Integrated Data Analytics (IDA) pada SupTech dikembangkan untuk mendukung Early Warning System (EWS) dan...",
+    "options": [
+      "Compliance Checkup (CCU)",
+      "Customer Relationship Management",
+      "Credit Scoring Manual",
+      "Audit Eksternal"
+    ],
+    "correctIndex": 0,
+    "id": "M1TDP-005",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Integrated Data Analytics (IDA) pada SupTech dikembangkan untuk mendukung Early Warning System (EWS) dan Compliance Checkup (CCU).",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pemanfaatan SupTech dalam pengawasan berfungsi sebagai...",
+    "options": [
+      "Pengganti penuh peran Pengawas",
+      "Alat bantu menghasilkan preliminary analysis, keputusan akhir tetap oleh Pengawas",
+      "Sistem otomatis pemberian sanksi",
+      "Pengganti Forum Panel Pengawasan"
+    ],
+    "correctIndex": 1,
+    "id": "M1TDP-006",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pemanfaatan SupTech dalam pengawasan berfungsi sebagai Alat bantu menghasilkan preliminary analysis, keputusan akhir tetap oleh Pengawas.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Metodologi yang digunakan untuk memvisualisasikan dan mengidentifikasi struktur jaringan SJK serta contagion effect saat terkena shock disebut...",
+    "options": [
+      "Behaviour Analytics",
+      "Network Analysis",
+      "Credit Scoring",
+      "Sentiment Analysis"
+    ],
+    "correctIndex": 1,
+    "id": "M1TDP-007",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Metodologi yang digunakan untuk memvisualisasikan dan mengidentifikasi struktur jaringan SJK serta contagion effect saat terkena shock disebut Network Analysis.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Metodologi data mining dan pattern recognition yang dikombinasikan dengan alert system untuk mengetahui pola perilaku SJK atau individual disebut...",
+    "options": [
+      "Network Analysis",
+      "Behaviour Analytics",
+      "Regression Analysis",
+      "Cluster Sampling"
+    ],
+    "correctIndex": 1,
+    "id": "M1TDP-008",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Metodologi data mining dan pattern recognition yang dikombinasikan dengan alert system untuk mengetahui pola perilaku SJK atau individual disebut Behaviour Analytics.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Salah satu contoh pemanfaatan Integrated Data Analytics adalah memberikan alert jika proyeksi rasio keuangan bank diperkirakan akan melampaui threshold dalam beberapa bulan ke depan, ini merupakan bentuk analisis...",
+    "options": [
+      "Deskriptif",
+      "Diagnostik",
+      "Prediktif",
+      "Historis semata"
+    ],
+    "correctIndex": 2,
+    "id": "M1TDP-009",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Salah satu contoh pemanfaatan Integrated Data Analytics adalah memberikan alert jika proyeksi rasio keuangan bank diperkirakan akan melampaui threshold dalam beberapa bulan ke depan, ini merupakan bentuk analisis Prediktif.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Modul pada Sistem Informasi Pengawasan Perbankan (SIPB) yang mencakup pemahaman komprehensif terhadap faktor internal dan eksternal Bank adalah modul...",
+    "options": [
+      "RBBR",
+      "KYB",
+      "SP",
+      "BPeR"
+    ],
+    "correctIndex": 1,
+    "id": "M1TDP-010",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Modul pada Sistem Informasi Pengawasan Perbankan (SIPB) yang mencakup pemahaman komprehensif terhadap faktor internal dan eksternal Bank adalah modul KYB.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Modul BPeR pada SIPB menggunakan sumber data pelaporan terkini, yaitu APOLO, LBUT (ANTASENA), dan...",
+    "options": [
+      "SLIK",
+      "OBOX",
+      "SIPENA",
+      "DAPOK"
+    ],
+    "correctIndex": 0,
+    "id": "M1TDP-011",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Modul BPeR pada SIPB menggunakan sumber data pelaporan terkini, yaitu APOLO, LBUT (ANTASENA), dan SLIK.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Modul pada SIPB yang digunakan untuk penyusunan Penilaian Tingkat Kesehatan Bank berbasis risiko adalah modul...",
+    "options": [
+      "KYB",
+      "RBBR",
+      "SP",
+      "Forum Panel"
+    ],
+    "correctIndex": 1,
+    "id": "M1TDP-012",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Modul pada SIPB yang digunakan untuk penyusunan Penilaian Tingkat Kesehatan Bank berbasis risiko adalah modul RBBR.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Modul pada SIPB yang digunakan untuk penyusunan strategi dan rencana kegiatan pengawasan tahunan adalah modul...",
+    "options": [
+      "KYB",
+      "RBBR",
+      "SP",
+      "BPeR"
+    ],
+    "correctIndex": 2,
+    "id": "M1TDP-013",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Modul pada SIPB yang digunakan untuk penyusunan strategi dan rencana kegiatan pengawasan tahunan adalah modul SP.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Sumber data yang digunakan untuk pengecekan kesalahan penetapan kolektibilitas debitur dan penerapan one-debtor-concept dalam SupTech adalah...",
+    "options": [
+      "LBU",
+      "LHBU",
+      "SLIK",
+      "OBOX"
+    ],
+    "correctIndex": 2,
+    "id": "M1TDP-014",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Sumber data yang digunakan untuk pengecekan kesalahan penetapan kolektibilitas debitur dan penerapan one-debtor-concept dalam SupTech adalah SLIK.",
+    "difficulty": "hard"
+  },
+  {
+    "stem": "Sumber data yang digunakan untuk pengecekan kesalahan dalam pembentukan CKPN (Cadangan Kerugian Penurunan Nilai) adalah...",
+    "options": [
+      "LBU",
+      "SLIK",
+      "LHBU",
+      "ANTASENA"
+    ],
+    "correctIndex": 0,
+    "id": "M1TDP-015",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Sumber data yang digunakan untuk pengecekan kesalahan dalam pembentukan CKPN (Cadangan Kerugian Penurunan Nilai) adalah LBU.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Sumber data yang digunakan untuk pengecekan transaksi valas yang melampaui Posisi Devisa Neto (PDN) adalah...",
+    "options": [
+      "LBU",
+      "SLIK",
+      "LHBU",
+      "OBOX"
+    ],
+    "correctIndex": 2,
+    "id": "M1TDP-016",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Sumber data yang digunakan untuk pengecekan transaksi valas yang melampaui Posisi Devisa Neto (PDN) adalah LHBU.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Aplikasi yang digunakan Pengawas untuk meminta data secara offline dari Bank saat pengawasan offsite adalah...",
+    "options": [
+      "OBOX",
+      "SLIK",
+      "ANTASENA",
+      "DWBU"
+    ],
+    "correctIndex": 0,
+    "id": "M1TDP-017",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Aplikasi yang digunakan Pengawas untuk meminta data secara offline dari Bank saat pengawasan offsite adalah OBOX.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pembentukan Peer Group Default pada modul BPeR SIPB didasarkan pada kepemilikan, total aset, dan...",
+    "options": [
+      "KBMI",
+      "Lokasi kantor pusat",
+      "Jumlah nasabah",
+      "Rating pemeringkat"
+    ],
+    "correctIndex": 0,
+    "id": "M1TDP-018",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pembentukan Peer Group Default pada modul BPeR SIPB didasarkan pada kepemilikan, total aset, dan KBMI.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Pengajuan pembentukan Peer Group Customized pada BPeR SIPB diajukan Pengawas kepada satker...",
+    "options": [
+      "DIMB selaku pengelola SIPB",
+      "DPKP",
+      "DPNP",
+      "DPB"
+    ],
+    "correctIndex": 0,
+    "id": "M1TDP-019",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Pengajuan pembentukan Peer Group Customized pada BPeR SIPB diajukan Pengawas kepada satker DIMB selaku pengelola SIPB.",
+    "difficulty": "medium"
+  },
+  {
+    "stem": "Data pertukaran informasi antara OJK dan Bank Indonesia pada modul BPeR SIPB dilakukan melalui...",
+    "options": [
+      "OBOX",
+      "SAPIT",
+      "ANTASENA",
+      "APOLO"
+    ],
+    "correctIndex": 1,
+    "id": "M1TDP-020",
+    "categorySlug": "m1-tools-perbankan",
+    "source": "generated",
+    "sourceType": "ai",
+    "pembahasan": "Data pertukaran informasi antara OJK dan Bank Indonesia pada modul BPeR SIPB dilakukan melalui SAPIT.",
+    "difficulty": "medium"
+  }
+]

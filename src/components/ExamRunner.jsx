@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { shuffle } from '../lib/utils';
 import { addHistoryEntry } from '../lib/history';
+import SourceBadge from './SourceBadge';
 
 const LOW_TIME_THRESHOLD_SEC = 60;
 
@@ -123,6 +124,7 @@ export default function ExamRunner({ title, questions, timeLimitMin, onFinish, o
       )}
 
       <main className="flex-1 px-5 pt-5 pb-28">
+        <SourceBadge sourceType={q.sourceType} className="mb-3" />
         <h2 className="font-display font-bold text-xl text-ink leading-snug mb-6 whitespace-pre-line">
           {q.stem}
         </h2>

@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { shuffle } from '../../../lib/utils';
+import SourceBadge from '../../../components/SourceBadge';
 
 // Stem is shown with the answer blanked out; tap the correct chip to fill it in.
 export default function TapToFill({ question, onAnswered }) {
@@ -15,9 +16,12 @@ export default function TapToFill({ question, onAnswered }) {
 
   return (
     <div>
-      <p className="text-xs uppercase tracking-wide text-ink-soft/70 font-semibold mb-2">
-        Lengkapi pernyataan berikut
-      </p>
+      <div className="flex items-center justify-between mb-2">
+        <p className="text-xs uppercase tracking-wide text-ink-soft/70 font-semibold">
+          Lengkapi pernyataan berikut
+        </p>
+        <SourceBadge sourceType={question.sourceType} />
+      </div>
       <h2 className="font-display font-bold text-xl text-ink leading-snug mb-3">
         {question.stem}
       </h2>
