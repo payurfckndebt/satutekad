@@ -12,7 +12,12 @@ Palet warna merah + putih, dominan putih.
 - **Latihan Berdasarkan Hari** — materi dikelompokkan per hari pelatihan (1-4) dan per sesi di dalamnya, gabungan materi awal + materi Modul 1.
 - **YDBBA** — latihan fokus ke soal existing (Kuis Kelas) saja, per kategori atau semua sekaligus.
 - **Bank Soal** — semua soal (existing + Modul 1), bisa dicari & difilter, expand untuk jawaban + pembahasan.
-- **Bahan Bacaan** — rangkuman poin penting per materi Modul 1 (10 topik), plus prediksi fokus ujian disusun dari karakteristik soal & kisi-kisi yang sudah ada untuk topik itu. `src/data/bahanBacaan.json`.
+- **Bahan Bacaan** — rangkuman poin penting per materi Modul 1 (10 topik), plus prediksi fokus ujian, plus **🧠 Kunci Hafalan** (mnemonic/rumus hafalan singkat per topik). Diperkaya dari 4 dokumen ringkasan ujian tambahan (Day 1-4) yang mencakup 100 tabel data — regulasi lengkap, angka/tenggat wajib ingat, dan perbandingan istilah yang sering tertukar. `src/data/bahanBacaan.json`.
+
+## Opsi Jawaban Teracak & Pembahasan Lebih Dalam
+
+- Posisi opsi A/B/C/D di-acak ulang tiap kali soal muncul (ExamRunner, JWARA, Bank Soal) — bukan urutan tetap dari data. Lihat `shuffleQuestionOptions()` di `src/lib/utils.js`.
+- Field `pembahasan` sekarang menjelaskan alasan (kenapa opsi lain salah/berbeda), bukan cuma mengulang jawaban benar. Tetap hasil template terprogram (bukan ditulis manual satu-satu untuk 476 soal), tapi variasi kalimat & logika kontras (kecuali/regulasi/urutan/definisi) sudah disesuaikan per tipe soal.
 - **Riwayat** — histori try out tersimpan di localStorage device (skor, benar/salah, durasi).
 
 Semua mode try out (Per Modul/Harian/YDBBA) pakai gaya ujian asli: jawaban tidak langsung dikoreksi, ada flag soal, navigator lompat-soal, submit manual selalu dikonfirmasi (auto-submit tanpa konfirmasi kalau waktu habis), dan pembahasan lengkap (benar/salah/kosong) di akhir.

@@ -32,6 +32,20 @@ export default function BahanBacaanScreen({ onExit }) {
             </div>
           ))}
 
+          {active.mnemonic && (
+            <div className="rounded-2xl bg-ink text-white p-4">
+              <h2 className="font-display font-bold text-sm mb-2.5">🧠 Kunci Hafalan</h2>
+              <ul className="space-y-2">
+                {active.mnemonic.map((m, j) => (
+                  <li key={j} className="flex gap-2.5 text-sm leading-relaxed text-white/90">
+                    <span className="text-white shrink-0">✦</span>
+                    <span>{m}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <div className="rounded-2xl bg-tekad-redSoft/50 border-2 border-tekad-redSoft p-4">
             <h2 className="font-display font-bold text-tekad-red text-sm mb-2.5">🎯 Prediksi Fokus Ujian</h2>
             <ul className="space-y-2">

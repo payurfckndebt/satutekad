@@ -7,6 +7,15 @@ export function shuffle(arr) {
   return a;
 }
 
+// Shuffles a question's option order and remaps correctIndex to match.
+// Returns a NEW question object; does not mutate the original.
+export function shuffleQuestionOptions(question) {
+  const indices = shuffle(question.options.map((_, i) => i));
+  const options = indices.map((i) => question.options[i]);
+  const correctIndex = indices.indexOf(question.correctIndex);
+  return { ...question, options, correctIndex };
+}
+
 export function sample(arr, n) {
   return shuffle(arr).slice(0, n);
 }

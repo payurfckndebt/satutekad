@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { shuffle } from '../lib/utils';
+import { shuffle, shuffleQuestionOptions } from '../lib/utils';
 import { addHistoryEntry } from '../lib/history';
 import SourceBadge from './SourceBadge';
 
 const LOW_TIME_THRESHOLD_SEC = 60;
 
 export default function ExamRunner({ title, questions, timeLimitMin, onFinish, onExit }) {
-  const shuffled = useMemo(() => shuffle(questions), [questions]);
+  const shuffled = useMemo(() => shuffle(questions).map(shuffleQuestionOptions), [questions]);
   const total = shuffled.length;
 
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -12,7 +12,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "Pemantauan Supervisory Plan dilakukan oleh Pengawas secara Triwulanan.",
+    "pembahasan": "Jawaban yang tepat adalah \"Triwulanan\", berbeda dari \"Bulanan\", \"Semesteran\", \"Tahunan\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -29,7 +29,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "Tahapan dari siklus Risk Based Supervision yang merupakan pengendalian kualitas Pengawasan Bank adalah Pelaksanaan Forum Panel Pengawasan.",
+    "pembahasan": "Urutan yang tepat: Pelaksanaan Forum Panel Pengawasan. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -46,7 +46,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "\"Panduan penyediaan data oleh Bank\" adalah pilihan yang TIDAK termasuk/TIDAK tepat pada soal ini (soal bertipe \"kecuali\").",
+    "pembahasan": "\"Panduan penyediaan data oleh Bank\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Penyusunan strategi pemeriksaan\"; \"Efektivitas waktu\"; \"Ketertiban dan dokumentasi\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -63,7 +63,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "Jenis fokus pengawasan yang terdapat pada Supervisory Plan adalah Fokus Pengawasan Utama, Sekunder, Lainnya.",
+    "pembahasan": "Jawaban yang tepat adalah \"Fokus Pengawasan Utama, Sekunder, Lainnya\", berbeda dari \"Fokus Pengawasan Utama, Sekunder, Tambahan\", \"Fokus Pengawasan Pertama, Kedua, Ketiga\", \"Fokus Pengawasan Utama, Tambahan, Lainnya\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -80,7 +80,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "Tahapan keempat pada Siklus Pengawasan Bank Berdasarkan Risiko adalah Pemeriksaan Berdasarkan Risiko.",
+    "pembahasan": "Urutan yang tepat: Pemeriksaan Berdasarkan Risiko. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -97,7 +97,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "\"Matriks Konfirmasi Hasil Pemeriksaan\" adalah pilihan yang TIDAK termasuk/TIDAK tepat pada soal ini (soal bertipe \"kecuali\").",
+    "pembahasan": "\"Matriks Konfirmasi Hasil Pemeriksaan\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Kepemilikan dan Struktur Kelompok Usaha\"; \"Aktivitas Bisnis Utama dan Aktivitas Penunjang Utama\"; \"Kinerja Keuangan\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "hard",
     "sourceType": "kuis"
   },
@@ -114,7 +114,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "Di bawah ini yang bukan termasuk dalam komponen penilaian Risiko Inheren pada Risiko Kredit adalah Keandalan mekanisme reviu strategi perkreditan secara berkala.",
+    "pembahasan": "\"Keandalan mekanisme reviu strategi perkreditan secara berkala\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Strategi penyediaan dana sumber timbulnya penyediaan dana\"; \"Kualitas penyediaan dana dan kecukupan pencadangan\"; \"Komposisi portofolio aset dan tingkat konsentrasi\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -131,7 +131,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "Jawaban yang tepat adalah \"Kemampuan akses permodalan\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Kemampuan akses permodalan\", berbeda dari \"Kecukupan permodalan\", \"Manajemen permodalan bank\", \"Risiko permodalan\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -148,7 +148,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "Jawaban yang tepat adalah \"Risiko Hukum\".",
+    "pembahasan": "\"Risiko Hukum\" adalah jawaban yang tepat di sini. \"Risiko Reputasi\", \"Risiko Kredit\", \"Risiko Likuiditas\" terdengar mirip tapi merujuk pada hal yang berbeda dari yang ditanyakan.",
     "difficulty": "hard",
     "sourceType": "kuis"
   },
@@ -165,7 +165,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "Dalam proses bisnis perkreditan, bank perlu untuk melakukan analisis berjenjang dan/atau terpisah terhadap suatu debitur yang dilakukan oleh unit kerja yang berbeda. Praktik dimaksud umumnya dikenal sebagai Four eyes principle.",
+    "pembahasan": "Dalam proses bisnis perkreditan, bank perlu untuk melakukan analisis berjenjang dan/atau terpisah terhadap suatu debitur yang dilakukan oleh unit kerja yang berbeda. Praktik dimaksud umumnya dikenal sebagai Four eyes principle. Istilah lain seperti \"Segregation of duty\", \"Third line of defense\", \"Five Cs of credit\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "hard",
     "sourceType": "kuis"
   },
@@ -182,7 +182,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "Case:\nDalam penilaian Rentabilitas periode Semester II 2025, pengawas Bank Buna Bahagia mempertimbangkan bahwa sebesar 27% dari seluruh pendapatan bank berasal dari revaluasi aset tetap, 18% berasal dari revaluasi valas, 43% berasal dari pendapatan bunga, dan sisanya berasal dari jasa dan pendapatan lainnya. Pada periode yang sama, diketahui bahwa total portofolio kredit tercatat sebesar 73% dari total aset, sehingga pengawas mengevaluasi peringkat rentabilitas turun dari 2 ke 3.\n\nAlasan utama yang menjadi pertimbangan pengawas dalam penyesuaian peringkat tersebut adalah Keberlanjutan rentabilitas.",
+    "pembahasan": "Jawaban yang tepat adalah \"Keberlanjutan rentabilitas\", berbeda dari \"Kinerja rentabilitas\", \"Sumber-sumber rentabilitas\", \"Tata kelola rentabilitas\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -199,7 +199,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "Case:\nSalah satu pimpinan cabang Bank Chilli Pari tertangkap KPK atas tindakan korupsi dan beritanya tersiar dalam media massa, sehingga terdapat kenaikan kasus fraud bank yang pada periode sebelumnya tercatat nihil. Dampak dari kasus tersebut menyebabkan sebagian besar nasabah serentak melakukan rush sehingga likuiditas cabang turun signifikan sebesar -78,95% dari bulan sebelumnya serta NPL naik menjadi 11,51% karena mayoritas penyaluran kredit dilakukan kepada kolega pimpinan cabang yang usahanya fiktif.\n\nPorsi terbesar evaluasi atas kasus ini oleh Pengawas dilakukan pada penilaian RBBR dalam analisis Risiko Operasional.",
+    "pembahasan": "Jawaban yang tepat adalah \"Risiko Operasional\", berbeda dari \"Risiko Kredit\", \"Risiko Reputasi\", \"Risiko Likuiditas\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "hard",
     "sourceType": "kuis"
   },
@@ -216,7 +216,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "Case:\nPengawas menilai bahwa akses sumber pendanaan Bank Bunga Bakung kurang sustain karena cenderung sulit mendapatkan dana dari grup usaha Pemegang Saham,\n\nsehingga secara inheren potensi risiko yang tinggi adalah Risiko Likuiditas.",
+    "pembahasan": "\"Risiko Likuiditas\" tepat di sini, sedangkan \"Risiko Kredit\", \"Risiko Reputasi\", \"Risiko Operasional\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "hard",
     "sourceType": "kuis"
   },
@@ -233,7 +233,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "OSIDA Bank Umum pada portal Enterprise Data Warehouse (EDW) menggunakan sumber pelaporan bank berupa LBU.",
+    "pembahasan": "Jawaban yang tepat adalah \"LBU\", berbeda dari \"BDA\", \"SLIK\", \"APOLO\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -250,7 +250,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "siklus-rbs-bank-umum-konvensional",
-    "pembahasan": "Dokumen yang bukan merupakan bagian output dari proses Pemeriksaan Berdasarkan Risiko adalah Perencanaan Pengawasan.",
+    "pembahasan": "\"Perencanaan Pengawasan\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Audit Working Plan\"; \"Laporan Hasil Pemeriksaan\"; \"Risalah Exit Meeting\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -267,7 +267,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "inklusi-keuangan",
-    "pembahasan": "Berdasarkan RPJMN, target inklusi keuangan yang harus dicapai pada tahun 2029 adalah sebesar 93%.",
+    "pembahasan": "Jawaban yang tepat adalah \"93%\", berbeda dari \"91%\", \"95%\", \"98%\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -284,7 +284,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "inklusi-keuangan",
-    "pembahasan": "\"Masif\" adalah pilihan yang TIDAK termasuk/TIDAK tepat pada soal ini (soal bertipe \"kecuali\").",
+    "pembahasan": "\"Masif\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Terukur\"; \"Tepat Sasaran\"; \"Berkelanjutan\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "hard",
     "sourceType": "kuis"
   },
@@ -301,7 +301,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "inklusi-keuangan",
-    "pembahasan": "Kerangka Regulasi yang mendasari Strategi Nasional Keuangan Inklusif adalah Perpres No. 114 tahun 2020.",
+    "pembahasan": "Jawaban yang tepat adalah \"Perpres No. 114 tahun 2020\", berbeda dari \"UU No. 4 tahun 2023\", \"POJK No. 3 tahun 2023\", \"Keppres No. 26 tahun 2019\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -318,7 +318,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "inklusi-keuangan",
-    "pembahasan": "Untuk mendukung Asta Cita 3 \"Mendorong Kewirausahaan dan Industri Kreatif,\" program TPAKD yang disebutkan adalah Program Asistensi/Onboarding bagi UMKM atau Business Matching.",
+    "pembahasan": "\"Program Asistensi/Onboarding bagi UMKM atau Business Matching\" tepat di sini, sedangkan \"Program Galeri Investasi\", \"Implementasi Pedoman Setara bagi disabilitas\", \"Membangun dari desa melalui implementasi GM EKI\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -335,7 +335,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "inklusi-keuangan",
-    "pembahasan": "Pada tahapan pra inkubasi dalam ekosistem keuangan inklusif, dilaksanakan proses Memahami kondisi desa dan kebutuhan masyarakatnya.",
+    "pembahasan": "Urutan yang tepat: Memahami kondisi desa dan kebutuhan masyarakatnya. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -352,7 +352,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "inklusi-keuangan",
-    "pembahasan": "Berikut yang bukan merupakan pola penyaluran kredit/pembiayaan pada Program K/PSP Joint Financing.",
+    "pembahasan": "\"Joint Financing\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Channeling\"; \"Executing\"; \"Pembiayaan Langsung\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -369,7 +369,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "inklusi-keuangan",
-    "pembahasan": "Bobot persentase Ketersediaan dalam perhitungan Indeks Akses Keuangan Daerah adalah sebesar 20%.",
+    "pembahasan": "\"20%\" tepat di sini, sedangkan \"10%\", \"50%\", \"70%\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -386,7 +386,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "inklusi-keuangan",
-    "pembahasan": "Jawaban yang tepat adalah \"552\".",
+    "pembahasan": "Jawaban yang tepat adalah \"552\". Opsi lain (\"514\", \"507\", \"520\") keliru karena tidak sesuai dengan ketentuan/fakta spesifik yang ditanyakan di soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -403,7 +403,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "inklusi-keuangan",
-    "pembahasan": "\"Saldo Maksimum Rp25juta\" adalah pilihan yang TIDAK termasuk/TIDAK tepat pada soal ini (soal bertipe \"kecuali\").",
+    "pembahasan": "\"Saldo Maksimum Rp25juta\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Setoran Awal Rp5.000/Rp 1.000 (iB)\"; \"Bebas biaya administrasi\"; \"Setoran selanjutnya Rp1.000\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -420,7 +420,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "inklusi-keuangan",
-    "pembahasan": "Bulan Inklusi Keuangan dilaksanakan secara rutin Setiap Bulan Oktober sejak tahun 2016.",
+    "pembahasan": "Jawaban yang tepat adalah \"Setiap Bulan Oktober sejak tahun 2016\", berbeda dari \"Setiap Bulan Oktober sejak tahun 2019\", \"Setiap Bulan Oktober sejak tahun 2018\", \"Setiap Bulan Oktober sejak tahun 2017\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -437,7 +437,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "urun-dana",
-    "pembahasan": "Dasar hukum terkini yang mengatur terkait penyelenggaraan Layanan Urun Dana adalah POJK Nomor 17 Tahun 2025.",
+    "pembahasan": "\"POJK Nomor 17 Tahun 2025\" tepat di sini, sedangkan \"POJK Nomor 57 Tahun 2022\", \"POJK Nomor 57 Tahun 2025\", \"POJK Nomor 17 Tahun 2022\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -454,7 +454,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "urun-dana",
-    "pembahasan": "Jawaban yang tepat adalah \"50%\".",
+    "pembahasan": "Urutan yang tepat: 50%. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -471,7 +471,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "urun-dana",
-    "pembahasan": "Izin yang diberikan OJK kepada Penyelenggara untuk melakukan kegiatan usaha LUD, yaitu Izin Usaha.",
+    "pembahasan": "Izin yang diberikan OJK kepada Penyelenggara untuk melakukan kegiatan usaha LUD, yaitu Izin Usaha. Sementara \"Persetujuan Prinsip\", \"Izin tercatat\", \"Izin Prinsip\" bukan jawabannya karena tidak sesuai fakta/ketentuan yang ditanyakan.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -488,7 +488,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "urun-dana",
-    "pembahasan": "Jawaban yang tepat adalah \"Perubahan fitur dalam platform\".",
+    "pembahasan": "\"Perubahan fitur dalam platform\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Perubahan jenis platform\"; \"Perubahan jenis Efek\"; \"Penetapan Efek Ekuitas sebagai Efek Syariah\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -505,7 +505,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "urun-dana",
-    "pembahasan": "Jawaban yang tepat adalah \"90 hari kalender\".",
+    "pembahasan": "Urutan yang tepat: 90 hari kalender. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -522,7 +522,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "urun-dana",
-    "pembahasan": "\"Pemasaran\" adalah pilihan yang TIDAK termasuk/TIDAK tepat pada soal ini (soal bertipe \"kecuali\").",
+    "pembahasan": "\"Pemasaran\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"IT\"; \"Hukum\"; \"Akuntansi\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "hard",
     "sourceType": "kuis"
   },
@@ -539,7 +539,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "urun-dana",
-    "pembahasan": "Di bawah ini yang merupakan larangan sebagai Penerbit adalah Memiliki jumlah pemegang saham > 300 pihak dan modal disetor > 30M.",
+    "pembahasan": "\"Memiliki jumlah pemegang saham > 300 pihak dan modal disetor > 30M\" tepat di sini, sedangkan \"Memiliki jumlah pemegang saham < 300 pihak atau modal disetor > 30M\", \"Memiliki jumlah pemegang saham > 300 pihak dan modal disetor < 30M\", \"Memiliki jumlah pemegang saham > 300 pihak atau modal disetor < 30M\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -556,7 +556,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "urun-dana",
-    "pembahasan": "Pihak Utama Penyelenggara yang wajib memperoleh persetujuan dari OJK sebelum menjalankan tugas, dan fungsinya yaitu Semua Benar.",
+    "pembahasan": "Jawaban yang tepat adalah \"Semua Benar\" — \"Direksi\", \"Komisaris\", \"PSP atau anggota pendiri bagi koperasi\" semuanya memang benar/berlaku sesuai ketentuan, tidak ada satupun dari daftar itu yang salah, sehingga opsi yang menyebut hanya sebagian saja tidak tepat.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -573,7 +573,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "urun-dana",
-    "pembahasan": "Jawaban yang tepat adalah \"Dikecualikan dari batasan pembelian Efek\".",
+    "pembahasan": "\"Dikecualikan dari batasan pembelian Efek\" adalah jawaban yang tepat di sini. \"5%\", \"10%\", \"20%\" terdengar mirip tapi merujuk pada hal yang berbeda dari yang ditanyakan.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -590,7 +590,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "urun-dana",
-    "pembahasan": "Jenis Efek yang ditawarkan pada Layanan Urun Dana yaitu Semua Benar.",
+    "pembahasan": "Jawaban yang tepat adalah \"Semua Benar\" — \"Saham\", \"Surat Utang\", \"Sukuk\" semuanya memang benar/berlaku sesuai ketentuan, tidak ada satupun dari daftar itu yang salah, sehingga opsi yang menyebut hanya sebagian saja tidak tepat.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -607,7 +607,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "urun-dana",
-    "pembahasan": "Jenis persyaratan yang harus dipenuhi oleh calon Direksi dan calon Dewan Komisaris yaitu Integritas, reputasi keuangan, kompetensi.",
+    "pembahasan": "\"Integritas, reputasi keuangan, kompetensi\" tepat di sini, sedangkan \"Integritas, kompetensi, kelayakan keuangan\", \"Integritas, kelayakan keuangan, kompetensi\", \"Integritas, reputasi keuangan, kelayakan keuangan, kompetensi\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -624,7 +624,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "urun-dana",
-    "pembahasan": "Pihak yang mengajukan izin usaha ke Otoritas Jasa Keuangan yaitu Penyelenggara.",
+    "pembahasan": "Jawaban yang tepat adalah \"Penyelenggara\", berbeda dari \"Penerbit\", \"Pemodal\", \"Semua Benar\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -641,7 +641,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Di bawah ini yang tidak termasuk sebagai modul pada aplikasi Sistem Informasi Pengawasan Konglomerasi Keuangan (SIPKK) adalah Bank Performance Report (BPeR).",
+    "pembahasan": "\"Bank Performance Report (BPeR)\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Integrated Supervisory Plan (ISP)\"; \"Integrated Risk Rating (IRR)\"; \"Know your financial conglomerates (KYFC)\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -658,7 +658,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Jawaban yang tepat adalah \"Sistem Informasi Pengawas Perbankan (SIPB)\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Sistem Informasi Pengawas Perbankan (SIPB)\", berbeda dari \"SIPENA\", \"Supervisory Dashboard (SUPERDASH)\", \"Data Pokok (DAPOK)\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -675,7 +675,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Jawaban yang tepat adalah \"https://sipb.ojk.go.id\".",
+    "pembahasan": "\"https://sipb.ojk.go.id\" tepat di sini, sedangkan \"http://sipb.ojk.co.id\", \"https://jktsipb.ojk.go.id\", \"https://sipb.ojk.id\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -692,7 +692,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Jawaban yang tepat adalah \"Bank Performance Report (BPeR)\".",
+    "pembahasan": "\"Bank Performance Report (BPeR)\" tepat di sini, sedangkan \"Risk Based Bank Rating (RBBR)\", \"Ringkasan Informasi Pengawasan Bank Umum\", \"Financial Conglomerates Report (FICOR)\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -709,7 +709,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Jawaban yang tepat adalah \"Quality Assurance\".",
+    "pembahasan": "\"Quality Assurance\" tepat di sini, sedangkan \"Supervisory Plan\", \"Ringkasan Informasi Pengawasan Bank Umum\", \"Supervisory Action and Monitoring\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -726,7 +726,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Aplikasi yang memungkinkan Bank Umum dan BPR/BPRS untuk berbagi data dan informasi yang bersifat transaksional ke pengawas adalah OBOX.",
+    "pembahasan": "Aplikasi yang memungkinkan Bank Umum dan BPR/BPRS untuk berbagi data dan informasi yang bersifat transaksional ke pengawas adalah OBOX. Sementara \"APOLO\", \"SLIK\", \"SIPENA\" bukan jawabannya karena tidak sesuai fakta/ketentuan yang ditanyakan.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -743,7 +743,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Aplikasi yang digunakan pengawas untuk mengakses data pelaporan Bank terkait kredit atau pembiayaan adalah Sistem Layanan Informasi Keuangan (SLIK).",
+    "pembahasan": "Aplikasi yang digunakan pengawas untuk mengakses data pelaporan Bank terkait kredit atau pembiayaan adalah Sistem Layanan Informasi Keuangan (SLIK). Sementara \"Supervisory Dashboard\", \"Data Pokok (DAPOK)\", \"Aplikasi Pelaporan Online OJK (APOLO)\" bukan jawabannya karena tidak sesuai fakta/ketentuan yang ditanyakan.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -760,7 +760,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Aplikasi pengawasan perbankan yang berfungsi untuk menunjang Pimpinan dan pengawas dalam melakukan pemantauan kinerja Bank, dan monitoring atas proses pengawasan berdasarkan risiko yang dilakukan adalah Supervisory Dashboard (SUPERDASH).",
+    "pembahasan": "Aplikasi pengawasan perbankan yang berfungsi untuk menunjang Pimpinan dan pengawas dalam melakukan pemantauan kinerja Bank, dan monitoring atas proses pengawasan berdasarkan risiko yang dilakukan adalah Supervisory Dashboard (SUPERDASH). Sementara \"Data Pokok (DAPOK)\", \"OJK-Box (OBOX)\", \"Sistem Informasi Pengawasan Perbankan (SIPB)\" bukan jawabannya karena tidak sesuai fakta/ketentuan yang ditanyakan.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -777,7 +777,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Sumber data yang digunakan pada olahan data Bank Umum pada skenario OSIDA di Enterprise Data Warehouse (EDW) adalah Laporan Bank Umum Terintegrasi (LBUT).",
+    "pembahasan": "Sumber data yang digunakan pada olahan data Bank Umum pada skenario OSIDA di Enterprise Data Warehouse (EDW) adalah Laporan Bank Umum Terintegrasi (LBUT). Sementara \"Laporan Bank Umum (LBU)\", \"SLIK\", \"Laporan APOLO\" bukan jawabannya karena tidak sesuai fakta/ketentuan yang ditanyakan.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -794,7 +794,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Sumber data yang digunakan pada olahan data Bank Umum pada skenario OSIDA Risiko Kredit di Big Data Analytics adalah SLIK.",
+    "pembahasan": "Sumber data yang digunakan pada olahan data Bank Umum pada skenario OSIDA Risiko Kredit di Big Data Analytics adalah SLIK. Sementara \"Laporan Bank Umum (LBU)\", \"Laporan APOLO\", \"Laporan Bank Umum Terintegrasi (LBUT)\" bukan jawabannya karena tidak sesuai fakta/ketentuan yang ditanyakan.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -811,7 +811,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Jawaban yang tepat adalah \"Persetujuan melalui aplikasi SIPENA\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Persetujuan melalui aplikasi SIPENA\", berbeda dari \"Tidak diperlukan persetujuan karena terdapat kendala aplikasi\", \"Persetujuan melalui konfirmasi email Pimpinan\", \"Persetujuan pada SIPB setelah aplikasi normal\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -828,7 +828,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Di bawah ini yang tidak termasuk sebagai sumber data Sistem Informasi Pengawasan Perbankan (SIPB) yaitu Data Pokok.",
+    "pembahasan": "\"Data Pokok\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Laporan Bank Umum Terintegrasi (LBUT)\"; \"E-mail Bank\"; \"Laporan APOLO\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -845,7 +845,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Aplikasi yang digunakan untuk mengelola informasi dan koordinasi terkait penanganan kasus dugaan pelanggaran tindak pidana perbankan bagi pengawas, pemeriksa, dan satuan kerja terkait adalah Sistem Informasi Penanganan Dugaan Pelanggaran (SIPEDANG).",
+    "pembahasan": "Aplikasi yang digunakan untuk mengelola informasi dan koordinasi terkait penanganan kasus dugaan pelanggaran tindak pidana perbankan bagi pengawas, pemeriksa, dan satuan kerja terkait adalah Sistem Informasi Penanganan Dugaan Pelanggaran (SIPEDANG). Sementara \"Sistem Informasi Pengawasan Perbankan (SIPB)\", \"Sistem Informasi Pelaku di Industri Jasa Keuangan (SIPELAKU)\", \"Data Pokok (DAPOK)\" bukan jawabannya karena tidak sesuai fakta/ketentuan yang ditanyakan.",
     "difficulty": "hard",
     "sourceType": "kuis"
   },
@@ -862,7 +862,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Aplikasi yang digunakan apabila pengawas Bank ingin menatausahakan data kepengurusan dan kepemilikan adalah Data Pokok (DAPOK).",
+    "pembahasan": "Aplikasi yang digunakan apabila pengawas Bank ingin menatausahakan data kepengurusan dan kepemilikan adalah Data Pokok (DAPOK). Sementara \"Supervisory Dashboard (SUPERDASH)\", \"Sistem Informasi Pengawasan Perbankan (SIPB)\", \"OJK-Box (OBOX)\" bukan jawabannya karena tidak sesuai fakta/ketentuan yang ditanyakan.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -879,7 +879,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "aplikasi-pengawasan-perbankan",
-    "pembahasan": "Aplikasi yang digunakan pengawas untuk melihat olahan data yang dapat menunjang analisis dan deteksi secara dini potensi risiko pada Bank adalah Enterprise Data Warehouse (EDW).",
+    "pembahasan": "Aplikasi yang digunakan pengawas untuk melihat olahan data yang dapat menunjang analisis dan deteksi secara dini potensi risiko pada Bank adalah Enterprise Data Warehouse (EDW). Sementara \"Data Pokok (DAPOK)\", \"Supervisory Dashboard\", \"Sistem Informasi Pengawasan Perbankan (SIPB)\" bukan jawabannya karena tidak sesuai fakta/ketentuan yang ditanyakan.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -896,7 +896,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Jawaban yang tepat adalah \"Mengatur dan mengawasi perdagangan di pasar sekunder melalui bursa\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Mengatur dan mengawasi perdagangan di pasar sekunder melalui bursa\", berbeda dari \"Mengatur dan mengawasi penetapan emisi dan penerapan pajak karbon\", \"Mengatur dan mengawasi penerbitan unit karbon\", \"Mengatur dan mengawasi penyelenggaraan perdagangan karbon secara menyeluruh\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -913,7 +913,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Jawaban yang tepat adalah \"Semua Benar\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Semua Benar\" — \"Pembayaran Berbasis Kinerja / Result-Based Payment\", \"Perdagangan Karbon\", \"Pajak Karbon\" semuanya memang benar/berlaku sesuai ketentuan, tidak ada satupun dari daftar itu yang salah, sehingga opsi yang menyebut hanya sebagian saja tidak tepat.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -930,7 +930,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Jawaban yang tepat adalah \"Efek\".",
+    "pembahasan": "Ketentuan yang dimaksud secara spesifik diatur dalam \"Efek\". \"Komoditas\", \"Emisi\", \"Gas Rumah Kaca\" adalah regulasi lain yang juga nyata, tapi mengatur topik berbeda, jadi bukan jawaban yang pas untuk pertanyaan ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -947,7 +947,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "\"Pasar Langsung (Direct)\" adalah pilihan yang TIDAK termasuk/TIDAK tepat pada soal ini (soal bertipe \"kecuali\").",
+    "pembahasan": "\"Pasar Langsung (Direct)\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Pasar Lelang (Auc on)\"; \"Pasar Reguler\"; \"Pasar Negosiasi\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "hard",
     "sourceType": "kuis"
   },
@@ -964,7 +964,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Jawaban yang tepat adalah \"Penyelenggara Bursa Karbon\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Penyelenggara Bursa Karbon\". Opsi lain (\"Project Developer perdagangan karbon\", \"Sumber dana proyek perdagangan karbon\", \"Lembaga Verifikasi dan Validasi\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -981,7 +981,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Harga derivatif berasal dari Fluktuasi aset yang mendasarinya.",
+    "pembahasan": "\"Fluktuasi aset yang mendasarinya\" tepat di sini, sedangkan \"Mekanisme lelang\", \"Jumlah Pemain\", \"Kesepakatan antara pihak\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -998,7 +998,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Pada perdagangan produk derivatif di BEI, penentuan hak dan kewajiban, risk management dan penjaminan dilakukan oleh KPEI.",
+    "pembahasan": "Jawaban yang tepat adalah \"KPEI\", berbeda dari \"KSEI\", \"OJK\", \"ICDX\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1015,7 +1015,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Jawaban yang tepat adalah \"Espektasi Harga Turun\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Espektasi Harga Turun\", berbeda dari \"Espektasi Harga Sideways\", \"Espektasi Harga Naik\", \"Espektasi Harga to the moon\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1030,7 +1030,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Pernyataan ini BENAR.",
+    "pembahasan": "Pernyataan ini BENAR — sesuai dengan ketentuan/fakta yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1045,7 +1045,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Pernyataan ini SALAH.",
+    "pembahasan": "Pernyataan ini SALAH. Faktanya justru sebaliknya atau berbeda dari yang dinyatakan di soal ini — periksa kembali materinya untuk detail yang tepat.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1060,7 +1060,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Pernyataan ini BENAR.",
+    "pembahasan": "Pernyataan ini BENAR — sesuai dengan ketentuan/fakta yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1075,7 +1075,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Pernyataan ini SALAH.",
+    "pembahasan": "Pernyataan ini SALAH. Faktanya justru sebaliknya atau berbeda dari yang dinyatakan di soal ini — periksa kembali materinya untuk detail yang tepat.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1090,7 +1090,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Pernyataan ini BENAR.",
+    "pembahasan": "Pernyataan ini BENAR — sesuai dengan ketentuan/fakta yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1105,7 +1105,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Pernyataan ini SALAH.",
+    "pembahasan": "Pernyataan ini SALAH. Faktanya justru sebaliknya atau berbeda dari yang dinyatakan di soal ini — periksa kembali materinya untuk detail yang tepat.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1120,7 +1120,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "derivatif-bursa-karbon",
-    "pembahasan": "Pernyataan ini BENAR.",
+    "pembahasan": "Pernyataan ini BENAR — sesuai dengan ketentuan/fakta yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1137,7 +1137,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Kedua pernyataan diatas adalah benar.\".",
+    "pembahasan": "\"Kedua pernyataan diatas adalah benar.\" tepat di sini, sedangkan \"Akad Istishna’ dipergunakan untuk barang yang dalam pengadaannya membutuhkan proses pembuatan/pembikinan, sedangkan akad Salam  dipergunakan untuk barang yang tidak membutuhkan proses pembuatan/pembikinan.\", \"Penyelesaian pembayaran barang Istishna’ dilakukan sesuai dengan akad, sedangkan penyelesaian barang salam dalam akad salam dilakukan diawal akad.\", \"Hanya pernyataan a yang benar.\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1154,7 +1154,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Mudharabah dan Wadiah.\".",
+    "pembahasan": "\"Mudharabah dan Wadiah.\" tepat di sini, sedangkan \"Mudharabah dan Ijarah.\", \"Mudharabah dan Murabahah.\", \"Wadiah dan Ijarah.\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1171,7 +1171,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Kafalah dan Rahn\".",
+    "pembahasan": "\"Kafalah dan Rahn\" tepat di sini, sedangkan \"Mudharabah\", \"Murabahah\", \"Ijarah\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1188,7 +1188,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Jual beli\".",
+    "pembahasan": "\"Jual beli\" tepat di sini, sedangkan \"Bagi hasil\", \"Sewa\", \"Kredit\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1205,7 +1205,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Murabahah dengan pesanan\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Murabahah dengan pesanan\", berbeda dari \"Murabahah tanpa pesanan\", \"Murabahah dengan persediaan\", \"Murabahah dengan tender\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1222,7 +1222,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Mitigasi risiko dalam rangka mengurangi risiko, terutama risiko legal.\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Mitigasi risiko dalam rangka mengurangi risiko, terutama risiko legal.\", berbeda dari \"Mengurangi risiko kerugian yang mungkin timbul.\", \"Menghilangkan risiko kerugian yang mungkin timbul.\", \"Menambah risiko kerugian.\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "hard",
     "sourceType": "kuis"
   },
@@ -1239,7 +1239,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Profit Sharing\".",
+    "pembahasan": "\"Profit Sharing\" tepat di sini, sedangkan \"Net Revenue Sharing\", \"Gross Profit Sharing\", \"Revenue Sharing\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1256,7 +1256,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"kontribusi modal yang diberikan.\".",
+    "pembahasan": "Jawaban yang tepat adalah \"kontribusi modal yang diberikan.\", berbeda dari \"sesuai dengan nisbah yang disepakati diawal akad.\", \"Prosentase yang telah disepakati\", \"Keinginan masing-masing mitra.\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "hard",
     "sourceType": "kuis"
   },
@@ -1273,7 +1273,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Pembiayaan Konsumen\".",
+    "pembahasan": "\"Pembiayaan Konsumen\" tepat di sini, sedangkan \"Kartu Kredit\", \"Pembiayaan Multijasa\", \"Gadai\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1290,7 +1290,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Pembiayaan Renovasi\".",
+    "pembahasan": "\"Pembiayaan Renovasi\" tepat di sini, sedangkan \"Charge Card\", \"Pembiayaan rekening koran\", \"Pembiayaan gadai\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1307,7 +1307,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Wakalah\".",
+    "pembahasan": "\"Wakalah\" tepat di sini, sedangkan \"Kafalah\", \"Mudharabah\", \"Musyarakah\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1324,7 +1324,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Kafalah\".",
+    "pembahasan": "\"Kafalah\" tepat di sini, sedangkan \"Mudharabah\", \"Wakalah\", \"Musyarakah\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1341,7 +1341,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Murabahah\".",
+    "pembahasan": "\"Murabahah\" tepat di sini, sedangkan \"Musyarakah\", \"Ijarah\", \"Semua benar.\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1358,7 +1358,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Mudharabah\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Mudharabah\", berbeda dari \"Ijarah\", \"Murabahah\", \"Wadiah\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1375,7 +1375,7 @@
     "correctIndex": 2,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Qardh\".",
+    "pembahasan": "\"Qardh\" tepat di sini, sedangkan \"Murabahah\", \"Istishna\", \"Mudharabah.\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1392,7 +1392,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Salam\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Salam\", berbeda dari \"Mudharabah\", \"Ijon\", \"Istishna\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1409,7 +1409,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Ijarah Muntahiyah Bittamlik (financing lease)\".",
+    "pembahasan": "\"Ijarah Muntahiyah Bittamlik (financing lease)\" tepat di sini, sedangkan \"Ijarah (operating lease)\", \"Murabahah\", \"Musyarakah\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1426,7 +1426,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Rahn\".",
+    "pembahasan": "\"Rahn\" tepat di sini, sedangkan \"Qardh\", \"Murabahah\", \"Musyarakah\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1443,7 +1443,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Pembiayaan Multijasa\".",
+    "pembahasan": "\"Pembiayaan Multijasa\" tepat di sini, sedangkan \"Kartu Kredit\", \"Pembiayaan Perkebunan\", \"Charge Card\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1460,7 +1460,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"semua betul\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Semua Benar\" — \"Istishna,\", \"Salam,\", \"Murabahah,\" semuanya memang benar/berlaku sesuai ketentuan, tidak ada satupun dari daftar itu yang salah, sehingga opsi yang menyebut hanya sebagian saja tidak tepat.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1477,7 +1477,7 @@
     "correctIndex": 0,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Kafalah dan Wakalah\".",
+    "pembahasan": "\"Kafalah dan Wakalah\" tepat di sini, sedangkan \"Wakalah dan Hiwalah\", \"Hiwalah dan Kafalah\", \"Hiwalah\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "kuis"
   },
@@ -1494,7 +1494,7 @@
     "correctIndex": 1,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Ditujukan untuk pembiayaan yang tidak menggunakan prinsip bagi hasil\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Ditujukan untuk pembiayaan yang tidak menggunakan prinsip bagi hasil\", berbeda dari \"Disepakati para pihak\", \"Ditujukan untuk pembiayaan yang tidak menggunakan prinsip jual beli\", \"Ditujukan untuk segmen ekonomi tertentu\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1511,7 +1511,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"Istishna\".",
+    "pembahasan": "\"Istishna\" tepat di sini, sedangkan \"Murabahah\", \"Musyarakah\", \"Mudharabah\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1528,7 +1528,7 @@
     "correctIndex": 3,
     "source": "existing",
     "categorySlug": "muamalat-akad-syariah",
-    "pembahasan": "Jawaban yang tepat adalah \"semua betul\".",
+    "pembahasan": "Jawaban yang tepat adalah \"Semua Benar\" — \"nasabah yang melakukan pelunasan pembayaran tepat waktu atau lebih cepat waktu yang telah disepakati,\", \"nasabah yang melakukan kewajiban pembayaran cicilannya dengan tepat waktu\", \"nasabah yang mengalami penurunan kemampuan pembayaran,\" semuanya memang benar/berlaku sesuai ketentuan, tidak ada satupun dari daftar itu yang salah, sehingga opsi yang menyebut hanya sebagian saja tidak tepat.",
     "difficulty": "medium",
     "sourceType": "kuis"
   },
@@ -1545,7 +1545,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "literasi-inklusi-keuangan",
-    "pembahasan": "Berdasarkan piramida pencapaian kesejahteraan keuangan, urutan yang benar dari dasar (fondasi) ke puncak adalah Literasi Keuangan → Inklusi Keuangan → Pemberdayaan Finansial → Kesejahteraan Keuangan.",
+    "pembahasan": "Urutan yang tepat: Literasi Keuangan → Inklusi Keuangan → Pemberdayaan Finansial → Kesejahteraan Keuangan. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -1562,7 +1562,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "literasi-inklusi-keuangan",
-    "pembahasan": "Jawaban yang tepat adalah \"4\".",
+    "pembahasan": "Jawaban yang tepat adalah \"4\". Opsi lain (\"3\", \"5\", \"6\") keliru karena tidak sesuai dengan ketentuan/fakta spesifik yang ditanyakan di soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1579,7 +1579,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "literasi-inklusi-keuangan",
-    "pembahasan": "\"Mengajukan gugatan perdata atas nama Konsumen\" adalah pilihan yang TIDAK termasuk/TIDAK tepat pada soal ini (soal bertipe \"kecuali\").",
+    "pembahasan": "\"Mengajukan gugatan perdata atas nama Konsumen\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Memberikan informasi dan edukasi kepada masyarakat\"; \"Meminta LJK menghentikan kegiatan yang berpotensi merugikan\"; \"Tindakan lain yang dianggap perlu sesuai ketentuan perundang-undangan\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -1596,7 +1596,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "literasi-inklusi-keuangan",
-    "pembahasan": "Pasal dalam UU Nomor 21 Tahun 2011 yang mengatur pelayanan pengaduan Konsumen oleh OJK adalah Pasal 29.",
+    "pembahasan": "Jawaban yang tepat adalah \"Pasal 29\". Opsi lain (\"Pasal 28\", \"Pasal 30\", \"Pasal 31\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -1613,7 +1613,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "literasi-inklusi-keuangan",
-    "pembahasan": "Pasal dalam UU Nomor 21 Tahun 2011 yang mengatur kewenangan OJK melakukan pembelaan hukum bagi Konsumen adalah Pasal 30.",
+    "pembahasan": "Jawaban yang tepat adalah \"Pasal 30\". Opsi lain (\"Pasal 28\", \"Pasal 29\", \"Pasal 31\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -1630,7 +1630,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "literasi-inklusi-keuangan",
-    "pembahasan": "Undang-Undang yang memperkuat UU P2SK (UU No. 4 Tahun 2023) melalui perubahan terbaru adalah UU Nomor 4 Tahun 2026.",
+    "pembahasan": "Jawaban yang tepat adalah \"UU Nomor 4 Tahun 2026\". Opsi lain (\"UU Nomor 21 Tahun 2011\", \"UU Nomor 4 Tahun 2023\", \"UU Nomor 6 Tahun 2026\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -1647,7 +1647,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "literasi-inklusi-keuangan",
-    "pembahasan": "Jumlah Kantor OJK yang tersebar di seluruh wilayah Indonesia berdasarkan Amanat UU P2SK adalah 39 Kantor.",
+    "pembahasan": "Jawaban yang tepat adalah \"39 Kantor\". Opsi lain (\"29 Kantor\", \"33 Kantor\", \"45 Kantor\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1664,7 +1664,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "literasi-inklusi-keuangan",
-    "pembahasan": "Keuangan Syariah melarang tiga praktik utama, yaitu riba, gharar, dan Maysir.",
+    "pembahasan": "Jawaban yang tepat adalah \"Maysir\", berbeda dari \"Ijarah\", \"Wadiah\", \"Mudharabah\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1681,7 +1681,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "literasi-inklusi-keuangan",
-    "pembahasan": "Perbedaan utama dewan pengawasan antara Keuangan Konvensional dan Keuangan Syariah adalah keberadaan Dewan Pengawas Syariah (DPS) di samping Dewan Komisaris.",
+    "pembahasan": "\"Dewan Pengawas Syariah (DPS) di samping Dewan Komisaris\" tepat di sini, sedangkan \"Dewan Komisaris Independen\", \"Komite Audit Syariah sebagai pengganti Komisaris\", \"Direksi Syariah tersendiri\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1698,7 +1698,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "literasi-inklusi-keuangan",
-    "pembahasan": "Sebelum OJK dibentuk, pengaturan dan pengawasan Pasar Modal dan Industri Keuangan Non-Bank (IKNB) dilakukan oleh Bapepam-LK.",
+    "pembahasan": "\"Bapepam-LK\" tepat di sini, sedangkan \"Bank Indonesia\", \"Kementerian Keuangan\", \"OJK Daerah\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1713,7 +1713,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "literasi-inklusi-keuangan",
-    "pembahasan": "Pernyataan ini BENAR.",
+    "pembahasan": "Pernyataan ini BENAR — sesuai dengan ketentuan/fakta yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -1728,7 +1728,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "literasi-inklusi-keuangan",
-    "pembahasan": "Pernyataan ini SALAH.",
+    "pembahasan": "Pernyataan ini SALAH. Faktanya justru sebaliknya atau berbeda dari yang dinyatakan di soal ini — periksa kembali materinya untuk detail yang tepat.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -1745,7 +1745,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Definisi Pengawasan Perilaku Pasar (Market Conduct) diatur dalam UU Nomor 4 Tahun 2023 pada Pasal 1 angka 41.",
+    "pembahasan": "Ketentuan yang dimaksud secara spesifik diatur dalam \"Pasal 1 angka 41\". \"Pasal 1 angka 21\", \"Pasal 8 angka 3\", \"Pasal 234 ayat (2)\" adalah regulasi lain yang juga nyata, tapi mengatur topik berbeda, jadi bukan jawaban yang pas untuk pertanyaan ini.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -1762,7 +1762,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Berdasarkan Pasal 234 ayat (1) UU P2SK, Pengawasan Perilaku Pasar bertujuan memastikan kepatuhan PUSK dalam menerapkan ketentuan Pelindungan Konsumen dan masyarakat.",
+    "pembahasan": "Jawaban yang tepat adalah \"Pelindungan Konsumen dan masyarakat\". Opsi lain (\"Tata kelola perusahaan\", \"Kecukupan permodalan\", \"Manajemen risiko kredit\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1779,7 +1779,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "POJK Nomor 22 Tahun 2023 tentang Pelindungan Konsumen dan Masyarakat di Sektor Jasa Keuangan terdiri dari 13 Bab dan 125 Pasal.",
+    "pembahasan": "Jawaban yang tepat adalah \"13 Bab dan 125 Pasal\". Opsi lain (\"10 Bab dan 100 Pasal\", \"15 Bab dan 130 Pasal\", \"12 Bab dan 110 Pasal\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -1796,7 +1796,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Pemeriksaan Tematik dalam Pengawasan Market Conduct dilaksanakan berdasarkan Tema yang telah ditetapkan sebelumnya.",
+    "pembahasan": "\"Tema yang telah ditetapkan sebelumnya\" tepat di sini, sedangkan \"Pengaduan konsumen yang masuk hari itu\", \"Permintaan mendadak dari PUJK\", \"Hasil audit internal PUJK\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -1813,7 +1813,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Perbedaan Pemeriksaan Khusus dari Pemeriksaan Tematik adalah Pemeriksaan Khusus Dilaksanakan dengan urgensi tertentu dan dapat sewaktu-waktu.",
+    "pembahasan": "\"Dilaksanakan dengan urgensi tertentu dan dapat sewaktu-waktu\" tepat di sini, sedangkan \"Selalu dijadwalkan setahun sekali\", \"Hanya dilakukan terhadap PUJK Kelompok 1\", \"Tidak memerlukan surat tugas\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1830,7 +1830,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Urutan tahapan Pemeriksaan Tematik yang benar adalah Entry Meeting → Pemeriksaan → Menyusun KHP → Pre-Exit Meeting → Exit Meeting.",
+    "pembahasan": "Urutan yang tepat: Entry Meeting → Pemeriksaan → Menyusun KHP → Pre-Exit Meeting → Exit Meeting. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1847,7 +1847,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Hasil konfirmasi dan keterangan dalam Pemeriksaan Khusus dituangkan dalam dokumen bernama Berita Acara Pemeriksaan (BAP).",
+    "pembahasan": "\"Berita Acara Pemeriksaan (BAP)\" tepat di sini, sedangkan \"Kertas Kerja Pemeriksaan (KKP)\", \"Konfirmasi Hasil Pemeriksaan (KHP)\", \"Risalah Exit Meeting\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1864,7 +1864,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Laporan hasil Penilaian Sendiri (self assessment) oleh PUJK wajib disampaikan kepada OJK setiap 1 tahun sekali, paling lambat 30 September.",
+    "pembahasan": "Jawaban yang tepat adalah \"1 tahun sekali, paling lambat 30 September\", berbeda dari \"1 bulan sekali\", \"1 semester sekali\", \"2 tahun sekali\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1881,7 +1881,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Sistem elektronik untuk pelaporan Penilaian Sendiri Perlindungan Konsumen (SiPEDULI) dapat diakses melalui tautan peduli.ojk.go.id.",
+    "pembahasan": "Jawaban yang tepat adalah \"peduli.ojk.go.id\", berbeda dari \"sipenda.ojk.go.id\", \"sipb.ojk.go.id\", \"apollo.ojk.go.id\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1898,7 +1898,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Sistem yang mendukung pengawasan langsung dan pengenaan sanksi Market Conduct, yang mulai digunakan pada tahun 2026, adalah SIMACS.",
+    "pembahasan": "Jawaban yang tepat adalah \"SIMACS\", berbeda dari \"SIPERLU\", \"SiPEDULI\", \"SIPUTRI\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1915,7 +1915,7 @@
     "correctIndex": 3,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Berdasarkan Pedoman II Pedoman Pengenaan Sanksi Administratif (PPSA), kategori pelanggaran 'Sangat Berat' untuk sanksi denda administratif memiliki persentase bobot pelanggaran sebesar > 75%.",
+    "pembahasan": "Jawaban yang tepat adalah \"> 75%\", berbeda dari \"0% - 25%\", \"> 25% - 50%\", \"> 50% - 75%\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1932,7 +1932,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Teknik Pengamatan Lapangan secara onsite di mana petugas menyamar sebagai konsumen untuk membeli produk/layanan yang ditawarkan disebut Mystery Shopping.",
+    "pembahasan": "Teknik Pengamatan Lapangan secara onsite di mana petugas menyamar sebagai konsumen untuk membeli produk/layanan yang ditawarkan disebut Mystery Shopping. Istilah lain seperti \"Mystery Calling\", \"Open Source Intelligence (OSINT)\", \"Customer Testimony\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1949,7 +1949,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Teknik pengumpulan data/informasi melalui komunikasi telepon dengan PUJK/konsumen secara undercover, tanpa bertemu langsung, disebut Mystery Calling.",
+    "pembahasan": "Teknik pengumpulan data/informasi melalui komunikasi telepon dengan PUJK/konsumen secara undercover, tanpa bertemu langsung, disebut Mystery Calling. Istilah lain seperti \"Mystery Shopping\", \"In-Depth Interview\", \"Customer Testimony\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -1964,7 +1964,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Pernyataan ini SALAH.",
+    "pembahasan": "Pernyataan ini SALAH. Faktanya justru sebaliknya atau berbeda dari yang dinyatakan di soal ini — periksa kembali materinya untuk detail yang tepat.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -1979,7 +1979,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "market-conduct",
-    "pembahasan": "Pernyataan ini SALAH.",
+    "pembahasan": "Pernyataan ini SALAH. Faktanya justru sebaliknya atau berbeda dari yang dinyatakan di soal ini — periksa kembali materinya untuk detail yang tepat.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -1996,7 +1996,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "Batas waktu PUJK menindaklanjuti dan menyampaikan tanggapan pengaduan Konsumen pada Tahap Internal Dispute Resolution (IDR) adalah 10 HK + 10 HK.",
+    "pembahasan": "Jawaban yang tepat adalah \"10 HK + 10 HK\", berbeda dari \"5 HK + 5 HK\", \"15 HK + 15 HK\", \"20 HK + 20 HK\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2013,7 +2013,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "Pengajuan keberatan Konsumen atas tanggapan PUJK pada Tahap IDR hanya dapat disampaikan 1 (satu) kali, dan hanya bila Konsumen memiliki dokumen baru.",
+    "pembahasan": "\"1 (satu) kali, dan hanya bila Konsumen memiliki dokumen baru\" tepat di sini, sedangkan \"Berkali-kali selama masih ada dokumen baru\", \"2 (dua) kali tanpa syarat\", \"Tidak dibatasi jumlahnya\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2030,7 +2030,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "Apabila PUJK tidak menanggapi pengaduan Konsumen dalam jangka waktu yang ditentukan, maka pengaduan tersebut akan Ditutup secara otomatis (autoclose).",
+    "pembahasan": "\"Ditutup secara otomatis (autoclose)\" tepat di sini, sedangkan \"Otomatis dilimpahkan ke LAPS SJK\", \"Dilanjutkan ke pengadilan\", \"Dibiarkan tanpa status\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2047,7 +2047,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "Penyelesaian sengketa pada Tahap External Dispute Resolution (EDR) dapat dilakukan melalui LAPS SJK atau Pengadilan.",
+    "pembahasan": "\"Pengadilan\" tepat di sini, sedangkan \"Mediasi internal PUJK\", \"Ombudsman\", \"OJK langsung\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2064,7 +2064,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "LAPS SJK adalah lembaga yang melakukan penyelesaian Sengketa antara Konsumen dan PUJK di luar pengadilan, sesuai Pasal 1 angka 13 POJK No. 22 Tahun 2023.",
+    "pembahasan": "Jawaban yang tepat adalah \"Pasal 1 angka 13 POJK No. 22 Tahun 2023\", berbeda dari \"Pasal 1 angka 21 POJK No. 22 Tahun 2023\", \"Pasal 30 UU OJK\", \"Pasal 245 UU P2SK\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2081,7 +2081,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "LAPS SJK mulai resmi beroperasi pada tanggal 1 Januari 2021.",
+    "pembahasan": "\"1 Januari 2021\" tepat di sini, sedangkan \"24 November 2020\", \"29 Desember 2020\", \"1 Januari 2020\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2098,7 +2098,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "Jawaban yang tepat adalah \"6 lembaga\".",
+    "pembahasan": "\"6 lembaga\" adalah jawaban yang tepat di sini. \"4 lembaga\", \"8 lembaga\", \"10 lembaga\" terdengar mirip tapi merujuk pada hal yang berbeda dari yang ditanyakan.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -2115,7 +2115,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "Jawaban yang tepat adalah \"2 (mediasi dan arbitrase)\".",
+    "pembahasan": "Jawaban yang tepat adalah \"2 (mediasi dan arbitrase)\". Opsi lain (\"1 (hanya mediasi)\", \"3 (mediasi, arbitrase, dan litigasi)\", \"4 jenis layanan\") keliru karena tidak sesuai dengan ketentuan/fakta spesifik yang ditanyakan di soal ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -2132,7 +2132,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "Peraturan yang mengatur tata cara mengadili gugatan yang diajukan OJK sebagai upaya pelindungan konsumen adalah Peraturan Mahkamah Agung Nomor 4 Tahun 2025.",
+    "pembahasan": "Jawaban yang tepat adalah \"Peraturan Mahkamah Agung Nomor 4 Tahun 2025\", berbeda dari \"POJK Nomor 38 Tahun 2025\", \"UU Nomor 21 Tahun 2011\", \"PDK Nomor 1/PDK.07/2023\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2149,7 +2149,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "Putusan tingkat pertama dalam proses gugatan OJK berdasarkan Perma Nomor 4 Tahun 2025 harus dijatuhkan paling lambat 60 hari sejak sidang pertama.",
+    "pembahasan": "\"60 hari sejak sidang pertama\" tepat di sini, sedangkan \"30 hari sejak sidang pertama\", \"90 hari sejak sidang pertama\", \"120 hari sejak sidang pertama\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2166,7 +2166,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "Dalam proses persidangan gugatan OJK berdasarkan Perma Nomor 4 Tahun 2025, para pihak tidak dapat mengajukan Replik, duplik, rekonvensi, intervensi, dan kesimpulan.",
+    "pembahasan": "Jawaban yang tepat adalah \"Replik, duplik, rekonvensi, intervensi, dan kesimpulan\", berbeda dari \"Jawaban dan putusan sela\", \"Gugatan awal\", \"Bukti tertulis\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2183,7 +2183,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "Terhadap putusan gugatan OJK berdasarkan Perma Nomor 4 Tahun 2025, para pihak hanya dapat mengajukan upaya hukum Kasasi.",
+    "pembahasan": "\"Kasasi\" tepat di sini, sedangkan \"Banding\", \"Peninjauan Kembali\", \"Verzet\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2200,7 +2200,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "Kanal pengaduan resmi untuk pelaporan entitas dan/atau aktivitas keuangan ilegal seperti investasi ilegal dan pinjol ilegal adalah sipasti.ojk.go.id.",
+    "pembahasan": "\"sipasti.ojk.go.id\" tepat di sini, sedangkan \"kontak157.ojk.go.id\", \"iasc.ojk.go.id\", \"peduli.ojk.go.id\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2217,7 +2217,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "Kanal pengaduan resmi untuk pelaporan penipuan transaksi keuangan (scam) seperti fake call dan call center palsu adalah iasc.ojk.go.id.",
+    "pembahasan": "Jawaban yang tepat adalah \"iasc.ojk.go.id\", berbeda dari \"kontak157.ojk.go.id\", \"sipasti.ojk.go.id\", \"APPK\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2234,7 +2234,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "perlindungan-konsumen",
-    "pembahasan": "Prinsip Pelindungan Konsumen SJK yang menitikberatkan pada tindakan PUSK untuk memastikan kepatuhan terhadap ketentuan Pelindungan Konsumen disebut Penegakan Kepatuhan.",
+    "pembahasan": "Prinsip Pelindungan Konsumen SJK yang menitikberatkan pada tindakan PUSK untuk memastikan kepatuhan terhadap ketentuan Pelindungan Konsumen disebut Penegakan Kepatuhan. Istilah lain seperti \"Edukasi yang Memadai\", \"Persaingan yang Sehat\", \"Perlakuan yang Adil\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -2251,7 +2251,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Dasar hukum kewenangan OJK dalam pengaturan dan pengawasan kegiatan jasa keuangan sektor perbankan berdasarkan UU Nomor 21 Tahun 2011 adalah Pasal 6 huruf a.",
+    "pembahasan": "Ketentuan yang dimaksud secara spesifik diatur dalam \"Pasal 6 huruf a\". \"Pasal 4 huruf a\", \"Pasal 8 huruf c\", \"Pasal 28\" adalah regulasi lain yang juga nyata, tapi mengatur topik berbeda, jadi bukan jawaban yang pas untuk pertanyaan ini.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -2268,7 +2268,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Prinsip perencanaan pengawasan RBS Bank Umum mengikuti prinsip SMART. Huruf 'A' pada prinsip tersebut merujuk pada Achievable.",
+    "pembahasan": "Jawaban yang tepat adalah \"Achievable\", berbeda dari \"Accountable\", \"Adaptable\", \"Analytical\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2285,7 +2285,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Urutan enam tahapan Siklus Pengawasan Berdasarkan Risiko (RBS) Bank Umum yang benar adalah Pemahaman terhadap Bank (KYB) → Penilaian Risiko & TKS → Perencanaan Pengawasan → Pemeriksaan Berdasarkan Risiko → Forum Panel Pengawasan → Tindakan Pengawasan & Monitoring.",
+    "pembahasan": "Urutan yang tepat: Pemahaman terhadap Bank (KYB) → Penilaian Risiko & TKS → Perencanaan Pengawasan → Pemeriksaan Berdasarkan Risiko → Forum Panel Pengawasan → Tindakan Pengawasan & Monitoring. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2302,7 +2302,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Jawaban yang tepat adalah \"15 hari kerja\".",
+    "pembahasan": "\"15 hari kerja\" adalah jawaban yang tepat di sini. \"5 hari kerja\", \"10 hari kerja\", \"20 hari kerja\" terdengar mirip tapi merujuk pada hal yang berbeda dari yang ditanyakan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2319,7 +2319,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Empat faktor dalam Penilaian Tingkat Kesehatan Berbasis Risiko (RBBR) adalah Profil Risiko, Tata Kelola (GCG), Rentabilitas, dan Permodalan.",
+    "pembahasan": "\"Permodalan\" tepat di sini, sedangkan \"Likuiditas\", \"Kepatuhan\", \"Efisiensi\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2336,7 +2336,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Berdasarkan POJK Nomor 5 Tahun 2024, status pengawasan bank yang baru menggantikan status Intensif dan Khusus adalah Penyehatan (BDP) dan Resolusi (BDR).",
+    "pembahasan": "Jawaban yang tepat adalah \"Penyehatan (BDP) dan Resolusi (BDR)\". Opsi lain (\"Pengawasan Ketat dan Pengawasan Darurat\", \"Peringatan dan Sanksi\", \"Observasi dan Investigasi\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2353,7 +2353,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Supervisory Plan (SP) Bank Umum disusun 1 tahun sekali, paling lambat pada tanggal 15 Desember.",
+    "pembahasan": "Jawaban yang tepat adalah \"15 Desember\", berbeda dari \"31 Oktober\", \"30 November\", \"31 Desember\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2370,7 +2370,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Supervisory Plan (SP) Bank Umum direview setiap Triwulan.",
+    "pembahasan": "\"Triwulan\" tepat di sini, sedangkan \"Bulan\", \"Semester\", \"Tahun\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2387,7 +2387,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Dua jenis onsite dalam Risk Based Examination (RBE) adalah risk focus dan Full scope examination.",
+    "pembahasan": "\"Full scope examination\" tepat di sini, sedangkan \"Partial scope examination\", \"Random examination\", \"Cross examination\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -2404,7 +2404,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Forum Panel Pengawasan Bank Umum terdiri dari 2 fase, yaitu tahapan Penilaian Tingkat Kesehatan Bank dan Tahapan Tindakan Pengawasan dan Pemantauan.",
+    "pembahasan": "Urutan yang tepat: Tahapan Tindakan Pengawasan dan Pemantauan. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2421,7 +2421,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Penetapan status Bank Sistemik dilakukan OJK setelah berkoordinasi dengan BI dan LPS.",
+    "pembahasan": "\"BI dan LPS\" tepat di sini, sedangkan \"Kementerian Keuangan dan BI\", \"LPS dan Kejaksaan\", \"BI dan Kementerian Keuangan\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -2438,7 +2438,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Jawaban yang tepat adalah \"2 kali\".",
+    "pembahasan": "Jawaban yang tepat adalah \"2 kali\". Opsi lain (\"1 kali\", \"3 kali\", \"4 kali\") keliru karena tidak sesuai dengan ketentuan/fakta spesifik yang ditanyakan di soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2455,7 +2455,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "RBS Cycle pada Bank Umum Syariah (BUS) sama dengan BUK, ditambah penilaian penerapan prinsip Syariah termasuk dua risiko khusus, yaitu Risiko Investasi dan Risiko Imbal Hasil.",
+    "pembahasan": "Jawaban yang tepat adalah \"Risiko Imbal Hasil\", berbeda dari \"Risiko Kepatuhan Syariah\", \"Risiko Akad\", \"Risiko Zakat\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2472,7 +2472,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Tugas Dewan Pengawas Syariah (DPS) adalah memberikan nasihat dan saran kepada direksi serta mengawasi kegiatan Bank agar sesuai dengan Prinsip Syariah, sesuai Pasal 32 ayat (3) UU Perbankan Syariah 2008.",
+    "pembahasan": "Jawaban yang tepat adalah \"Pasal 32 ayat (3) UU Perbankan Syariah 2008\", berbeda dari \"Pasal 6 UU OJK\", \"Pasal 234 UU P2SK\", \"Pasal 1 angka 13 POJK 22/2023\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2489,7 +2489,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-bank-umum",
-    "pembahasan": "Untuk Unit Usaha Syariah (UUS), tidak terdapat dokumen KYB dan SP tersendiri; proses Pemeriksaan UUS bersifat Opsional (tidak wajib setiap tahun).",
+    "pembahasan": "\"Opsional (tidak wajib setiap tahun)\" tepat di sini, sedangkan \"Wajib setiap tahun\", \"Wajib setiap semester\", \"Dilarang\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2506,7 +2506,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-asuransi-ppdp",
-    "pembahasan": "Berdasarkan UU Nomor 40 Tahun 2014, Asuransi adalah perjanjian antara dua pihak, yaitu perusahaan asuransi dan Pemegang polis.",
+    "pembahasan": "Jawaban yang tepat adalah \"Pemegang polis\". Opsi lain (\"Tertanggung saja\", \"Pemerintah\", \"Reasuradur\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2523,7 +2523,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "pengawasan-asuransi-ppdp",
-    "pembahasan": "Usaha jasa pertanggungan ulang terhadap risiko yang dihadapi oleh perusahaan asuransi lain disebut Reasuransi.",
+    "pembahasan": "Usaha jasa pertanggungan ulang terhadap risiko yang dihadapi oleh perusahaan asuransi lain disebut Reasuransi. Istilah lain seperti \"Asuransi Umum\", \"Asuransi Jiwa\", \"Suretyship\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2540,7 +2540,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-asuransi-ppdp",
-    "pembahasan": "Modal disetor minimum pada saat pendirian Perusahaan Asuransi (bukan Reasuransi) adalah Rp150 Miliar.",
+    "pembahasan": "\"Rp150 Miliar\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Rp100 Miliar\"; \"Rp200 Miliar\"; \"Rp300 Miliar\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2557,7 +2557,7 @@
     "correctIndex": 3,
     "source": "generated",
     "categorySlug": "pengawasan-asuransi-ppdp",
-    "pembahasan": "Modal disetor minimum pada saat pendirian Perusahaan Reasuransi adalah Rp300 Miliar.",
+    "pembahasan": "\"Rp300 Miliar\" tepat di sini, sedangkan \"Rp150 Miliar\", \"Rp200 Miliar\", \"Rp250 Miliar\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2574,7 +2574,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-asuransi-ppdp",
-    "pembahasan": "Target minimum Rasio Tingkat Solvabilitas (RBC) internal Perusahaan Asuransi ditetapkan paling rendah 120%.",
+    "pembahasan": "\"120%\" tepat di sini, sedangkan \"100%\", \"150%\", \"200%\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2591,7 +2591,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-asuransi-ppdp",
-    "pembahasan": "Perusahaan Asuransi yang tidak memenuhi target Tingkat Solvabilitas internal wajib menyampaikan rencana penyehatan keuangan dan dilarang Membagikan dividen atau imbalan kepada pemegang saham.",
+    "pembahasan": "Jawaban yang tepat adalah \"Membagikan dividen atau imbalan kepada pemegang saham\", berbeda dari \"Menerima nasabah baru\", \"Menjual produk asuransi jiwa\", \"Melakukan reasuransi\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2608,7 +2608,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-asuransi-ppdp",
-    "pembahasan": "Frekuensi pemeriksaan langsung (onsite) berkala terhadap Perusahaan Asuransi adalah 1 kali dalam 1 tahun.",
+    "pembahasan": "Jawaban yang tepat adalah \"1 kali dalam 1 tahun\", berbeda dari \"1 kali dalam 6 bulan\", \"1 kali dalam 2 tahun\", \"Tidak terjadwal\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2625,7 +2625,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-asuransi-ppdp",
-    "pembahasan": "Penilaian Tingkat Kesehatan Perusahaan Asuransi/Reasuransi terdiri dari 4 faktor, yaitu Tata Kelola, Profil Risiko, Rentabilitas, dan Permodalan.",
+    "pembahasan": "\"Permodalan\" tepat di sini, sedangkan \"Likuiditas\", \"Efisiensi\", \"Solvabilitas\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2642,7 +2642,7 @@
     "correctIndex": 3,
     "source": "generated",
     "categorySlug": "pengawasan-asuransi-ppdp",
-    "pembahasan": "Jawaban yang tepat adalah \"9 risiko\".",
+    "pembahasan": "\"9 risiko\" adalah jawaban yang tepat di sini. \"6 risiko\", \"7 risiko\", \"8 risiko\" terdengar mirip tapi merujuk pada hal yang berbeda dari yang ditanyakan.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -2659,7 +2659,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-asuransi-ppdp",
-    "pembahasan": "Pihak yang mewakili kepentingan Pemegang Polis dalam proses bisnis Perusahaan Asuransi disebut Pialang Asuransi.",
+    "pembahasan": "Pihak yang mewakili kepentingan Pemegang Polis dalam proses bisnis Perusahaan Asuransi disebut Pialang Asuransi. Istilah lain seperti \"Pialang Reasuransi\", \"Agen Asuransi\", \"Konsultan Aktuaria\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2676,7 +2676,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-asuransi-ppdp",
-    "pembahasan": "Pihak yang mewakili kepentingan Perusahaan Asuransi dalam proses bisnis reasuransi disebut Pialang Reasuransi.",
+    "pembahasan": "Pihak yang mewakili kepentingan Perusahaan Asuransi dalam proses bisnis reasuransi disebut Pialang Reasuransi. Istilah lain seperti \"Pialang Asuransi\", \"Konsultan Aktuaria\", \"Agen Asuransi\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2693,7 +2693,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-asuransi-ppdp",
-    "pembahasan": "Pengawasan tidak langsung (off site) terhadap Perusahaan Asuransi dilakukan berdasarkan dokumen laporan berkala, laporan insidentil, data pengawasan, dan/atau informasi relevan lainnya tanpa Kunjungan langsung ke Perusahaan.",
+    "pembahasan": "Jawaban yang tepat adalah \"Kunjungan langsung ke Perusahaan\", berbeda dari \"Analisis laporan keuangan\", \"Forum Panel RBS\", \"Penyusunan KYIGIP\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2710,7 +2710,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-asuransi-ppdp",
-    "pembahasan": "Pemeriksaan langsung terhadap Perusahaan Asuransi dapat dilakukan di luar jadwal berkala apabila Terdapat indikasi penyimpangan dari praktik LJKNB.",
+    "pembahasan": "Jawaban yang tepat adalah \"Terdapat indikasi penyimpangan dari praktik LJKNB\", berbeda dari \"Diminta oleh manajemen perusahaan\", \"Ada pergantian direksi\", \"Tidak ada alasan khusus\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2727,7 +2727,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "Pihak yang mewakili kepentingan pemegang Efek bersifat utang (EBUS) disebut Wali Amanat.",
+    "pembahasan": "Pihak yang mewakili kepentingan pemegang Efek bersifat utang (EBUS) disebut Wali Amanat. Istilah lain seperti \"Bank Kustodian\", \"Biro Administrasi Efek\", \"Perusahaan Pemeringkat Efek\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -2744,7 +2744,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "Pihak yang memberikan jasa penitipan Efek dan harta lain yang berkaitan dengan Efek, termasuk menerima dividen dan bunga, disebut Bank Kustodian.",
+    "pembahasan": "Pihak yang memberikan jasa penitipan Efek dan harta lain yang berkaitan dengan Efek, termasuk menerima dividen dan bunga, disebut Bank Kustodian. Istilah lain seperti \"Wali Amanat\", \"Biro Administrasi Efek (BAE)\", \"Perusahaan Pemeringkat Efek\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2761,7 +2761,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "Lembaga yang melakukan kontrak dengan Emiten untuk mencatat kepemilikan Efek dan pembagian hak yang berkaitan dengan Efek disebut Biro Administrasi Efek (BAE).",
+    "pembahasan": "Lembaga yang melakukan kontrak dengan Emiten untuk mencatat kepemilikan Efek dan pembagian hak yang berkaitan dengan Efek disebut Biro Administrasi Efek (BAE). Istilah lain seperti \"Wali Amanat\", \"Bank Kustodian\", \"Perusahaan Pemeringkat Efek\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2778,7 +2778,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "Perusahaan Pemeringkat Efek (PPE) berbentuk badan usaha Perseroan Terbatas (PT).",
+    "pembahasan": "\"Perseroan Terbatas (PT)\" tepat di sini, sedangkan \"Koperasi\", \"Yayasan\", \"Perusahaan Perseorangan\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -2795,7 +2795,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "POJK yang mengatur Kontrak Perwaliamanatan Efek Bersifat Utang dan/atau Sukuk adalah POJK No 20/POJK.04/2020.",
+    "pembahasan": "Jawaban yang tepat adalah \"POJK No 20/POJK.04/2020\". Opsi lain (\"POJK No 19/POJK.04/2020\", \"POJK No 30/POJK.04/2019\", \"POJK No 38/POJK.04/2018\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2812,7 +2812,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "Sistem penyimpanan dan penyelesaian Efek tanpa warkat (scriptless) yang dioperasikan oleh KSEI disebut C-BEST.",
+    "pembahasan": "Sistem penyimpanan dan penyelesaian Efek tanpa warkat (scriptless) yang dioperasikan oleh KSEI disebut C-BEST. Istilah lain seperti \"SIPM\", \"APOLO\", \"SPP MKBD\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2829,7 +2829,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "Jawaban yang tepat adalah \"60 hari\".",
+    "pembahasan": "\"60 hari\" adalah jawaban yang tepat di sini. \"30 hari\", \"45 hari\", \"90 hari\" terdengar mirip tapi merujuk pada hal yang berbeda dari yang ditanyakan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2846,7 +2846,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "Laporan Aktivitas Bulanan Bank Kustodian wajib disampaikan paling lambat 15 hari setelah periode laporan bulanan berakhir.",
+    "pembahasan": "Jawaban yang tepat adalah \"15 hari setelah periode laporan bulanan berakhir\", berbeda dari \"7 hari setelah periode laporan bulanan berakhir\", \"30 hari setelah periode laporan bulanan berakhir\", \"10 hari kerja setelah periode laporan bulanan berakhir\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2863,7 +2863,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "Tahapan pertama dalam Pengawasan Onsite Lembaga Penunjang Pasar Modal adalah Penyusunan Rencana Pemeriksaan Kepatuhan.",
+    "pembahasan": "Urutan yang tepat: Penyusunan Rencana Pemeriksaan Kepatuhan. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -2880,7 +2880,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "Jika dalam pengawasan onsite Lembaga Penunjang ditemukan dugaan pelanggaran pidana, maka akan dilimpahkan ke Pemeriksaan Khusus.",
+    "pembahasan": "Jawaban yang tepat adalah \"Pemeriksaan Khusus\", berbeda dari \"Pembinaan\", \"Dewan Direksi\", \"LAPS SJK\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2897,7 +2897,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "Salah satu fungsi utama Biro Administrasi Efek (BAE) adalah mengelola pembayaran dividen, bunga, atau hak lainnya kepada pemegang efek, yang disebut Distribusi Hak Pemegang Efek.",
+    "pembahasan": "Salah satu fungsi utama Biro Administrasi Efek (BAE) adalah mengelola pembayaran dividen, bunga, atau hak lainnya kepada pemegang efek, yang disebut Distribusi Hak Pemegang Efek. Istilah lain seperti \"Pengelolaan Data Pemegang Efek\", \"Administrasi Mutasi Efek\", \"Jasa Lainnya\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2914,7 +2914,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "POJK yang mengatur Perizinan Perusahaan Pemeringkat Efek adalah POJK 38/POJK.04/2018.",
+    "pembahasan": "Jawaban yang tepat adalah \"POJK 38/POJK.04/2018\". Opsi lain (\"POJK 24/POJK.04/2021\", \"POJK 9/POJK.04/2020\", \"POJK 27/POJK.04/2019\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2929,7 +2929,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "Pernyataan ini BENAR.",
+    "pembahasan": "Pernyataan ini BENAR — sesuai dengan ketentuan/fakta yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -2944,7 +2944,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-pasar-modal",
-    "pembahasan": "Pernyataan ini BENAR.",
+    "pembahasan": "Pernyataan ini BENAR — sesuai dengan ketentuan/fakta yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -2961,7 +2961,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-perusahaan-efek",
-    "pembahasan": "Penilaian Peringkat Risiko Komposit Perusahaan Efek (PRKPE) terdiri dari 4 faktor utama, yaitu Profil Risiko, Tata Kelola (GCG), Rentabilitas, dan Permodalan.",
+    "pembahasan": "Jawaban yang tepat adalah \"Permodalan\", berbeda dari \"Likuiditas\", \"Kepatuhan\", \"Efisiensi\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -2978,7 +2978,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "pengawasan-perusahaan-efek",
-    "pembahasan": "Sistem TI yang berisi database Perusahaan Efek, rencana pengawasan, RBS, dan tools analisa kinerja & MKBD Perusahaan Efek disebut SIPM.",
+    "pembahasan": "Sistem TI yang berisi database Perusahaan Efek, rencana pengawasan, RBS, dan tools analisa kinerja & MKBD Perusahaan Efek disebut SIPM. Istilah lain seperti \"SIPB\", \"APOLO\", \"SIGAP\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -2995,7 +2995,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-perusahaan-efek",
-    "pembahasan": "Urutan Alur Proses Tindak Lanjut Pengawasan Perusahaan Efek (POJK 23/2021) yang benar adalah Tindakan Pembinaan → Perintah Tindakan Tertentu (PTT) → Perintah Tertulis (PT).",
+    "pembahasan": "Jawaban yang tepat adalah \"Tindakan Pembinaan → Perintah Tindakan Tertentu (PTT) → Perintah Tertulis (PT)\". Opsi lain (\"Perintah Tertulis → Tindakan Pembinaan → Perintah Tindakan Tertentu\", \"Perintah Tindakan Tertentu → Tindakan Pembinaan → Perintah Tertulis\", \"Perintah Tertulis → Perintah Tindakan Tertentu → Tindakan Pembinaan\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -3012,7 +3012,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-perusahaan-efek",
-    "pembahasan": "Setelah Perintah Tindakan Tertentu (PTT) terpenuhi, Perusahaan Efek wajib melaporkan pemenuhan PTT paling lambat 5 Hari Kerja.",
+    "pembahasan": "Jawaban yang tepat adalah \"5 Hari Kerja\", berbeda dari \"3 Hari Kerja\", \"7 Hari Kerja\", \"10 Hari Kerja\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3029,7 +3029,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-perusahaan-efek",
-    "pembahasan": "Jika Perintah Tertulis (PT) tidak dipenuhi oleh Perusahaan Efek, OJK berwenang memproses ke tahap Penyidikan.",
+    "pembahasan": "\"Penyidikan\" tepat di sini, sedangkan \"Pembinaan ulang\", \"Pencabutan izin langsung tanpa proses\", \"Forum Panel\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3046,7 +3046,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "pengawasan-perusahaan-efek",
-    "pembahasan": "Jenis Pemeriksaan Onsite Perusahaan Efek yang dilakukan berdasarkan pengaduan atau hasil analisis disebut Pemeriksaan Khusus.",
+    "pembahasan": "\"Khusus\" tepat di sini, sedangkan \"Tematik\", \"Berdasarkan tingkat risiko\", \"Rutin\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3063,7 +3063,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "pengawasan-perusahaan-efek",
-    "pembahasan": "Sistem pelaporan Modal Kerja Bersih Disesuaikan (MKBD) Perusahaan Efek disebut SPP MKBD.",
+    "pembahasan": "Sistem pelaporan Modal Kerja Bersih Disesuaikan (MKBD) Perusahaan Efek disebut SPP MKBD. Istilah lain seperti \"SIPM\", \"e-Reporting\", \"SLIK\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -3078,7 +3078,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "pengawasan-perusahaan-efek",
-    "pembahasan": "Pernyataan ini BENAR.",
+    "pembahasan": "Pernyataan ini BENAR — sesuai dengan ketentuan/fakta yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3093,7 +3093,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "pengawasan-perusahaan-efek",
-    "pembahasan": "Pernyataan ini BENAR.",
+    "pembahasan": "Pernyataan ini BENAR — sesuai dengan ketentuan/fakta yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -3110,7 +3110,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-perusahaan-efek",
-    "pembahasan": "Setelah Perintah Tindakan Tertentu maupun Perintah Tertulis terpenuhi, LJK Pasar Modal akan menerima dokumen berupa Exit clearance.",
+    "pembahasan": "\"Exit clearance\" tepat di sini, sedangkan \"Sertifikat kepatuhan\", \"Surat izin baru\", \"Piagam penghargaan\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3127,7 +3127,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-perusahaan-pembiayaan",
-    "pembahasan": "Pembiayaan untuk memenuhi kebutuhan pengeluaran yang habis dalam satu siklus aktivitas usaha debitur disebut pembiayaan Modal Kerja.",
+    "pembahasan": "Jawaban yang tepat adalah \"Modal Kerja\", berbeda dari \"Multiguna\", \"Investasi\", \"Syariah\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3144,7 +3144,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-perusahaan-pembiayaan",
-    "pembahasan": "Pembiayaan barang dan/atau jasa untuk pemakaian/konsumsi debitur, bukan untuk keperluan usaha, disebut pembiayaan Multiguna.",
+    "pembahasan": "\"Multiguna\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Investasi\"; \"Modal Kerja\"; \"Syariah\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3161,7 +3161,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-perusahaan-pembiayaan",
-    "pembahasan": "Dasar hukum penerapan RBS Versi 2 (2020-sekarang) untuk Pengawasan Lembaga Pembiayaan Berbasis Risiko adalah PDK 1/PDK.06/2025.",
+    "pembahasan": "\"PDK 1/PDK.06/2025\" tepat di sini, sedangkan \"PDK 2/2014\", \"POJK 1/2015\", \"POJK 28/2020\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3178,7 +3178,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-perusahaan-pembiayaan",
-    "pembahasan": "Jawaban yang tepat adalah \"7 risiko\".",
+    "pembahasan": "\"7 risiko\" adalah jawaban yang tepat di sini. \"5 risiko\", \"9 risiko\", \"4 risiko\" terdengar mirip tapi merujuk pada hal yang berbeda dari yang ditanyakan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3195,7 +3195,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-perusahaan-pembiayaan",
-    "pembahasan": "Urutan perkembangan penerapan Risk Based pada pengawasan Perusahaan Pembiayaan yang benar adalah Compliance Based → RBS Versi 1 → RBS Versi 2.",
+    "pembahasan": "Urutan yang tepat: Compliance Based → RBS Versi 1 → RBS Versi 2. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3212,7 +3212,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-perusahaan-pembiayaan",
-    "pembahasan": "Berdasarkan PDK 1/2025, terdapat 1 tahapan tambahan dalam siklus RBS Perusahaan Pembiayaan, yaitu Pengkinian penilaian tingkat kesehatan.",
+    "pembahasan": "Jawaban yang tepat adalah \"Pengkinian penilaian tingkat kesehatan\". Opsi lain (\"Forum Panel Eksternal\", \"Audit Kepatuhan Syariah\", \"Penilaian Ulang Modal\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3229,7 +3229,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-perusahaan-pembiayaan",
-    "pembahasan": "Penilaian Tingkat Kesehatan Unit Usaha Syariah (UUS) pada Perusahaan Pembiayaan hanya mencakup penilaian terhadap faktor Profil Risiko.",
+    "pembahasan": "\"Profil Risiko\" tepat di sini, sedangkan \"Permodalan\", \"Rentabilitas\", \"Tata Kelola\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3246,7 +3246,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-perusahaan-pembiayaan",
-    "pembahasan": "Tahapan pertama dalam Pengawasan On-site Perusahaan Pembiayaan adalah Pra Entry Meeting (off site).",
+    "pembahasan": "Urutan yang tepat: Pra Entry Meeting (off site). Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -3263,7 +3263,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-perusahaan-pembiayaan",
-    "pembahasan": "Analisis terhadap data Early Warning System dan Laporan Bulanan pada pengawasan off-site Perusahaan Pembiayaan dilakukan untuk mengetahui Kenaikan sampai batasan pelanggaran atas rasio keuangan Perusahaan.",
+    "pembahasan": "\"Kenaikan sampai batasan pelanggaran atas rasio keuangan Perusahaan\" tepat di sini, sedangkan \"Struktur organisasi perusahaan\", \"Jumlah nasabah baru\", \"Rencana ekspansi kantor cabang\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3278,7 +3278,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "siklus-pengawasan-perusahaan-pembiayaan",
-    "pembahasan": "Pernyataan ini BENAR.",
+    "pembahasan": "Pernyataan ini BENAR — sesuai dengan ketentuan/fakta yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -3295,7 +3295,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
-    "pembahasan": "Penyampaian laporan dan pengumuman Informasi atau Fakta Material oleh Emiten wajib dilakukan paling lambat Sebelum dimulainya sesi I waktu perdagangan di Bursa Efek pada hari kerja berikutnya.",
+    "pembahasan": "\"Sebelum dimulainya sesi I waktu perdagangan di Bursa Efek pada hari kerja berikutnya\" tepat di sini, sedangkan \"1 hari kerja setelah mengetahui informasi\", \"3 hari kerja setelah mengetahui informasi\", \"Sebelum RUPS berikutnya\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3312,7 +3312,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
-    "pembahasan": "Laporan kepemilikan atau perubahan kepemilikan saham Perusahaan Terbuka oleh Direksi/Komisaris wajib disampaikan paling lambat 3 hari kerja.",
+    "pembahasan": "Jawaban yang tepat adalah \"3 hari kerja\", berbeda dari \"1 hari kerja\", \"5 hari kerja\", \"7 hari kerja\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3329,7 +3329,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
-    "pembahasan": "Laporan kepemilikan saham Perusahaan Terbuka dilaporkan melalui sistem pelaporan elektronik yang disediakan KSEI, yaitu AKSes.",
+    "pembahasan": "Jawaban yang tepat adalah \"AKSes\", berbeda dari \"APOLO\", \"C-BEST\", \"SIPM\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3346,7 +3346,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
-    "pembahasan": "Threshold kepemilikan hak suara yang mewajibkan pelaporan kepemilikan saham bagi 'Setiap Pihak' (bukan direksi/komisaris) adalah paling sedikit 5%.",
+    "pembahasan": "\"5%\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"3%\"; \"10%\"; \"20%\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "hard",
     "sourceType": "ai"
   },
@@ -3363,7 +3363,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
-    "pembahasan": "Laporan Tahunan Emiten diatur dalam POJK 29/2016.",
+    "pembahasan": "Jawaban yang tepat adalah \"POJK 29/2016\", berbeda dari \"POJK 14/2022\", \"POJK 51/2017\", \"POJK 15/2020\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3380,7 +3380,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
-    "pembahasan": "Kewajiban Emiten menerapkan Keuangan Berkelanjutan dan menyusun Laporan Keberlanjutan diatur dalam POJK 51/POJK.03/2017.",
+    "pembahasan": "\"POJK 51/POJK.03/2017\" tepat di sini, sedangkan \"POJK 14/2022\", \"POJK 29/2016\", \"POJK 4 Tahun 2024\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3397,7 +3397,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
-    "pembahasan": "Laporan Keberlanjutan Emiten pertama kali wajib disampaikan untuk periode laporan 1 Januari - 31 Desember 2020.",
+    "pembahasan": "Jawaban yang tepat adalah \"1 Januari - 31 Desember 2020\", berbeda dari \"1 Januari - 31 Desember 2018\", \"1 Januari - 31 Desember 2022\", \"1 Januari - 31 Desember 2016\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3414,7 +3414,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
-    "pembahasan": "Kebijakan umum pengawasan Emiten dan Perusahaan Publik oleh OJK berfokus pada aspek Disclosure (keterbukaan).",
+    "pembahasan": "\"Disclosure (keterbukaan)\" tepat di sini, sedangkan \"Profitabilitas\", \"Likuiditas\", \"Struktur modal\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -3431,7 +3431,7 @@
     "correctIndex": 2,
     "source": "generated",
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
-    "pembahasan": "Rapat Umum Pemegang Saham (RUPS) Emiten diatur dalam POJK 15/2020.",
+    "pembahasan": "\"POJK 15/2020\" tepat di sini, sedangkan \"POJK 14/2022\", \"POJK 29/2016\", \"POJK 51/2017\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium",
     "sourceType": "ai"
   },
@@ -3446,7 +3446,7 @@
     "correctIndex": 1,
     "source": "generated",
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
-    "pembahasan": "Pernyataan ini SALAH.",
+    "pembahasan": "Pernyataan ini SALAH. Faktanya justru sebaliknya atau berbeda dari yang dinyatakan di soal ini — periksa kembali materinya untuk detail yang tepat.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -3461,7 +3461,7 @@
     "correctIndex": 0,
     "source": "generated",
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
-    "pembahasan": "Pernyataan ini BENAR.",
+    "pembahasan": "Pernyataan ini BENAR — sesuai dengan ketentuan/fakta yang dijelaskan pada materi topik ini.",
     "difficulty": "easy",
     "sourceType": "ai"
   },
@@ -3478,7 +3478,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Berdasarkan Kisi-Kisi Perlindungan Konsumen, PUJK melakukan tindak lanjut atas penyampaian keberatan konsumen selama 10 HK + 10 HK.",
+    "pembahasan": "\"10 HK + 10 HK\" tepat di sini, sedangkan \"5 HK + 5 HK\", \"15 HK + 15 HK\", \"20 HK + 20 HK\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -3494,7 +3494,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Terdapat 3 jenis layanan OJK di APPK, yaitu Layanan Pemberian Informasi, Layanan Penerimaan Informasi, dan Layanan Pengaduan.",
+    "pembahasan": "\"Layanan Pengaduan\" tepat di sini, sedangkan \"Layanan Investasi\", \"Layanan Audit\", \"Layanan Perizinan\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -3510,7 +3510,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Jabatan yang membawahi fungsi Pengawas Perilaku Pelaku Usaha Jasa Keuangan, Edukasi, dan Pelindungan Konsumen di OJK disebut Kepala Eksekutif Pengawas Perilaku PUJK, Edukasi, dan Pelindungan Konsumen.",
+    "pembahasan": "Jabatan yang membawahi fungsi Pengawas Perilaku Pelaku Usaha Jasa Keuangan, Edukasi, dan Pelindungan Konsumen di OJK disebut Kepala Eksekutif Pengawas Perilaku PUJK, Edukasi, dan Pelindungan Konsumen. Istilah lain seperti \"Kepala Departemen Pelindungan Konsumen\", \"Direktur Pengawasan Bank\", \"Ketua Dewan Komisioner\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3526,7 +3526,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Dasar hukum pembentukan Lembaga Alternatif Penyelesaian Sengketa Sektor Jasa Keuangan (LAPS SJK) adalah POJK Nomor 61/POJK.07/2020.",
+    "pembahasan": "Jawaban yang tepat adalah \"POJK Nomor 61/POJK.07/2020\", berbeda dari \"POJK Nomor 22 Tahun 2023\", \"UU Nomor 21 Tahun 2011\", \"POJK Nomor 38 Tahun 2025\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3542,7 +3542,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Kepanjangan dari APPK adalah Aplikasi Portal Perlindungan Konsumen.",
+    "pembahasan": "Jawaban yang tepat adalah \"Aplikasi Portal Perlindungan Konsumen\", berbeda dari \"Aplikasi Pengawasan Perlindungan Konsumen\", \"Aplikasi Pengaduan dan Penyelesaian Konsumen\", \"Aplikasi Pemantauan Perilaku Konsumen\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "easy"
   },
   {
@@ -3558,7 +3558,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Tahapan mekanisme penanganan pengaduan di APPK yang benar dimulai dari Konsumen menyampaikan pengaduan, diikuti oleh Verifikasi kelengkapan pengaduan.",
+    "pembahasan": "Urutan yang tepat: Verifikasi kelengkapan pengaduan. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "medium"
   },
   {
@@ -3574,7 +3574,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Setelah pengaduan diverifikasi lengkap, APPK akan meneruskan pengaduan kepada PUJK terkait untuk ditangani melalui mekanisme Internal Dispute Resolution (IDR).",
+    "pembahasan": "Jawaban yang tepat adalah \"Internal Dispute Resolution (IDR)\", berbeda dari \"External Dispute Resolution (EDR)\", \"Forum Panel Pengawasan\", \"Pengadilan\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3590,7 +3590,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Untuk pengaduan tertulis, penyelesaian oleh PUJK pada prinsipnya dilakukan maksimal 10 hari kerja sejak Dokumen lengkap diterima.",
+    "pembahasan": "Jawaban yang tepat adalah \"Dokumen lengkap diterima\", berbeda dari \"Pengaduan pertama kali diajukan\", \"PUJK menerima somasi\", \"Konsumen melakukan sanggahan\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3606,7 +3606,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Jika konsumen tidak puas dengan tanggapan PUJK dan kesepakatan tidak tercapai, konsumen dapat membawa sengketa ke LAPS SJK atau Melalui pengadilan.",
+    "pembahasan": "Jawaban yang tepat adalah \"Melalui pengadilan\", berbeda dari \"Kepolisian\", \"Kementerian Keuangan\", \"Ombudsman\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3622,7 +3622,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Cara penyelesaian sengketa melalui proses perundingan yang dibantu Mediator LAPS SJK untuk mencari kesepakatan win-win solution disebut Mediasi.",
+    "pembahasan": "Cara penyelesaian sengketa melalui proses perundingan yang dibantu Mediator LAPS SJK untuk mencari kesepakatan win-win solution disebut Mediasi. Istilah lain seperti \"Arbitrase\", \"Pendapat Mengikat\", \"Litigasi\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3638,7 +3638,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Cara penyelesaian sengketa perdata di luar peradilan umum berdasarkan Perjanjian Arbitrase tertulis, dengan putusan yang bersifat final and binding, disebut Arbitrase.",
+    "pembahasan": "Cara penyelesaian sengketa perdata di luar peradilan umum berdasarkan Perjanjian Arbitrase tertulis, dengan putusan yang bersifat final and binding, disebut Arbitrase. Istilah lain seperti \"Mediasi\", \"Konsiliasi\", \"Negosiasi\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "hard"
   },
   {
@@ -3654,7 +3654,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Permintaan para pihak untuk memberikan opini mengikat (binding opinion) atas suatu persoalan terkait penafsiran ketentuan dalam perjanjian disebut Pendapat yang Mengikat.",
+    "pembahasan": "Permintaan para pihak untuk memberikan opini mengikat (binding opinion) atas suatu persoalan terkait penafsiran ketentuan dalam perjanjian disebut Pendapat yang Mengikat. Istilah lain seperti \"Mediasi\", \"Arbitrase\", \"Somasi\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3670,7 +3670,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Ketentuan mengenai Pembelaan Hukum oleh OJK bagi Konsumen diatur dalam UU P2SK Nomor 4 Tahun 2023 pada Pasal 45A ayat (1).",
+    "pembahasan": "Ketentuan yang dimaksud secara spesifik diatur dalam \"Pasal 45A ayat (1)\". \"Pasal 30\", \"Pasal 93\", \"Pasal 231\" adalah regulasi lain yang juga nyata, tapi mengatur topik berbeda, jadi bukan jawaban yang pas untuk pertanyaan ini.",
     "difficulty": "medium"
   },
   {
@@ -3686,7 +3686,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "POJK Nomor 38 Tahun 2025 tentang Gugatan oleh Otoritas Jasa Keuangan untuk Pelindungan Konsumen di Sektor Jasa Keuangan diundangkan pada tanggal 22 Desember 2025.",
+    "pembahasan": "Ketentuan yang dimaksud secara spesifik diatur dalam \"22 Desember 2025\". \"1 Januari 2025\", \"29 Desember 2020\", \"24 November 2020\" adalah regulasi lain yang juga nyata, tapi mengatur topik berbeda, jadi bukan jawaban yang pas untuk pertanyaan ini.",
     "difficulty": "hard"
   },
   {
@@ -3702,7 +3702,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Kanal pengaduan masyarakat Indonesia Anti-Scam Centre (IASC) digunakan khusus untuk Pelaporan penipuan transaksi keuangan (scam).",
+    "pembahasan": "Jawaban yang tepat adalah \"Pelaporan penipuan transaksi keuangan (scam)\", berbeda dari \"Pelaporan entitas keuangan ilegal\", \"Konsultasi produk investasi\", \"Pengajuan gugatan perdata\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "easy"
   },
   {
@@ -3718,7 +3718,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Kepanjangan dari SIPASTI adalah Sistem Pemberantasan Aktivitas Keuangan Ilegal.",
+    "pembahasan": "Jawaban yang tepat adalah \"Sistem Pemberantasan Aktivitas Keuangan Ilegal\", berbeda dari \"Sistem Informasi Pengawasan Aktivitas Sektor Terpadu Indonesia\", \"Sistem Pelaporan Aktivitas Sektor Investasi\", \"Sistem Pengaduan Aktivitas Simpan Pinjam\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3734,7 +3734,7 @@
     "categorySlug": "perlindungan-konsumen",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Kanal WhatsApp resmi OJK untuk layanan konsumen dan masyarakat adalah 081-157-157-157.",
+    "pembahasan": "\"081-157-157-157\" tepat di sini, sedangkan \"0811-1500-157\", \"0800-157-1500\", \"081-500-157-157\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -3750,7 +3750,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Ketentuan mengenai Transaksi Afiliasi dan Transaksi Benturan Kepentingan bagi Emiten dan Perusahaan Publik diatur dalam POJK 42/2020.",
+    "pembahasan": "Jawaban yang tepat adalah \"POJK 42/2020\", berbeda dari \"POJK 17/2020\", \"POJK 33/2014\", \"POJK 49/2020\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3766,7 +3766,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Ketentuan mengenai Transaksi Material dan Perubahan Kegiatan Usaha bagi Emiten dan Perusahaan Publik diatur dalam POJK 17/2020.",
+    "pembahasan": "Jawaban yang tepat adalah \"POJK 17/2020\", berbeda dari \"POJK 42/2020\", \"POJK 35/2014\", \"POJK 55/2015\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3782,7 +3782,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Berdasarkan POJK 33/2014, jumlah minimal anggota Direksi Emiten/Perusahaan Publik adalah 2 orang.",
+    "pembahasan": "Ketentuan yang dimaksud secara spesifik diatur dalam \"2 orang\". \"1 orang\", \"3 orang\", \"5 orang\" adalah regulasi lain yang juga nyata, tapi mengatur topik berbeda, jadi bukan jawaban yang pas untuk pertanyaan ini.",
     "difficulty": "hard"
   },
   {
@@ -3798,7 +3798,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Berdasarkan POJK 33/2014, apabila Dewan Komisaris berjumlah lebih dari 2 orang, maka jumlah Komisaris Independen wajib paling kurang 30% dari jumlah anggota Dewan Komisaris.",
+    "pembahasan": "Jawaban yang tepat adalah \"30% dari jumlah anggota Dewan Komisaris\". Opsi lain (\"20% dari jumlah anggota Dewan Komisaris\", \"50% dari jumlah anggota Dewan Komisaris\", \"1 orang saja\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "medium"
   },
   {
@@ -3814,7 +3814,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Masa jabatan Direksi dan Dewan Komisaris Emiten/Perusahaan Publik berdasarkan POJK 33/2014 paling lama 5 tahun.",
+    "pembahasan": "Jawaban yang tepat adalah \"5 tahun\". Opsi lain (\"3 tahun\", \"4 tahun\", \"Tidak dibatasi\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "medium"
   },
   {
@@ -3830,7 +3830,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Kewajiban Emiten/Perusahaan Publik untuk membentuk fungsi Sekretaris Perusahaan diatur dalam POJK 35/2014.",
+    "pembahasan": "Jawaban yang tepat adalah \"POJK 35/2014\", berbeda dari \"POJK 33/2014\", \"POJK 55/2015\", \"POJK 15/2020\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3846,7 +3846,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Salah satu tugas Sekretaris Perusahaan adalah mengikuti perkembangan regulasi Pasar Modal dan memberikan masukan kepada Direksi dan Komisaris terkait Kepatuhan terhadap regulasi Pasar Modal.",
+    "pembahasan": "\"Kepatuhan terhadap regulasi Pasar Modal\" tepat di sini, sedangkan \"Strategi pemasaran produk\", \"Penetapan harga saham\", \"Rekrutmen karyawan\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -3862,7 +3862,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Ketentuan pembentukan Komite Audit bagi Emiten/Perusahaan Publik diatur dalam POJK 55/2015.",
+    "pembahasan": "Jawaban yang tepat adalah \"POJK 55/2015\", berbeda dari \"POJK 33/2014\", \"POJK 35/2014\", \"POJK 42/2020\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3878,7 +3878,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Berdasarkan POJK 55/2015, jumlah minimal anggota Komite Audit yang berasal dari Komisaris Independen dan pihak luar Emiten/Perusahaan Publik adalah 3 orang.",
+    "pembahasan": "Jawaban yang tepat adalah \"3 orang\". Opsi lain (\"2 orang\", \"4 orang\", \"5 orang\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "hard"
   },
   {
@@ -3894,7 +3894,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Masa tugas anggota Komite Audit tidak boleh lebih lama dari masa jabatan Dewan Komisaris, dan dapat dipilih kembali untuk Hanya satu periode berikutnya.",
+    "pembahasan": "Jawaban yang tepat adalah \"Hanya satu periode berikutnya\", berbeda dari \"Tidak dapat dipilih kembali sama sekali\", \"Maksimal dua periode berikutnya\", \"Tanpa batasan periode\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3910,7 +3910,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Salah satu peran Komite Audit sebelum RUPS adalah memberikan rekomendasi penunjukan Akuntan Publik dan/atau Kantor Akuntan Publik kepada Dewan Komisaris.",
+    "pembahasan": "Jawaban yang tepat adalah \"Dewan Komisaris\", berbeda dari \"OJK langsung\", \"Direktur Utama\", \"Bursa Efek Indonesia\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -3926,7 +3926,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Setelah proses audit selesai (pasca audit), salah satu peran Komite Audit adalah melakukan Evaluasi terhadap pelaksanaan pemberian jasa audit oleh AP/KAP.",
+    "pembahasan": "\"Evaluasi terhadap pelaksanaan pemberian jasa audit oleh AP/KAP\" tepat di sini, sedangkan \"Penunjukan auditor baru\", \"Penetapan dividen\", \"Penyusunan RUPS\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -3942,7 +3942,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Sistem Penyelenggaraan RUPS Secara Elektronik (e-RUPS) di Indonesia utamanya disediakan oleh KSEI melalui platform eASY.KSEI.",
+    "pembahasan": "\"KSEI melalui platform eASY.KSEI\" tepat di sini, sedangkan \"Bursa Efek Indonesia\", \"OJK melalui SPRINT\", \"KPEI\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -3958,7 +3958,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Ketentuan mengenai pemberian kuasa secara elektronik bagi pemegang saham dalam RUPS diatur dalam POJK 14/2025.",
+    "pembahasan": "\"POJK 14/2025\" tepat di sini, sedangkan \"POJK 15/2020\", \"POJK 33/2014\", \"POJK 55/2015\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -3974,7 +3974,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Laporan Kepemilikan atau Setiap Perubahan Kepemilikan Saham Perusahaan Terbuka dilaporkan melalui sistem pelaporan elektronik yang disediakan KSEI, yaitu AKSes.",
+    "pembahasan": "Jawaban yang tepat adalah \"AKSes\", berbeda dari \"eASY.KSEI\", \"C-BEST\", \"SPRINT\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "hard"
   },
   {
@@ -3990,7 +3990,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Ketentuan Laporan Kepemilikan atau Setiap Perubahan Kepemilikan Saham Perusahaan Terbuka diatur dalam POJK 4 Tahun 2024.",
+    "pembahasan": "\"POJK 4 Tahun 2024\" tepat di sini, sedangkan \"POJK 33/2014\", \"POJK 17/2020\", \"POJK 42/2020\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -4006,7 +4006,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Ketentuan mengenai Pemeringkatan Efek diatur dalam POJK 49/2020.",
+    "pembahasan": "\"POJK 49/2020\" tepat di sini, sedangkan \"POJK 55/2015\", \"POJK 9/2023\", \"POJK 4/2024\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -4022,7 +4022,7 @@
     "categorySlug": "pengawasan-emiten-perusahaan-publik",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Laporan Penggunaan Jasa Akuntan Publik dan/atau Kantor Akuntan Publik oleh Emiten/Perusahaan Publik diatur dalam POJK 9/2023 dan SEOJK 18/SEOJK.03/2023.",
+    "pembahasan": "Jawaban yang tepat adalah \"SEOJK 18/SEOJK.03/2023\". Opsi lain (\"SEOJK 17/SEOJK.07/2018\", \"SEOJK 22/SEOJK.03/2021\", \"SEOJK 1/SEDK.08/2025\") adalah ketentuan/pasal yang benar-benar ada, tapi masing-masing mengatur hal yang berbeda dari yang ditanyakan di soal ini — jangan tertukar hanya karena sama-sama terdengar relevan.",
     "difficulty": "hard"
   },
   {
@@ -4038,7 +4038,7 @@
     "categorySlug": "urun-dana",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Berdasarkan ketentuan permodalan pada Layanan Urun Dana, batasan kepemilikan saham bagi pihak asing pada Penyelenggara adalah maksimal 49%.",
+    "pembahasan": "Jawaban yang tepat adalah \"49%\", berbeda dari \"30%\", \"51%\", \"70%\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -4054,7 +4054,7 @@
     "categorySlug": "urun-dana",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Kewajiban pelaporan Penyelenggara Layanan Urun Dana kepada OJK meliputi laporan tengah tahun, laporan tahunan, dan Laporan insidentil.",
+    "pembahasan": "Jawaban yang tepat adalah \"Laporan insidentil\", berbeda dari \"Laporan harian\", \"Laporan mingguan\", \"Laporan ke Bank Indonesia\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -4070,7 +4070,7 @@
     "categorySlug": "urun-dana",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Salah satu kewajiban pemodal dalam Layanan Urun Dana adalah memiliki Single Investor Identification (SID) dan rekening dana pemodal pada Lembaga Penyimpanan dan Penyelesaian (LPP).",
+    "pembahasan": "\"Lembaga Penyimpanan dan Penyelesaian (LPP)\" tepat di sini, sedangkan \"Bank Kustodian pribadi\", \"Bank Indonesia\", \"Perusahaan Efek manapun\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -4086,7 +4086,7 @@
     "categorySlug": "urun-dana",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Bagi pemodal Layanan Urun Dana dengan penghasilan di bawah Rp500 juta per tahun, batasan maksimal investasi adalah 5% dari penghasilan tahunan.",
+    "pembahasan": "\"5% dari penghasilan tahunan\" tepat di sini, sedangkan \"3% dari penghasilan tahunan\", \"10% dari penghasilan tahunan\", \"15% dari penghasilan tahunan\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -4102,7 +4102,7 @@
     "categorySlug": "urun-dana",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Bagi pemodal Layanan Urun Dana dengan penghasilan di atas Rp500 juta per tahun, batasan maksimal investasi adalah 10% dari penghasilan tahunan.",
+    "pembahasan": "\"10% dari penghasilan tahunan\" tepat di sini, sedangkan \"5% dari penghasilan tahunan\", \"20% dari penghasilan tahunan\", \"Tidak dibatasi\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -4118,7 +4118,7 @@
     "categorySlug": "urun-dana",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "\"2 tahun\" adalah pilihan yang TIDAK termasuk/TIDAK tepat pada soal ini.",
+    "pembahasan": "\"2 tahun\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"1 tahun\"; \"3 tahun\"; \"5 tahun\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "hard"
   },
   {
@@ -4134,7 +4134,7 @@
     "categorySlug": "urun-dana",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "SLA (Service Level Agreement) proses persetujuan prinsip Penyelenggara Layanan Urun Dana bagi pihak Penyelenggara adalah 20 Hari Kerja.",
+    "pembahasan": "\"20 Hari Kerja\" tepat di sini, sedangkan \"10 Hari Kerja\", \"30 Hari Kerja\", \"90 Hari Kerja\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -4150,7 +4150,7 @@
     "categorySlug": "urun-dana",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "SLA proses izin usaha Layanan Urun Dana bagi pihak Penyelenggara (setelah persetujuan prinsip) adalah 90 Hari Kerja.",
+    "pembahasan": "\"90 Hari Kerja\" tepat di sini, sedangkan \"20 Hari Kerja\", \"45 Hari Kerja\", \"60 Hari Kerja\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -4166,7 +4166,7 @@
     "categorySlug": "derivatif-bursa-karbon",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Jangka waktu penelaahan awal atas indikasi pelanggaran transaksi Efek yang dilakukan OJK adalah 120 Hari Kerja.",
+    "pembahasan": "Jawaban yang tepat adalah \"120 Hari Kerja\", berbeda dari \"60 Hari Kerja\", \"90 Hari Kerja\", \"150 Hari Kerja\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -4182,7 +4182,7 @@
     "categorySlug": "derivatif-bursa-karbon",
     "source": "generated",
     "sourceType": "kisikisi",
-    "pembahasan": "Jangka waktu pemeriksaan teknis atas indikasi pelanggaran transaksi Efek yang dilakukan OJK adalah 75 Hari Kerja.",
+    "pembahasan": "Jawaban yang tepat adalah \"75 Hari Kerja\", berbeda dari \"45 Hari Kerja\", \"60 Hari Kerja\", \"100 Hari Kerja\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -4198,7 +4198,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKPKL-001",
-    "pembahasan": "Terhadap tanggapan PUJK atas pengaduannya di APPK, konsumen memiliki 3 opsi, yaitu menerima, menolak, dan Mengajukan keberatan.",
+    "pembahasan": "Jawaban yang tepat adalah \"Mengajukan keberatan\", berbeda dari \"Membiarkan tanpa respons\", \"Meminta ganti PUJK\", \"Meminta audit independen\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -4214,7 +4214,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKPKL-002",
-    "pembahasan": "Selain memantau SLA dan substansi tanggapan pengaduan, OJK juga dapat berperan melakukan konsultasi berupa Mempertemukan Konsumen dengan PUJK untuk mencari solusi.",
+    "pembahasan": "Jawaban yang tepat adalah \"Mempertemukan Konsumen dengan PUJK untuk mencari solusi\", berbeda dari \"Audit keuangan PUJK\", \"Penetapan sanksi otomatis\", \"Pencabutan izin usaha PUJK\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -4230,7 +4230,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKSRO-003",
-    "pembahasan": "Laporan rutin Lembaga Penunjang Pasar Modal terdiri dari laporan kegiatan, laporan keuangan auditan, laporan realisasi anggaran, laporan hasil RUPS, laporan pelaksanaan tata kelola, laporan penerapan strategi anti fraud, dan Laporan perencanaan dan realisasi penyelenggaraan teknologi informasi.",
+    "pembahasan": "Jawaban yang tepat adalah \"Laporan perencanaan dan realisasi penyelenggaraan teknologi informasi\", berbeda dari \"Laporan penjualan produk\", \"Laporan pajak final\", \"Laporan gaji karyawan\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "hard"
   },
   {
@@ -4246,7 +4246,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKSRO-004",
-    "pembahasan": "Urutan tahapan pemeriksaan Lembaga Penunjang PMDK yang benar adalah Penyusunan Rencana Pemeriksaan → Persiapan On-site → Pelaksanaan On-site → Closing Conference → Penyusunan LHP → Rekomendasi Tindak Lanjut.",
+    "pembahasan": "Urutan yang tepat: Penyusunan Rencana Pemeriksaan → Persiapan On-site → Pelaksanaan On-site → Closing Conference → Penyusunan LHP → Rekomendasi Tindak Lanjut. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "medium"
   },
   {
@@ -4262,7 +4262,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKINK-005",
-    "pembahasan": "Empat prinsip pelaksanaan kegiatan Inklusi Keuangan adalah terukur, tepat sasaran, terjangkau, dan Berkelanjutan.",
+    "pembahasan": "Jawaban yang tepat adalah \"Berkelanjutan\", berbeda dari \"Masif\", \"Inklusif\", \"Transparan\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -4278,7 +4278,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKINK-006",
-    "pembahasan": "Dalam kerangka kerja (roadmap) TPAKD, tujuan akhir tertinggi (Goals) adalah Kesejahteraan Masyarakat.",
+    "pembahasan": "\"Kesejahteraan Masyarakat\" tepat di sini, sedangkan \"Peningkatan Indeks Literasi dan Inklusi Keuangan\", \"Penanggulangan Kemiskinan\", \"Pemerataan Pendapatan\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -4294,7 +4294,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKINK-007",
-    "pembahasan": "Program kerja yang terkait dengan Laku Pandai bertajuk 'satu desa satu agen' dikenal dengan istilah OVOA (One Village One Agent).",
+    "pembahasan": "Program kerja yang terkait dengan Laku Pandai bertajuk 'satu desa satu agen' dikenal dengan istilah OVOA (One Village One Agent). Istilah lain seperti \"SIMPEL\", \"GENCARKAN\", \"TPAKD\" punya definisi/konteks pemakaian yang berbeda, jadi tidak tepat dipakai untuk situasi yang dideskripsikan soal ini.",
     "difficulty": "medium"
   },
   {
@@ -4310,7 +4310,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKSCFL-008",
-    "pembahasan": "Efek yang dapat diterbitkan melalui Layanan Urun Dana meliputi efek bersifat ekuitas, efek bersifat utang, sukuk, dan Efek Bersifat Utang dan Sukuk (EBUS).",
+    "pembahasan": "Jawaban yang tepat adalah \"Efek Bersifat Utang dan Sukuk (EBUS)\", berbeda dari \"Reksa Dana Penyertaan Terbatas\", \"Kontrak Berjangka\", \"Waran Terstruktur\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -4326,7 +4326,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKDRVL-009",
-    "pembahasan": "Tahapan pengawasan transaksi Efek oleh OJK secara berurutan meliputi Reviu Alert (RA), Penelaahan, dan Pemeriksaan Teknis.",
+    "pembahasan": "Urutan yang tepat: Pemeriksaan Teknis. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "medium"
   },
   {
@@ -4342,7 +4342,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKDRVL-010",
-    "pembahasan": "Jenis-jenis Efek yang diawasi dalam transaksi Efek meliputi Efek bersifat ekuitas, Efek bersifat utang dan sukuk, serta Efek lainnya seperti waran terstruktur dan Reksa dana.",
+    "pembahasan": "Jawaban yang tepat adalah \"Reksa dana\", berbeda dari \"Deposito berjangka\", \"Emas batangan\", \"Tanah dan bangunan\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -4358,7 +4358,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKDRVL-011",
-    "pembahasan": "Pelanggaran yang menjadi fokus pengawasan transaksi Efek antara lain fraud, manipulasi perdagangan, informasi menyesatkan, dan Perdagangan orang dalam (insider trading).",
+    "pembahasan": "Jawaban yang tepat adalah \"Perdagangan orang dalam (insider trading)\", berbeda dari \"Keterlambatan laporan pajak\", \"Perubahan alamat kantor\", \"Pergantian direksi\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -4374,7 +4374,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKEPPL-012",
-    "pembahasan": "Laporan Keuangan Tahunan (LKT) Emiten wajib disampaikan paling lambat Akhir bulan ke-3 setelah tanggal laporan keuangan tahunan.",
+    "pembahasan": "\"Akhir bulan ke-3 setelah tanggal laporan keuangan tahunan\" tepat di sini, sedangkan \"Akhir bulan ke-1 setelah tanggal laporan keuangan tahunan\", \"Akhir bulan ke-6 setelah tanggal laporan keuangan tahunan\", \"Akhir tahun buku berjalan\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -4390,7 +4390,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKEPPL-013",
-    "pembahasan": "\"Laporan gaji seluruh karyawan\" adalah pilihan yang TIDAK termasuk/TIDAK tepat pada soal ini.",
+    "pembahasan": "\"Laporan gaji seluruh karyawan\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Keterbukaan atas informasi atau fakta material\"; \"Transaksi material dan perubahan kegiatan usaha\"; \"Keterbukaan informasi pemegang saham tertentu\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "hard"
   },
   {
@@ -4406,7 +4406,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKEPPL-014",
-    "pembahasan": "\"Pendapatan dibagi laba (pendapatan per laba)\" adalah pilihan yang TIDAK termasuk/TIDAK tepat pada soal ini.",
+    "pembahasan": "\"Pendapatan dibagi laba (pendapatan per laba)\" adalah satu-satunya pilihan yang TIDAK sesuai/tidak termasuk dalam konteks yang ditanyakan. Sebaliknya, \"Nilai transaksi terhadap total aset\"; \"Nilai transaksi terhadap ekuitas\"; \"Total aset objek transaksi\" semuanya memang benar termasuk dalam kategori yang dimaksud soal ini, sehingga ketiganya bukan jawaban yang tepat.",
     "difficulty": "hard"
   },
   {
@@ -4422,7 +4422,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKEPPL-015",
-    "pembahasan": "Pada Grafik Risk Assessment Emiten yang terbagi 4 kuadran, kuadran dengan kondisi kepatuhan dan kelangsungan usaha yang sama-sama baik (kuadran terbaik) ditandai warna Hijau tua.",
+    "pembahasan": "Jawaban yang tepat adalah \"Hijau tua\", berbeda dari \"Kuning\", \"Hijau muda\", \"Merah\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "hard"
   },
   {
@@ -4438,7 +4438,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKEPPL-016",
-    "pembahasan": "Pada Grafik Risk Assessment Emiten, kuadran dengan kelangsungan usaha baik namun kepatuhan buruk ditandai warna Hijau muda dan kuning.",
+    "pembahasan": "\"Hijau muda dan kuning\" tepat di sini, sedangkan \"Hijau tua\", \"Merah tua\", \"Biru\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -4454,7 +4454,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKEPPL-017",
-    "pembahasan": "Alur proses pemeriksaan Emiten berlangsung sejak penetapan surat tugas pemeriksaan dalam jangka waktu 80 hari.",
+    "pembahasan": "Jawaban yang tepat adalah \"80 hari\", berbeda dari \"30 hari\", \"60 hari\", \"120 hari\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "medium"
   },
   {
@@ -4470,7 +4470,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKEPPL-018",
-    "pembahasan": "Tahapan pertama dalam alur proses pemeriksaan Emiten adalah penelaahan hasil laporan yang diterima dari Emiten dan Penilaian risiko Emiten.",
+    "pembahasan": "Urutan yang tepat: Penilaian risiko Emiten. Opsi lain menyusun ulang tahapan yang sama dengan urutan yang keliru — ingat logikanya: setiap tahap jadi prasyarat/input untuk tahap berikutnya, jadi urutannya tidak bisa dibolak-balik sembarangan.",
     "difficulty": "medium"
   },
   {
@@ -4486,7 +4486,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKEPPL-019",
-    "pembahasan": "Dalam Timeline RUPS, pemberitahuan mata acara RUPS dilakukan sekitar 5 Hari Kerja sebelum Pengumuman RUPS.",
+    "pembahasan": "\"Pengumuman RUPS\" tepat di sini, sedangkan \"Pemanggilan RUPS\", \"Pelaksanaan RUPS\", \"Pembayaran dividen\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -4502,7 +4502,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKEPPL-020",
-    "pembahasan": "Berdasarkan Timeline RUPS, pembayaran dividen tunai dilakukan sekitar 30 hari sejak Ringkasan risalah RUPS.",
+    "pembahasan": "Jawaban yang tepat adalah \"Ringkasan risalah RUPS\", berbeda dari \"Pengumuman RUPS\", \"Pemanggilan RUPS\", \"Penyampaian LKT\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "easy"
   },
   {
@@ -4518,7 +4518,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKEPPL-021",
-    "pembahasan": "Batas waktu otorisasi manajemen atas Laporan Keuangan Tahunan adalah lebih dari 2 hari sebelum akhir bulan ke-3 Tahun buku.",
+    "pembahasan": "\"Tahun buku\" tepat di sini, sedangkan \"Sejak RUPS terakhir\", \"Sejak pergantian direksi\", \"Sejak IPO\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -4534,7 +4534,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKEPPL-022",
-    "pembahasan": "Ketentuan Komite Audit mensyaratkan keanggotaan paling kurang terdiri dari 3 orang yang berasal dari Komisaris Independen dan Pihak dari luar Emiten/Perusahaan Publik.",
+    "pembahasan": "\"Pihak dari luar Emiten/Perusahaan Publik\" tepat di sini, sedangkan \"Direksi Emiten\", \"Pemegang saham mayoritas\", \"Karyawan tetap Emiten\" keliru karena tidak cocok dengan yang dijelaskan pada materi topik ini.",
     "difficulty": "medium"
   },
   {
@@ -4550,7 +4550,7 @@
     "source": "generated",
     "sourceType": "kisikisi",
     "id": "KKEPPL-023",
-    "pembahasan": "Tindak lanjut atas Risk Assessment zona merah mencakup penelaahan laporan keuangan minimal 1 kali setahun, pemanggilan direksi untuk permintaan informasi, dan Pemeriksaan atau kunjungan lapangan minimal 1 kali dalam 3 tahun.",
+    "pembahasan": "Jawaban yang tepat adalah \"Pemeriksaan atau kunjungan lapangan minimal 1 kali dalam 3 tahun\", berbeda dari \"Pencabutan izin usaha langsung\", \"Penunjukan direksi baru oleh OJK\", \"Peleburan dengan Emiten lain\" yang tidak sesuai dengan konteks soal ini.",
     "difficulty": "hard"
   }
 ]

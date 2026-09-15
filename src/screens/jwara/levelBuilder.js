@@ -1,4 +1,4 @@
-import { shuffle, uid } from '../../lib/utils';
+import { shuffle, uid, shuffleQuestionOptions } from '../../lib/utils';
 import sequences from '../../data/sequences.json';
 import matchsets from '../../data/matchsets.json';
 
@@ -46,10 +46,10 @@ export function makeLevel(categorySlug, allQuestions, cursorsByTier, levelNumber
   const matchSet = matchsets.find((m) => m.categorySlug === categorySlug) || matchsets[0];
 
   const steps = [
-    { id: uid(), kind: 'rapid', question: singles[0] },
-    { id: uid(), kind: 'tapfill', question: singles[1] },
+    { id: uid(), kind: 'rapid', question: shuffleQuestionOptions(singles[0]) },
+    { id: uid(), kind: 'tapfill', question: shuffleQuestionOptions(singles[1]) },
     { id: uid(), kind: 'swipe', statement: toStatement(singles[2]) },
-    { id: uid(), kind: 'rapid', question: singles[3] },
+    { id: uid(), kind: 'rapid', question: shuffleQuestionOptions(singles[3]) },
     {
       id: uid(),
       kind: 'matchpairs',

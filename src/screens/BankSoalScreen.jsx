@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import questions from '../data/questions.json';
 import categories from '../data/categories.json';
 import SourceBadge from '../components/SourceBadge';
+import { shuffleQuestionOptions } from '../lib/utils';
 
 export default function BankSoalScreen({ onExit }) {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -67,6 +68,7 @@ function Pill({ active, onClick, children }) {
 }
 
 function QuestionCard({ q, open, onToggle }) {
+  const shuffledQ = useMemo(() => shuffleQuestionOptions(q), [q.id]);
   return (
     <div className="rounded-2xl border-2 border-tekad-redSoft bg-white overflow-hidden">
       <button onClick={onToggle} className="w-full text-left px-4 py-3.5 flex items-start gap-3">
@@ -79,14 +81,14 @@ function QuestionCard({ q, open, onToggle }) {
       {open && (
         <div className="px-4 pb-4 animate-fade-up">
           <div className="space-y-1.5 mb-3">
-            {q.options.map((opt, i) => (
+            {shuffledQ.options.map((opt, i) => (
               <div
                 key={i}
                 className={`rounded-xl px-3 py-2 text-sm ${
-                  i === q.correctIndex ? 'bg-okSoft text-ok font-semibold' : 'bg-tekad-redSoft/30 text-ink-soft'
+                  i === shuffledQ.correctIndex ? 'bg-okSoft text-ok font-semibold' : 'bg-tekad-redSoft/30 text-ink-soft'
                 }`}
               >
-                {i === q.correctIndex && '✓ '}
+                {i === shuffledQ.correctIndex && '✓ '}
                 {opt}
               </div>
             ))}
