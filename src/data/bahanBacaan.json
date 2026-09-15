@@ -1,0 +1,425 @@
+[
+  {
+    "slug": "m1-critical-point-pm",
+    "title": "Critical Point Produk & Aktivitas PM",
+    "overview": "Membahas rasionalisasi perizinan pasar modal lewat konsep Lemon Principle, ekosistem pelaku pasar modal, dan mekanisme Pernyataan Pendaftaran Penawaran Umum Efek.",
+    "sections": [
+      {
+        "heading": "Konsep & Definisi Kunci",
+        "items": [
+          "Lemon Principle — asimetri informasi antara penjual (tahu lebih banyak) dan pembeli; jadi dasar kenapa perizinan pasar modal harus ketat.",
+          "Perizinan lembaga pasar modal berfungsi sebagai filter pertama yang menjaga hanya lembaga layak yang boleh beroperasi.",
+          "Underwriter (Penjamin Emisi Efek) — menjamin penawaran umum Efek.",
+          "Manajer Investasi — menghimpun & menyalurkan dana masyarakat ke portofolio Efek."
+        ]
+      },
+      {
+        "heading": "Regulasi yang Sering Diuji",
+        "items": [
+          "POJK 41/POJK.04/2020 — Penawaran Umum Efek Bersifat Ekuitas/Utang/Sukuk secara Elektronik.",
+          "POJK 36/POJK.04/2014 — Penawaran Umum Berkelanjutan EBUS (bertahap).",
+          "POJK 32/POJK.04/2015 — Penambahan Modal dengan HMETD (Rights Issue).",
+          "POJK 14/POJK.04/2019 — perubahan atas POJK HMETD.",
+          "POJK 30/POJK.04/2019 — kriteria EBUS yang wajib diperingkat/dijamin."
+        ]
+      },
+      {
+        "heading": "Angka & Ketentuan Penting",
+        "items": [
+          "Pernyataan Pendaftaran efektif paling lambat 20 hari kerja sejak diterima lengkap, ATAU 20 hari kerja sejak perubahan terakhir dipenuhi.",
+          "Batasan private placement (penawaran ke pemodal profesional tanpa penawaran umum): maksimal 49 pihak."
+        ]
+      }
+    ],
+    "prediction": [
+      "Definisi & fungsi Lemon Principle dalam konteks perizinan.",
+      "Hafalan nomor POJK per jenis penawaran umum (elektronik/berkelanjutan/rights issue) — sering ditanya 'diatur dalam POJK mana'.",
+      "Angka 20 hari kerja & 49 pihak — dua angka paling sering muncul di topik ini."
+    ]
+  },
+  {
+    "slug": "m1-akad-syariah",
+    "title": "Prinsip, Akad dan Fatwa SJK Syariah",
+    "overview": "Membahas Wa'd vs Akad, klasifikasi akad syariah (jual beli, ijarah, bagi hasil, tabarru'), serta larangan-larangan dalam muamalah (riba, gharar, maysir, dkk).",
+    "sections": [
+      {
+        "heading": "Wa'd vs Akad",
+        "items": [
+          "Akad (Fatwa DSN 88) — pertalian ijab-qabul yang menimbulkan akibat hukum pada obyek akad; sifatnya MENGIKAT (mulzim).",
+          "Wa'd/janji (Fatwa DSN 85/2012) — pernyataan kehendak satu pihak (wa'id) ke pihak lain (mau'ud); secara qadha'an TIDAK mengikat.",
+          "Implementasi Wa'd: Sukuk (Al-Bai wal Isti'jar), IMBT, Murabahah Lil Aamir bi al-Syira', Line Facility — BUKAN Salam."
+        ]
+      },
+      {
+        "heading": "Klasifikasi Akad & Fatwa Terkait",
+        "items": [
+          "Murabahah (jual-beli, cost-plus) — Fatwa DSN 04/2000 & 111/2017. Ada varian 'Murabahah dengan pesanan' (barang diadakan dulu) vs tanpa pesanan.",
+          "Salam (jual-beli, bayar cash di muka, barang diserahkan kemudian) — cocok untuk komoditas pertanian.",
+          "Istishna (jual-beli, barang dipesan/dibuat) — cocok untuk pembiayaan konstruksi/renovasi.",
+          "Ijarah Muntahiya Bittamlik (IMBT) — Fatwa DSN 44/2004; setara leasing/finance lease konvensional.",
+          "Mudharabah (bagi hasil, modal dari Shahibul Maal) vs Musyarakah (bagi hasil, modal bersama, KERUGIAN proporsional sesuai nisbah modal).",
+          "Kafalah (penjaminan utang pihak lain) vs Hawalah (pengalihan/pemindahan utang) — dua-duanya dipakai bareng di struktur Letter of Credit syariah.",
+          "Rahn (gadai syariah, imbal hasil berupa biaya pemeliharaan/Mu'nah, bukan bunga).",
+          "Wadiah & Wakalah — sifatnya dasarnya SOSIAL, bukan komersial."
+        ]
+      },
+      {
+        "heading": "Larangan dalam Muamalah",
+        "items": [
+          "Riba Fadl — pertukaran barang ribawi sejenis, kualitas/kuantitas beda.",
+          "Riba Nasiah — utang-piutang dengan tambahan manfaat (setara bunga kredit konvensional).",
+          "Gharar — ketidakpastian kualitas/kuantitas/penyerahan obyek akad.",
+          "Maysir — perjudian/spekulasi.",
+          "Tanajusy/Najsy — penawaran semu buat menaikkan harga.",
+          "Ikhtikar — penimbunan/monopoli barang.",
+          "Tadlis — menyembunyikan cacat obyek akad."
+        ]
+      }
+    ],
+    "prediction": [
+      "Soal 'akad X dipakai untuk aplikasi apa' (Murabahah=konsumen, Istishna=konstruksi/renovasi, Ijarah=multijasa) sangat sering muncul.",
+      "Perbedaan konsep berpasangan (Wa'd vs Akad, Kafalah vs Hawalah, Mudharabah vs Musyarakah, Salam vs Istishna) adalah pola soal paling umum di topik ini.",
+      "Hafalan nomor Fatwa DSN untuk akad-akad utama (Murabahah, IMBT, Wa'd) juga sering ditanya."
+    ]
+  },
+  {
+    "slug": "m1-literasi-inklusi",
+    "title": "Proses Bisnis Literasi dan Inklusi Keuangan",
+    "overview": "Membahas program-program strategis OJK (GENCARKAN, OJK PEDULI, TPAKD, SNLIK) dan dasar hukum pencegahan kerugian konsumen di UU OJK.",
+    "sections": [
+      {
+        "heading": "Program & Inisiatif Utama",
+        "items": [
+          "GENCARKAN — mengorkestrasi sinergi kegiatan literasi/inklusi seluruh pemangku kepentingan; target Indeks Inklusi Nasional 95% di 2029, tema 'Menuju Indonesia Emas 2045' (target jangka panjang 98%).",
+          "OJK PEDULI — individu (Duta/Agen Literasi) yang edukasi masyarakat lewat Training of Community; target jangkau 2 juta Duta & Agen; akses via peduli.ojk.go.id.",
+          "TPAKD — Tim Percepatan Akses Keuangan Daerah; roadmap-nya berujung pada Goals = Peningkatan Indeks Literasi & Inklusi Keuangan.",
+          "SNLIK — Survei Nasional Literasi & Inklusi Keuangan; publikasi 2013, 2017, 2021 (tiap ~4 tahun); hasilkan Indeks Komposit Nasional, Konvensional, dan Syariah.",
+          "OVOA (One Village One Agent) — program satu desa satu agen, bagian dari Laku Pandai."
+        ]
+      },
+      {
+        "heading": "Dasar Hukum",
+        "items": [
+          "Perpres 114/2020 — kerangka regulasi Strategi Nasional Keuangan Inklusif (SNKI).",
+          "Pasal 4 huruf c UU 21/2011 — OJK dibentuk agar sektor jasa keuangan melindungi kepentingan konsumen & masyarakat.",
+          "Pasal 28 UU 21/2011 — kewenangan pencegahan kerugian konsumen (edukasi & informasi).",
+          "Pasal 29 — pelayanan pengaduan konsumen. Pasal 30 — pembelaan hukum konsumen. Pasal 31 — aturan turunan lewat Peraturan OJK."
+        ]
+      },
+      {
+        "heading": "Angka Penting Lain",
+        "items": [
+          "4 prinsip pelaksanaan Inklusi Keuangan: Terukur, Tepat Sasaran, Terjangkau, Berkelanjutan (bukan 'Masif').",
+          "Target OJK PEDULI: akselerasi produk keuangan disabilitas 30%; Kredit Melawan Rentenir jangkau 1,6 juta debitur."
+        ]
+      }
+    ],
+    "prediction": [
+      "Pasal 28-31 UU OJK (siapa ngatur apa) itu favorit banget buat soal — hafalin urutannya.",
+      "Angka target (95% 2029, 98% Indonesia Emas 2045, 4 prinsip) sering jadi jebakan pilihan ganda.",
+      "Perbedaan GENCARKAN vs OJK PEDULI vs TPAKD (program-nya, bukan cuma namanya) juga sering diuji."
+    ]
+  },
+  {
+    "slug": "m1-perlindungan-konsumen",
+    "title": "Proses Bisnis Perlindungan Konsumen di SJK",
+    "overview": "Membahas alur pengaduan lewat APPK, mekanisme IDR/EDR, LAPS SJK, dan pembelaan hukum OJK lewat gugatan perdata.",
+    "sections": [
+      {
+        "heading": "Alur Pengaduan",
+        "items": [
+          "APPK (Aplikasi Portal Perlindungan Konsumen) — bagian dari SLKT (Sistem Layanan Konsumen Terintegrasi), menghubungkan OJK-Konsumen-PUJK-LAPS SJK. Diluncurkan 1 Jan 2021, versi 2.0 tahun 2023.",
+          "3 jenis layanan APPK: penerimaan informasi, pemberian informasi, pengaduan.",
+          "IDR (Internal Dispute Resolution) — penanganan oleh PUJK, 10 HK + 10 HK (bisa diperpanjang kalau perlu penelitian khusus).",
+          "Konsumen punya 3 opsi atas tanggapan PUJK: menerima, menolak, atau mengajukan keberatan.",
+          "EDR (External Dispute Resolution) — lewat LAPS SJK atau pengadilan, kalau IDR tidak menghasilkan kesepakatan."
+        ]
+      },
+      {
+        "heading": "LAPS SJK",
+        "items": [
+          "Dasar hukum: POJK 61/POJK.07/2020 (khusus LAPS SJK), plus Pasal 82-83 POJK 61/2020 untuk kewenangan pengawasan OJK atasnya.",
+          "Disahkan Kemenkumham 24 November 2020 → disetujui OJK 29 Desember 2020 → resmi beroperasi 1 Januari 2021.",
+          "Sebelumnya ada 6 LAPS sektoral: BAPMI (Pasar Modal), BMAI, BMDP, LAPSPI, BMPPVI, BAMPPI.",
+          "Wajib punya minimal 2 layanan: Mediasi dan Arbitrase.",
+          "3 cara penyelesaian: Mediasi (dibantu mediator, cari win-win), Arbitrase (putusan final & binding), Pendapat yang Mengikat (opini mengikat soal penafsiran perjanjian)."
+        ]
+      },
+      {
+        "heading": "Pembelaan Hukum OJK",
+        "items": [
+          "Dasar: Pasal 45A ayat (1) UU P2SK (UU 4/2023) — kewenangan OJK menggugat demi kepentingan konsumen.",
+          "POJK 38/2025 (diundangkan 22 Desember 2025) — mengatur Gugatan oleh OJK untuk Pelindungan Konsumen.",
+          "Perma 4/2025 — tata cara mengadili gugatan OJK: putusan tingkat pertama maksimal 60 hari sejak sidang pertama; tidak ada replik/duplik/rekonvensi/intervensi/kesimpulan; upaya hukum cuma Kasasi."
+        ]
+      },
+      {
+        "heading": "Kanal Pengaduan",
+        "items": [
+          "kontak157.ojk.go.id / telp (021) 157 / WA 081-157-157-157 — layanan umum konsumen & masyarakat.",
+          "IASC (Indonesia Anti-Scam Centre) — khusus penipuan transaksi (scam, fake call, phishing).",
+          "SIPASTI — khusus laporan entitas/aktivitas keuangan ilegal (investasi ilegal, pinjol ilegal)."
+        ]
+      }
+    ],
+    "prediction": [
+      "Timeline LAPS SJK (24 Nov 2020 → 29 Des 2020 → 1 Jan 2021) sering dijadikan soal urutan/tanggal.",
+      "Bedain 3 kanal pengaduan (kontak157 vs IASC vs SIPASTI) berdasarkan fungsinya masing-masing — pola soal yang sering muncul.",
+      "Angka 10HK+10HK (IDR) dan detail proses gugatan OJK (60 hari, gak ada replik/duplik, cuma bisa Kasasi) juga rawan keluar."
+    ]
+  },
+  {
+    "slug": "m1-market-conduct",
+    "title": "Proses Pengawasan Perilaku Pelaku Usaha Jasa Keuangan (Market Conduct)",
+    "overview": "Membahas dasar hukum pengawasan perilaku pasar (Market Conduct), hierarki regulasi turunannya, dan isu-isu pelindungan konsumen yang jadi fokus pengawasan.",
+    "sections": [
+      {
+        "heading": "Dasar Hukum & Hierarki Regulasi",
+        "items": [
+          "Pasal 234 ayat (1) UU P2SK — Market Conduct pastikan kepatuhan PUSK ke ketentuan Pelindungan Konsumen & masyarakat.",
+          "POJK 22/2023 — induk aturan Pelindungan Konsumen & Masyarakat di SJK (13 Bab, 125 Pasal).",
+          "PDK OJK 2/PDK.08/2024 — Pengawasan Perilaku PUJK (Market Conduct) SJK.",
+          "PDK OJK 3/PDK.08/2024 — Mekanisme Koordinasi Pelindungan Konsumen & Masyarakat di SJK.",
+          "SEDK 1/SEDK.08/2025 — Pedoman Pengenaan Sanksi Administratif Market Conduct, Edukasi & Pelindungan Konsumen.",
+          "SEDK 2/PDK.08/2025 — Pedoman Pelaksanaan Pengendalian Kualitas Market Conduct.",
+          "SEOJK 18/SEOJK.08/2024 — Penilaian Sendiri (self-assessment) Pelindungan Konsumen.",
+          "SEOJK 17/SEOJK.07/2018 — Pedoman Layanan Pengaduan Konsumen SJK."
+        ]
+      },
+      {
+        "heading": "Isu-Isu Fokus Pengawasan",
+        "items": [
+          "Mis-selling/mis-leading — informasi menyesatkan demi target pemasaran.",
+          "Pelanggaran penagihan (debt collection) — kata kasar, ancaman, di luar jam operasional.",
+          "Fraud internal PUJK oleh pegawai/pihak afiliasi.",
+          "Kejahatan keuangan digital yang menyalahgunakan ketidaktahuan konsumen.",
+          "Praktik bisnis 'unfair' antar-PUJK — persaingan tidak sehat, biaya/risiko tidak transparan.",
+          "Ketidakmemadaian layanan bagi konsumen disabilitas.",
+          "Kebocoran data pribadi akibat pengamanan infrastruktur lemah."
+        ]
+      }
+    ],
+    "prediction": [
+      "Hafalan mana PDK/SEDK/SEOJK yang ngatur apa — ini paforit banget karena banyak nomor regulasi mirip-mirip.",
+      "Soal studi kasus (skenario pelanggaran) yang minta identifikasi jenis isu pelindungan konsumennya.",
+      "POJK 22/2023 (13 Bab, 125 Pasal) sebagai regulasi induk sering jadi soal angka."
+    ]
+  },
+  {
+    "slug": "m1-siklus-tools-pm",
+    "title": "Siklus & Tools Dasar Pengawasan Bidang Pasar Modal",
+    "overview": "Membahas sistem pemantauan transaksi Efek (SIPETRO & Daily Watching), dasar hukum larangan pelanggaran transaksi, serta pelaku Lembaga Penunjang Pasar Modal.",
+    "sections": [
+      {
+        "heading": "Tools Pengawasan Transaksi",
+        "items": [
+          "SIPETRO — pemantauan transaksi Efek bersifat Ekuitas (saham/waran).",
+          "Daily Watching — pemantauan transaksi EBUS (Efek Bersifat Utang & Sukuk); ada Menu Alert (set-up parameter) dan Modul Reporting and Activity.",
+          "OJK berkoordinasi dengan SRO (Self-Regulatory Organization) untuk efektivitas pengawasan."
+        ]
+      },
+      {
+        "heading": "Dasar Hukum",
+        "items": [
+          "Pasal 3 UUPM — dasar wewenang pengaturan & pengawasan pasar modal (dulu Bapepam, sekarang OJK).",
+          "Pasal 90-97 UUPM/UU P2SK — larangan Penipuan, Manipulasi Pasar, dan Perdagangan Orang Dalam (Insider Trading).",
+          "POJK 22/POJK.04/2017 — Pelaporan Transaksi Efek.",
+          "POJK 22/POJK.04/2019 — Transaksi Efek (umum).",
+          "POJK 3/POJK.04/2021 — penyelenggaraan kegiatan Pasar Modal secara elektronik."
+        ]
+      },
+      {
+        "heading": "Pelaku Lembaga Penunjang",
+        "items": [
+          "Wali Amanat — wakil pemegang Efek bersifat utang.",
+          "Bank Kustodian — penitipan Efek, bisa mewakili nasabah selesaikan transaksi.",
+          "Biro Administrasi Efek (BAE) — catat kepemilikan & distribusi hak pemegang Efek.",
+          "C-BEST — sistem penyelesaian Efek scriptless yang dioperasikan KSEI.",
+          "Alur pengawasan onsite Lembaga Penunjang: Penyusunan Rencana Pemeriksaan → Persiapan On-site → Pelaksanaan On-site → Closing Conference → Penyusunan LHP → Rekomendasi Tindak Lanjut."
+        ]
+      },
+      {
+        "heading": "Tahapan Pengawasan Transaksi Efek",
+        "items": [
+          "Reviu Alert (RA) → Penelaahan (120 Hari Kerja) → Pemeriksaan Teknis (75 Hari Kerja)."
+        ]
+      }
+    ],
+    "prediction": [
+      "SIPETRO vs Daily Watching (ekuitas vs EBUS) — perbedaan fungsinya paling sering ditanya.",
+      "Pasal 90-97 (jenis pelanggaran) dan urutan tahapan RA→Penelaahan→Pemeriksaan Teknis dengan jangka waktunya (120HK/75HK) rawan keluar.",
+      "Fungsi masing-masing Lembaga Penunjang (Wali Amanat vs Bank Kustodian vs BAE) — soal 'siapa ngapain'."
+    ]
+  },
+  {
+    "slug": "m1-rbs-cycle",
+    "title": "Siklus Pengawasan Bank (RBS Cycle On dan Off Supervision)",
+    "overview": "Membahas 6 tahapan Siklus RBS Bank Umum, dokumen KYB & Supervisory Plan, status pengawasan bank terbaru, dan RBS untuk BUS/UUS.",
+    "sections": [
+      {
+        "heading": "6 Tahapan Siklus RBS",
+        "items": [
+          "1) Pemahaman terhadap Bank (KYB) → 2) Penilaian Risiko & Tingkat Kesehatan → 3) Perencanaan Pengawasan (SP) → 4) Pemeriksaan Berdasarkan Risiko → 5) Forum Panel Pengawasan (fungsi pengendalian kualitas) → 6) Tindakan Pengawasan & Monitoring."
+        ]
+      },
+      {
+        "heading": "Dokumen Kunci",
+        "items": [
+          "KYB (Know Your Bank) — disusun 15 hari kerja sebelum penilaian TKB, acuan SEDK 8/SEDK.03/2020.",
+          "Supervisory Plan (SP) — disusun 1x/tahun paling lambat 15 Desember, direview tiap triwulan, acuan SEDK 3/SEDK.03/2023. 3 bagian: Informasi Umum, Fokus Pengawasan, Penetapan Strategi Pengawasan.",
+          "Penilaian Tingkat Kesehatan Bank — POJK 4/POJK.03/2016 & SEOJK 14/SEOJK.03/2017. Peringkat PK-1 (Sangat Sehat) s.d. PK-5 (Tidak Sehat); PK-3 = Cukup Sehat."
+        ]
+      },
+      {
+        "heading": "RBBR (Risk Based Bank Rating) — 4 Faktor",
+        "items": [
+          "Profil Risiko, Tata Kelola (GCG), Rentabilitas, Permodalan.",
+          "Komponen Risiko Inheren pada Risiko Kredit: strategi penyediaan dana, kualitas & kecukupan pencadangan, komposisi portofolio & konsentrasi — BUKAN 'keandalan mekanisme reviu strategi' (itu masuk kategori Kualitas Penerapan Manajemen Risiko, bukan Risiko Inheren)."
+        ]
+      },
+      {
+        "heading": "Status Pengawasan Bank (POJK 5/2024, UU P2SK)",
+        "items": [
+          "Status baru: Normal, Penyehatan (BDP), Resolusi (BDR) — menggantikan istilah lama Intensif/Khusus.",
+          "Dasar hukum sektor perbankan: Pasal 6 & 7 UU 21/2011; Pasal 6 UU P2SK (UU 4/2023)."
+        ]
+      },
+      {
+        "heading": "RBS untuk BUS & UUS",
+        "items": [
+          "Tambahan 2 risiko khusus: Risiko Investasi dan Risiko Imbal Hasil.",
+          "Ada Dewan Pengawas Syariah (DPS) — awasi kepatuhan syariah (dasar: Pasal 32 ayat 3 UU Perbankan Syariah 2008).",
+          "UUS tidak punya KYB & SP tersendiri; pemeriksaan UUS sifatnya opsional (tidak wajib tiap tahun)."
+        ]
+      }
+    ],
+    "prediction": [
+      "Urutan 6 tahapan siklus RBS wajib hafal luar kepala — sering jadi soal urut-urutan.",
+      "Perbedaan Risiko Inheren vs Kualitas Manajemen Risiko (soal 'kecuali' klasik).",
+      "Angka-angka: 15 hari kerja (KYB), 15 Desember (SP), PK-1 s.d. PK-5, status Normal/Penyehatan/Resolusi."
+    ]
+  },
+  {
+    "slug": "m1-ppdp",
+    "title": "Siklus Pengawasan SJK (Risk & Compliance Based) - PPDP",
+    "overview": "Membahas dasar hukum pengawasan Perusahaan Asuransi/Reasuransi dan Lembaga Keuangan Khusus (Sui Generis) seperti LPEI, PNM, SMF, BP Tapera.",
+    "sections": [
+      {
+        "heading": "Definisi & Dasar Hukum Asuransi",
+        "items": [
+          "Pasal 246 KUHD — definisi klasik asuransi (penanggung ikat diri ke tertanggung, terima premi).",
+          "UU 40/2014 — definisi modern, berbasis perjanjian perusahaan asuransi & pemegang polis.",
+          "POJK 34/2018 stdtd 14/2021 — Penilaian Kembali Pihak Utama.",
+          "POJK 28/2020 — Penilaian Tingkat Kesehatan LJKNB.",
+          "SEOJK 22/2021 — Manajemen Risiko dalam Penggunaan Teknologi Informasi.",
+          "POJK 5/2023 — Kesehatan Keuangan Perusahaan Asuransi & Reasuransi."
+        ]
+      },
+      {
+        "heading": "Pendekatan Pengawasan",
+        "items": [
+          "Compliance Based Supervision — titik berat pada kepatuhan terhadap peraturan.",
+          "Diterapkan di sektor Perasuransian, Dana Pensiun, dan Perusahaan Pembiayaan."
+        ]
+      },
+      {
+        "heading": "Lembaga Keuangan Khusus (Sui Generis)",
+        "items": [
+          "Definisi Lembaga Jasa Keuangan Lainnya — Pasal 1 angka 10 UU 21/2011.",
+          "LPEI (Lembaga Pembiayaan Ekspor Indonesia) — dorong ekspor nasional; dasar UU 2/2009; kebijakan dasar di PP 43/2019; pengawasan OJK di POJK 9/POJK.05/2022.",
+          "PT SMF (Sarana Multigriya Finansial) — pembiayaan perumahan layak & terjangkau.",
+          "PT PNM (Permodalan Nasional Madani) — kredit mikro untuk koperasi & UMKM.",
+          "BP Tapera — dana murah jangka panjang untuk MBR (Masyarakat Berpenghasilan Rendah)."
+        ]
+      }
+    ],
+    "prediction": [
+      "Pasangan lembaga-tujuan (LPEI=ekspor, SMF=perumahan, PNM=UMKM, Tapera=MBR) — pola soal paling umum.",
+      "Nomor regulasi asuransi (POJK 28/2020 vs POJK 34/2018 vs POJK 5/2023) sering diuji, jadi hafalin masing-masing ngatur apa.",
+      "Beda Compliance Based vs Risk Based Supervision."
+    ]
+  },
+  {
+    "slug": "m1-pvml",
+    "title": "Siklus Pengawasan SJK (Risk & Compliance Based) - PVML",
+    "overview": "Membahas siklus RBS Perusahaan Pembiayaan & Modal Ventura: modul penilaian, alur off-site & on-site, dan ketentuan Tingkat Kesehatan LJKNB.",
+    "sections": [
+      {
+        "heading": "Evolusi Pendekatan Pengawasan",
+        "items": [
+          "Compliance Based (1988-2014) → RBS Versi 1 (2015-2019) → RBS Versi 2 (2020-sekarang).",
+          "RBS Versi 1 — Modul Umum (Kepengurusan, Tata Kelola, Strategi, Operasional, Aset-Liabilitas, Dukungan Dana) + Modul Khusus (Risiko Pembiayaan)."
+        ]
+      },
+      {
+        "heading": "Alur Pengawasan Off-site",
+        "items": [
+          "Analisa Early Warning System & Laporan Bulanan — deteksi kenaikan pelanggaran rasio keuangan.",
+          "Compliance checklist — Laporan Rencana Bisnis, Laporan Rencana Aksi Keuangan Berkelanjutan, Laporan Bulanan.",
+          "Pelanggaran laporan → surat peringatan/teguran sesuai POJK."
+        ]
+      },
+      {
+        "heading": "Alur Pengawasan On-site (5 Tahap)",
+        "items": [
+          "1) Pra Entry Meeting (off site) → 2) Pemeriksaan Langsung/on-site (wawancara, klarifikasi, Go Live Sistem, kunjungan cabang/DRC/debitur) → 3) Pra Exit Meeting (bahas temuan) → 4) Exit Meeting → 5) Penyusunan LHP (+ surat pengantar & surat penegakan kepatuhan)."
+        ]
+      },
+      {
+        "heading": "Tingkat Kesehatan LJKNB",
+        "items": [
+          "Pendekatan risiko (risk-based nonbank rating) — dasarnya INDIVIDUAL.",
+          "Kalau punya Perusahaan Anak → penilaian konsolidasi wajib efektif 3 tahun sejak POJK diundangkan.",
+          "Unit syariah dalam LJKNB dinilai TERPISAH (individual), bukan konsolidasi dengan unit konvensional.",
+          "Tanggung jawab pemeliharaan Tingkat Kesehatan ada di Direksi & Dewan Komisaris."
+        ]
+      }
+    ],
+    "prediction": [
+      "Urutan 5 tahap on-site (Pra Entry→Pemeriksaan→Pra Exit→Exit→LHP) — wajib hafal urutannya.",
+      "Bedain Modul Umum vs Modul Khusus pada RBS Versi 1.",
+      "Angka 3 tahun (transisi ke penilaian konsolidasi) sering jadi soal detail."
+    ]
+  },
+  {
+    "slug": "m1-tools-perbankan",
+    "title": "Tools Dasar Pengawasan SJK - Perbankan",
+    "overview": "Membahas arah SupTech OJK (OSIDA) dan modul-modul dalam Sistem Informasi Pengawasan Perbankan (SIPB).",
+    "sections": [
+      {
+        "heading": "OSIDA (OJK Suptech Integrated Data Analytics)",
+        "items": [
+          "Kondisi SEKARANG: pengolahan data semi-manual di PC/Notebook Pengawas, skenario analisis beda-beda antar Pengawas (belum standar).",
+          "Arah KEDEPAN: centralized, pakai EDW, Big Data Analytics & AI.",
+          "IDA (Integrated Data Analytics) mendukung EWS (Early Warning System) dan CCU (Compliance Checkup).",
+          "SupTech = alat bantu preliminary analysis; keputusan akhir tetap di tangan Pengawas.",
+          "Network Analysis — visualisasi struktur jaringan SJK & contagion effect.",
+          "Behaviour Analytics — data mining + alert system buat pola perilaku SJK/individual."
+        ]
+      },
+      {
+        "heading": "Modul-Modul SIPB (sipb.ojk.go.id)",
+        "items": [
+          "Modul KYB — pemahaman komprehensif faktor internal & eksternal bank.",
+          "Modul RBBR — penyusunan Tingkat Kesehatan Bank berbasis risiko.",
+          "Modul SP — penyusunan Supervisory Plan tahunan.",
+          "Modul BPeR — pakai sumber data APOLO, LBUT (ANTASENA), SLIK; Peer Group Default berdasar kepemilikan+total aset+KBMI; Peer Group Customized diajukan ke satker DIMB; pertukaran data dgn BI lewat SAPIT."
+        ]
+      },
+      {
+        "heading": "Sumber Data per Kebutuhan",
+        "items": [
+          "SLIK — cek kolektibilitas debitur & one-debtor-concept.",
+          "LBU — cek pembentukan CKPN.",
+          "LHBU — cek transaksi valas melampaui PDN (Posisi Devisa Neto).",
+          "OBOX — aplikasi minta data offline dari Bank saat pengawasan offsite."
+        ]
+      }
+    ],
+    "prediction": [
+      "Fungsi tiap sumber data (SLIK/LBU/LHBU/OBOX) — soal 'data apa buat cek apa' sangat sering muncul.",
+      "4 modul SIPB (KYB/RBBR/SP/BPeR) dan fungsinya masing-masing.",
+      "Kondisi SEKARANG vs KEDEPAN OSIDA — pola soal perbandingan."
+    ]
+  }
+]

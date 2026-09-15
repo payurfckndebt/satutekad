@@ -12,6 +12,7 @@ Palet warna merah + putih, dominan putih.
 - **Latihan Berdasarkan Hari** — materi dikelompokkan per hari pelatihan (1-4) dan per sesi di dalamnya, gabungan materi awal + materi Modul 1.
 - **YDBBA** — latihan fokus ke soal existing (Kuis Kelas) saja, per kategori atau semua sekaligus.
 - **Bank Soal** — semua soal (existing + Modul 1), bisa dicari & difilter, expand untuk jawaban + pembahasan.
+- **Bahan Bacaan** — rangkuman poin penting per materi Modul 1 (10 topik), plus prediksi fokus ujian disusun dari karakteristik soal & kisi-kisi yang sudah ada untuk topik itu. `src/data/bahanBacaan.json`.
 - **Riwayat** — histori try out tersimpan di localStorage device (skor, benar/salah, durasi).
 
 Semua mode try out (Per Modul/Harian/YDBBA) pakai gaya ujian asli: jawaban tidak langsung dikoreksi, ada flag soal, navigator lompat-soal, submit manual selalu dikonfirmasi (auto-submit tanpa konfirmasi kalau waktu habis), dan pembahasan lengkap (benar/salah/kosong) di akhir.

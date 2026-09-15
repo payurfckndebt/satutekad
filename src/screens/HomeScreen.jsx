@@ -47,6 +47,7 @@ export default function HomeScreen({ onSelect }) {
         <div className="grid grid-cols-2 gap-3 pt-1">
           <SmallCard title="YDBBA" desc="Latihan fokus" onClick={() => onSelect('ydbba')} />
           <SmallCard title="Bank Soal" desc="Semua + pembahasan" onClick={() => onSelect('banksoal')} />
+          <SmallCard title="Bahan Bacaan" desc="Rangkuman + prediksi" onClick={() => onSelect('bahanbacaan')} />
         </div>
       </div>
 
