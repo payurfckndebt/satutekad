@@ -75,7 +75,7 @@ export default function McqRunner({ title, questions, timeLimitMin, onFinish, on
           {q.options.map((opt, i) => {
             const isSelected = selected === i;
             const isCorrect = i === q.correctIndex;
-            let style = 'border-ink-soft/20 bg-white text-ink';
+            let style = 'border-ink-soft/20 bg-paper-raised text-ink';
             if (selected !== null) {
               if (isCorrect) style = 'border-ok bg-ok/10 text-ok';
               else if (isSelected) style = 'border-bad bg-bad/10 text-bad';
@@ -96,7 +96,7 @@ export default function McqRunner({ title, questions, timeLimitMin, onFinish, on
       </main>
 
       {selected !== null && (
-        <div className="fixed inset-x-0 bottom-0 bg-white border-t border-ink-soft/10 px-5 py-4">
+        <div className="fixed inset-x-0 bottom-0 bg-paper-raised border-t border-ink-soft/10 px-5 py-4">
           <button
             onClick={next}
             className="btn-solid w-full rounded-2xl bg-tekad-red border-b-4 border-tekad-redDark py-3 font-display font-bold text-white"

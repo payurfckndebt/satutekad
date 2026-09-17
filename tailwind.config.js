@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
@@ -9,19 +10,22 @@ export default {
       },
       colors: {
         ink: {
-          DEFAULT: '#26141A',
-          soft: '#7A5A61',
+          DEFAULT: 'rgb(var(--c-ink) / <alpha-value>)',
+          soft: 'rgb(var(--c-ink-soft) / <alpha-value>)',
         },
-        paper: '#FFFFFF',
+        paper: {
+          DEFAULT: 'rgb(var(--c-paper) / <alpha-value>)',
+          raised: 'rgb(var(--c-paper-raised) / <alpha-value>)',
+        },
         tekad: {
           red: '#D6293D',
           redDark: '#A81F2E',
-          redSoft: '#FDEEF0',
+          redSoft: 'rgb(var(--c-red-soft) / <alpha-value>)',
         },
         ok: '#1C8A4B',
-        okSoft: '#E8F6EE',
-        bad: '#C81E37',
-        badSoft: '#FBE7E9',
+        okSoft: 'rgb(var(--c-ok-soft) / <alpha-value>)',
+        bad: '#E5495F',
+        badSoft: 'rgb(var(--c-bad-soft) / <alpha-value>)',
       },
       boxShadow: {
         card: '0 1px 0 0 rgba(38,20,26,0.06)',

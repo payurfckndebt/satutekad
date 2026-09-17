@@ -151,7 +151,7 @@ export default function JwaraSession({ category, allQuestions, tier = 'easy', on
         </p>
         <button
           onClick={retryLevel}
-          className="btn-solid w-full max-w-xs rounded-2xl bg-white border-b-4 border-white/40 py-3 font-display font-bold text-tekad-red"
+          className="btn-solid w-full max-w-xs rounded-2xl bg-paper-raised border-b-4 border-white/40 py-3 font-display font-bold text-tekad-red"
         >
           Ulangi Level
         </button>
@@ -178,14 +178,14 @@ export default function JwaraSession({ category, allQuestions, tier = 'easy', on
         {nextTier ? (
           <button
             onClick={() => onGoToTier && onGoToTier(nextTier)}
-            className="btn-solid w-full max-w-xs rounded-2xl bg-white border-b-4 border-white/40 py-3 font-display font-bold text-tekad-red"
+            className="btn-solid w-full max-w-xs rounded-2xl bg-paper-raised border-b-4 border-white/40 py-3 font-display font-bold text-tekad-red"
           >
             Lanjut ke Tingkat {TIER_LABEL[nextTier]} →
           </button>
         ) : (
           <button
             onClick={nextLevel}
-            className="btn-solid w-full max-w-xs rounded-2xl bg-white border-b-4 border-white/40 py-3 font-display font-bold text-tekad-red"
+            className="btn-solid w-full max-w-xs rounded-2xl bg-paper-raised border-b-4 border-white/40 py-3 font-display font-bold text-tekad-red"
           >
             Latihan Lagi
           </button>
@@ -260,7 +260,7 @@ function StepRenderer({ step, onAnswered, locked }) {
 
 function Stat({ label, value }) {
   return (
-    <div className="rounded-2xl bg-white/15 border border-white/25 py-3">
+    <div className="rounded-2xl bg-paper-raised/15 border border-white/25 py-3">
       <div className="font-display font-extrabold text-lg text-white">{value}</div>
       <div className="text-[11px] text-white/70 uppercase tracking-wide">{label}</div>
     </div>

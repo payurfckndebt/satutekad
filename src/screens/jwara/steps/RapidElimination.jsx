@@ -53,7 +53,7 @@ export default function RapidElimination({ question, onAnswered }) {
                   ? 'border-bad bg-bad/10 text-bad animate-shake'
                   : isOut
                   ? 'border-transparent bg-ink-soft/10 text-ink-soft/40 line-through scale-[0.98]'
-                  : 'border-ink-soft/20 bg-white text-ink hover:border-tekad-red active:scale-[0.98]'
+                  : 'border-ink-soft/20 bg-paper-raised text-ink hover:border-tekad-red active:scale-[0.98]'
                 }`}
             >
               {opt}

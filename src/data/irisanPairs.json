@@ -1,0 +1,240 @@
+[
+ {
+  "id": "IR-001",
+  "m2Slug": "m2-pengantar-pasar-modal",
+  "m2Title": "Pengantar, Produk & Mekanisme Transaksi Pasar Modal",
+  "note": "Modul 1 sudah menguji SRO lewat sudut siklus/tools pengawasan; Modul 2 menguji hal yang sama lewat sudut struktur kelembagaan.",
+  "m1": {
+   "stem": "Dalam infrastruktur pasar modal, lembaga yang termasuk SRO adalah...",
+   "options": [
+    "BEI, KSEI, dan KPEI",
+    "PPE, PEE, dan MI",
+    "OJK, BAE, dan Notaris",
+    "Akuntan, Notaris, dan Konsultan Hukum"
+   ],
+   "correctIndex": 0,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 143"
+  }
+ },
+ {
+  "id": "IR-002",
+  "m2Slug": "m2-derivatif-bursa-karbon-perizinan",
+  "m2Title": "Perizinan Keuangan Derivatif & Bursa Karbon",
+  "note": "Fakta peralihan kewenangan Bappebti→OJK ini muncul persis di soal ujian Modul 1, dan jadi salah satu fakta inti di materi Derivatif Modul 2.",
+  "m1": {
+   "stem": "Sebelum adanya UU No. 4 Tahun 2023 tentang Undang-Undang Pengembangan dan Penguatan Sektor Keuangan, pengawasan keuangan derivatif merupakan kewenangan:",
+   "options": [
+    "BKPM",
+    "Bappenas",
+    "Bappebti",
+    "Bapepam dan LK"
+   ],
+   "correctIndex": 2,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 41"
+  }
+ },
+ {
+  "id": "IR-003",
+  "m2Slug": "m2-derivatif-bursa-karbon-perizinan",
+  "m2Title": "Perizinan Keuangan Derivatif & Bursa Karbon",
+  "note": "Ruang lingkup pengawasan Bursa Karbon berdasarkan POJK 14/2023 — dasar hukum yang sama dipakai di kedua modul.",
+  "m1": {
+   "stem": "Manakah yang termasuk ruang lingkup pengawasan berdasarkan Pasal 26 angka 2 POJK 14 Tahun 2023, yaitu:",
+   "options": [
+    "Project Developer perdagangan karbon",
+    "Lembaga Verifikasi dan Validasi",
+    "Sumber dana proyek perdagangan karbon",
+    "Penyelenggara Bursa Karbon"
+   ],
+   "correctIndex": 3,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 250"
+  }
+ },
+ {
+  "id": "IR-004",
+  "m2Slug": "m2-derivatif-bursa-karbon-perizinan",
+  "m2Title": "Perizinan Keuangan Derivatif & Bursa Karbon",
+  "note": "Mekanisme Nilai Ekonomi Karbon (NEK) — konsep yang sama diuji dari sisi pengawasan umum (M1) dan sisi perizinan/produk (M2).",
+  "m1": {
+   "stem": "Manakah yang termasuk dalam mekanisme penyelenggaraan Nilai Ekonomi Karbon di Indonesia?",
+   "options": [
+    "Pembayaran Berbasis Kinerja atau Result-Based Payment",
+    "Pajak Karbon",
+    "Semua Benar",
+    "Perdagangan Karbon"
+   ],
+   "correctIndex": 2,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 219"
+  }
+ },
+ {
+  "id": "IR-005",
+  "m2Slug": "m2-perlindungan-konsumen-kspk",
+  "m2Title": "Proses Bisnis Pelindungan Konsumen di SJK",
+  "note": "Dua prinsip tambahan POJK 22/2023 ini diuji persis sama di Modul 1 (sisi proses) dan Modul 2/KSPK (sisi kelembagaan) — pastikan hafal urutannya.",
+  "m1": {
+   "stem": "Terdapat penambahan dua prinsip Pelindungan Konsumen dan Masyarakat sebagaimana diatur dalam POJK 22 Tahun 2023 terkait Pelindungan Konsumen dan Masyarakat di Sektor Jasa Keuangan, sebagai amanat dari UU P2SK yaitu:",
+   "options": [
+    "Prinsip Persaingan Mandiri dan Prinsip Bertanggung Jawab",
+    "Prinsip Penegakan Kepatuhan dan Prinsip Persaingan yang Sehat",
+    "Prinsip Integritas dan Prinsip Ketahanan",
+    "Prinsip Kepatuhan dan Prinsip Keseimbangan"
+   ],
+   "correctIndex": 1,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 30"
+  }
+ },
+ {
+  "id": "IR-006",
+  "m2Slug": "m2-perlindungan-konsumen-kspk",
+  "m2Title": "Proses Bisnis Pelindungan Konsumen di SJK",
+  "note": "Jangka waktu penanganan pengaduan ini juga persis jadi salah satu soal di bank soal KSPK Modul 2 yang kita susun — angka 10+10 hari kerja wajib hafal.",
+  "m1": {
+   "stem": "Berdasarkan POJK 18/POJK.07/2018 tentang Layanan Pengaduan Konsumen di Sektor Jasa Keuangan, sebagaimana telah diubah melalui POJK 22 tahun 2023, PUJK wajib menindaklanjuti dan menyelesaikan pengaduan secara tertulis, serta dalam kondisi tertentu dapat mengajukan perpanjangan waktu penyelesaian pengaduan yaitu dalam jangka waktu paling lama:",
+   "options": [
+    "20 + 20 hari kerja",
+    "10 + 10 hari kerja",
+    "20 + 10 hari kerja",
+    "10 + 5 hari kerja"
+   ],
+   "correctIndex": 1,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 54"
+  }
+ },
+ {
+  "id": "IR-007",
+  "m2Slug": "m2-perbankan-syariah-kelembagaan",
+  "m2Title": "Kelembagaan & Produk Perbankan Syariah",
+  "note": "Akad Murabahah diuji di Modul 1 dari sisi prinsip dasar; Modul 2 menguji akad yang sama dari sisi produk kelembagaan bank syariah.",
+  "m1": {
+   "stem": "Transaksi Murabahah mempergunakan prinsip :",
+   "options": [
+    "Sewa",
+    "Bagi hasil",
+    "Kredit",
+    "Jual beli"
+   ],
+   "correctIndex": 3,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 3"
+  }
+ },
+ {
+  "id": "IR-008",
+  "m2Slug": "m2-perbankan-syariah-kelembagaan",
+  "m2Title": "Kelembagaan & Produk Perbankan Syariah",
+  "note": "Kombinasi akad untuk Letter of Credit syariah ini adalah salah satu fakta paling sering dijebak — muncul di kedua modul dengan framing berbeda.",
+  "m1": {
+   "stem": "Letter of Credit dalam perbankan syariah yang telah difatwakan dapat menggunakan",
+   "options": [
+    "Hiwalah dan Kafalah",
+    "Hiwalah",
+    "Kafalah dan Wakalah",
+    "Wakalah dan Hiwalah"
+   ],
+   "correctIndex": 2,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 99"
+  }
+ },
+ {
+  "id": "IR-009",
+  "m2Slug": "m2-tata-kelola-produk-perbankan",
+  "m2Title": "Kelembagaan, Tata Kelola & Produk Perbankan",
+  "note": "Perubahan istilah status pengawasan bank pasca UU P2SK ini adalah salah satu fakta paling krusial — diuji di Modul 1 dari sisi siklus RBS, di Modul 2 dari sisi tata kelola & kelembagaan.",
+  "m1": {
+   "stem": "Berdasarkan POJK Nomor 5 Tahun 2024, status pengawasan bank yang sebelumnya terdiri dari Normal, Intensif (BDPI), dan Khusus (BDPK) berubah menjadi...",
+   "options": [
+    "Normal, Pengawasan Ketat, dan Likuidasi",
+    "Sehat, Cukup Sehat, dan Tidak Sehat",
+    "Normal, Pembinaan, dan Pencabutan Izin Usaha",
+    "Normal, Penyehatan (BDP), dan Resolusi (BDR)"
+   ],
+   "correctIndex": 3,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 44"
+  }
+ },
+ {
+  "id": "IR-010",
+  "m2Slug": "m2-penawaran-umum-aksi-korporasi",
+  "m2Title": "Penawaran Umum Efek & Aksi Korporasi",
+  "note": "Warna zona risiko Emiten/PP ini contoh detail visual yang mudah dilupakan — muncul di soal pengawasan Modul 1, relevan langsung ke materi Emiten & PP Modul 2.",
+  "m1": {
+   "stem": "Berikut ini merupakan warna zona risiko pada grafik pemetaan profil risiko Emiten/PP, kecuali warna",
+   "options": [
+    "Biru",
+    "Hijau Muda",
+    "Kuning",
+    "Merah"
+   ],
+   "correctIndex": 0,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 24"
+  }
+ },
+ {
+  "id": "IR-011",
+  "m2Slug": "m2-tata-kelola-pasar-modal",
+  "m2Title": "Tata Kelola Perusahaan di Sektor Pasar Modal",
+  "note": "Kerangka Governance Structure-Process-Outcome ini diuji Modul 1 untuk konteks Bank, sementara Modul 2 memakai kerangka serupa untuk MI/Perusahaan Efek/Emiten — konsepnya identik, objeknya beda.",
+  "m1": {
+   "stem": "Penilaian Good Corporate Governance (GCG) dalam Tingkat Kesehatan Bank menekankan pada tiga aspek, yaitu...",
+   "options": [
+    "Governance Structure, Governance Process, dan Governance Outcome",
+    "Input, Proses, dan Output",
+    "Struktur Modal, Struktur Organisasi, dan Struktur Bisnis",
+    "Planning, Organizing, dan Controlling"
+   ],
+   "correctIndex": 0,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 209"
+  }
+ },
+ {
+  "id": "IR-012",
+  "m2Slug": "m2-asuransi-konvensional-struktur",
+  "m2Title": "Struktur, Produk & Aktivitas Asuransi Konvensional",
+  "note": "Sanksi keterlambatan self-assessment ini jadi favorit dijadikan soal template (angka rupiah & hari sering ditukar antar entitas) — cek juga versi Perusahaan Perdagangan Aset Kripto di bank soal Modul 1 sebagai variasi jebakan yang sama.",
+  "m1": {
+   "stem": "Bagi PT Permodalan Nasional Madani yang dinyatakan tidak menyampaikan laporan hasil penilaian sendiri setelah 30 (hari) dari batas waktu keterlambatan penyampaian laporan, dikenakan sanksi:",
+   "options": [
+    "tidak ada yang benar",
+    "sebesar Rp100.000,00 per hari keterlambatan dan paling banyak sebesar Rp10.000.000,00",
+    "sebesar Rp50.000,00 per hari keterlambatan dan paling banyak sebesar Rp5.000.000,00",
+    "sebesar Rp50.000.000,00"
+   ],
+   "correctIndex": 3,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 9"
+  }
+ },
+ {
+  "id": "IR-013",
+  "m2Slug": "m2-pengantar-pasar-modal",
+  "m2Title": "Pengantar, Produk & Mekanisme Transaksi Pasar Modal",
+  "note": "Aspek pemeriksaan Lembaga Kliring dan Penjaminan (KPEI) ini menguji SRO dari sudut pemeriksaan kepatuhan — pelengkap soal IR-001 di atas.",
+  "m1": {
+   "stem": "Berikut ini merupakan aspek pemeriksaan dari Lembaga Kliring dan Penjaminan, yaitu:",
+   "options": [
+    "Organisasi, Kustidian, Pengawasan, Manajemen Risiko",
+    "Manajemen Risiko, Organisasi, Pemeriksaan Internal, Kliring Penyelesaian",
+    "Organisasi, Pencatatan Efek, Keanggotaan, Edukasi",
+    "Kliring Penyelesaian, Organisasi, Penjaminan dan Pengelolaan Risiko, Perdagangan Efek"
+   ],
+   "correctIndex": 1,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 15"
+  }
+ },
+ {
+  "id": "IR-014",
+  "m2Slug": "m2-derivatif-bursa-karbon-perizinan",
+  "m2Title": "Perizinan Keuangan Derivatif & Bursa Karbon",
+  "note": "Bursa penyelenggara derivatif ini menguji fakta yang sama seperti materi peralihan Bappebti→OJK di Modul 2 — cek dari sudut kelembagaan Bursa-nya.",
+  "m1": {
+   "stem": "Berikut merupakan Bursa yang menyelenggarakan perdagangan produk keuangan derivatif:",
+   "options": [
+    "Bursa Efek Indonesia",
+    "Semua benar",
+    "Indonesia Commodity and Derivatives Exchange (ICDX)",
+    "Jakarta Futures Exchange"
+   ],
+   "correctIndex": 1,
+   "sourceRef": "Bank Soal Ujian Modul 1 (Gabungan) — Soal 232"
+  }
+ }
+]

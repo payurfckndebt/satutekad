@@ -1,6 +1,6 @@
 import questions from '../data/questions.json';
 
-export default function HomeScreen({ onSelect }) {
+export default function HomeScreen({ onSelect, theme, onToggleTheme }) {
   return (
     <div className="min-h-screen bg-paper flex flex-col relative overflow-hidden">
       <div className="tekad-blob w-72 h-72 -top-16 -right-16" />
@@ -14,19 +14,30 @@ export default function HomeScreen({ onSelect }) {
           </div>
           <p className="text-ink-soft/60 text-sm">{questions.length} soal siap latihan, empat cara belajar.</p>
         </div>
-        <button
-          onClick={() => onSelect('history')}
-          className="shrink-0 mt-1 flex items-center gap-1.5 rounded-full border-2 border-tekad-redSoft bg-white px-3.5 py-2 text-xs font-bold text-tekad-red"
-        >
-          🕒 Riwayat
-        </button>
+        <div className="shrink-0 mt-1 flex items-center gap-2">
+          {onToggleTheme && (
+            <button
+              onClick={onToggleTheme}
+              aria-label="Ganti tema terang/gelap"
+              className="flex items-center justify-center h-9 w-9 rounded-full border-2 border-tekad-redSoft bg-paper-raised text-sm"
+            >
+              {theme === 'dark' ? '☀️' : '🌙'}
+            </button>
+          )}
+          <button
+            onClick={() => onSelect('history')}
+            className="flex items-center gap-1.5 rounded-full border-2 border-tekad-redSoft bg-paper-raised px-3.5 py-2 text-xs font-bold text-tekad-red"
+          >
+            🕒 Riwayat
+          </button>
+        </div>
       </div>
 
       <div className="relative flex-1 px-5 space-y-3 pb-safe">
         <BigCard
           eyebrow="Try Out Terstruktur"
           title="Per Modul"
-          desc="100 soal, 2 jam, KKM 75 — mengikuti struktur modul sertifikasi."
+          desc="Jumlah soal & durasi menyesuaikan tiap modul, KKM 75."
           onClick={() => onSelect('permodul')}
           filled
         />
@@ -42,6 +53,13 @@ export default function HomeScreen({ onSelect }) {
           title="Latihan Berdasarkan Hari"
           desc="Materi dibagi per hari pelatihan dan per sesi."
           onClick={() => onSelect('harian')}
+        />
+        <BigCard
+          eyebrow="Lintas Modul"
+          title="Irisan Modul 1 & 2"
+          desc="Soal asli ujian yang topiknya beririsan antar modul, ditampilkan berdampingan."
+          badge="BARU"
+          onClick={() => onSelect('irisan')}
         />
 
         <div className="grid grid-cols-2 gap-3 pt-1">
@@ -61,7 +79,7 @@ function BigCard({ eyebrow, title, desc, onClick, badge, filled }) {
     <button
       onClick={onClick}
       className={`w-full text-left rounded-3xl px-5 py-5 border-2 active:scale-[0.98] transition-transform ${
-        filled ? 'bg-tekad-red border-tekad-red' : 'bg-white border-tekad-redSoft'
+        filled ? 'bg-tekad-red border-tekad-red' : 'bg-paper-raised border-tekad-redSoft'
       }`}
     >
       <p className={`text-[11px] font-bold uppercase tracking-wide mb-1 ${filled ? 'text-white/70' : 'text-tekad-red'}`}>
@@ -82,7 +100,7 @@ function SmallCard({ title, desc, onClick }) {
   return (
     <button
       onClick={onClick}
-      className="rounded-2xl border-2 border-tekad-redSoft bg-white px-4 py-4 text-left active:scale-[0.98] transition-transform"
+      className="rounded-2xl border-2 border-tekad-redSoft bg-paper-raised px-4 py-4 text-left active:scale-[0.98] transition-transform"
     >
       <h3 className="font-display font-bold text-ink text-sm mb-0.5">{title}</h3>
       <p className="text-ink-soft/60 text-xs leading-snug">{desc}</p>

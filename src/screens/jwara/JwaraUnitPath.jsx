@@ -46,7 +46,7 @@ export default function JwaraUnitPath({ category, allQuestions, onExit }) {
               onClick={() => setActiveTier(t.key)}
               className={`w-full flex items-center gap-4 rounded-2xl border-2 px-5 py-5 text-left transition-transform ${
                 isUnlocked
-                  ? 'border-tekad-redSoft bg-white active:scale-[0.98]'
+                  ? 'border-tekad-redSoft bg-paper-raised active:scale-[0.98]'
                   : 'border-ink-soft/10 bg-ink-soft/5 opacity-60'
               }`}
             >

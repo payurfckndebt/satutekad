@@ -73,7 +73,7 @@ export default function HarianScreen({ onExit }) {
             <button
               key={u.slug}
               onClick={() => setPicked({ slug: u.slug, name: u.name })}
-              className="w-full flex items-center gap-3 rounded-2xl border-2 border-tekad-redSoft bg-white px-5 py-4 text-left active:scale-[0.98] transition-transform"
+              className="w-full flex items-center gap-3 rounded-2xl border-2 border-tekad-redSoft bg-paper-raised px-5 py-4 text-left active:scale-[0.98] transition-transform"
             >
               <span className="shrink-0 h-8 w-8 rounded-full bg-tekad-redSoft text-tekad-red font-display font-bold text-xs flex items-center justify-center">
                 {u.session}
@@ -106,7 +106,7 @@ export default function HarianScreen({ onExit }) {
             <button
               key={d}
               onClick={() => setDay(d)}
-              className="w-full flex items-center gap-4 rounded-2xl border-2 border-tekad-redSoft bg-white px-5 py-4 text-left active:scale-[0.98] transition-transform"
+              className="w-full flex items-center gap-4 rounded-2xl border-2 border-tekad-redSoft bg-paper-raised px-5 py-4 text-left active:scale-[0.98] transition-transform"
             >
               <span className={`h-12 w-12 shrink-0 rounded-2xl ${dayInfo[d].color} flex items-center justify-center font-display font-extrabold text-white`}>
                 {d}

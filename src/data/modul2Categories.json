@@ -5,7 +5,7 @@
   "day": 1,
   "session": 1,
   "source": "generated",
-  "count": 18,
+  "count": 33,
   "origin": "modul2",
   "modul": 2
  },
@@ -25,7 +25,7 @@
   "day": 1,
   "session": 3,
   "source": "existing",
-  "count": 24,
+  "count": 50,
   "origin": "modul2",
   "modul": 2
  },
@@ -35,7 +35,7 @@
   "day": 1,
   "session": 4,
   "source": "existing",
-  "count": 33,
+  "count": 62,
   "origin": "modul2",
   "modul": 2
  },
@@ -55,7 +55,7 @@
   "day": 2,
   "session": 1,
   "source": "existing",
-  "count": 10,
+  "count": 17,
   "origin": "modul2",
   "modul": 2
  },
@@ -65,7 +65,7 @@
   "day": 2,
   "session": 2,
   "source": "existing",
-  "count": 50,
+  "count": 105,
   "origin": "modul2",
   "modul": 2
  },
@@ -105,7 +105,7 @@
   "day": 3,
   "session": 1,
   "source": "existing",
-  "count": 18,
+  "count": 28,
   "origin": "modul2",
   "modul": 2
  },
@@ -115,7 +115,7 @@
   "day": 3,
   "session": 2,
   "source": "generated",
-  "count": 28,
+  "count": 87,
   "origin": "modul2",
   "modul": 2
  },
@@ -125,7 +125,7 @@
   "day": 3,
   "session": 3,
   "source": "generated",
-  "count": 22,
+  "count": 73,
   "origin": "modul2",
   "modul": 2
  },
@@ -135,7 +135,7 @@
   "day": 3,
   "session": 4,
   "source": "generated",
-  "count": 25,
+  "count": 84,
   "origin": "modul2",
   "modul": 2
  },

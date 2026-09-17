@@ -61,7 +61,7 @@ export default function YdbbaScreen({ onExit }) {
           <button
             key={c.slug}
             onClick={() => setPicked(c.slug)}
-            className="w-full flex items-center justify-between rounded-2xl border-2 border-tekad-redSoft bg-white px-5 py-4 text-left active:scale-[0.98] transition-transform"
+            className="w-full flex items-center justify-between rounded-2xl border-2 border-tekad-redSoft bg-paper-raised px-5 py-4 text-left active:scale-[0.98] transition-transform"
           >
             <span className="font-display font-bold text-ink text-sm">{c.name}</span>
             <span className="text-ink-soft/50 text-sm">{c.count} soal</span>

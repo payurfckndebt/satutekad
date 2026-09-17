@@ -49,7 +49,7 @@ export default function TryOutScreen({ onExit }) {
           <button
             key={n}
             onClick={() => setLength(n)}
-            className="w-full flex items-center justify-between rounded-2xl border-2 border-tekad-redSoft bg-white px-5 py-4 text-left active:scale-[0.98] transition-transform"
+            className="w-full flex items-center justify-between rounded-2xl border-2 border-tekad-redSoft bg-paper-raised px-5 py-4 text-left active:scale-[0.98] transition-transform"
           >
             <span className="font-display font-bold text-ink">{n} Soal</span>
             <span className="text-ink-soft/50 text-sm">~{Math.round(n * 1.2)} menit</span>

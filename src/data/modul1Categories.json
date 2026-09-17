@@ -1,102 +1,102 @@
 [
-  {
-    "slug": "m1-critical-point-pm",
-    "name": "Critical Point Produk & Aktivitas PM",
-    "day": 3,
-    "session": 1,
-    "source": "generated",
-    "count": 20,
-    "origin": "modul1",
-    "modul": 1
-  },
-  {
-    "slug": "m1-akad-syariah",
-    "name": "Prinsip, Akad dan Fatwa SJK Syariah",
-    "day": 4,
-    "session": 1,
-    "source": "generated",
-    "count": 22,
-    "origin": "modul1",
-    "modul": 1
-  },
-  {
-    "slug": "m1-literasi-inklusi",
-    "name": "Proses Bisnis Literasi dan Inklusi Keuangan",
-    "day": 1,
-    "session": 1,
-    "source": "generated",
-    "count": 20,
-    "origin": "modul1",
-    "modul": 1
-  },
-  {
-    "slug": "m1-perlindungan-konsumen",
-    "name": "Proses Bisnis Perlindungan Konsumen di SJK",
-    "day": 1,
-    "session": 2,
-    "source": "generated",
-    "count": 20,
-    "origin": "modul1",
-    "modul": 1
-  },
-  {
-    "slug": "m1-market-conduct",
-    "name": "Proses Pengawasan Perilaku Pelaku Usaha Jasa Keuangan (Market Conduct)",
-    "day": 1,
-    "session": 3,
-    "source": "generated",
-    "count": 20,
-    "origin": "modul1",
-    "modul": 1
-  },
-  {
-    "slug": "m1-siklus-tools-pm",
-    "name": "Siklus & Tools Dasar Pengawasan Bidang Pasar Modal",
-    "day": 2,
-    "session": 1,
-    "source": "generated",
-    "count": 20,
-    "origin": "modul1",
-    "modul": 1
-  },
-  {
-    "slug": "m1-rbs-cycle",
-    "name": "Siklus Pengawasan Bank (RBS Cycle On dan Off Supervision)",
-    "day": 2,
-    "session": 2,
-    "source": "generated",
-    "count": 20,
-    "origin": "modul1",
-    "modul": 1
-  },
-  {
-    "slug": "m1-ppdp",
-    "name": "Siklus Pengawasan SJK (Risk & Compliance Based) - PPDP",
-    "day": 2,
-    "session": 3,
-    "source": "generated",
-    "count": 20,
-    "origin": "modul1",
-    "modul": 1
-  },
-  {
-    "slug": "m1-pvml",
-    "name": "Siklus Pengawasan SJK (Risk & Compliance Based) - PVML",
-    "day": 3,
-    "session": 2,
-    "source": "generated",
-    "count": 20,
-    "origin": "modul1",
-    "modul": 1
-  },
-  {
-    "slug": "m1-tools-perbankan",
-    "name": "Tools Dasar Pengawasan SJK - Perbankan",
-    "day": 1,
-    "session": 4,
-    "source": "generated",
-    "count": 20,
-    "origin": "modul1",
-    "modul": 1
-  }
+ {
+  "slug": "m1-critical-point-pm",
+  "name": "Critical Point Produk & Aktivitas PM",
+  "day": 3,
+  "session": 1,
+  "source": "generated",
+  "count": 20,
+  "origin": "modul1",
+  "modul": 1
+ },
+ {
+  "slug": "m1-akad-syariah",
+  "name": "Prinsip, Akad dan Fatwa SJK Syariah",
+  "day": 4,
+  "session": 1,
+  "source": "generated",
+  "count": 22,
+  "origin": "modul1",
+  "modul": 1
+ },
+ {
+  "slug": "m1-literasi-inklusi",
+  "name": "Proses Bisnis Literasi dan Inklusi Keuangan",
+  "day": 1,
+  "session": 1,
+  "source": "generated",
+  "count": 20,
+  "origin": "modul1",
+  "modul": 1
+ },
+ {
+  "slug": "m1-perlindungan-konsumen",
+  "name": "Proses Bisnis Perlindungan Konsumen di SJK",
+  "day": 1,
+  "session": 2,
+  "source": "generated",
+  "count": 20,
+  "origin": "modul1",
+  "modul": 1
+ },
+ {
+  "slug": "m1-market-conduct",
+  "name": "Proses Pengawasan Perilaku Pelaku Usaha Jasa Keuangan (Market Conduct)",
+  "day": 1,
+  "session": 3,
+  "source": "generated",
+  "count": 20,
+  "origin": "modul1",
+  "modul": 1
+ },
+ {
+  "slug": "m1-siklus-tools-pm",
+  "name": "Siklus & Tools Dasar Pengawasan Bidang Pasar Modal",
+  "day": 2,
+  "session": 1,
+  "source": "generated",
+  "count": 20,
+  "origin": "modul1",
+  "modul": 1
+ },
+ {
+  "slug": "m1-rbs-cycle",
+  "name": "Siklus Pengawasan Bank (RBS Cycle On dan Off Supervision)",
+  "day": 2,
+  "session": 2,
+  "source": "generated",
+  "count": 20,
+  "origin": "modul1",
+  "modul": 1
+ },
+ {
+  "slug": "m1-ppdp",
+  "name": "Siklus Pengawasan SJK (Risk & Compliance Based) - PPDP",
+  "day": 2,
+  "session": 3,
+  "source": "generated",
+  "count": 50,
+  "origin": "modul1",
+  "modul": 1
+ },
+ {
+  "slug": "m1-pvml",
+  "name": "Siklus Pengawasan SJK (Risk & Compliance Based) - PVML",
+  "day": 3,
+  "session": 2,
+  "source": "generated",
+  "count": 20,
+  "origin": "modul1",
+  "modul": 1
+ },
+ {
+  "slug": "m1-tools-perbankan",
+  "name": "Tools Dasar Pengawasan SJK - Perbankan",
+  "day": 1,
+  "session": 4,
+  "source": "generated",
+  "count": 20,
+  "origin": "modul1",
+  "modul": 1
+ }
 ]

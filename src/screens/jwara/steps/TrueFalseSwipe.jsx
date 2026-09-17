@@ -58,7 +58,7 @@ export default function TrueFalseSwipe({ statement, onAnswered }) {
             transform: `translateX(${drag}px) rotate(${rotate}deg)`,
             transition: dragging.current ? 'none' : 'transform 0.25s ease-out',
           }}
-          className="absolute inset-0 rounded-3xl bg-white border-2 border-ink-soft/15 shadow-lg p-6 flex items-center justify-center text-center cursor-grab active:cursor-grabbing"
+          className="absolute inset-0 rounded-3xl bg-paper-raised border-2 border-ink-soft/15 shadow-lg p-6 flex items-center justify-center text-center cursor-grab active:cursor-grabbing"
         >
           <p className="font-display font-bold text-lg text-ink leading-snug">{statement.text}</p>
           {drag > 40 && (
@@ -76,13 +76,13 @@ export default function TrueFalseSwipe({ statement, onAnswered }) {
       <div className="mt-6 flex gap-3">
         <button
           onClick={() => resolve(false)}
-          className="btn-solid flex-1 rounded-2xl bg-white border-2 border-bad text-bad border-b-4 py-3 font-display font-bold"
+          className="btn-solid flex-1 rounded-2xl bg-paper-raised border-2 border-bad text-bad border-b-4 py-3 font-display font-bold"
         >
           ✕ Salah
         </button>
         <button
           onClick={() => resolve(true)}
-          className="btn-solid flex-1 rounded-2xl bg-white border-2 border-ok text-ok border-b-4 py-3 font-display font-bold"
+          className="btn-solid flex-1 rounded-2xl bg-paper-raised border-2 border-ok text-ok border-b-4 py-3 font-display font-bold"
         >
           ✓ Benar
         </button>

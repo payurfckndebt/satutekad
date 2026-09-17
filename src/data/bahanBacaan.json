@@ -822,6 +822,15 @@
      "Bobot risiko aset produktif sumber dana PSIA (Profit Sharing Investment Account): 1%.",
      "Pendapatan Bank Syariah dalam laba rugi: Margin, Ujrah, Bagi Hasil (BUKAN Denda — denda masuk dana sosial, bukan pendapatan bank)."
     ]
+   },
+   {
+    "heading": "Komposisi Direksi, Komisaris & DPS Bank Umum Syariah (BUS)",
+    "items": [
+     "Direksi BUS: minimal 3 orang, Direktur Utama wajib independen.",
+     "Dewan Komisaris BUS: minimal 3 orang, minimal 50% wajib Komisaris Independen.",
+     "Dewan Pengawas Syariah (DPS) BUS: minimal 2 orang.",
+     "DPS diangkat oleh RUPS atas REKOMENDASI Majelis Ulama Indonesia (MUI)/Dewan Syariah Nasional — bukan diangkat langsung oleh MUI."
+    ]
    }
   ],
   "mnemonic": [
@@ -913,6 +922,16 @@
      "Rasio Solvabilitas minimum: 120%.",
      "9 Risiko dikelompokkan menjadi 3: Risiko Bisnis, Risiko Finansial, Risiko Governance (BUKAN \"Risiko Permodalan\" sebagai kelompok tersendiri).",
      "Status pengawasan khusus: TKS Peringkat Komposit 5 DAN faktor Tata Kelola Peringkat 5 (kombinasi kondisi i dan iii, bukan kombinasi lain)."
+    ]
+   },
+   {
+    "heading": "Komposisi Direksi & Komisaris Perusahaan Asuransi",
+    "items": [
+     "Dasar hukum tata kelola: POJK 73/2016 dan POJK 23/2023.",
+     "Direksi Perusahaan Asuransi: minimal 3 orang, wajib bersertifikat manajemen risiko.",
+     "Dewan Komisaris: minimal 3 orang, jumlahnya harus ≤ jumlah anggota Direksi.",
+     "Perusahaan Asuransi dengan unit/jendela syariah wajib memiliki Dewan Pengawas Syariah (DPS).",
+     "Direksi & Komisaris diangkat melalui RUPS, sama seperti entitas jasa keuangan lain."
     ]
    }
   ],
@@ -1049,6 +1068,16 @@
      "Four Eyes Principle — analisis berjenjang oleh unit berbeda (mis. account manager vs credit reviewer) dalam proses kredit.",
      "Know Your Financial Conglomerate (KYFC): Infrastruktur Pendukung, Bisnis Utama & Peran LJK, Struktur Konglomerasi Keuangan (BUKAN \"Pengawasan Direksi & Dekom\").",
      "Integrated Risk Rating: Tata Kelola, Profil Risiko, Permodalan Terintegrasi (BUKAN \"Manajemen Risiko Terintegrasi\" sebagai komponen terpisah)."
+    ]
+   },
+   {
+    "heading": "Perbandingan Struktur Direksi & Komisaris Antar Jenis Bank",
+    "items": [
+     "Bank Umum (POJK 17/2023): Direksi ≥3 orang (semua wajib berdomisili di Indonesia); Komisaris ≥3 orang (≤ jumlah Direksi, ≥50% Independen); Direktur Utama wajib independen terhadap Pemegang Saham Pengendali (PSP).",
+     "BPR (POJK 9/2024) — dua tingkatan berdasarkan modal inti: Modal inti <Rp50 miliar → Direksi ≥2, Komisaris ≥2 (Komisaris Independen TIDAK wajib); Modal inti ≥Rp50 miliar → Direksi ≥3, Komisaris ≥3 (≥50% wajib Independen).",
+     "BPRS (POJK 9/2024): struktur sama seperti BPR sesuai tingkatan modal inti, DITAMBAH kewajiban memiliki Dewan Pengawas Syariah (DPS).",
+     "Pelaporan tata kelola & self-assessment BPR/BPRS disampaikan lewat aplikasi APOLO.",
+     "Seluruh jenis bank (Umum, BPR, BPRS) mengangkat Direksi & Komisaris lewat RUPS."
     ]
    }
   ],
@@ -1364,7 +1393,9 @@
     "heading": "Landasan & Pendekatan Regulasi",
     "items": [
      "3 pendekatan regulasi: Mandatory (wajib, ada sanksi), Comply or Explain (terapkan atau jelaskan alasan), One Fits for All (satu kerangka untuk semua sasaran).",
-     "G20/OECD Principles 2023 menambah dimensi baru: keberlanjutan dan ketahanan (resiliensi) sebagai prinsip tersendiri."
+     "G20/OECD Principles 2023 menambah dimensi baru: keberlanjutan dan ketahanan (resiliensi) sebagai prinsip tersendiri.",
+     "Versi 2023 menambahkan prinsip baru \"Sustainability and Resilience\" yang tidak ada di versi 2015.",
+     "Prinsip \"The role of stakeholders in corporate governance\" (Principle IV versi 2015) TIDAK lagi berdiri sendiri di versi 2023 — digantikan urutan baru plus prinsip Sustainability and Resilience."
     ]
    },
    {
@@ -1373,26 +1404,36 @@
      "Direksi: minimal 2 orang, rapat ≥1x/2 bulan, kehadiran ≥75%. Dewan Komisaris: minimal 2 orang, rapat ≥1x/3 bulan.",
      "DPS (jika syariah): minimal 1 orang + wajib izin ASPM, rapat ≥1x/3 bulan.",
      "Bukti pemanggilan & risalah RUPS wajib disampaikan ke OJK maksimal 7 hari kerja setelah RUPS.",
+     "Wajib punya 8 fungsi Internal Control: Manajemen Risiko/Kepatuhan/Audit Internal, Investasi & Riset, Perdagangan, Penyelesaian Transaksi Efek, Pemasaran & Penanganan Pengaduan Nasabah, Teknologi Informasi, Akuntansi & Keuangan, Pengembangan SDM.",
+     "Rencana Bisnis MI: disampaikan ke OJK paling lambat akhir November; dapat direvisi pada bulan Juni; Realisasi Rencana Bisnis disampaikan paling lambat 15 Februari tahun berikutnya.",
+     "Laporan penerapan Tata Kelola MI wajib ditandatangani oleh Direktur Utama dan Komisaris Utama yang menjabat.",
+     "Situs web MI wajib memuat minimal 3 hal: Informasi Umum, Informasi bagi Nasabah, dan Informasi Tata Kelola (mis. kode etik perusahaan).",
      "Self-assessment tata kelola: 13 faktor (Direksi 20%, Dekom 20%, Komite 2,5%, Manajemen Risiko 7,5%, Kepatuhan 7,5%, Audit Internal 7,5%, Auditor Eksternal 2,5%, Benturan Kepentingan 10%, Stewardship 2,5%, Rencana Bisnis 7,5%, Etika Bisnis 5%, Whistleblowing 5%, Keterbukaan 2,5%).",
-     "Peringkat komposit: 90-100=1; 77-89=2; 64-76=3; 51-63=4; <51=5. Peringkat 4/5 wajib rencana tindak, dilaporkan maks 10 hari kerja setelah target."
+     "Peringkat komposit: 90-100=1; 77-89=2; 64-76=3; 51-63=4; <51=5. Peringkat 4/5 wajib rencana tindak, dilaporkan maks 10 hari kerja setelah target. Deskripsi Peringkat 4 = \"kurang baik, sebagian besar indikator tidak dipenuhi\" (bukan \"hampir seluruh\" — itu Peringkat 5).",
+     "Kebijakan whistleblowing MI/PE TIDAK wajib memuat insentif finansial bagi pelapor — yang wajib: sistematika proses, jenis pelanggaran, kerahasiaan pelapor, PIC, dan evaluasi berkala oleh Direksi & Dekom."
     ]
    },
    {
     "heading": "Tata Kelola Perusahaan Efek (POJK 57/2017)",
     "items": [
-     "Direksi: minimal 2 orang, rapat ≥1x/2 bulan. Dewan Komisaris: minimal 1 orang (lebih sedikit dari Direksi); WAJIB ada Komisaris Independen (jika >2 komisaris, ≥30% independen).",
-     "Self-assessment: 12 faktor (BEDA dari MI yang 13 faktor!) — Direksi 20%, Dekom 20%, Komite 2,5%, Benturan Kepentingan 10%, Manajemen Risiko 7,5%, Kepatuhan 7,5%, Audit Internal 7,5%, Auditor Eksternal 2,5%, Keterbukaan 5%, Rencana Bisnis 7,5%, Etika Bisnis 5%, Whistleblowing 5%.",
-     "Rencana bisnis 1 tahun: Direksi susun, Dekom & RUPS setujui."
+     "Direksi: minimal 2 orang, rapat ≥1x/2 bulan, kehadiran ≥75%/tahun. Dewan Komisaris: minimal 1 orang (lebih sedikit dari Direksi); WAJIB ada Komisaris Independen (jika >2 komisaris, ≥30% independen).",
+     "Bukti pemanggilan & risalah RUPS PE wajib disampaikan ke OJK maksimal 7 hari kerja setelah RUPS.",
+     "PPE yang mengadministrasikan rekening Efek nasabah wajib bentuk fungsi tambahan: Pemasaran, Pembukuan, Kustodian, Teknologi Informasi, dan Riset (jika perlu) — Sekretaris Perusahaan BUKAN bagian dari daftar ini (itu organ Emiten).",
+     "Rencana Bisnis PE disusun Direksi, disetujui Dekom & RUPS, disampaikan ke OJK 1x/tahun; wajib memperhatikan Rencana Strategis, faktor internal-eksternal, prinsip kehati-hatian, dan manajemen risiko.",
+     "Self-assessment: 12 faktor (BEDA dari MI yang 13 faktor!) — Direksi 20%, Dekom 20%, Komite 2,5%, Benturan Kepentingan 10%, Manajemen Risiko 7,5%, Kepatuhan 7,5%, Audit Internal 7,5%, Auditor Eksternal 2,5%, Keterbukaan 5%, Rencana Bisnis 7,5%, Etika Bisnis 5%, Whistleblowing 5%."
     ]
    },
    {
     "heading": "Tata Kelola Emiten & Perusahaan Publik",
     "items": [
      "Direksi: minimal 2 orang (1 Dirut), rapat SETIAP BULAN. Dewan Komisaris: minimal 2 orang (1 Komut), rapat ≥1x/2 bulan + rapat gabungan dengan Direksi ≥1x/4 bulan.",
-     "Komisaris Independen: jika 2 komisaris → minimal 1 independen; jika >2 → minimal 30% independen.",
-     "Sekretaris Perusahaan: kekosongan wajib diisi maksimal 60 hari.",
-     "Komite Audit: minimal 3 orang, diketuai Komisaris Independen; evaluasi jasa audit dilaporkan maks 6 bulan setelah akhir tahun buku.",
-     "Komite Nominasi & Remunerasi: minimal 3 orang, ketua Komisaris Independen.",
+     "Komisaris Independen: jika 2 komisaris → minimal 1 independen; jika >2 → minimal 30% independen. Syaratnya: tidak punya saham (langsung/tidak langsung) di Emiten, tidak berafiliasi dengan Direksi/Komisaris/pemegang saham utama, tidak punya hubungan usaha dengan Emiten, dan BUKAN pemegang saham utama Emiten tersebut.",
+     "Struktur organ: Unit Audit Internal dan Sekretaris Perusahaan berada di bawah DIREKSI; Komite Audit dan Komite Nominasi & Remunerasi berada di bawah DEWAN KOMISARIS.",
+     "Tugas Sekretaris Perusahaan: membantu Direksi & Dewan Komisaris dalam pelaksanaan tata kelola — keterbukaan informasi, pelaporan, penyelenggaraan RUPS, dokumentasi, dan orientasi Direksi/Komisaris baru. Kekosongan jabatan wajib diisi maksimal 60 hari.",
+     "Timeline RUPS: pemanggilan paling lambat 14 hari sebelum pelaksanaan; risalah RUPS lengkap dibuat & bukti disampaikan ke OJK paling lambat 30 hari setelah RUPS.",
+     "Komite Audit: minimal 3 orang (dari Komisaris Independen & pihak luar), diketuai Komisaris Independen; evaluasi jasa audit dilaporkan maks 6 bulan setelah akhir tahun buku.",
+     "Komite Nominasi & Remunerasi: minimal 3 orang, ketua wajib Komisaris Independen (2 anggota lain bisa dari Dekom, pihak luar, atau pejabat manajerial SDM).",
+     "Laporan Tahunan diatur POJK 29/POJK.04/2016. Laporan Keberlanjutan (Ikhtisar Kinerja Keberlanjutan) mencakup 3 aspek: Ekonomi, Lingkungan Hidup, dan Sosial.",
      "Comply or Explain (POJK 21/2015): 5 kelompok — A. Hubungan pemegang saham (5 rekomendasi), B. Dewan Komisaris (6), C. Direksi (6), D. Partisipasi pemangku kepentingan (6), E. Keterbukaan informasi (2)."
     ]
    },
@@ -1402,18 +1443,59 @@
      "Direksi minimum: MI=2, PE=2, Emiten=2 (termasuk Dirut).",
      "Komisaris minimum: MI=2, PE=1 (lebih sedikit dari Direksi), Emiten=2 (termasuk Komut).",
      "Rapat Direksi: MI & PE = 1x/2 bulan, Emiten = setiap bulan (paling sering!).",
-     "Ciri khas: MI punya Stewardship & DPS syariah; PE punya fungsi rekening Efek; Emiten punya RUPS/e-RUPS, Sekretaris Perusahaan, Comply or Explain."
+     "Ciri khas: MI punya Stewardship, DPS syariah, dan 8 fungsi Internal Control; PE punya fungsi tambahan rekening Efek nasabah; Emiten punya RUPS/e-RUPS, Sekretaris Perusahaan, Comply or Explain."
+    ]
+   },
+   {
+    "heading": "Detail Tambahan MI & Perusahaan Efek (Kisi-Kisi & Tabel Perbandingan)",
+    "items": [
+     "Laporan penerapan Tata Kelola MI: surat pengantar penyampaian ditandatangani Direktur Utama dalam bentuk hardcopy; isi laporan disampaikan dalam bentuk hardcopy DAN softcopy (dokumen elektronik).",
+     "Komitmen Pemegang Saham PE: wajib penuhi integritas & kelayakan keuangan (bisa lewat fit and proper test OJK); dilarang intervensi operasional PE; wajib dahulukan kepentingan PE.",
+     "RUPS PE: pemanggilan bisa lewat surat tercatat, surat elektronik, situs web, dan/atau iklan surat kabar; PE wajib sediakan bahan rapat & susun risalah; Circular Resolution (keputusan sirkuler tanpa rapat fisik) diakomodir sesuai Pasal 9 POJK 57/2017.",
+     "Perusahaan Efek wajib membentuk 2 fungsi dasar: Fungsi Manajemen Risiko, dan Fungsi Kepatuhan & Audit Internal (berbeda dari fungsi tambahan PPE pengelola rekening nasabah — itu syarat terpisah).",
+     "Rencana Bisnis PE paling sedikit memuat 3 hal: penetapan sasaran PE yang akan dicapai dalam 1 tahun, strategi pencapaian sasaran, dan proyeksi keuangan 1 tahun ke depan.",
+     "PE wajib punya 2 kebijakan terpisah: Kebijakan Sistem Pelaporan Pelanggaran (whistleblowing) dan Kebijakan Penanganan Pengaduan Nasabah — dua hal yang berbeda meski sering digabung penyebutannya."
+    ]
+   },
+   {
+    "heading": "Pemetaan Prinsip G20/OECD 2015 → 2023 (Posisi Persis)",
+    "items": [
+     "Principle I & II & III TETAP SAMA di kedua versi: (I) Ensuring the basis for an effective corporate governance framework; (II) The rights and equitable treatment of shareholders; (III) Institutional investors, stock markets and other intermediaries.",
+     "Principle IV 2015 \"The role of stakeholders in corporate governance\" DIHAPUS sebagai prinsip berdiri sendiri — posisi IV di 2023 diisi \"Disclosure and transparency\" (yang di 2015 ada di posisi V).",
+     "Principle V 2023 \"The responsibilities of the board\" (geser dari posisi VI di 2015).",
+     "Principle VI 2023 adalah prinsip BARU: \"Sustainability and resilience\" — tidak ada padanannya di 2015.",
+     "Cara cepat ingat: yang berubah cuma posisi IV dan VI — IV kehilangan \"stakeholders\", VI jadi prinsip baru \"Sustainability and resilience\"."
+    ]
+   },
+   {
+    "heading": "Struktur Organ Perusahaan Terbuka — POJK per Organ",
+    "items": [
+     "RUPS — POJK 15/POJK.04/2020; pelaksanaan e-RUPS — POJK 16/POJK.04/2020.",
+     "Direksi (BOD) dan Dewan Komisaris (BOC) — sama-sama diatur POJK 33/POJK.04/2014.",
+     "Di bawah Direksi: Unit Audit Internal (POJK 56/POJK.04/2015); Sekretaris Perusahaan (POJK 35/POJK.04/2014).",
+     "Di bawah Dewan Komisaris: Komite Audit (POJK 55/POJK.04/2015 jo. POJK 13/POJK.03/2017); Komite Nominasi dan Remunerasi (POJK 34/POJK.04/2014).",
+     "Urutan lengkap RUPS: Pengumuman (paling lambat 15 hari sebelum pemanggilan) → Pemanggilan (paling lambat 14 hari sebelum RUPS) → RUPS dilaksanakan → Ringkasan Risalah RUPS (paling lambat 2 hari kerja setelah RUPS) → Risalah RUPS lengkap (paling lambat 30 hari setelah RUPS).",
+     "Isi Laporan Tahunan (POJK 29/2016): ikhtisar data keuangan penting, informasi saham (jika ada), laporan Direksi, laporan Dewan Komisaris, profil Emiten/PP, analisis & pembahasan manajemen, tata kelola Emiten/PP, tanggung jawab sosial & lingkungan, laporan keuangan tahunan yang telah diaudit, dan surat pernyataan tanggung jawab Direksi & Dekom atas Laporan Tahunan.",
+     "Laporan Tahunan disampaikan dalam Bahasa Indonesia dan Bahasa Inggris; salinan dokumen elektronik wajib lewat sistem pelaporan elektronik OJK dan dimuat di situs web Emiten/PP."
+    ]
+   },
+   {
+    "heading": "Perbandingan Cepat Lintas Entitas Jasa Keuangan",
+    "items": [
+     "Bank Umum (POJK 17/2023): Direksi ≥3 (semua wajib berdomisili RI), Komisaris ≥3 (≤ jumlah Direksi, ≥50% Independen), Direktur Utama wajib independen dari Pemegang Saham Pengendali.",
+     "Manajer Investasi vs Perusahaan Efek vs Emiten: ketiganya sama-sama diangkat lewat RUPS, tapi komposisi minimalnya beda (lihat bagian \"Perbandingan Cepat 3 Kelompok Pelaku\" di atas) — dan rapat Direksi Emiten paling sering (tiap bulan) dibanding MI/PE (tiap 2 bulan).",
+     "DPS (Dewan Pengawas Syariah) di semua entitas syariah konsisten diangkat oleh RUPS atas rekomendasi MUI/DSN."
     ]
    }
   ],
   "mnemonic": [
-   "MI=13 faktor, PE=12 faktor — jangan tertukar. Emiten rapat Direksi paling sering: SETIAP BULAN."
+   "MI=13 faktor & 8 fungsi Internal Control, PE=12 faktor — jangan tertukar. Emiten rapat Direksi paling sering: SETIAP BULAN."
   ],
   "prediction": [
-   "Soal jumlah faktor self-assessment MI (13) vs PE (12) — pembeda paling sering dijebak.",
-   "Soal rentang nilai peringkat komposit (90-100 dst.) dan tenggat rencana tindak (10 hari kerja).",
-   "Soal komposisi minimal Direksi/Komisaris tiap entitas — mirip tapi beda, gampang tertukar.",
-   "Soal Comply or Explain dan 5 kelompok rekomendasi tata kelola Emiten."
+   "Soal jumlah faktor self-assessment MI (13) vs PE (12), dan 8 fungsi Internal Control wajib MI.",
+   "Soal timeline Rencana Bisnis MI (akhir November → revisi Juni → realisasi 15 Februari) — pola tanggal ini sering dijebak.",
+   "Soal struktur organ: mana yang di bawah Direksi (Unit Audit Internal, Sekretaris Perusahaan) vs di bawah Dekom (Komite Audit, Komite Nominasi & Remunerasi).",
+   "Soal syarat lengkap Komisaris Independen dan Comply or Explain 5 kelompok rekomendasi tata kelola Emiten."
   ]
  }
 ]

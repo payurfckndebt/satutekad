@@ -2,14 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --c-ink: 38 20 26;
+  --c-ink-soft: 122 90 97;
+  --c-paper: 255 255 255;
+  --c-paper-raised: 255 255 255;
+  --c-red-soft: 253 238 240;
+  --c-ok-soft: 232 246 238;
+  --c-bad-soft: 251 231 233;
+  color-scheme: light;
+}
+
+.dark {
+  --c-ink: 245 235 236;
+  --c-ink-soft: 197 172 178;
+  --c-paper: 24 16 19;
+  --c-paper-raised: 37 25 29;
+  --c-red-soft: 58 30 35;
+  --c-ok-soft: 20 51 35;
+  --c-bad-soft: 59 26 32;
+  color-scheme: dark;
+}
+
 html, body, #root { height: 100%; }
 
 body {
-  background: #FFFFFF;
+  background: rgb(var(--c-paper));
   font-family: 'Inter', sans-serif;
   -webkit-tap-highlight-color: transparent;
   overscroll-behavior-y: none;
-  color: #26141A;
+  color: rgb(var(--c-ink));
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
 
 .font-display { font-family: 'Plus Jakarta Sans', sans-serif; }

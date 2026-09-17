@@ -36,7 +36,7 @@ export default function JwaraMap({ onExit }) {
                 <button
                   key={u.slug}
                   onClick={() => setActive(u)}
-                  className="w-full flex items-center gap-4 rounded-2xl border-2 border-tekad-redSoft bg-white px-4 py-4 text-left active:scale-[0.98] transition-transform"
+                  className="w-full flex items-center gap-4 rounded-2xl border-2 border-tekad-redSoft bg-paper-raised px-4 py-4 text-left active:scale-[0.98] transition-transform"
                 >
                   <span className="h-11 w-11 shrink-0 rounded-full bg-tekad-red flex items-center justify-center font-display font-extrabold text-white">
                     {u.count}

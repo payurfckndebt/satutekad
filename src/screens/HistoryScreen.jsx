@@ -30,7 +30,7 @@ export default function HistoryScreen({ onExit }) {
           {history.map((h) => {
             const passed = h.score >= KKM;
             return (
-              <div key={h.id} className="rounded-2xl border-2 border-tekad-redSoft bg-white px-4 py-3.5">
+              <div key={h.id} className="rounded-2xl border-2 border-tekad-redSoft bg-paper-raised px-4 py-3.5">
                 <div className="flex items-start justify-between mb-1.5">
                   <span className="font-display font-bold text-ink text-sm">{h.title}</span>
                   <span className={`font-display font-extrabold text-lg ${passed ? 'text-ok' : 'text-tekad-red'}`}>

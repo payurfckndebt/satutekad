@@ -40,7 +40,7 @@ export default function DragSort({ sequence, onAnswered }) {
             key={item.i}
             onClick={() => tapPlaced(item)}
             disabled={locked}
-            className={`w-full flex items-center gap-3 rounded-xl border-2 px-3 py-3 text-left text-sm font-medium bg-white transition-all
+            className={`w-full flex items-center gap-3 rounded-xl border-2 px-3 py-3 text-left text-sm font-medium bg-paper-raised transition-all
               ${locked
                 ? item.i === idx
                   ? 'border-ok text-ok'
@@ -64,7 +64,7 @@ export default function DragSort({ sequence, onAnswered }) {
               <button
                 key={item.i}
                 onClick={() => tapPool(item)}
-                className="rounded-xl border-2 border-ink-soft/20 bg-white px-3 py-2 text-sm font-medium text-ink active:scale-95"
+                className="rounded-xl border-2 border-ink-soft/20 bg-paper-raised px-3 py-2 text-sm font-medium text-ink active:scale-95"
               >
                 {item.text}
               </button>

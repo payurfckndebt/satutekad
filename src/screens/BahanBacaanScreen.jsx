@@ -85,7 +85,7 @@ export default function BahanBacaanScreen({ onExit }) {
               <button
                 key={t.slug}
                 onClick={() => setActiveSlug(t.slug)}
-                className="w-full flex items-center gap-3 rounded-2xl border-2 border-tekad-redSoft bg-white px-5 py-4 text-left active:scale-[0.98] transition-transform"
+                className="w-full flex items-center gap-3 rounded-2xl border-2 border-tekad-redSoft bg-paper-raised px-5 py-4 text-left active:scale-[0.98] transition-transform"
               >
                 <span className="flex-1">
                   <span className="block font-display font-bold text-ink text-sm">{t.title}</span>
@@ -121,7 +121,7 @@ export default function BahanBacaanScreen({ onExit }) {
             <button
               key={m.id}
               onClick={() => setActiveModul(m.id)}
-              className="w-full flex items-center gap-4 rounded-2xl border-2 border-tekad-redSoft bg-white px-5 py-5 text-left active:scale-[0.98] transition-transform"
+              className="w-full flex items-center gap-4 rounded-2xl border-2 border-tekad-redSoft bg-paper-raised px-5 py-5 text-left active:scale-[0.98] transition-transform"
             >
               <span className="h-12 w-12 shrink-0 rounded-2xl flex items-center justify-center font-display font-extrabold text-lg bg-tekad-red text-white">
                 {m.id}

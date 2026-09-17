@@ -45,7 +45,7 @@ export default function TapToFill({ question, onAnswered }) {
                 ? i === question.correctIndex
                   ? 'border-ok bg-ok/10 text-ok'
                   : 'border-bad bg-bad/10 text-bad animate-shake'
-                : 'border-ink-soft/25 bg-white text-ink active:scale-95'
+                : 'border-ink-soft/25 bg-paper-raised text-ink active:scale-95'
               } ${picked !== null && picked !== i ? 'opacity-40' : ''}`}
           >
             {opt}

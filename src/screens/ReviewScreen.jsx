@@ -63,7 +63,7 @@ function Pill({ active, onClick, children, tone }) {
     <button
       onClick={onClick}
       className={`shrink-0 whitespace-nowrap rounded-full border-2 px-3.5 py-1.5 text-xs font-semibold transition-colors ${
-        active ? activeClass : 'border-tekad-redSoft text-ink-soft bg-white'
+        active ? activeClass : 'border-tekad-redSoft text-ink-soft bg-paper-raised'
       }`}
     >
       {children}
@@ -74,7 +74,7 @@ function Pill({ active, onClick, children, tone }) {
 function QuestionReviewCard({ number, q, picked, status, open, onToggle }) {
   const badge = status === 'correct' ? { icon: '✓', cls: 'bg-ok text-white' } : status === 'wrong' ? { icon: '✕', cls: 'bg-bad text-white' } : { icon: '–', cls: 'bg-ink-soft/30 text-white' };
   return (
-    <div className="rounded-2xl border-2 border-tekad-redSoft bg-white overflow-hidden">
+    <div className="rounded-2xl border-2 border-tekad-redSoft bg-paper-raised overflow-hidden">
       <button onClick={onToggle} className="w-full text-left px-4 py-3.5 flex items-start gap-3">
         <span className={`mt-0.5 shrink-0 h-6 w-6 rounded-full flex items-center justify-center text-xs font-bold ${badge.cls}`}>
           {badge.icon}

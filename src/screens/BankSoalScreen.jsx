@@ -59,7 +59,7 @@ function Pill({ active, onClick, children }) {
     <button
       onClick={onClick}
       className={`shrink-0 whitespace-nowrap rounded-full border-2 px-3.5 py-1.5 text-xs font-semibold transition-colors ${
-        active ? 'bg-tekad-red border-tekad-red text-white' : 'border-tekad-redSoft text-ink-soft bg-white'
+        active ? 'bg-tekad-red border-tekad-red text-white' : 'border-tekad-redSoft text-ink-soft bg-paper-raised'
       }`}
     >
       {children}
@@ -70,7 +70,7 @@ function Pill({ active, onClick, children }) {
 function QuestionCard({ q, open, onToggle }) {
   const shuffledQ = useMemo(() => shuffleQuestionOptions(q), [q.id]);
   return (
-    <div className="rounded-2xl border-2 border-tekad-redSoft bg-white overflow-hidden">
+    <div className="rounded-2xl border-2 border-tekad-redSoft bg-paper-raised overflow-hidden">
       <button onClick={onToggle} className="w-full text-left px-4 py-3.5 flex items-start gap-3">
         <span className="mt-0.5 text-ink-soft/40 text-lg leading-none">{open ? '−' : '+'}</span>
         <span className="flex-1">

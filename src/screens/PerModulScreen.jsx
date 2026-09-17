@@ -11,9 +11,8 @@ import {
   modulExamBreakdown,
   modul1TopicPool,
   modul2TopicPool,
-  TRYOUT_TARGET,
-  TRYOUT_MINUTES,
   KKM,
+  examConfigForModul,
 } from '../lib/modulExam';
 
 const MODULES = [
@@ -51,6 +50,7 @@ export default function PerModulScreen({ onExit }) {
 
   const modulData = MODUL_DATA[activeModul];
   const categories = modulData ? modulData.categories : [];
+  const examConfig = examConfigForModul(activeModul);
 
   function poolFor(mode) {
     return modulData.poolFor(mode);
@@ -59,8 +59,9 @@ export default function PerModulScreen({ onExit }) {
   const breakdowns = useMemo(() => {
     if (!modulData) return {};
     const out = {};
+    const target = examConfigForModul(activeModul).target;
     for (const sm of SUBMODES) {
-      out[sm.id] = modulExamBreakdown(modulData.categories, modulData.poolFor(sm.id), TRYOUT_TARGET);
+      out[sm.id] = modulExamBreakdown(modulData.categories, modulData.poolFor(sm.id), target);
     }
     return out;
   }, [activeModul]);
@@ -85,7 +86,7 @@ export default function PerModulScreen({ onExit }) {
         key={runKey}
         title={`Modul ${activeModul} · ${SUBMODES.find((s) => s.id === activeSubmode)?.title}`}
         questions={examSet}
-        timeLimitMin={TRYOUT_MINUTES}
+        timeLimitMin={examConfig.minutes}
         onFinish={setResult}
         onExit={onExit}
       />
@@ -93,7 +94,7 @@ export default function PerModulScreen({ onExit }) {
   }
 
   function startSubmode(sm) {
-    const set = buildModulExam(categories, poolFor(sm.id), TRYOUT_TARGET);
+    const set = buildModulExam(categories, poolFor(sm.id), examConfig.target);
     if (set.length === 0) return; // handled inline by disabling the button
     setActiveSubmode(sm.id);
     setExamSet(set);
@@ -106,7 +107,7 @@ export default function PerModulScreen({ onExit }) {
         <button onClick={() => setActiveModul(null)} className="self-start text-ink text-2xl leading-none mb-4">←</button>
         <h1 className="font-display font-extrabold text-2xl text-ink mb-1">Modul {activeModul}</h1>
         <p className="text-ink-soft/70 mb-6">
-          {TRYOUT_TARGET} soal · {TRYOUT_MINUTES} menit · KKM {KKM}
+          {examConfig.target} soal · {examConfig.minutes} menit · KKM {KKM}
         </p>
 
         <div className="space-y-4">
@@ -115,7 +116,7 @@ export default function PerModulScreen({ onExit }) {
             const total = breakdown.reduce((n, b) => n + b.count, 0);
             const disabled = total === 0;
             return (
-              <div key={sm.id} className="rounded-2xl border-2 border-tekad-redSoft bg-white p-5">
+              <div key={sm.id} className="rounded-2xl border-2 border-tekad-redSoft bg-paper-raised p-5">
                 <h2 className="font-display font-bold text-ink mb-1">{sm.title}</h2>
                 <p className="text-ink-soft/60 text-sm mb-3">{sm.desc}</p>
                 {disabled ? (
@@ -152,7 +153,7 @@ export default function PerModulScreen({ onExit }) {
       <button onClick={onExit} className="self-start text-ink text-2xl leading-none mb-4">←</button>
       <h1 className="font-display font-extrabold text-2xl text-ink mb-2">Per Modul</h1>
       <p className="text-ink-soft/70 mb-8 leading-relaxed">
-        Try out mengikuti struktur modul sertifikasi — {TRYOUT_TARGET} soal, {TRYOUT_MINUTES / 60} jam, KKM {KKM}.
+        Try out mengikuti struktur modul sertifikasi — jumlah soal, durasi, dan KKM {KKM} menyesuaikan masing-masing modul.
       </p>
       <div className="space-y-3">
         {MODULES.map((m) => (
@@ -161,7 +162,7 @@ export default function PerModulScreen({ onExit }) {
             disabled={m.locked}
             onClick={() => setActiveModul(m.id)}
             className={`w-full flex items-center gap-4 rounded-2xl border-2 px-5 py-5 text-left transition-transform ${
-              m.locked ? 'border-ink-soft/10 bg-ink-soft/5 opacity-60' : 'border-tekad-redSoft bg-white active:scale-[0.98]'
+              m.locked ? 'border-ink-soft/10 bg-ink-soft/5 opacity-60' : 'border-tekad-redSoft bg-paper-raised active:scale-[0.98]'
             }`}
           >
             <span

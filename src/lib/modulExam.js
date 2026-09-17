@@ -4,6 +4,17 @@ export const TRYOUT_TARGET = 100;
 export const TRYOUT_MINUTES = 120;
 export const KKM = 75;
 
+// Per-modul overrides of the try-out shape. Modules not listed here fall back
+// to TRYOUT_TARGET / TRYOUT_MINUTES above.
+export const MODUL_EXAM_CONFIG = {
+  1: { target: 100, minutes: 120 },
+  2: { target: 70, minutes: 90 },
+};
+
+export function examConfigForModul(modulId) {
+  return MODUL_EXAM_CONFIG[modulId] || { target: TRYOUT_TARGET, minutes: TRYOUT_MINUTES };
+}
+
 /**
  * Several Modul 1 topics cover the same subject as one (or two) of the
  * original 15 categories — e.g. "m1-market-conduct" and "market-conduct"

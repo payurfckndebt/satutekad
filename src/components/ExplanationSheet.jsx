@@ -3,9 +3,8 @@ export default function ExplanationSheet({ correct, text, onContinue }) {
     <div className="fixed inset-x-0 bottom-0 z-40 animate-slide-up">
       <div
         className={`px-5 pt-4 pb-6 rounded-t-3xl border-t-4 ${
-          correct ? 'bg-ok/10 border-ok' : 'bg-bad/10 border-bad'
+          correct ? 'bg-okSoft border-ok' : 'bg-badSoft border-bad'
         } backdrop-blur-sm`}
-        style={{ background: correct ? '#E8F6EE' : '#FBE7E9' }}
       >
         <div className={`flex items-center gap-2 font-display font-bold text-lg ${correct ? 'text-ok' : 'text-bad'}`}>
           <span className="text-2xl leading-none">{correct ? '✓' : '✕'}</span>

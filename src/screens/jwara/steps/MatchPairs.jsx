@@ -52,7 +52,7 @@ export default function MatchPairs({ pairs, onAnswered }) {
                   ? 'border-tekad-red bg-tekad-red/10 text-ink'
                   : wrongFlash?.leftId === item.id
                   ? 'border-bad bg-bad/10 text-bad animate-shake'
-                  : 'border-ink-soft/20 bg-white text-ink active:scale-95'
+                  : 'border-ink-soft/20 bg-paper-raised text-ink active:scale-95'
                 }`}
             >
               {item.text}
@@ -70,7 +70,7 @@ export default function MatchPairs({ pairs, onAnswered }) {
                   ? 'border-transparent bg-ok/10 text-ok/60'
                   : wrongFlash?.rightId === item.id
                   ? 'border-bad bg-bad/10 text-bad animate-shake'
-                  : 'border-ink-soft/20 bg-white text-ink active:scale-95'
+                  : 'border-ink-soft/20 bg-paper-raised text-ink active:scale-95'
                 }`}
             >
               {item.text}
