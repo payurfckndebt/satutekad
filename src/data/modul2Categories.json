@@ -1,0 +1,152 @@
+[
+ {
+  "slug": "m2-iakd-itsk-kripto",
+  "name": "Inovasi Teknologi Sektor Keuangan, Aset Keuangan Digital, dan Aset Kripto (IAKD)",
+  "day": 1,
+  "session": 1,
+  "source": "generated",
+  "count": 18,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-perizinan-produk-investasi-pm",
+  "name": "Perizinan Kelembagaan & Produk Investasi Pasar Modal",
+  "day": 1,
+  "session": 2,
+  "source": "generated",
+  "count": 14,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-dana-pensiun",
+  "name": "Struktur, Produk & Aktivitas Dana Pensiun",
+  "day": 1,
+  "session": 3,
+  "source": "existing",
+  "count": 24,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-penjaminan",
+  "name": "Struktur, Produk & Aktivitas Lembaga Penjaminan",
+  "day": 1,
+  "session": 4,
+  "source": "existing",
+  "count": 33,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-perbankan-syariah-kelembagaan",
+  "name": "Kelembagaan & Produk Perbankan Syariah",
+  "day": 1,
+  "session": 5,
+  "source": "existing",
+  "count": 28,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-asuransi-syariah-ppdp",
+  "name": "Struktur, Produk & Aktivitas Asuransi Syariah (PPDP Syariah)",
+  "day": 2,
+  "session": 1,
+  "source": "existing",
+  "count": 10,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-asuransi-konvensional-struktur",
+  "name": "Struktur, Produk & Aktivitas Asuransi Konvensional (PPDP)",
+  "day": 2,
+  "session": 2,
+  "source": "existing",
+  "count": 50,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-teknik-wawancara-investigatif",
+  "name": "Teknik Wawancara Investigatif",
+  "day": 2,
+  "session": 3,
+  "source": "generated",
+  "count": 12,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-psikologi-komunikasi-audit",
+  "name": "Psikologi dan Teknik Komunikasi Audit",
+  "day": 2,
+  "session": 4,
+  "source": "generated",
+  "count": 11,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-tata-kelola-produk-perbankan",
+  "name": "Kelembagaan, Tata Kelola & Produk Perbankan",
+  "day": 2,
+  "session": 5,
+  "source": "existing",
+  "count": 91,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-pengantar-pasar-modal",
+  "name": "Pengantar, Produk & Mekanisme Transaksi Pasar Modal",
+  "day": 3,
+  "session": 1,
+  "source": "existing",
+  "count": 18,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-penawaran-umum-aksi-korporasi",
+  "name": "Penawaran Umum Efek & Aksi Korporasi",
+  "day": 3,
+  "session": 2,
+  "source": "generated",
+  "count": 28,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-derivatif-bursa-karbon-perizinan",
+  "name": "Perizinan Keuangan Derivatif & Bursa Karbon",
+  "day": 3,
+  "session": 3,
+  "source": "generated",
+  "count": 22,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-tata-kelola-pasar-modal",
+  "name": "Tata Kelola Perusahaan di Sektor Pasar Modal",
+  "day": 3,
+  "session": 4,
+  "source": "generated",
+  "count": 25,
+  "origin": "modul2",
+  "modul": 2
+ },
+ {
+  "slug": "m2-perlindungan-konsumen-kspk",
+  "name": "Proses Bisnis Pelindungan Konsumen di SJK",
+  "day": 3,
+  "session": 5,
+  "source": "kisikisi",
+  "count": 34,
+  "origin": "modul2",
+  "modul": 2
+ }
+]

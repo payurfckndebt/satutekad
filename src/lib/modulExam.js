@@ -47,6 +47,22 @@ export function modul1TopicPool(modul1Slug, mode, modul1Questions, baseQuestions
 }
 
 /**
+ * Builds the eligible question pool for one Modul 2 topic under a given
+ * sub-mode. Unlike Modul 1, Modul 2's question set (modul2Questions.json)
+ * is self-contained per category — no linking to legacy pre-modul
+ * categories is needed.
+ * - 'ai' (Soal Campuran AI): every question for the topic, any sourceType.
+ * - 'kuiskisi' (Soal Kuis dan Kisi2): only sourceType 'kuis' or 'kisikisi'.
+ */
+export function modul2TopicPool(modul2Slug, mode, modul2Questions) {
+  const own = modul2Questions.filter((q) => q.categorySlug === modul2Slug);
+  if (mode === 'kuiskisi') {
+    return own.filter((q) => q.sourceType === 'kuis' || q.sourceType === 'kisikisi');
+  }
+  return own;
+}
+
+/**
  * Builds an exam question set for a modul sub-mode.
  *
  * - categories: category objects for the active modul (must have `slug`)

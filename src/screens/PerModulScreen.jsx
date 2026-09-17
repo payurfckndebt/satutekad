@@ -1,17 +1,33 @@
 import { useMemo, useState } from 'react';
 import modul1Categories from '../data/modul1Categories.json';
 import modul1Questions from '../data/modul1Questions.json';
+import modul2Categories from '../data/modul2Categories.json';
+import modul2Questions from '../data/modul2Questions.json';
 import baseQuestions from '../data/questions.json';
 import ExamRunner from '../components/ExamRunner';
 import ResultFlow from '../components/ResultFlow';
-import { buildModulExam, modulExamBreakdown, modul1TopicPool, TRYOUT_TARGET, TRYOUT_MINUTES, KKM } from '../lib/modulExam';
+import {
+  buildModulExam,
+  modulExamBreakdown,
+  modul1TopicPool,
+  modul2TopicPool,
+  TRYOUT_TARGET,
+  TRYOUT_MINUTES,
+  KKM,
+} from '../lib/modulExam';
 
 const MODULES = [
   { id: 1, name: 'Modul 1', desc: 'Pendekatan Pengawasan', locked: false },
-  { id: 2, name: 'Modul 2', desc: 'Segera hadir', locked: true },
+  { id: 2, name: 'Modul 2', desc: 'Kelembagaan, Struktur, Produk, Aktivitas SJK', locked: false },
   { id: 3, name: 'Modul 3', desc: 'Segera hadir', locked: true },
   { id: 4, name: 'Modul 4', desc: 'Segera hadir', locked: true },
 ];
+
+// Per-modul data source, keyed by modul id — add an entry here when a new modul gets content.
+const MODUL_DATA = {
+  1: { categories: modul1Categories, poolFor: (mode) => (slug) => modul1TopicPool(slug, mode, modul1Questions, baseQuestions) },
+  2: { categories: modul2Categories, poolFor: (mode) => (slug) => modul2TopicPool(slug, mode, modul2Questions) },
+};
 
 const SUBMODES = [
   {
@@ -33,17 +49,18 @@ export default function PerModulScreen({ onExit }) {
   const [result, setResult] = useState(null);
   const [runKey, setRunKey] = useState(0);
 
-  const categories = modul1Categories; // only Modul 1 has content for now
+  const modulData = MODUL_DATA[activeModul];
+  const categories = modulData ? modulData.categories : [];
 
   function poolFor(mode) {
-    return (slug) => modul1TopicPool(slug, mode, modul1Questions, baseQuestions);
+    return modulData.poolFor(mode);
   }
 
   const breakdowns = useMemo(() => {
-    if (activeModul !== 1) return {};
+    if (!modulData) return {};
     const out = {};
     for (const sm of SUBMODES) {
-      out[sm.id] = modulExamBreakdown(categories, poolFor(sm.id), TRYOUT_TARGET);
+      out[sm.id] = modulExamBreakdown(modulData.categories, modulData.poolFor(sm.id), TRYOUT_TARGET);
     }
     return out;
   }, [activeModul]);

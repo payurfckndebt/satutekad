@@ -1,10 +1,19 @@
 import { useState } from 'react';
 import bahanBacaan from '../data/bahanBacaan.json';
 import modul1Categories from '../data/modul1Categories.json';
+import modul2Categories from '../data/modul2Categories.json';
+
+const MODULES = [
+  { id: 1, name: 'Modul 1', desc: 'Pendekatan Pengawasan', categories: modul1Categories },
+  { id: 2, name: 'Modul 2', desc: 'Kelembagaan, Struktur, Produk, Aktivitas SJK', categories: modul2Categories },
+];
 
 export default function BahanBacaanScreen({ onExit }) {
+  const [activeModul, setActiveModul] = useState(null);
   const [activeSlug, setActiveSlug] = useState(null);
 
+  const modul = MODULES.find((m) => m.id === activeModul);
+  const topicsForModul = modul ? bahanBacaan.filter((t) => modul.categories.some((c) => c.slug === t.slug)) : [];
   const active = bahanBacaan.find((t) => t.slug === activeSlug);
 
   if (active) {
@@ -62,27 +71,65 @@ export default function BahanBacaanScreen({ onExit }) {
     );
   }
 
+  // Submenu: topics within the chosen modul
+  if (modul) {
+    return (
+      <div className="min-h-screen bg-paper flex flex-col px-6 safe-top pb-safe">
+        <button onClick={() => setActiveModul(null)} className="self-start text-ink text-2xl leading-none mb-4">←</button>
+        <h1 className="font-display font-extrabold text-2xl text-ink mb-1">{modul.name}</h1>
+        <p className="text-ink-soft/70 mb-6 leading-relaxed">{modul.desc}</p>
+        <div className="space-y-3">
+          {topicsForModul.map((t) => {
+            const cat = modul.categories.find((c) => c.slug === t.slug);
+            return (
+              <button
+                key={t.slug}
+                onClick={() => setActiveSlug(t.slug)}
+                className="w-full flex items-center gap-3 rounded-2xl border-2 border-tekad-redSoft bg-white px-5 py-4 text-left active:scale-[0.98] transition-transform"
+              >
+                <span className="flex-1">
+                  <span className="block font-display font-bold text-ink text-sm">{t.title}</span>
+                  <span className="block text-ink-soft/40 text-xs mt-0.5">
+                    {t.sections.reduce((n, s) => n + s.items.length, 0)} poin penting
+                    {cat ? ` · ${cat.count} soal terkait` : ''}
+                  </span>
+                </span>
+                <span className="text-ink-soft/30 text-xl">›</span>
+              </button>
+            );
+          })}
+          {topicsForModul.length === 0 && (
+            <p className="text-sm text-ink-soft/50 text-center py-8">Bahan bacaan untuk modul ini belum tersedia.</p>
+          )}
+        </div>
+      </div>
+    );
+  }
+
+  // Top level: pick a modul
   return (
     <div className="min-h-screen bg-paper flex flex-col px-6 safe-top pb-safe">
       <button onClick={onExit} className="self-start text-ink text-2xl leading-none mb-4">←</button>
       <h1 className="font-display font-extrabold text-2xl text-ink mb-2">Bahan Bacaan</h1>
       <p className="text-ink-soft/70 mb-8 leading-relaxed">
-        Rangkuman poin penting per materi Modul 1, plus prediksi fokus ujian berdasarkan karakteristik soal & kisi-kisi yang ada.
+        Rangkuman poin penting per materi, plus prediksi fokus ujian berdasarkan karakteristik soal & kisi-kisi yang ada — dipisah per modul.
       </p>
       <div className="space-y-3">
-        {bahanBacaan.map((t) => {
-          const cat = modul1Categories.find((c) => c.slug === t.slug);
+        {MODULES.map((m) => {
+          const count = bahanBacaan.filter((t) => m.categories.some((c) => c.slug === t.slug)).length;
           return (
             <button
-              key={t.slug}
-              onClick={() => setActiveSlug(t.slug)}
-              className="w-full flex items-center gap-3 rounded-2xl border-2 border-tekad-redSoft bg-white px-5 py-4 text-left active:scale-[0.98] transition-transform"
+              key={m.id}
+              onClick={() => setActiveModul(m.id)}
+              className="w-full flex items-center gap-4 rounded-2xl border-2 border-tekad-redSoft bg-white px-5 py-5 text-left active:scale-[0.98] transition-transform"
             >
+              <span className="h-12 w-12 shrink-0 rounded-2xl flex items-center justify-center font-display font-extrabold text-lg bg-tekad-red text-white">
+                {m.id}
+              </span>
               <span className="flex-1">
-                <span className="block font-display font-bold text-ink text-sm">{t.title}</span>
-                <span className="block text-ink-soft/40 text-xs mt-0.5">
-                  {t.sections.reduce((n, s) => n + s.items.length, 0)} poin penting
-                  {cat ? ` · ${cat.count} soal terkait` : ''}
+                <span className="block font-display font-bold text-ink">{m.name}</span>
+                <span className="block text-ink-soft/50 text-xs mt-0.5">
+                  {m.desc} · {count} topik
                 </span>
               </span>
               <span className="text-ink-soft/30 text-xl">›</span>
