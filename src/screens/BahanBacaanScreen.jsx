@@ -43,8 +43,22 @@ export default function BahanBacaanScreen({ onExit }) {
             </div>
           ))}
 
+          {active.wajibHafal && (
+            <div className="rounded-2xl bg-goldSoft border-2 border-gold p-4">
+              <h2 className="font-display font-bold text-gold text-sm mb-2.5">📌 Wajib Dihafal</h2>
+              <ul className="space-y-2">
+                {active.wajibHafal.map((w, j) => (
+                  <li key={j} className="flex gap-2.5 text-sm text-ink leading-relaxed">
+                    <span className="text-gold shrink-0 font-bold">{j + 1}.</span>
+                    <span>{w}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           {active.mnemonic && (
-            <div className="rounded-2xl bg-ink text-white p-4">
+            <div className="rounded-2xl bg-inkSolid text-white p-4">
               <h2 className="font-display font-bold text-sm mb-2.5">🧠 Kunci Hafalan</h2>
               <ul className="space-y-2">
                 {active.mnemonic.map((m, j) => (

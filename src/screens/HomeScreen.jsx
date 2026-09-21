@@ -36,6 +36,8 @@ export default function HomeScreen({ onSelect, theme, onToggleTheme }) {
       </div>
 
       <div className="relative flex-1 px-5 space-y-3 pb-safe">
+        <HighlightCarousel />
+
         <BigCard
           eyebrow="Try Out Terstruktur"
           title="Per Modul"
@@ -50,7 +52,6 @@ export default function HomeScreen({ onSelect, theme, onToggleTheme }) {
         </div>
 
         <TriviaCard />
-        <HighlightCarousel />
       </div>
 
       <p className="relative text-center text-ink-soft/30 text-xs pb-6 pt-8">SatuTekad · PCAM 9 &amp; MLE 2026</p>
@@ -72,7 +73,7 @@ function BigCard({ eyebrow, title, desc, onClick, badge, filled }) {
       <div className="flex items-center gap-2 mb-1">
         <h2 className={`font-display font-extrabold text-xl ${filled ? 'text-white' : 'text-ink'}`}>{title}</h2>
         {badge && (
-          <span className="rounded-full bg-ink text-white text-[10px] font-bold px-2 py-0.5">{badge}</span>
+          <span className="rounded-full bg-inkSolid text-white text-[10px] font-bold px-2 py-0.5">{badge}</span>
         )}
       </div>
       <p className={`text-sm leading-snug ${filled ? 'text-white/80' : 'text-ink-soft/70'}`}>{desc}</p>

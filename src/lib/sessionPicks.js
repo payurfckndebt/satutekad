@@ -26,10 +26,21 @@ function shuffleCopy(arr) {
   return a;
 }
 
+const TRIVIA_KEY = 'satutekad-trivia-qid';
+
 /** One random question id for this session's trivia card, picked from `pool`. */
 export function getSessionTriviaQuestionId(pool) {
   const ids = pool.map((q) => q.id);
-  return getSession('satutekad-trivia-qid', () => ids[Math.floor(Math.random() * ids.length)]);
+  return getSession(TRIVIA_KEY, () => ids[Math.floor(Math.random() * ids.length)]);
+}
+
+/** Overrides the session's trivia pick (e.g. after the user taps "shuffle"). */
+export function setSessionTriviaQuestionId(id) {
+  try {
+    sessionStorage.setItem(TRIVIA_KEY, JSON.stringify(id));
+  } catch {
+    // ignore
+  }
 }
 
 /** N random, distinct picks (by key) for this session's highlight carousel. */

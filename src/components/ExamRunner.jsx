@@ -134,7 +134,7 @@ export default function ExamRunner({ title, questions, timeLimitMin, pageSize = 
               <div key={qIndex} className="pb-6 border-b border-tekad-redSoft last:border-b-0 last:pb-0">
                 <div className="flex items-center justify-between gap-2 mb-3">
                   <div className="flex items-center gap-2">
-                    <span className="rounded-full bg-ink text-white text-[10px] font-bold h-6 w-6 flex items-center justify-center shrink-0">
+                    <span className="rounded-full bg-inkSolid text-white text-[10px] font-bold h-6 w-6 flex items-center justify-center shrink-0">
                       {qIndex + 1}
                     </span>
                     <SourceBadge sourceType={q.sourceType} />
@@ -223,7 +223,7 @@ export default function ExamRunner({ title, questions, timeLimitMin, pageSize = 
                   onClick={() => goToQuestion(i)}
                   className={`relative h-11 rounded-xl border-2 font-display font-bold text-sm ${
                     isOnCurrentPage
-                      ? 'border-ink bg-ink text-white'
+                      ? 'border-inkSolid bg-inkSolid text-white'
                       : isAnswered
                       ? 'border-tekad-red bg-tekad-red text-white'
                       : 'border-tekad-redSoft bg-paper text-ink-soft'
@@ -246,12 +246,12 @@ export default function ExamRunner({ title, questions, timeLimitMin, pageSize = 
         </div>
       </aside>
       {showNavigator && (
-        <div className="fixed inset-0 z-30 bg-ink/40 lg:hidden" onClick={() => setShowNavigator(false)} />
+        <div className="fixed inset-0 z-30 bg-inkSolid/40 lg:hidden" onClick={() => setShowNavigator(false)} />
       )}
 
       {showSubmitConfirm && (
         <div className="fixed inset-0 z-50 flex items-center justify-center px-6">
-          <div className="absolute inset-0 bg-ink/50" onClick={() => setShowSubmitConfirm(false)} />
+          <div className="absolute inset-0 bg-inkSolid/50" onClick={() => setShowSubmitConfirm(false)} />
           <div className="relative bg-paper-raised rounded-3xl p-6 max-w-xs w-full text-center animate-pop">
             <h3 className="font-display font-bold text-lg text-ink mb-2">Yakin mau selesaikan?</h3>
             <p className="text-ink-soft/60 text-sm mb-1">
@@ -283,7 +283,7 @@ export default function ExamRunner({ title, questions, timeLimitMin, pageSize = 
 
       {showExitConfirm && (
         <div className="fixed inset-0 z-50 flex items-center justify-center px-6">
-          <div className="absolute inset-0 bg-ink/50" onClick={() => setShowExitConfirm(false)} />
+          <div className="absolute inset-0 bg-inkSolid/50" onClick={() => setShowExitConfirm(false)} />
           <div className="relative bg-paper-raised rounded-3xl p-6 max-w-xs w-full text-center animate-pop">
             <h3 className="font-display font-bold text-lg text-ink mb-2">Yakin mau keluar?</h3>
             <p className="text-ink-soft/60 text-sm mb-6">Progress try out ini akan hilang dan tidak tersimpan.</p>

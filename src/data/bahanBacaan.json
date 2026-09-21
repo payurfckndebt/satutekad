@@ -1587,6 +1587,26 @@
    "Soal perbedaan Risk Appetite vs Risk Tolerance, dan siapa yang berwenang menetapkan masing-masing.",
    "Soal Three Lines Model — terutama batas kewenangan Lini 2 (menantang, BUKAN mengambil alih keputusan bisnis).",
    "Soal alur Risk Awareness (SEE-UNDERSTAND-ACT atau R-V-R-E-F) dan disiplin Fact→Signal→Hypothesis→Conclusion."
+  ],
+  "wajibHafal": [
+   "Risk = effect of uncertainty on objectives (ISO 31000:2018) — hafal kalimat & siapa penulisnya: Kevin W. Knight.",
+   "SMART: Specific, Measurable, Achievable, Relevant, Time-bound.",
+   "Formula inti: Likelihood × Impact = Risk Level.",
+   "5 Level Kemungkinan (persen / frekuensi setahun): (1) ≤1% / <2x; (2) 1-10% / 2-5x; (3) 10-20% / 6-9x; (4) 20-50% / 10-12x; (5) >50% / >12x.",
+   "Low Tolerance Event (skala terpisah, berdasar 'kejadian dalam X tahun terakhir'): >5 th=Level 1; 5 th=Level 2; 3 th=Level 3; 2 th=Level 4; minimal 1x setahun=Level 5.",
+   "K-Wide dampak finansial 5 level: Tidak Signifikan ≤Rp10jt; Minor Rp10-100jt; Moderat Rp100jt-Rp1M; Signifikan Rp1M-Rp10M; Sangat Signifikan >Rp10M.",
+   "Matriks 5x5 — hafal PASANGAN skor-warna: Sangat Rendah 1-5 Biru; Rendah 6-11 Hijau; Sedang 12-15 Kuning; Tinggi 16-19 Oranye; Sangat Tinggi 20-25 Merah.",
+   "8 Risiko Utama (urut): Kredit, Pasar, Likuiditas, Operasional, Kepatuhan, Siber, Strategik, Reputasi — Risiko HUKUM tidak termasuk 8 ini.",
+   "4 Pilar Penerapan MR: Pilar 1 Pengawasan Aktif Direksi/Dekom; Pilar 2 Kecukupan Prosedur & Limit; Pilar 3 Proses & Sistem Informasi Manajemen; Pilar 4 Pengendalian Intern (audit internal).",
+   "KRI 3 status: GREEN (Normal Threshold) — AMBER (Warning Threshold) — RED (Breach Threshold).",
+   "Three Lines Model: Lini 1 = jalankan & kendalikan risiko harian; Lini 2 = tantang & pandu metodologi (BUKAN ambil alih keputusan bisnis); Lini 3 = assurance independen (audit internal).",
+   "4 Level Risk Management Maturity: Ad-hoc/Reaktif → Compliance Driven → Integrated Framework/Established → Value Creating. Target OJK: minimal Level 3 SECARA BERKELANJUTAN.",
+   "Corrective Action Plan saat limit breach: maksimal 3x24 jam.",
+   "Risiko Residual = Inherent Risk − efektivitas kontrol (KPMR).",
+   "Siklus Manajemen Risiko (5 tahap): Identify → Assess → Treat → Monitor → Communicate.",
+   "4 Risk Treatment: Avoid, Reduce, Transfer/Share, Accept.",
+   "3 tingkat Risk Awareness: Risk Understanding (tahu) → Risk Awareness (sadar/peka) → Risk-Aware Action (bertindak).",
+   "Refleks Sesi 3: SEE → UNDERSTAND → ACT. Alur operasional (dari bank soal): R-V-R-E-F = Recognize-Verify-Report-Escalate-Follow Up."
   ]
  },
  {
@@ -1660,6 +1680,23 @@
    "Soal 4 jenis Evidence Gap (Coverage/Context/Retention/Correlation) — distraktornya sengaja mirip.",
    "Soal 5 dimensi Control Effectiveness dan predikat EFFECTIVE/PARTIALLY EFFECTIVE/NOT TESTABLE.",
    "Soal roadmap P1-P2-P3 beserta rentang waktunya (0-30 / 31-90 / 90+ hari)."
+  ],
+  "wajibHafal": [
+   "4 Trust Decisions berurutan: Recognized Route → Verified Identity → Permitted Action → Valid Business Context — hafal urutan DAN pertanyaan kunci masing-masing.",
+   "Risk Statement formula: BECAUSE [kondisi/kelemahan kontrol] → THERE IS A POSSIBILITY [peristiwa risiko] → WHICH MAY RESULT IN [dampak bisnis].",
+   "4 kriteria Risk Statement yang baik: Specific, Plausible, Business-Linked, Actionable.",
+   "3 objek fokus perlindungan: Critical Business Service, Critical Transaction, Trust Boundary.",
+   "3 bidang Attack Surface: Business Transaction Plane, Administration and Change Plane, Observability and Response Plane.",
+   "4 jenis Evidence Gap: Coverage Gap (peristiwa tak tercatat), Context Gap (tercatat tapi tak jelaskan konteks), Retention Gap (bukti sudah terhapus), Correlation Gap (sumber bukti tak bisa dihubungkan).",
+   "Skala keyakinan bukti (urutan menurun): VERIFIED → SUPPORTED → UNRESOLVED.",
+   "5 dimensi Control Effectiveness Testing: Design, Coverage, Operation, Evidence, Resilience.",
+   "3 predikat hasil uji kontrol: EFFECTIVE, PARTIALLY EFFECTIVE, NOT TESTABLE/INEFFECTIVE.",
+   "2 status kekuatan korelasi bukti: CORROBORATED (didukung sumber independen) vs SUPPORTED (konsisten, masih ada gap).",
+   "Roadmap Risk Treatment: P1 CONTAIN & PRESERVE (Immediate, 0-30 hari) → P2 FIX THE CONTROL PATH (Near term, 31-90 hari) → P3 SUSTAIN ASSURANCE (Structural, 90+ hari).",
+   "4 langkah metodologi penutup: Start with the Service → Follow the Transaction → Correlate the Evidence → Test the Outcome.",
+   "Studi Kasus Rp2,75 Miliar — hafal angka: transaksi diproses 08.42, terdeteksi 09.16, Detection Gap ≈34 menit; proses mencurigakan bernama worker-03; payload hash TIDAK TERCATAT.",
+   "Prinsip Zero Trust: \"Trust must be proven at every transaction, on every trust boundary.\"",
+   "Minimum Evidence Standard (4 pilar): Critical Event Coverage & Synchronized Time, Shared Identifiers & Centralized Correlation, Tamper-Evident Retention."
   ]
  }
 ]

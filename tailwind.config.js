@@ -27,6 +27,13 @@ export default {
         bad: '#E5495F',
         badSoft: 'rgb(var(--c-bad-soft) / <alpha-value>)',
         gold: '#B8860B',
+        goldSoft: 'rgb(var(--c-gold-soft) / <alpha-value>)',
+        // Fixed (non-themed) dark chip background — unlike `ink` (which is a
+        // themed text color that INVERTS to near-white in dark mode), this
+        // stays the same dark maroon-black in both themes. Use it for solid
+        // dark badges/chips paired with text-white; never use `bg-ink` for
+        // that purpose or the text becomes invisible in dark mode.
+        inkSolid: '#26141A',
       },
       boxShadow: {
         card: '0 1px 0 0 rgba(38,20,26,0.06)',

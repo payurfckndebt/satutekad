@@ -10,6 +10,7 @@
   --c-red-soft: 253 238 240;
   --c-ok-soft: 232 246 238;
   --c-bad-soft: 251 231 233;
+  --c-gold-soft: 255 246 221;
   color-scheme: light;
 }
 
@@ -21,6 +22,7 @@
   --c-red-soft: 58 30 35;
   --c-ok-soft: 20 51 35;
   --c-bad-soft: 59 26 32;
+  --c-gold-soft: 51 40 12;
   color-scheme: dark;
 }
 
@@ -72,6 +74,12 @@ body {
 }
 .animate-shake { animation: shake 0.4s; }
 
+@keyframes float-y {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+.animate-float { animation: float-y 3.2s ease-in-out infinite; }
+
 @keyframes slide-up {
   from { transform: translateY(100%); }
   to { transform: translateY(0); }
@@ -84,7 +92,7 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .animate-pop, .animate-shake, .animate-slide-up, .animate-fade-up { animation: none; }
+  .animate-pop, .animate-shake, .animate-slide-up, .animate-fade-up, .animate-float { animation: none; }
 }
 
 ::-webkit-scrollbar { width: 6px; }

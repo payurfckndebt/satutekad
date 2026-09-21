@@ -1,5 +1,15 @@
 import { shuffle } from './utils';
 
+/** Drops any question whose id has already been seen, keeping the first occurrence. */
+function dedupeById(list) {
+  const seen = new Set();
+  return list.filter((q) => {
+    if (seen.has(q.id)) return false;
+    seen.add(q.id);
+    return true;
+  });
+}
+
 export const TRYOUT_TARGET = 100;
 export const TRYOUT_MINUTES = 120;
 export const KKM = 75;
@@ -158,7 +168,8 @@ export function buildModul3Exam(categories, poolForCategory, target = 50) {
   withPools.forEach((e, i) => {
     selected.push(...e.pool.slice(0, taken[i]).map((q) => ({ ...q, _examGroupSlug: e.cat.slug })));
   });
-  return shuffle(selected).slice(0, Math.min(target, selected.length));
+  const unique = dedupeById(selected);
+  return shuffle(unique).slice(0, Math.min(target, unique.length));
 }
 
 /** Per-category breakdown for Modul 3's weighted exam builder. */
@@ -226,7 +237,8 @@ export function buildModulExam(categories, poolForCategory, target = TRYOUT_TARG
     selected.push(...chosen);
   });
 
-  return shuffle(selected).slice(0, effectiveTarget);
+  const unique = dedupeById(selected);
+  return shuffle(unique).slice(0, Math.min(effectiveTarget, unique.length));
 }
 
 /** Per-category breakdown, useful for showing the user how the 100 questions are split. */
