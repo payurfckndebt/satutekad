@@ -1,0 +1,22 @@
+[
+ {
+  "slug": "m3-manajemen-risiko",
+  "name": "Fundamental, Tata Kelola & Pengawasan Risiko SJK",
+  "day": 1,
+  "session": 1,
+  "source": "existing",
+  "count": 50,
+  "origin": "modul3",
+  "modul": 3
+ },
+ {
+  "slug": "m3-cyber-risk",
+  "name": "Cyber-Technology Risk Management",
+  "day": 1,
+  "session": 2,
+  "source": "existing",
+  "count": 50,
+  "origin": "modul3",
+  "modul": 3
+ }
+]

@@ -26,6 +26,7 @@ export default {
         okSoft: 'rgb(var(--c-ok-soft) / <alpha-value>)',
         bad: '#E5495F',
         badSoft: 'rgb(var(--c-bad-soft) / <alpha-value>)',
+        gold: '#B8860B',
       },
       boxShadow: {
         card: '0 1px 0 0 rgba(38,20,26,0.06)',

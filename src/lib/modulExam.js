@@ -9,6 +9,16 @@ export const KKM = 75;
 export const MODUL_EXAM_CONFIG = {
   1: { target: 100, minutes: 120 },
   2: { target: 70, minutes: 90 },
+  3: { target: 50, minutes: 100 },
+};
+
+// Modul 3 has a fixed topic weighting instead of an even split across
+// categories — 70% Manajemen Risiko, 30% Cyber Risk — reflecting how the
+// source bank soal itself is weighted (50/50 raw, but the exam draws more
+// heavily from Manajemen Risiko per the requested ratio).
+export const MODUL3_TOPIC_WEIGHTS = {
+  'm3-manajemen-risiko': 0.7,
+  'm3-cyber-risk': 0.3,
 };
 
 export function examConfigForModul(modulId) {
@@ -71,6 +81,97 @@ export function modul2TopicPool(modul2Slug, mode, modul2Questions) {
     return own.filter((q) => q.sourceType === 'kuis' || q.sourceType === 'kisikisi');
   }
   return own;
+}
+
+/**
+ * Builds the eligible question pool for one Modul 3 topic. Modul 3's bank
+ * soal has a single uniform source tier ("prediksi" — every question is
+ * badged "Prediksi dari materi"), so unlike Modul 1/2 there is no
+ * kuis/kisikisi vs ai distinction to filter on; `mode` is accepted only for
+ * interface parity with the other pool functions and both submodes return
+ * the same full pool.
+ */
+export function modul3TopicPool(modul3Slug, _mode, modul3Questions) {
+  return modul3Questions.filter((q) => q.categorySlug === modul3Slug);
+}
+
+/**
+ * Builds a Modul 3 exam set using the fixed MODUL3_TOPIC_WEIGHTS ratio
+ * (70% Manajemen Risiko / 30% Cyber Risk) instead of the even per-category
+ * split buildModulExam uses. Categories not listed in MODUL3_TOPIC_WEIGHTS
+ * fall back to an even share of the remaining weight.
+ * - Rounds each category's share of `target`, then corrects rounding drift
+ *   on the highest-weight categories so the total is exactly `target`.
+ * - If a category's pool is smaller than its weighted share, the shortfall
+ *   is redistributed to categories with spare capacity (heaviest first) —
+ *   never padded or fabricated.
+ */
+export function buildModul3Exam(categories, poolForCategory, target = 50) {
+  const withPools = categories
+    .map((cat) => ({
+      cat,
+      weight: MODUL3_TOPIC_WEIGHTS[cat.slug] ?? 1 / categories.length,
+      pool: shuffle(poolForCategory(cat.slug)),
+    }))
+    .filter((e) => e.pool.length > 0);
+
+  if (withPools.length === 0) return [];
+
+  const totalWeight = withPools.reduce((n, e) => n + e.weight, 0);
+  const order = withPools.map((_, i) => i).sort((a, b) => withPools[b].weight - withPools[a].weight);
+
+  let want = withPools.map((e) => Math.round((e.weight / totalWeight) * target));
+  let drift = target - want.reduce((a, b) => a + b, 0);
+  let oi = 0;
+  while (drift !== 0 && order.length > 0) {
+    const idx = order[oi % order.length];
+    want[idx] = Math.max(0, want[idx] + (drift > 0 ? 1 : -1));
+    drift += drift > 0 ? -1 : 1;
+    oi++;
+  }
+
+  let shortfall = 0;
+  const taken = want.map((w, i) => {
+    const avail = withPools[i].pool.length;
+    if (w > avail) {
+      shortfall += w - avail;
+      return avail;
+    }
+    return w;
+  });
+
+  let guard = target + 10;
+  while (shortfall > 0 && guard-- > 0) {
+    let progressed = false;
+    for (const idx of order) {
+      if (shortfall <= 0) break;
+      if (taken[idx] < withPools[idx].pool.length) {
+        taken[idx] += 1;
+        shortfall -= 1;
+        progressed = true;
+      }
+    }
+    if (!progressed) break;
+  }
+
+  const selected = [];
+  withPools.forEach((e, i) => {
+    selected.push(...e.pool.slice(0, taken[i]).map((q) => ({ ...q, _examGroupSlug: e.cat.slug })));
+  });
+  return shuffle(selected).slice(0, Math.min(target, selected.length));
+}
+
+/** Per-category breakdown for Modul 3's weighted exam builder. */
+export function modul3ExamBreakdown(categories, poolForCategory, target = 50) {
+  const set = buildModul3Exam(categories, poolForCategory, target);
+  const counts = {};
+  set.forEach((q) => {
+    const slug = q._examGroupSlug || q.categorySlug;
+    counts[slug] = (counts[slug] || 0) + 1;
+  });
+  return categories
+    .map((cat) => ({ slug: cat.slug, name: cat.name, count: counts[cat.slug] || 0 }))
+    .filter((c) => c.count > 0);
 }
 
 /**

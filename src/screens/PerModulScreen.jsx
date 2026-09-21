@@ -3,14 +3,19 @@ import modul1Categories from '../data/modul1Categories.json';
 import modul1Questions from '../data/modul1Questions.json';
 import modul2Categories from '../data/modul2Categories.json';
 import modul2Questions from '../data/modul2Questions.json';
+import modul3Categories from '../data/modul3Categories.json';
+import modul3Questions from '../data/modul3Questions.json';
 import baseQuestions from '../data/questions.json';
 import ExamRunner from '../components/ExamRunner';
 import ResultFlow from '../components/ResultFlow';
 import {
   buildModulExam,
   modulExamBreakdown,
+  buildModul3Exam,
+  modul3ExamBreakdown,
   modul1TopicPool,
   modul2TopicPool,
+  modul3TopicPool,
   KKM,
   examConfigForModul,
 } from '../lib/modulExam';
@@ -18,14 +23,33 @@ import {
 const MODULES = [
   { id: 1, name: 'Modul 1', desc: 'Pendekatan Pengawasan', locked: false },
   { id: 2, name: 'Modul 2', desc: 'Kelembagaan, Struktur, Produk, Aktivitas SJK', locked: false },
-  { id: 3, name: 'Modul 3', desc: 'Segera hadir', locked: true },
+  { id: 3, name: 'Modul 3', desc: 'Manajemen Risiko & Cyber Risk', locked: false },
   { id: 4, name: 'Modul 4', desc: 'Segera hadir', locked: true },
 ];
 
 // Per-modul data source, keyed by modul id — add an entry here when a new modul gets content.
+// buildExam/breakdown default to the even-split builder; only override them (like Modul 3) when
+// a modul needs a different allocation rule.
 const MODUL_DATA = {
-  1: { categories: modul1Categories, poolFor: (mode) => (slug) => modul1TopicPool(slug, mode, modul1Questions, baseQuestions) },
-  2: { categories: modul2Categories, poolFor: (mode) => (slug) => modul2TopicPool(slug, mode, modul2Questions) },
+  1: {
+    categories: modul1Categories,
+    poolFor: (mode) => (slug) => modul1TopicPool(slug, mode, modul1Questions, baseQuestions),
+    buildExam: buildModulExam,
+    breakdown: modulExamBreakdown,
+  },
+  2: {
+    categories: modul2Categories,
+    poolFor: (mode) => (slug) => modul2TopicPool(slug, mode, modul2Questions),
+    buildExam: buildModulExam,
+    breakdown: modulExamBreakdown,
+  },
+  3: {
+    categories: modul3Categories,
+    poolFor: (mode) => (slug) => modul3TopicPool(slug, mode, modul3Questions),
+    // 70% Manajemen Risiko / 30% Cyber Risk — fixed ratio, not an even split.
+    buildExam: buildModul3Exam,
+    breakdown: modul3ExamBreakdown,
+  },
 };
 
 const SUBMODES = [
@@ -61,7 +85,7 @@ export default function PerModulScreen({ onExit }) {
     const out = {};
     const target = examConfigForModul(activeModul).target;
     for (const sm of SUBMODES) {
-      out[sm.id] = modulExamBreakdown(modulData.categories, modulData.poolFor(sm.id), target);
+      out[sm.id] = modulData.breakdown(modulData.categories, modulData.poolFor(sm.id), target);
     }
     return out;
   }, [activeModul]);
@@ -94,7 +118,7 @@ export default function PerModulScreen({ onExit }) {
   }
 
   function startSubmode(sm) {
-    const set = buildModulExam(categories, poolFor(sm.id), examConfig.target);
+    const set = modulData.buildExam(categories, poolFor(sm.id), examConfig.target);
     if (set.length === 0) return; // handled inline by disabling the button
     setActiveSubmode(sm.id);
     setExamSet(set);

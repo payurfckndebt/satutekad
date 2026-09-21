@@ -1,0 +1,1602 @@
+[
+ {
+  "stem": "Dalam materi Lessons from a Financial-Sector Cyber Incident, layanan bisnis kritis (critical business service) yang dijadikan objek skenario risiko adalah...",
+  "options": [
+   "Digital Fund Transfer",
+   "Digital Onboarding Nasabah",
+   "Core Banking Reconciliation",
+   "Mobile Banking Authentication"
+  ],
+  "correctIndex": 0,
+  "id": "M3CYB-001",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Materi ini membangun seluruh studi kasus di atas SATU layanan bisnis kritis — Digital Fund Transfer — karena transfer dana adalah titik di mana kegagalan kontrol langsung berubah jadi kerugian finansial nyata, bukan sekadar gangguan layanan. Digital Onboarding atau Mobile Banking Authentication penting, tapi keduanya tidak menjadi anchor studi kasus forensik yang dibahas materi ini.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pada rantai CHANNEL - MIDDLEWARE - ... - PAYMENT SERVICE - CALLBACK, komponen yang ditandai sebagai titik TRUST DECISION adalah...",
+  "options": [
+   "Middleware",
+   "Core Gateway",
+   "Payment Service",
+   "External Network"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-002",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Trust Decision adalah titik di arsitektur sistem yang MEMUTUSKAN apakah suatu request diteruskan sebagai sah, bukan sekadar meneruskan paket data. Core Gateway berperan sebagai titik itu karena di situlah identitas, konteks, dan otorisasi transaksi divalidasi sebelum diteruskan ke Payment Service — sedangkan Middleware hanya meneruskan data tanpa mengambil keputusan kepercayaan.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Berikut adalah indikator yang tetap terlihat normal sebelum transaksi tidak sah diproses, KECUALI...",
+  "options": [
+   "System online",
+   "Known channel",
+   "Valid account",
+   "Verified payload hash"
+  ],
+  "correctIndex": 3,
+  "id": "M3CYB-003",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Empat indikator ini sengaja dipilih untuk menunjukkan bahwa sistem bisa terlihat 'normal' di permukaan (online, channel dikenal, akun valid) padahal integritas transaksinya sudah dikompromikan — kecuali satu hal: payload hash yang terverifikasi. Verified payload hash BUKAN indikator yang tetap normal, karena justru ketiadaan/ketidakcocokan hash inilah yang biasanya jadi sinyal pertama bahwa data sudah dimanipulasi di tengah jalan.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Kondisi kontrol (control conditions) yang memungkinkan peristiwa risiko terjadi menurut slide RISK LENS meliputi hal berikut, KECUALI...",
+  "options": [
+   "Excessive trust",
+   "Weak validation",
+   "Misused access",
+   "Hardware failure"
+  ],
+  "correctIndex": 3,
+  "id": "M3CYB-004",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Availability (sistem online) mengukur apakah layanan bisa diakses, sedangkan Integrity mengukur apakah data/transaksi yang diproses itu benar dan tidak dimanipulasi. Kasus dalam materi menegaskan dua hal ini bisa terpisah total — sistem 99,99% uptime tidak otomatis berarti setiap transaksi yang lewat itu sah, karena uptime hanya bicara ketersediaan teknis, bukan keabsahan otorisasi.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pada slide Anatomi Skenario Risiko Siber, dampak bisnis (business impact) yang dicantumkan mencakup hal berikut, KECUALI...",
+  "options": [
+   "Financial loss",
+   "Operational disruption",
+   "Regulatory exposure",
+   "Loss of trust"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-005",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Struktur BECAUSE-THERE IS A POSSIBILITY-WHICH MAY RESULT IN dipilih karena format ini memaksa penulis risiko mencantumkan tiga elemen yang bisa diuji: kondisi/kelemahan pemicu, peristiwa risiko itu sendiri, dan dampak bisnisnya — sehingga risk statement bisa divalidasi dan diukur, bukan sekadar label umum seperti opsi C atau D yang menyingkirkan struktur kausal ini.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Unsur THREAT dalam anatomi skenario risiko siber materi ini dirumuskan sebagai...",
+  "options": [
+   "Misuse of valid access",
+   "Weak request integrity validation",
+   "Trusted channel dan privileged access",
+   "Unauthorized transaction processed"
+  ],
+  "correctIndex": 0,
+  "id": "M3CYB-006",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "'Risiko Serangan Siber pada Sistem Pembayaran' gagal sebagai risk statement karena ia adalah broad risk label — ia menyebut KATEGORI risiko tanpa menjelaskan kondisi pemicu, mekanisme kegagalan, atau kontrol yang bisa diuji. Bandingkan dengan opsi berstruktur BECAUSE-THERE IS A POSSIBILITY-WHICH MAY RESULT IN: pernyataan seperti itu bisa diuji lewat penetration test, sedangkan label umum tidak bisa diverifikasi ke satu skenario konkret.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Struktur pernyataan risiko (risk statement) yang dapat diuji menurut materi mengikuti pola...",
+  "options": [
+   "Karena [risk event], terdapat kemungkinan [kondisi], yang dapat mengakibatkan [kontrol]",
+   "Karena [kondisi atau kelemahan kontrol], terdapat kemungkinan [peristiwa risiko], yang dapat mengakibatkan [dampak bisnis]",
+   "Karena [dampak bisnis], terdapat kemungkinan [kelemahan kontrol], yang dapat mengakibatkan [peristiwa risiko]",
+   "Karena [ancaman], terdapat kemungkinan [kerentanan], yang dapat mengakibatkan [eksposur]"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-007",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Tiga objek ini dipilih karena masing-masing mewakili lapisan perlindungan berbeda: Critical Business Service (layanan apa yang harus tetap jalan), Critical Transaction (transaksi mana yang paling bernilai/berisiko), dan Trust Boundary (di titik mana validasi kepercayaan harus terjadi). Opsi lain seperti firewall atau router adalah KOMPONEN teknis, bukan objek fokus perlindungan konseptual yang menentukan ruang lingkup risiko.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Empat kriteria agar risk statement layak diuji menurut materi mencakup hal berikut, KECUALI...",
+  "options": [
+   "Specific",
+   "Plausible",
+   "Measurable",
+   "Actionable"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-008",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Trust Boundary secara definisi adalah titik di arsitektur di mana sistem menerima sesuatu dari luar (identitas, request, data) dan MEMPERLAKUKANNYA sebagai sah tanpa verifikasi ulang lebih lanjut. Ini beda dari DMZ (zona jaringan fisik) atau Load Balancing Pool (distribusi trafik) — trust boundary adalah konsep kepercayaan, bukan konsep infrastruktur jaringan.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Label risiko 'Risiko serangan siber pada sistem pembayaran' dinilai belum memadai dalam risk register karena...",
+  "options": [
+   "Tidak menyebut nama sistem yang diserang",
+   "Terlalu luas untuk dinilai dan ditangani secara efektif",
+   "Tidak menyebutkan nilai kerugian finansial",
+   "Belum disetujui oleh Dewan Komisaris"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-009",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Administration and Change Plane mencakup semua titik di mana KONFIGURASI dan KODE sistem bisa diubah — repositori kode, pipeline CI/CD, VPN, dan PAM semuanya adalah jalur perubahan sistem, bukan jalur transaksi bisnis. Ini berbeda dari Business Transaction Plane (jalur data nasabah mengalir) — keduanya sama-sama permukaan serangan tapi menyerang hal yang berbeda: satu menyerang PROSES, satu menyerang KONFIGURASI.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Tiga objek yang menentukan fokus perlindungan menurut materi adalah critical business service, critical transaction, dan trust boundary. Yang BUKAN termasuk ketiganya adalah...",
+  "options": [
+   "Critical business service",
+   "Critical transaction",
+   "Critical third-party vendor",
+   "Trust boundary"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-010",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "PAM Configuration Console adalah bagian dari Administration and Change Plane (ia mengatur SIAPA yang boleh mengubah apa), bukan Observability and Response Plane yang isinya alat untuk MEMANTAU dan MENDETEKSI aktivitas (SIEM, FDS, EDR). Membedakan 'alat untuk mengubah sistem' vs 'alat untuk mengamati sistem' adalah kunci soal ini.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pasangan objek perlindungan dan output-nya berikut ini benar, KECUALI...",
+  "options": [
+   "Critical business service - business priority",
+   "Critical transaction - critical action",
+   "Trust boundary - verification point",
+   "Trust boundary - business priority"
+  ],
+  "correctIndex": 3,
+  "id": "M3CYB-011",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Empat Trust Decisions berurutan menjawab pertanyaan berbeda: jalur dikenal (Recognized Route) → SIAPA yang meminta (Verified Identity) → APA yang diizinkan dilakukan (Permitted Action) → apakah KONTEKS bisnisnya masuk akal (Valid Business Context). 'Who or what is making the request' secara harfiah menanyakan identitas pemohon, jadi jawabannya Verified Identity, bukan Permitted Action yang menjawab pertanyaan otorisasi tindakan.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Komponen berikut berada pada BUSINESS TRANSACTION PLANE dalam pemetaan attack surface, KECUALI...",
+  "options": [
+   "API Gateway",
+   "Core Gateway",
+   "Privileged Access Management (PAM)",
+   "Callback"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-012",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Kredensial yang sah (misalnya service account resmi) hanya membuktikan OTENTIKASI — bahwa identitas itu benar terdaftar. Ia tidak membuktikan OTORISASI — bahwa transaksi spesifik ini (nilai, waktu, batch, penerima) memang seharusnya dijalankan oleh identitas tersebut. Inilah sebabnya penyerang yang mencuri/menyalahgunakan service account sah tetap bisa lolos verifikasi identitas tapi transaksinya sebenarnya tidak sah secara bisnis.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Fokus pengendalian pada ADMINISTRATION AND CHANGE PLANE adalah...",
+  "options": [
+   "Request integrity, authorization, routing, dan transaction context",
+   "Identity, privileged access, configuration change, dan code deployment",
+   "Visibility, detection, correlation, dan response",
+   "Availability, capacity, dan performance tuning"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-013",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Pertanyaan kontrol Integrity secara spesifik menanyakan apakah ISI payload tetap sama sepanjang perjalanan data dari satu sistem ke sistem lain — ini beda dari Identity (siapa pengirim) atau Routing (jalur fisik data). Ketika data berpindah dari Core Gateway ke Payment Service, yang paling krusial diverifikasi adalah apakah nilai/parameter transaksinya tidak diubah di tengah jalan (tampering).",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Perangkat berikut merupakan bagian dari OBSERVABILITY AND RESPONSE PLANE, KECUALI...",
+  "options": [
+   "Fraud detection",
+   "Centralized logging",
+   "Endpoint security",
+   "CI/CD pipeline"
+  ],
+  "correctIndex": 3,
+  "id": "M3CYB-014",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Ini poin inti seluruh materi: System View mencatat bahwa secara TEKNIS semuanya sukses (response 200, JSON valid, akun terdaftar) — tapi Risk View menilai KONTEKS BISNIS di balik data teknis itu. Response sukses tidak berarti transaksinya wajar; parameter yang menyimpang dari pola bisnis normal dan callback yang diarahkan ke endpoint tak terdaftar adalah sinyal risiko yang tidak terlihat dari sudut pandang sistem semata.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Artefak jejak (trace) berikut dikumpulkan pada tahap MIDDLEWARE dalam penelusuran end-to-end, KECUALI...",
+  "options": [
+   "Request ID",
+   "Service account",
+   "Payload",
+   "Beneficiary"
+  ],
+  "correctIndex": 3,
+  "id": "M3CYB-015",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Working Hypotheses berfungsi sebagai kerangka kerja investigasi yang MENGARAHKAN pencarian bukti secara terstruktur dan bisa diuji — hipotesis bisa didukung, dibantah, atau direvisi seiring bukti baru masuk. Ini berbeda dari langsung menuduh pelaku (opsi A) yang justru melompati proses pembuktian sistematis yang menjadi inti metodologi forensik.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Lima pertanyaan kunci dalam penelusuran transaksi end-to-end mencakup hal berikut, KECUALI...",
+  "options": [
+   "Identity",
+   "Integrity",
+   "Confidentiality",
+   "Routing"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-016",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Identity & Access Evidence berisi bukti tentang SIAPA yang mengakses dan bagaimana caranya — IdP/IAM log, PAM session, VPN log, akses vendor pihak ketiga. CI/CD deployment history dan OS hash baseline itu masuk kategori bukti INTEGRITAS SISTEM/KODE (untuk memverifikasi apakah ada perubahan kode tidak sah), bukan bukti akses identitas — dua kategori bukti yang menjawab pertanyaan berbeda.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dua lapisan yang dikelompokkan sebagai TECHNICAL TRUST dalam empat keputusan trust adalah...",
+  "options": [
+   "Known channel dan authenticated identity",
+   "Authenticated identity dan authorized action",
+   "Authorized action dan legitimate transaction",
+   "Known channel dan legitimate transaction"
+  ],
+  "correctIndex": 0,
+  "id": "M3CYB-017",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Correlation keys adalah field yang MENGHUBUNGKAN jejak satu transaksi yang sama di berbagai sistem berbeda (gateway, middleware, payment service) — Transaction ID, Request ID, rekening penerima, nominal, dan timestamp semuanya unik ke transaksi itu. MAC address switch atau suhu server tidak spesifik ke satu transaksi, jadi tidak berguna untuk korelasi forensik lintas sistem.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pertanyaan kontrol 'Does it match the business intent?' berada pada lapisan trust...",
+  "options": [
+   "Known channel",
+   "Authenticated identity",
+   "Authorized action",
+   "Legitimate transaction"
+  ],
+  "correctIndex": 3,
+  "id": "M3CYB-018",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Sebelum log dari server berbeda bisa direkonstruksi jadi satu timeline yang koheren, seluruh timestamp harus dinormalisasi ke satu zona waktu acuan — kalau tidak, urutan kejadian bisa salah baca karena selisih clock/zona waktu antar server. Ini langkah PERTAMA yang wajib, sebelum analisis urutan kejadian dilakukan sama sekali.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pada anatomi insiden dua perspektif, tahap IDENTITY dalam risk view memperlihatkan bahwa...",
+  "options": [
+   "Service account yang digunakan tidak valid",
+   "Konteks penggunaan dan kewenangan transaksi masih belum pasti",
+   "Autentikasi gagal beberapa kali",
+   "Identitas berasal dari kanal eksternal yang tidak dikenal"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-019",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Detection Gap adalah istilah spesifik untuk jeda waktu antara SAAT transaksi anomali dieksekusi dan SAAT ia pertama kali terdeteksi oleh tim operasional — ini metrik kunci untuk menilai seberapa cepat sistem deteksi bekerja. Semakin besar detection gap, semakin lama penyerang punya waktu bergerak sebelum ketahuan.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pada tahap MONITORING, risk view mengungkap bahwa...",
+  "options": [
+   "Tidak ada alert teknis kritis yang muncul",
+   "Sinyal lintas sistem tidak dikorelasikan dengan konteks transaksi",
+   "Sistem monitoring sedang dalam kondisi down",
+   "Alert dikirim tetapi diabaikan operator"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-020",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Context Gap terjadi ketika log MENCATAT bahwa sesuatu terjadi (transaksi berhasil) tapi TIDAK menjelaskan konteksnya (siapa, dari IP mana, dengan otorisasi apa). Ini beda dari Coverage Gap (peristiwa sama sekali tidak tercatat) — di sini datanya ada, tapi tidak cukup detail untuk investigasi, itulah kenapa disebut context gap, bukan coverage gap.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Hipotesis kerja 'API, webhook, or callback abuse' dalam materi diberi kode...",
+  "options": [
+   "H2",
+   "H3",
+   "H4",
+   "H5"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-021",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Ketiga dampak ini berantai langsung dari satu akar masalah: kalau bukti log tidak lengkap, investigator tidak bisa memastikan seberapa luas insiden itu (ruang lingkup tidak pasti), tidak bisa menunjuk pelaku dengan yakin (atribusi lemah), dan karena itu tidak berani segera bertindak menahan dampak (containment tertunda) — evidence gap secara langsung melumpuhkan seluruh rantai respons insiden.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Correlation key berikut digunakan pada kuadran IDENTITY & ACCESS EVIDENCE, KECUALI...",
+  "options": [
+   "Account ID",
+   "Source IP",
+   "Session ID",
+   "Transaction ID"
+  ],
+  "correctIndex": 3,
+  "id": "M3CYB-022",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Prinsip forensik ini penting justru untuk mencegah bias: ketiadaan log BUKAN bukti bahwa suatu aktivitas tidak pernah terjadi — itu hanya berarti kita tidak punya cara membuktikan apa yang sebenarnya terjadi. Menyimpulkan 'tidak ada bukti = tidak terjadi' adalah kesalahan logika yang justru bisa dimanfaatkan penyerang yang sengaja menghapus jejak.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Rentang waktu investigasi dan waktu acuan yang ditetapkan pada evidence map adalah...",
+  "options": [
+   "T-15 menit s.d. T+30 menit, UTC+0",
+   "T-30 menit s.d. T+60 menit, UTC+7",
+   "T-60 menit s.d. T+120 menit, UTC+7",
+   "T-30 menit s.d. T+30 menit, UTC+8"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-023",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Lima dimensi ini menguji kontrol dari lima sudut berbeda: apakah dirancang benar (Design), apakah menjangkau semua kasus (Coverage), apakah benar-benar berjalan (Operation), apakah bisa dibuktikan bekerja (Evidence), dan apakah tahan saat dilanggar (Resilience). Kelima dimensi ini saling melengkapi — kontrol bisa lolos di satu dimensi tapi gagal di dimensi lain, seperti terlihat di soal-soal studi kasus berikutnya.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Urutan normalisasi waktu (time normalization) dalam rekonstruksi timeline adalah...",
+  "options": [
+   "Normalized time - clock offset - source time",
+   "Clock offset - source time - normalized time",
+   "Source time - clock offset - normalized time",
+   "Source time - normalized time - clock offset"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-024",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Dimensi Evidence secara spesifik menguji apakah keputusan kontrol (allow/deny) terekam dan bisa dikorelasikan sebagai bukti — ini beda dari dimensi Operation yang menguji apakah kontrolnya BERJALAN. Kontrol bisa saja beroperasi dengan baik (Operation lulus) tapi tidak meninggalkan jejak keputusan yang bisa diaudit (Evidence gagal) — dua hal yang terpisah.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Peristiwa yang tercatat pada T-18 MIN dalam rekonstruksi timeline adalah...",
+  "options": [
+   "Access established",
+   "Identity used",
+   "Request created",
+   "Transaction accepted"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-025",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Predikat EFFECTIVE mensyaratkan DUA hal sekaligus: kontrol benar-benar MENGUBAH jalannya skenario risiko (menghentikan/memblokir ancaman), DAN meninggalkan jejak bukti yang utuh untuk diaudit. Kontrol yang cuma ada di dokumen tanpa pernah diuji di produksi, atau yang bekerja tapi tak tercatat, tidak memenuhi standar effective ini.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Tahapan timeline yang diberi tingkat keyakinan SUPPORTED (bukan VERIFIED) adalah...",
+  "options": [
+   "Access established dan identity used",
+   "Request created dan anomaly detected",
+   "Transaction accepted dan response & callback",
+   "Identity used dan transaction accepted"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-026",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "PARTIALLY EFFECTIVE menggambarkan kontrol yang bekerja pada skenario 'normal' tapi gagal menahan variasi/anomali tertentu — dalam soal ini spesifiknya jalur integrasi tertentu. Ini beda dari kontrol yang sepenuhnya tidak dirancang untuk risiko itu (itu NOT DESIGNED/INEFFECTIVE), karena di sini kontrolnya memang berfungsi, hanya tidak menyeluruh.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Kondisi 'timestamp tidak sinkron, Transaction ID tidak konsisten, log tersebar tanpa korelasi terpusat' dikategorikan sebagai...",
+  "options": [
+   "Coverage gap",
+   "Context gap",
+   "Retention gap",
+   "Correlation gap"
+  ],
+  "correctIndex": 3,
+  "id": "M3CYB-027",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Callback/Webhook adalah mekanisme sistem A memberi tahu sistem B (atau mitra eksternal) bahwa suatu proses sudah selesai dan hasilnya apa — fungsinya murni notifikasi status transaksi. Karena sifatnya mengarahkan data KELUAR ke endpoint tertentu, callback yang dikonfigurasi ulang tanpa otorisasi menjadi salah satu vektor serangan paling sering dibahas di materi ini (lihat soal studi kasus 75-82).",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Kondisi 'perubahan parameter transaksi, penggunaan privileged account, dan perubahan callback endpoint tidak tercatat' merupakan bentuk...",
+  "options": [
+   "Coverage gap",
+   "Context gap",
+   "Retention gap",
+   "Correlation gap"
+  ],
+  "correctIndex": 0,
+  "id": "M3CYB-028",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Detail spesifik dari studi kasus ini (nominal, waktu, service account) dirancang untuk diingat persis karena semua soal turunannya (76-82) merujuk balik ke fakta ini. Kuncinya: transaksi ini TIDAK terdaftar di batch pembayaran resmi hari itu DAN diarahkan ke penerima yang baru saja didaftarkan — dua sinyal anomali klasik yang seharusnya memicu kecurigaan meski secara teknis transaksi 'berhasil'.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Yang termasuk minimum evidence standard dalam materi adalah hal berikut, KECUALI...",
+  "options": [
+   "Synchronized time",
+   "Shared identifiers",
+   "End-to-end encryption pada seluruh log",
+   "Tamper-evident retention"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-029",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "34 menit adalah selisih riil antara waktu eksekusi (08.42:08) dan waktu deteksi (09.16:27) — angka ini penting karena menunjukkan seberapa besar 'jendela kerentanan' yang dimiliki penyerang sebelum sistem menyadari ada yang salah. Semakin panjang detection gap ini, semakin besar potensi dana sudah dipindahkan lebih jauh sebelum bisa dihentikan.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Akibat yang timbul dari kesenjangan bukti (expanding uncertainty) mencakup hal berikut, KECUALI...",
+  "options": [
+   "Incomplete timeline",
+   "Weak attribution",
+   "Delayed containment",
+   "Increased licensing cost"
+  ],
+  "correctIndex": 3,
+  "id": "M3CYB-030",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Payload Hash yang tidak tercatat berarti tidak ada cara matematis untuk memverifikasi apakah isi request itu diubah di tengah jalan (tampering) — ini persis evidence gap paling fatal dalam kasus ini, karena tanpa hash, investigator tak bisa membuktikan apakah data yang sampai di Payment Service sama dengan yang dikirim di Channel.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Temuan investigasi yang berstatus SUPPORTED (bukan CORROBORATED) adalah...",
+  "options": [
+   "Trust boundary dan transaction integrity",
+   "Integration security dan access & change control",
+   "Monitoring & response dan trust boundary",
+   "Transaction integrity dan monitoring & response"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-031",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "`worker-03` mencurigakan justru karena BUKAN proses terjadwal rutin (bukan scheduler-prod-01, bukan daemon-backup) — proses ini berjalan DI LUAR jalur batch normal, itulah kenapa dianggap anomali dalam investigasi. Prinsip forensiknya: proses yang tidak masuk pola operasional yang dikenal patut dicurigai lebih dulu.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pola risiko sistemik yang membuat transaksi tidak sah tampak valid secara teknis terdiri atas unsur berikut, KECUALI...",
+  "options": [
+   "Trusted path",
+   "Valid credential",
+   "Unpatched vulnerability",
+   "Limited correlation"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-032",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Karena hash biner aplikasi IDENTIK dengan baseline dan tidak ada deployment baru tercatat, bukti ini justru MELEMAHKAN (weaken) hipotesis 'backdoor disisipkan lewat deployment' — bukan menguatkannya. Ini contoh penting metodologi Working Hypotheses: bukti bisa membantah dugaan awal, dan investigator harus mengikuti bukti, bukan mempertahankan hipotesis pertama.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dimensi berikut termasuk dalam lima dimensi pengujian efektivitas kontrol, KECUALI...",
+  "options": [
+   "Design",
+   "Coverage",
+   "Reliability",
+   "Resilience"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-033",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Callback Drift adalah istilah untuk kondisi ketika endpoint callback DIUBAH tanpa melalui proses change management resmi (tiket perubahan) — di sini lewat akun shared-admin tanpa jejak otorisasi. 'Drift' menekankan bahwa konfigurasi bergeser diam-diam dari baseline yang disetujui, bukan serangan aktif seperti DDoS atau SQL Injection.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pada pengujian kontrol Request Integrity Validation, dimensi yang dinilai berstatus GAP adalah...",
+  "options": [
+   "Design",
+   "Coverage",
+   "Operation",
+   "Evidence"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-034",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Status UNRESOLVED muncul karena BUKTI-nya sendiri tidak lengkap — rekaman sesi PAM tidak tersedia dan log perintah tidak utuh, sehingga investigator tidak bisa memastikan APA yang sebenarnya dilakukan di server pada jendela waktu itu. Ini bukan soal ada/tidaknya insiden, tapi soal ketidakcukupan bukti untuk menyimpulkan apapun secara pasti — konsisten dengan prinsip forensik di soal 22 (ketiadaan bukti ≠ bukti ketiadaan).",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Hasil penilaian keseluruhan (overall assessment) atas kontrol Request Integrity Validation adalah...",
+  "options": [
+   "Effective",
+   "Partially effective",
+   "Ineffective",
+   "Not testable"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-035",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "SIEM/FDS gagal memicu alarm karena aturan deteksinya justru MENGECUALIKAN jalur yang dianggap terpercaya (trusted IP/account) — dan tidak ada aturan yang mengorelasikan perubahan konfigurasi callback dengan pola transaksi. Inilah kegagalan desain kontrol (dimensi Design & Coverage dari soal 23), bukan kegagalan operasional sistem.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam skala penilaian efektivitas kontrol, kategori NOT TESTABLE berarti...",
+  "options": [
+   "Skenario berhasil tanpa kontrol yang memadai",
+   "Kontrol bekerja pada sebagian kondisi",
+   "Bukti tidak cukup untuk menguji kontrol",
+   "Kontrol mengubah hasil dan meninggalkan bukti"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-036",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Empat langkah ini harus dilakukan SEKALIGUS dan cepat tapi hati-hati: isolasi akses (stop akses lanjutan), rotasi kredensial (cegah reuse), bekukan endpoint callback asing (stop kebocoran data lanjutan), dan preservasi image forensik SEBELUM sistem diutak-atik lebih jauh. Memformat ulang server (opsi A) justru MENGHANCURKAN bukti forensik yang seharusnya dipertahankan.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Jeda antara transaksi diterima sistem dan terdeteksinya anomali pada mini case adalah...",
+  "options": [
+   "8 menit",
+   "27 menit",
+   "34 menit 19 detik",
+   "60 menit"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-037",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "P1 (Contain & Preserve) adalah fase paling mendesak dalam roadmap — menahan kerusakan dan menyelamatkan bukti harus terjadi SEGERA, bukan menunggu siklus perencanaan bulanan/tahunan. Semakin lama fase containment ditunda, semakin besar peluang dampak meluas dan bukti forensik terkontaminasi atau hilang.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Fakta tambahan dalam mini case mencakup hal berikut, KECUALI...",
+  "options": [
+   "Tidak ditemukan deployment aplikasi pada hari kejadian",
+   "Sesi PAM tercatat sekitar tiga jam sebelum transaksi",
+   "SIEM menerima authentication log tetapi belum menghubungkannya dengan Transaction ID",
+   "High-severity security alert muncul bersamaan dengan transaksi"
+  ],
+  "correctIndex": 3,
+  "id": "M3CYB-038",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "P2 (Fix the Control Path) berfokus memperbaiki JALUR kontrol yang gagal secara struktural — validasi integritas end-to-end, binding parameter kritis, dan allowlist endpoint callback yang ketat. Ini beda dari P1 yang sifatnya darurat/reaktif (rotasi password, hunting retrospektif) — P2 adalah perbaikan akar penyebab teknis supaya celah yang sama tidak bisa dieksploitasi lagi.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Anomali pada langkah API REQUEST (08.42:06) dalam mini case adalah...",
+  "options": [
+   "Schema validation gagal",
+   "Payload hash tidak tercatat",
+   "Request ID tidak terbentuk",
+   "Transaction ID duplikat"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-039",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "P3 (Sustain Assurance) adalah fase jangka panjang yang memantau apakah perbaikan di P2 tetap bertahan dari waktu ke waktu — Callback Drift Rate (apakah konfigurasi mulai bergeser lagi), penggunaan shared account (apakah disiplin akses individual dipatuhi), dan Detection Delay (apakah waktu deteksi makin cepat). Tiga KRI ini semuanya mengukur KETAHANAN kontrol, bukan sekadar keberadaannya.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Sinyal paling kuat bahwa TX-8821 keluar dari konteks bisnis yang sah adalah...",
+  "options": [
+   "Response code callback bernilai 200",
+   "Transaksi tidak memiliki approved batch reference dan beneficiary baru terdaftar",
+   "Autentikasi service account berhasil",
+   "Sumber request berasal dari IP middleware internal"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-040",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Zero Trust menolak asumsi lama bahwa 'di dalam jaringan internal = otomatis dipercaya' — sebaliknya, SETIAP transaksi di SETIAP trust boundary harus membuktikan kepercayaannya ulang, tidak peduli dari mana asalnya. Ini prinsip yang menyatukan seluruh materi: kredensial sah saja (soal 12) tidak cukup, karena trust harus dibuktikan berulang di setiap titik keputusan, bukan sekali di awal.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pada ronde pengungkapan bukti, temuan E03 (Code & Deployment) dengan status repository change NONE dan hash MATCH BASELINE diberi bobot...",
+  "options": [
+   "Strengthen",
+   "Weaken",
+   "Keep open",
+   "Unresolved"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-041",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "PAM (Privileged Access Management) secara definisi adalah sistem tata kelola untuk mengontrol, memantau, dan merekam akses akun-akun berhak istimewa (administratif) — relevan langsung dengan kasus shared-admin account di soal 80 yang justru TIDAK melalui kontrol PAM yang semestinya.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Temuan E06 tentang sesi PAM pukul 05.10-05.31 milik third-party support account diberi status UNRESOLVED karena...",
+  "options": [
+   "Sesi terjadi di luar jam kerja",
+   "Rekaman sesi tidak tersedia dan command audit tidak lengkap",
+   "Akun tidak terdaftar dalam IAM",
+   "Sesi tidak berkaitan dengan timeline insiden"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-042",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Shared-admin account menghilangkan Non-Repudiation — prinsip bahwa setiap tindakan harus bisa ditelusuri balik ke SATU individu yang bertanggung jawab. Kalau beberapa orang memakai satu akun yang sama, saat terjadi insiden (seperti soal 80-81), tidak ada cara membuktikan siapa yang benar-benar menekan tombol itu — inilah kenapa akun bersama sangat dilarang di sistem berisiko tinggi.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Temuan E04 mencatat callback endpoint berubah T-2 hari menggunakan akun shared-admin tanpa change ticket. Implikasi utama temuan ini adalah...",
+  "options": [
+   "Pelaku perubahan dapat langsung diidentifikasi dari akun yang digunakan",
+   "Perubahan terjadi sebelum insiden tanpa referensi persetujuan dan individu di balik akun bersama belum dapat dibuktikan",
+   "Perubahan tersebut tidak berkaitan dengan transaksi karena terjadi sebelum insiden",
+   "Perubahan tersebut membuktikan adanya deployment kode baru"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-043",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "WAF (Web Application Firewall) secara spesifik melindungi LAYER APLIKASI dari serangan injeksi payload berbahaya (seperti SQL injection atau XSS) — berbeda dari firewall jaringan biasa yang bekerja di layer jaringan/transport. WAF memeriksa ISI request HTTP, bukan sekadar alamat/port sumbernya.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Tindakan berikut termasuk prioritas P1 (CONTAIN & PRESERVE, 0-30 hari), KECUALI...",
+  "options": [
+   "Preserve log, image, dan konfigurasi insiden",
+   "Rotasi credential dan pemisahan shared account",
+   "Segmentasi, NAC, atau ZTNA pada jalur kritis",
+   "Kunci callback pada endpoint yang disetujui"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-044",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Empat pilar Minimum Evidence Standard saling melengkapi untuk menjamin bukti forensik memadai: cakupan kejadian kritis + waktu tersinkron, identifier bersama untuk korelasi, penyimpanan tahan-manipulasi — dan yang PALING BERLAWANAN dengan semua itu adalah 'izin edit log bebas bagi staf', karena itu justru MERUSAK integritas bukti, bukan memperkuatnya.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Rentang waktu pelaksanaan prioritas P2 (FIX THE CONTROL PATH) adalah...",
+  "options": [
+   "0-30 hari",
+   "31-90 hari",
+   "60-120 hari",
+   "90+ hari"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-045",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "CORROBORATED berarti sebuah temuan didukung banyak sumber bukti INDEPENDEN yang saling menguatkan (misalnya log gateway + log PAM + log jaringan semua menunjuk hal sama) — ini level kepercayaan lebih tinggi dari SUPPORTED, yang berarti konsisten dengan bukti yang ada tapi masih menyisakan celah (gap) yang belum tertutup sepenuhnya.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Evidence of closure untuk prioritas P3 (Sustain Assurance) mencakup hal berikut, KECUALI...",
+  "options": [
+   "Scenario test report",
+   "KRI trend",
+   "Credential rotation record",
+   "Risk acceptance atau closure approval"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-046",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Inti materi ini: sebuah transaksi bisa terlihat SAH secara teknis bagi komponen yang hanya memeriksa SEBAGIAN konteks (format benar, kredensial terdaftar) — tapi sebenarnya TIDAK sah secara bisnis karena tidak ada komponen yang memeriksa keseluruhan konteks otorisasi end-to-end. Inilah celah struktural yang dieksploitasi di seluruh studi kasus Rp 2,75 Miliar.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Urutan empat langkah metodologi penutup materi adalah...",
+  "options": [
+   "Correlate the evidence - start with the service - follow the transaction - test the outcome",
+   "Start with the service - follow the transaction - correlate the evidence - test the outcome",
+   "Follow the transaction - correlate the evidence - start with the service - test the outcome",
+   "Test the outcome - start with the service - follow the transaction - correlate the evidence"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-047",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Retrospective Threat/Transaction Hunting adalah pencarian PROAKTIF ke data transaksi masa lalu untuk menemukan pola serupa dengan insiden yang baru ditemukan — tujuannya memastikan insiden serupa belum/tidak pernah terjadi sebelumnya tanpa terdeteksi, berbeda dari penetration testing yang menguji ketahanan sistem lewat simulasi serangan aktif.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "STUDI KASUS: Sebuah PUJK memproses transfer Rp5 miliar melalui service account yang valid dari IP internal ter-whitelist. Skema payload lolos validasi, callback mengembalikan HTTP 200, dan tidak ada alert malware. Transaksi baru diketahui saat rekonsiliasi sore hari. Berdasarkan kerangka materi, kontrol yang paling mungkin menghentikan transaksi tersebut SEBELUM diproses adalah...",
+  "options": [
+   "Penambahan kapasitas SIEM dan perluasan retensi log",
+   "Pengikatan approved batch reference, beneficiary, dan nominal ke dalam authorization decision secara end-to-end",
+   "Penguatan enkripsi TLS pada kanal middleware",
+   "Penambahan frekuensi vulnerability scanning pada payment service"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-048",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "EDR (Endpoint Detection and Response) dipasang di level ENDPOINT/SERVER untuk merekam aktivitas proses internal, koneksi jaringan dari host itu sendiri, dan mendeteksi perilaku biner yang anomali saat runtime — cakupannya adalah 'apa yang terjadi DI DALAM mesin', berbeda dari alat jaringan seperti firewall yang memantau lalu lintas ANTAR mesin.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "STUDI KASUS: Dalam insiden yang sama, SIEM menerima log autentikasi service account namun tidak memunculkan alert apa pun. Penyebab paling tepat menurut kerangka materi adalah...",
+  "options": [
+   "SIEM tidak memiliki lisensi fraud detection",
+   "Log autentikasi tidak dikorelasikan dengan Transaction ID sehingga aktivitas tampak normal pada tiap sistem",
+   "Log autentikasi telah melewati masa retensi",
+   "Service account tidak terdaftar dalam IAM"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-049",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Dimensi Resilience secara spesifik menanyakan APA YANG TERJADI SETELAH kontrol gagal atau dilewati — apakah ada lapisan kedua yang bisa menghentikan dampak sebelum meluas. Ini konsep 'defense in depth': kontrol yang baik tidak hanya mencegah, tapi juga membatasi kerusakan kalau lapisan pertama jebol.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "STUDI KASUS: Tim investigasi menemukan bahwa log aplikasi mencatat status ACCEPTED, tetapi tidak mencatat alasan keputusan otorisasi. Dalam pengujian efektivitas kontrol, kondisi ini paling tepat dinilai sebagai kelemahan pada dimensi...",
+  "options": [
+   "Design",
+   "Coverage",
+   "Evidence",
+   "Resilience"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-050",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "STUDI KASUS log ACCEPTED tanpa alasan otorisasi persis menguji dimensi Evidence — organisasi TIDAK bisa membuktikan bahwa keputusan allow/deny itu benar-benar melalui proses yang bisa diaudit (siapa yang setujui, kenapa disetujui). Status ACCEPTED-nya (Coverage) ada, tapi jejak PEMBUKTIAN keputusannya (Evidence) hilang — dua dimensi yang berbeda.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Definisi risiko menurut SNI ISO 31000:2018 sebagaimana dikutip dalam materi adalah...",
+  "options": [
+   "Kemungkinan terjadinya kerugian finansial pada suatu periode",
+   "Dampak dari ketidakpastian terhadap pencapaian sasaran (effect of uncertainty on objectives)",
+   "Peristiwa merugikan yang belum dapat dikendalikan organisasi",
+   "Selisih antara hasil aktual dan hasil yang dianggarkan"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-001",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Pergeseran ISO 31000:2018 ini penting dipahami secara konseptual: definisi lama memandang risiko sebagai PERISTIWA (sesuatu yang mungkin terjadi), sedangkan definisi baru memandangnya sebagai EFEK ketidakpastian terhadap SASARAN. Bedanya besar — definisi baru membuat risiko relevan bahkan tanpa peristiwa buruk terjadi, karena ketidakpastian itu sendiri sudah memengaruhi pencapaian tujuan, bukan cuma soal kerugian finansial semata (opsi A) atau selisih anggaran (opsi D).",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Berdasarkan kesimpulan definisi risiko dalam materi, pernyataan berikut benar, KECUALI...",
+  "options": [
+   "Risiko timbul karena adanya sasaran",
+   "Penyebab risiko adalah ketidakpastian",
+   "Risiko memerlukan kejelasan mengenai sasaran",
+   "Risiko selalu bermakna kerugian finansial"
+  ],
+  "correctIndex": 3,
+  "id": "M3MRK-002",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Achievable menguji apakah target itu MENANTANG tapi tetap REALISTIS dicapai — beda dari Measurable (bisa diukur dengan angka) atau Relevant (selaras dengan tujuan organisasi). Kriteria ini mencegah dua ekstrem: target yang terlalu mudah (tidak memotivasi) atau terlalu ambisius (mustahil dicapai, jadi demotivasi).",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Kriteria sasaran SMART dalam materi terdiri atas Specific, Measurable, Achievable, Relevant, dan...",
+  "options": [
+   "Trackable",
+   "Time-bound",
+   "Transparent",
+   "Testable"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-003",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Unsur Measurable terpenuhi karena target ini punya ANGKA METRIK yang jelas dan bisa diukur objektif (3,2% → 2,5%) — bukan karena ada tenggat waktunya (itu unsur Time-bound) atau karena fokus ke kredit (itu soal Specific/Relevant). Satu target SMART bisa memenuhi beberapa kriteria sekaligus, tapi soal ini menguji kriteria MANA yang spesifik dipenuhi oleh elemen ANGKA tersebut.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Contoh sasaran SMART bidang Kredit dalam materi adalah menurunkan rasio NPL dari 3,2% menjadi maksimal...",
+  "options": [
+   "2,0% pada 31 Desember 2026",
+   "2,5% pada 31 Desember 2027",
+   "3,0% pada akhir Semester I 2027",
+   "1,5% pada 31 Desember 2027"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-004",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Risk Owner secara struktural melekat pada PIMPINAN UNIT BISNIS yang memiliki KPI terkait risiko itu — bukan otomatis diambil alih Satuan Kerja Manajemen Risiko (Lini 2) saat risiko tinggi. Justru sebaliknya: semakin tinggi risikonya, akuntabilitas pemilik risiko (Lini 1) makin krusial dipertahankan, sementara Lini 2 hanya memberi tantangan metodologi — bukan mengambil alih kepemilikan risiko harian.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Menurut SNI ISO 31000 dan ISO Guide 73, pemilik risiko (risk owner) adalah...",
+  "options": [
+   "Unit kerja manajemen risiko yang menyusun risk register",
+   "Orang atau entitas yang memiliki akuntabilitas dan kewenangan untuk mengelola risiko",
+   "Auditor internal yang menguji efektivitas kontrol",
+   "Dewan Komisaris yang menyetujui risk appetite"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-005",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Systemically Connected menggambarkan sifat industri SJK yang unik: kegagalan SATU institusi bisa cepat merambat ke institusi lain lewat jalinan kepercayaan dan transaksi antar-lembaga (contagion effect) — beda dari sektor riil di mana kegagalan satu perusahaan biasanya tidak otomatis menjatuhkan perusahaan lain di industri yang sama.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Karakteristik Sektor Jasa Keuangan yang membentuk profil risikonya menurut materi mencakup hal berikut, KECUALI...",
+  "options": [
+   "Interconnected",
+   "Information-intensive",
+   "Labour-intensive",
+   "Systemically connected"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-006",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Level 3 (Kadang Terjadi) mencakup frekuensi 6-9 kali per tahun — angka ini penting dihafal karena matriks kemungkinan SJK menggunakan rentang frekuensi spesifik per level, bukan skala kualitatif bebas. Salah menaksir level frekuensi akan langsung mengubah skor besaran risiko di matriks 5x5.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Tahapan berikut merupakan bagian dari siklus manajemen risiko sebagaimana digambarkan dalam materi, KECUALI...",
+  "options": [
+   "Identify",
+   "Assess",
+   "Treat",
+   "Reconcile"
+  ],
+  "correctIndex": 3,
+  "id": "M3MRK-007",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Untuk Low Tolerance Event (kejadian yang meski jarang tetap tidak bisa ditoleransi, seperti fraud atau kebakaran), 1 kali dalam 3 tahun terakhir masuk Level 3 — BUKAN Level 1 seperti intuisi biasa. Ini karena kategori low tolerance sengaja memakai ambang lebih ketat: kejadian yang untuk risiko biasa dianggap 'jarang', untuk risiko low-tolerance sudah dianggap cukup sering untuk memicu perhatian serius.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Formula penentuan tingkat/profil risiko dalam materi adalah...",
+  "options": [
+   "Likelihood + Impact = Risk Level",
+   "Likelihood x Impact = Risk Level",
+   "Impact - Kontrol = Risk Level",
+   "Likelihood x Kontrol = Risk Level"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-008",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Ambang 'Sering Terjadi' (Level 4) untuk populasi yang terukur jelas berada di rentang 10%-20% probabilitas — bukan di atas 50% (itu Level 5/Hampir Pasti) atau di bawah 10% (Level 3). Skema persentase ini dipakai ketika data historis frekuensi tersedia secara kuantitatif, sebagai alternatif dari hitungan 'X kali per tahun'.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Opsi perlakuan risiko dalam materi mencakup Avoid, Reduce, Transfer/Share, dan Accept. Yang dimaksud TRANSFER/SHARE adalah...",
+  "options": [
+   "Menghentikan kegiatan yang menimbulkan risiko tinggi",
+   "Memasang kontrol internal untuk menekan likelihood dan/atau impact",
+   "Mengalihkan risiko ke pihak lain, misalnya asuransi, hedging, atau outsource",
+   "Menerima risiko residual selama masih dalam batas toleransi"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-009",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Kriteria dampak finansial K-Wide (level organisasi luas) mengklasifikasikan Rp100 juta-Rp1 Miliar sebagai Moderat (Level 3) — bukan Minor atau Signifikan. Tabel dampak finansial ini berjenjang dengan pita rentang tertentu, dan kesalahan umum adalah menaksir 'Rp1 Miliar itu kecil' padahal secara skala organisasi itu sudah masuk kategori dampak menengah.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Metode identifikasi risiko yang disebutkan dalam materi mencakup hal berikut, KECUALI...",
+  "options": [
+   "Menegatifkan IKU",
+   "Activity process analysis",
+   "Imaginatif thinking",
+   "Stress testing permodalan"
+  ],
+  "correctIndex": 3,
+  "id": "M3MRK-010",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Dampak berupa ancaman hukuman pengadilan (baik ke pegawai atau organisasi) masuk kategori 'Sanksi pidana, perdata, dan/atau administratif' — ini area dampak TERSENDIRI dalam kerangka kriteria dampak risiko, terpisah dari Penurunan Reputasi (opini publik) atau Gangguan Layanan (operasional), meski ketiganya sering muncul BERSAMA dalam satu insiden besar.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam kriteria kemungkinan, level 3 (Kadang terjadi) ditetapkan dengan persentase dan frekuensi...",
+  "options": [
+   "1% < x <= 10% atau 2 s.d. 5 kali dalam 1 tahun",
+   "10% < x <= 20% atau 6 s.d. 9 kali dalam 1 tahun",
+   "20% < x <= 50% atau 10 s.d. 12 kali dalam 1 tahun",
+   "x > 50% atau lebih dari 12 kali dalam 1 tahun"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-011",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Skor 16 didapat dari Kemungkinan 4 × Dampak 4 = 16, dan berdasarkan rentang skor matriks 5x5 standar (16-19 = Tinggi/Oranye), skor 16 masuk kategori TINGGI, bukan Sedang atau Sangat Tinggi. Soal ini menguji dua hal sekaligus: kemampuan mengalikan skor DAN membaca rentang kategorinya dengan tepat — kesalahan umum adalah salah pilih batas rentang yang berdekatan.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Contoh kejadian yang dikategorikan sebagai low tolerance event dalam materi mencakup hal berikut, KECUALI...",
+  "options": [
+   "Korupsi",
+   "Kebakaran gedung",
+   "Keterlambatan laporan rutin bulanan",
+   "Kecelakaan kerja yang berakibat fatal"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-012",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Rentang 1-5 dikategorikan Sangat Rendah (Biru) dalam matriks analisis risiko standar SJK — ini batas TERBAWAH dari lima tingkatan (1-5 Biru, 6-11 Hijau, 12-15 Kuning, 16-19 Oranye, 20-25 Merah). Hafalkan rentangnya secara berurutan karena soal sering menguji satu rentang spesifik yang berdekatan dengan rentang lain.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pada kriteria dampak area Beban Keuangan kategori K-Wide, level Signifikan (4) ditetapkan pada rentang...",
+  "options": [
+   "Rp10 juta < x <= Rp100 juta",
+   "Rp100 juta < x <= Rp1 miliar",
+   "Rp1 miliar < x <= Rp10 miliar",
+   "x > Rp10 miliar"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-013",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Ketika dua risiko punya skor besaran identik, tie-breaker berikutnya BUKAN soal biaya mitigasi (itu pertimbangan operasional, bukan prioritisasi risiko) melainkan AREA DAMPAK — risiko yang menyentuh area dampak lebih tinggi (misalnya sanksi hukum vs gangguan layanan ringan) diprioritaskan lebih dulu meski skor totalnya sama.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam matriks analisis risiko, besaran risiko 20-25 dikategorikan sebagai level...",
+  "options": [
+   "Tinggi dengan warna oranye",
+   "Sangat Tinggi dengan warna merah",
+   "Sedang dengan warna kuning",
+   "Sangat Tinggi dengan warna oranye"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-014",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Beda mendasarnya: Risk Appetite adalah JENIS dan TINGKAT risiko yang organisasi BERSEDIA ambil demi mengejar tujuan strategis (sifatnya proaktif, pilihan), sedangkan Risk Tolerance adalah seberapa JAUH penyimpangan dari appetite itu masih bisa DITERIMA sebelum dianggap pelanggaran (sifatnya reaktif, batas toleransi). Appetite = pilihan; Tolerance = batas elastisitas dari pilihan itu.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Perbedaan mendasar antara Risk Appetite dan Risk Tolerance menurut materi adalah...",
+  "options": [
+   "Risk appetite ditetapkan unit bisnis, risk tolerance ditetapkan Direksi",
+   "Risk appetite adalah tingkat dan jenis risiko yang bersedia diambil, sedangkan risk tolerance adalah tingkat penyimpangan maksimal dari risk appetite yang masih dapat diterima",
+   "Risk appetite bersifat kuantitatif, sedangkan risk tolerance selalu bersifat kualitatif",
+   "Risk appetite ditinjau lima tahunan, sedangkan risk tolerance ditinjau tahunan"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-015",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Rumus Residual Risk = Inherent Risk DIKURANGI efektivitas kontrol (KPMR) — bukan ditambah. Logikanya: risiko melekat (inherent) adalah risiko SEBELUM ada kontrol apapun, lalu kontrol yang efektif MENGURANGI sebagian risiko itu, menyisakan risiko residual yang lebih kecil. Kalau kontrolnya lemah, residual risk mendekati inherent risk; kalau kontrolnya kuat, residual risk jauh lebih kecil.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Kewenangan penetapan Risk Appetite Statement (RAS) menurut materi adalah...",
+  "options": [
+   "Ditetapkan Satuan Kerja Manajemen Risiko dan disetujui Direksi",
+   "Ditetapkan Direksi dan disetujui Dewan Komisaris secara tahunan",
+   "Ditetapkan Dewan Komisaris dan disetujui OJK",
+   "Ditetapkan Komite Manajemen Risiko dan disetujui audit internal"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-016",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Pilar 3 (Kecukupan Proses dan Sistem Informasi Manajemen) sering disalahpahami sebagai audit — padahal evaluasi INDEPENDEN oleh audit internal justru masuk Pilar 4 (Sistem Pengendalian Intern Menyeluruh). Pilar 3 fokus ke proses dan SIM manajemen risiko sehari-hari, sedangkan Pilar 4 adalah lapisan pemeriksaan independen yang menilai apakah tiga pilar sebelumnya berjalan efektif.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Contoh kuantitatif dalam materi menyebutkan risk appetite NPL maksimum 2,5%, sedangkan batas toleransi atas NPL akibat krisis eksternal maksimal...",
+  "options": [
+   "2,5%",
+   "3,0%",
+   "3,5%",
+   "5,0%"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-017",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Pilar II (Deteksi) dalam Strategi Anti-Fraud POJK 12/2024 mencakup mekanisme yang MENEMUKAN indikasi fraud — Whistleblowing System dan surprise audit keduanya bersifat reaktif-menemukan, bukan mencegah (Pilar I) atau menindak-lapor (Pilar III). Kunci membedakan: WBS dan surprise audit tidak mencegah fraud terjadi, tapi memperbesar peluang fraud yang sudah terjadi untuk ketahuan.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Tingkatan limit dalam limit cascading framework mencakup hal berikut, KECUALI...",
+  "options": [
+   "Enterprise Limit",
+   "Business Unit Limit",
+   "Individual Limit",
+   "Regulatory Limit"
+  ],
+  "correctIndex": 3,
+  "id": "M3MRK-018",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Risiko Pasar spesifik mencakup pergerakan suku bunga, nilai tukar, dan harga portofolio instrumen keuangan — ini beda dari Risiko Kredit (soal gagal bayar debitur) atau Risiko Likuiditas (soal ketersediaan dana tunai). Ketiga jenis risiko finansial ini sering tertukar karena sama-sama 'finansial', tapi masing-masing punya pemicu dan mekanisme kerugian yang berbeda.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Apabila terdapat lebih dari satu risiko dengan besaran risiko yang sama, urutan penentuan prioritas menurut materi adalah...",
+  "options": [
+   "Kategori risiko - area dampak - judgement pimpinan UPR",
+   "Area dampak - kategori risiko - judgement pimpinan UPR",
+   "Judgement pimpinan UPR - area dampak - kategori risiko",
+   "Area dampak - judgement pimpinan UPR - kategori risiko"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-019",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Kasus rush ini murni Risiko Likuiditas: masalahnya bukan bank kehilangan uang (itu risiko kredit/pasar), melainkan bank TIDAK BISA mencairkan asetnya cukup cepat untuk memenuhi penarikan mendadak karena dana tertanam di instrumen jangka panjang yang tidak likuid — mismatch antara jatuh tempo aset dan kewajiban inilah inti risiko likuiditas.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Ketentuan mitigasi risiko dalam tahap evaluasi risiko adalah dilakukan terhadap seluruh risiko utama, yaitu risiko dengan level...",
+  "options": [
+   "Tinggi dan sangat tinggi saja",
+   "Sedang, tinggi, dan sangat tinggi",
+   "Rendah sampai sangat tinggi",
+   "Sangat tinggi saja"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-020",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Status AMBER (Kuning) pada KRI berarti indikator SUDAH MENDEKATI limit toleransi dan memerlukan rencana mitigasi AKTIF — ini beda dari GREEN (masih aman dalam selera risiko) dan RED (limit sudah DILAMPAUI, wajib eskalasi ke Dewan Komisaris). AMBER adalah 'lampu kuning' peringatan dini sebelum benar-benar melanggar batas, bukan pelanggaran itu sendiri.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Bentuk pemantauan dan review manajemen risiko dalam materi mencakup hal berikut, KECUALI...",
+  "options": [
+   "Pemantauan berkelanjutan oleh masing-masing UPR",
+   "Pemantauan berkala triwulanan/tahunan",
+   "Review oleh pengelola risiko, UKI, dan Itjen",
+   "Uji petik oleh Dewan Komisaris setiap bulan"
+  ],
+  "correctIndex": 3,
+  "id": "M3MRK-021",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "KRI wajib bersifat forward-looking/leading indicator — artinya ia memberi SINYAL PERINGATAN DINI sebelum kerugian terjadi, bukan sekadar mencatat kerugian yang SUDAH terjadi (itu lagging indicator, seperti laporan kerugian historis). Inilah yang membedakan KRI dari laporan kinerja biasa: KRI harus bisa memprediksi, bukan cuma mendokumentasikan masa lalu.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Empat pilar penerapan manajemen risiko SJK berdasarkan ketentuan OJK dalam materi mencakup hal berikut, KECUALI...",
+  "options": [
+   "Pengawasan aktif Direksi dan Dewan Komisaris",
+   "Kecukupan kebijakan, prosedur, dan limit risiko",
+   "Kecukupan permodalan minimum (KPMM)",
+   "Sistem pengendalian intern menyeluruh"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-022",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Level 4 (Advanced/Value Creating) adalah tahap di mana manajemen risiko sudah lepas dari sekadar kepatuhan formal (itu Level 2: Compliance Driven) dan menjadi SUMBER KEUNGGULAN KOMPETITIF serta pencipta nilai bagi organisasi — di tahap ini, manajemen risiko bukan lagi biaya/beban tapi justru mendukung strategi bisnis secara langsung.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam Three Lines Model, fungsi yang bertindak sebagai pemilik risiko (risk owner) adalah...",
+  "options": [
+   "Satuan Kerja Manajemen Risiko",
+   "Unit bisnis dan operasional",
+   "Audit internal",
+   "Komite Manajemen Risiko"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-023",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Target regulasi OJK bagi seluruh PUJK adalah minimal Level 3 (Established/Integrated Framework) SECARA BERKELANJUTAN — bukan cuma sekali tercapai lalu selesai. Kata 'berkelanjutan' penting: OJK menilai konsistensi maturitas dari waktu ke waktu, bukan snapshot satu kali penilaian saja.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Taksonomi 8 risiko utama SJK dalam materi mencakup risiko berikut, KECUALI...",
+  "options": [
+   "Risiko Likuiditas",
+   "Risiko Siber",
+   "Risiko Hukum",
+   "Risiko Strategik"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-024",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Lini Pertama bertanggung jawab MENJALANKAN operasional harian SEKALIGUS mengidentifikasi dan mengendalikan risiko secara langsung di titik terjadinya — ini beda dari Lini Kedua yang menyusun kerangka kerja dan menantang (challenge) keputusan Lini Pertama, atau Lini Ketiga yang memberi assurance independen. Lini Pertama adalah 'pemilik' risiko operasional sehari-hari.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Contoh kasus 'petugas salah memasukkan nominal transfer nasabah dari Rp100 juta menjadi Rp1 miliar dan transaksi lolos karena verifikasi tidak berjalan efektif' dalam materi diklasifikasikan sebagai...",
+  "options": [
+   "Risiko Kepatuhan",
+   "Risiko Operasional",
+   "Risiko Siber",
+   "Risiko Strategik"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-025",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Mengambil alih keputusan bisnis dan kepemilikan risiko harian BUKAN fungsi Lini Kedua — itu justru melanggar prinsip segregasi tugas Three Lines Model, karena Lini Kedua seharusnya memberi TANTANGAN dan metodologi independen ke Lini Pertama, bukan menggantikan perannya. Kalau Lini Kedua ikut mengambil keputusan bisnis, fungsi pengawasan independennya jadi hilang (conflict of interest).",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Formula konseptual penilaian profil risiko akhir menurut ketentuan standar regulator dalam materi adalah...",
+  "options": [
+   "Inherent Risk x Likelihood = Profil Risiko Akhir",
+   "Inherent Risk + Kualitas Penerapan Manajemen Risiko (KPMR) = Profil Risiko Akhir",
+   "Residual Risk + Risk Appetite = Profil Risiko Akhir",
+   "Inherent Risk - Risk Tolerance = Profil Risiko Akhir"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-026",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Paper Compliance adalah istilah untuk kegagalan tata kelola di mana dokumen formalnya LENGKAP (kebijakan, register risiko, notulen rapat ada semua) tapi secara SUBSTANSI, indikator bahaya (KRI) tetap dilanggar tanpa tindakan korektif nyata — ini ilusi kepatuhan, karena kepatuhan sejati diukur dari TINDAKAN, bukan dari kelengkapan dokumen.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pada matriks penilaian risiko terintegrasi, Risiko Keamanan Siber tercatat dengan inherent risk Sangat Tinggi dan kualitas kontrol Wajar, sehingga residual risk-nya adalah...",
+  "options": [
+   "Rendah",
+   "Sedang",
+   "Tinggi",
+   "Sangat Tinggi"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-027",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Batas waktu 3x24 jam untuk Corrective Action Plan saat limit breach dipilih karena harus cukup cepat untuk menahan dampak (tidak boleh berlarut seperti 30 hari kerja) tapi tetap realistis untuk investigasi awal yang layak (tidak sesempit 1x24 jam yang mungkin belum cukup memahami akar masalah) — angka ini jadi standar keseimbangan antara kecepatan dan kecermatan respons.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Zona AMBER pada Key Risk Indicator (KRI) menandakan...",
+  "options": [
+   "Indikator masih berada dalam batas aman risk appetite",
+   "Indikator mendekati limit risiko (risk tolerance breach alert)",
+   "Limit risiko telah dilampaui",
+   "Indikator tidak dapat diukur"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-028",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "R-V-R-E-F adalah rantai tindakan berurutan untuk pegawai lini pelaksana: Recognize (kenali sinyal bahaya) → Verify (pastikan faktanya benar) → Report (catat secara terstruktur) → Escalate (naikkan ke jenjang berwenang) → Follow Up (pantau sampai ada kepastian mitigasi). Urutan ini penting — melompati langkah Verify misalnya bisa membuat laporan berisi asumsi, bukan fakta.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Prinsip KRI yang efektif menurut materi adalah...",
+  "options": [
+   "Bersifat lagging indicator agar berbasis data historis yang akurat",
+   "Bersifat forward-looking (leading indicator), bukan sekadar mencatat kerugian masa lalu",
+   "Disusun hanya untuk risiko finansial",
+   "Ditetapkan oleh audit internal secara independen"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-029",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Menetapkan sanksi dan memutus diskresi pengawasan bukan kewenangan pelaksana/pengawas lini pertama — itu kewenangan pejabat berwenang yang lebih tinggi. Tugas pelaksana dibatasi pada Recognize, Verify, dan Escalate (menyilangkan data adalah bagian dari verifikasi/eskalasi) — begitu masuk ranah MEMUTUSKAN sanksi, itu sudah melampaui kewenangan operasionalnya.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Frekuensi pelaporan risiko dalam materi menetapkan bahwa laporan Komite kepada Dewan Komisaris dilakukan secara...",
+  "options": [
+   "Harian",
+   "Mingguan",
+   "Bulanan",
+   "Triwulanan"
+  ],
+  "correctIndex": 3,
+  "id": "M3MRK-030",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "1x24 jam adalah batas waktu ketat untuk mengambil LANGKAH PROSEDURAL PERTAMA (bukan menyelesaikan seluruh investigasi) begitu red flags ditemukan — prinsip 'Personal Risk Awareness Chain' menekankan kecepatan respons AWAL, karena penundaan di titik ini adalah titik paling rawan hilangnya jejak/bukti dan meluasnya dampak.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Target pengawasan OJK atas tingkat maturitas manajemen risiko lembaga jasa keuangan dalam materi adalah berada pada minimal...",
+  "options": [
+   "Level 1 (Ad-hoc)",
+   "Level 2 (Compliance Driven)",
+   "Level 3 (Integrated Framework/Established)",
+   "Level 4 (Value Creating)"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-031",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Disiplin analisis yang benar adalah Fact (kumpulkan data objektif) → Signal (kenali pola yang mencurigakan dari fakta itu) → Hypothesis (susun dugaan yang bisa diuji) → Conclusion (simpulkan berdasarkan pengujian hipotesis) — melompat dari Signal langsung ke Conclusion/Sanction (seperti opsi C) adalah kesalahan berpikir yang bisa berujung tuduhan tanpa dasar bukti memadai.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Tiga tingkat maturitas tata kelola risiko yang diuji dalam materi (sesi governance) adalah...",
+  "options": [
+   "Existence - Implementation - Effectiveness",
+   "Awareness - Compliance - Assurance",
+   "Design - Operation - Evidence",
+   "Identify - Assess - Monitor"
+  ],
+  "correctIndex": 0,
+  "id": "M3MRK-032",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Near Miss adalah kejadian yang HAMPIR menimbulkan kerugian tapi tertahan karena faktor kebetulan atau kontrol darurat — bedanya dari insiden aktual adalah kerugiannya TIDAK jadi terealisasi, tapi mekanisme kegagalannya sama persis. Inilah kenapa near miss tetap penting dilaporkan meski 'tidak ada kerugian'.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "STUDI KASUS: Sebuah PUJK memiliki Risk Management Policy, RAS, risk register terkini, KRI, laporan berkala, dan komite risiko yang aktif. Namun KRI terus meningkat melampaui batas aman, limit terlampaui tanpa aksi korektif, dan risk report tetap menyatakan status 'Terkendali'. Kondisi ini paling tepat dinilai sebagai kegagalan pada tingkat...",
+  "options": [
+   "Existence",
+   "Implementation",
+   "Effectiveness",
+   "Compliance"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-033",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Pelaporan Near Miss kritikal karena ia jadi SUMBER PEMBELAJARAN untuk mengevaluasi keandalan barrier/kontrol SEBELUM insiden fatal benar-benar terjadi — organisasi yang menyembunyikan near miss (karena takut sanksi) justru kehilangan kesempatan memperbaiki celah sebelum celah itu benar-benar dieksploitasi jadi kerugian nyata.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pada anatomi kegagalan KRI, indikator Credit Concentration Limit tercatat dengan status data...",
+  "options": [
+   "Warning (92%)",
+   "Breached (115%)",
+   "High Risk",
+   "Normal (85%)"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-034",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Kenaikan suku bunga acuan global mentransmisikan risiko ke SJK domestik lewat volatilitas nilai tukar, fluktuasi suku bunga domestik yang mengikuti, dan kenaikan biaya dana (Cost of Fund) — ini rantai transmisi makro-ke-mikro yang harus dipahami sebagai satu mekanisme berantai, bukan dampak langsung dan terpisah-pisah.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pada tabel yang sama, indikator IT Cyber Incident Rate berstatus High Risk dengan realita di lapangan berupa...",
+  "options": [
+   "Laporan tetap ditandai status terkendali",
+   "Eskalasi terlambat lebih dari 14 hari",
+   "Suntikan likuiditas tertunda",
+   "Penyaluran kredit baru dihentikan"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-035",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Kasus salah input nominal (Rp100 juta jadi Rp1 Miliar) yang lolos verifikasi adalah Risiko Operasional klasik — penyebabnya human error DAN kegagalan kontrol verifikasi internal (seharusnya ada validasi berlapis yang menangkap kesalahan sebesar ini). Ini beda dari risiko hukum (soal kontrak/litigasi) karena akar masalahnya murni proses internal yang gagal, bukan sengketa hukum.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Akar penyebab kegagalan manajemen risiko formal dalam materi mencakup hal berikut, KECUALI...",
+  "options": [
+   "Silo & illusion of safety",
+   "Absennya risk culture (bad news travel slow)",
+   "Passive monitoring bias",
+   "Kelebihan kapasitas sumber daya manusia"
+  ],
+  "correctIndex": 3,
+  "id": "M3MRK-036",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Kenaikan suku bunga pasar membuat harga obligasi yang SUDAH DIMILIKI bank turun (relasi terbalik harga-yield) — ini langsung memunculkan kerugian mark-to-market, menekan laba, dan pada akhirnya menggerus rasio kecukupan modal (CAR) karena nilai aset yang diperhitungkan dalam modal ikut turun. Ini bukan soal likuiditas (LCR) yang justru bisa naik jika bank pegang kas lebih banyak.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam roadmap transisi menuju governance efektif, Enforce Mandatory Action mewajibkan Corrective Action Plan berbatas waktu maksimal...",
+  "options": [
+   "1x24 jam",
+   "3x24 jam",
+   "7 hari kerja",
+   "14 hari kerja"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-037",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "ACL (Audit Command Language) dan TeamMate GRC adalah tools spesifik untuk AUDIT DATA ANALYTICS — memungkinkan auditor internal menganalisis volume transaksi masif secara otomatis untuk menemukan anomali. Ini beda dari tools keamanan jaringan (VPN, WAF) yang disebut di opsi lain — soal ini menguji tools AUDIT, bukan tools keamanan siber.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Tolok ukur efektivitas (effective) untuk lini kedua (Risk & Compliance) dalam matriks evaluasi tata kelola risiko adalah...",
+  "options": [
+   "Membuat laporan KRI bulanan secara tepat waktu",
+   "Dapat memberlakukan veto langsung saat limit terlampaui",
+   "Menguji substansi respons manajemen terhadap indikator KRI",
+   "Aktif menolak transaksi yang melewati batas risk appetite"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-038",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Pelaporan profil risiko dan status kepatuhan dari Komite Manajemen Risiko ke Dewan Komisaris dilakukan TRIWULANAN (per 3 bulan) sebagai standar tata kelola — frekuensi ini cukup sering untuk menangkap perubahan material tanpa membebani Dewan Komisaris dengan detail operasional harian/mingguan yang levelnya terlalu granular untuk pengawasan strategis.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Komponen penguatan sistem anti-fraud pada tahap Deteksi Dini (Detection) mencakup...",
+  "options": [
+   "Awareness training dan know your employee",
+   "Whistleblowing System (WBS), fraud risk analytics, dan audit investigatif independen",
+   "Penegakan hukum internal dan pelaporan regulatori",
+   "Penetapan tone at the top oleh Direksi"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-039",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Kredit Rp20 miliar yang macet (tunggakan >90 hari) dengan CKPN meningkat adalah manifestasi murni Risiko Kredit — inti risiko kredit adalah KEGAGALAN DEBITUR memenuhi kewajiban pembayaran, yang secara langsung memaksa bank membentuk cadangan kerugian (CKPN) lebih besar dan menekan laba. Ini beda dari risiko operasional yang penyebabnya kegagalan proses internal, bukan gagal bayar pihak eksternal.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Tiga tingkat kesadaran risiko pada Sesi 3 adalah Risk Understanding (tahap kognitif), Risk Awareness (tahap persepsi), dan...",
+  "options": [
+   "Risk Reporting (tahap administratif)",
+   "Risk-Aware Action (tahap perilaku)",
+   "Risk Assurance (tahap pengujian)",
+   "Risk Appetite (tahap penetapan batas)"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-040",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "STOP and CHECK adalah refleks pertama yang benar: verifikasi fakta objektif (log API, kelengkapan dokumen) TANPA langsung membuat opini sanksi — ini konsisten dengan disiplin Fact→Signal→Hypothesis→Conclusion (soal 81). Mencabut izin usaha langsung (opsi A) melompati seluruh proses pembuktian dan bisa jadi tindakan sewenang-wenang tanpa dasar memadai.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam rantai kesadaran risiko personal, langkah prosedural pertama oleh Pelaksana harus diambil dalam kurun waktu...",
+  "options": [
+   "1x24 jam",
+   "3x24 jam",
+   "7 hari kerja",
+   "Sesuai jadwal rapat komite berikutnya"
+  ],
+  "correctIndex": 0,
+  "id": "M3MRK-041",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Hard trigger KRI yang otomatis memicu veto transaksi lini kedua JUSTRU merupakan mekanisme pengendalian yang SEHAT, bukan penyebab kegagalan — inilah kenapa opsi ini yang BUKAN penyebab kegagalan (soal minta yang 'bukan'). Penyebab kegagalan sesungguhnya justru pola sebaliknya: silo mentality, kabar buruk diperhalus (bad news travels slow), dan respons pasif tanpa batas waktu jelas.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Tahapan berikut merupakan bagian dari kerangka kerja R-V-R-E-F untuk operasionalisasi aksi Pelaksana, KECUALI...",
+  "options": [
+   "Recognize",
+   "Verify",
+   "Reconcile",
+   "Escalate"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-042",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Target eksekutif OJK adalah menjaga profil risiko akhir (gabungan Inherent Risk + KPMR) pada kategori Low to Moderate (Peringkat 1 atau 2) — bukan menoleransi peringkat tinggi secara permanen. Target ini mencerminkan filosofi pengawasan preventif: lembaga jasa keuangan didorong menjaga risiko akhir tetap terkendali, bukan sekadar 'diawasi ketat' di level risiko tinggi.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam konsep 3 titik pijak Pelaksana, hal berikut berada DI LUAR kewenangan Pelaksana, KECUALI...",
+  "options": [
+   "Menentukan sanksi denda bagi SJK",
+   "Mengubah tingkat kesehatan/profil risiko LHK",
+   "Memutus diskresi pengawasan",
+   "Memverifikasi kelengkapan data dan menyilangkan data lintas laporan"
+  ],
+  "correctIndex": 3,
+  "id": "M3MRK-043",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Stress Testing & Scenario Analysis secara spesifik menguji KETAHANAN MODAL dalam skenario krisis ekstrem (bukan kondisi normal) — tujuannya memastikan bank punya cukup modal untuk bertahan bahkan dalam kondisi terburuk yang masuk akal, berbeda dari metrik rutin seperti CAR yang mengukur kecukupan modal dalam kondisi normal.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "STUDI KASUS (Simulasi R-V-R-E-F): Pelaksana menemukan pergantian mendadak Direktur Kepatuhan LHK dengan dokumen Fit and Proper Test tidak lengkap, sementara terdapat desakan agar persetujuan sistem teknis segera diberikan. Tindakan yang paling tepat menurut lembar kerja simulasi adalah...",
+  "options": [
+   "Menyetujui sementara karena tekanan waktu, lalu melengkapi dokumen kemudian",
+   "Menolak permohonan dan menetapkan sanksi administratif kepada SJK",
+   "STOP and CHECK: verifikasi log API dan kelengkapan dokumen (Akta, FPT), menyusun catatan fakta bebas asumsi, lalu eskalasi ke Tim Pengawas Berjalan",
+   "Menyimpulkan adanya indikasi fraud dan melaporkannya ke penegak hukum"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-044",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "RAROC (Risk-Adjusted Return on Capital) secara spesifik mengukur apakah IMBAL HASIL bisnis SEPADAN dengan RISIKO yang ditanggung — beda dari ROE murni yang mengabaikan seberapa besar risiko diambil untuk mencapai return itu. Dua bisnis dengan ROE sama bisa punya RAROC sangat berbeda kalau salah satunya mengambil risiko jauh lebih besar untuk mencapai hasil yang sama.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Prinsip 'JANGAN LOMPAT DARI SIGNAL KE CONCLUSION' pada Sesi 3 dicontohkan dengan kasus laporan BPR yang turun drastis. Urutan tindakan yang benar adalah...",
+  "options": [
+   "Vonis fraud - lapor atasan - lihat data - tanya BPR",
+   "Lihat data - tanya BPR - kumpulkan bukti - lapor atasan",
+   "Lapor atasan - lihat data - vonis fraud - tanya BPR",
+   "Tanya BPR - vonis fraud - lihat data - lapor atasan"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-045",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Kombinasi sinyal ini (volume naik tapi exception approval melonjak + komplain naik + KRI siber AMBER) menunjukkan pola klasik akumulasi risiko TERSEMBUNYI di balik pertumbuhan bisnis yang terlihat positif — kesimpulan yang tepat BUKAN 'bank sangat sehat' (itu mengabaikan sinyal bahaya) atau reaksi ekstrem mematikan sistem, melainkan pelaporan terstruktur dan pemantauan KRI yang diperketat, proporsional dengan tingkat sinyal yang ada.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Menurut materi, near miss (hampir terjadi) harus diperlakukan sebagai...",
+  "options": [
+   "Kejadian yang dapat diabaikan karena belum menimbulkan kerugian",
+   "Sumber pembelajaran yang dapat berubah menjadi incident bila barrier gagal",
+   "Pelanggaran yang wajib dikenakan sanksi internal",
+   "Indikator lagging yang hanya dicatat dalam laporan tahunan"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-046",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Risk Assessment adalah 'snapshot' (potret satu titik waktu) karena dilakukan pada momen tertentu, sedangkan Risk Monitoring melihat 'moving target' karena profil risiko terus bergerak seiring perubahan strategi, lingkungan eksternal, teknologi, dan regulasi — inilah kenapa assessment saja tidak cukup dan harus disertai monitoring berkelanjutan.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "STUDI KASUS: Sebuah LJK mengalami perlambatan sistem digital selama 6 jam berturut-turut pada tanggal gajian, disertai kegagalan transaksi berulang dan keluhan nasabah yang viral. Rangkaian risiko yang aktif secara beruntun paling tepat adalah...",
+  "options": [
+   "Risiko kredit, pasar, dan likuiditas",
+   "Risiko operasional/TI, yang merambat ke risiko reputasi dan berpotensi ke risiko likuiditas serta kepatuhan",
+   "Risiko strategik dan risiko hukum saja",
+   "Risiko pasar yang merambat ke risiko kredit"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-047",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Eliminasi Mutlak Risiko Tanpa Toleransi BUKAN salah satu dari 4 tahapan siklus manajemen risiko berkelanjutan (Identifikasi, Pengukuran, Pengendalian & Pemantauan) — karena secara realistis, risiko dalam bisnis tidak pernah bisa dihilangkan sepenuhnya, hanya bisa dikelola ke tingkat yang bisa diterima. Konsep 'eliminasi mutlak' bertentangan dengan filosofi manajemen risiko modern yang menerima risiko terkelola sebagai bagian dari mengejar tujuan.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "STUDI KASUS: Direksi ingin meluncurkan produk pinjaman digital untuk mengejar pertumbuhan +30% di akhir tahun, namun uji coba internal menunjukkan KRI Risiko Siber dan NPL awal berada di zona AMBER mendekati limit toleransi. Keputusan yang paling sejalan dengan prinsip risk-adjusted decision making adalah...",
+  "options": [
+   "Meluncurkan penuh karena limit toleransi belum terlampaui",
+   "Membatalkan produk secara permanen untuk menghindari seluruh risiko",
+   "Meluncurkan secara terbatas/bertahap disertai kontrol tambahan dan pemantauan KRI yang diperketat sebelum peluncuran penuh",
+   "Menyerahkan keputusan sepenuhnya kepada unit bisnis sebagai risk owner"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-048",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Self-assessment RBBR wajib dilakukan minimal 1 kali per SEMESTER (6 bulan) sesuai ketentuan POJK — frekuensi ini menyeimbangkan kebutuhan pemantauan berkala dengan beban administratif; lebih jarang dari itu (tahunan) dianggap tidak cukup responsif terhadap perubahan profil risiko bank.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam analisis jalur transmisi risiko eksternal, saluran transmisi utama yang menghubungkan gejolak global dengan proses bisnis SJK mencakup hal berikut, KECUALI...",
+  "options": [
+   "Perubahan nilai tukar (FX)",
+   "Fluktuasi suku bunga domestik",
+   "Gangguan rantai pasok",
+   "Perubahan struktur organisasi internal SJK"
+  ],
+  "correctIndex": 3,
+  "id": "M3MRK-049",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Matriks standar regulasi perbankan Indonesia memakai 5 tingkatan peringkat risiko (Tingkat 1 Low sampai Tingkat 5 High) — jumlah tingkatan ini konsisten dengan skala matriks 5x5 (kemungkinan × dampak) yang dibahas di soal-soal awal materi ini, bukan skala 3 atau 4 tingkat yang lebih sederhana.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pandangan modern manajemen risiko (value-creation driven) dicirikan oleh hal berikut, KECUALI...",
+  "options": [
+   "Risiko sebagai pelindung dan pencipta nilai lembaga",
+   "Mitigasi proaktif berbasis indikator dini (KRI)",
+   "Terintegrasi di seluruh jenjang manajemen (tone at the top)",
+   "Evaluasi bersifat reaktif setelah terjadi insiden"
+  ],
+  "correctIndex": 3,
+  "id": "M3MRK-050",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Pandangan tradisional (compliance-driven) mengevaluasi risiko secara REAKTIF setelah insiden terjadi — ini bertentangan dengan pandangan modern (value-creation driven) yang proaktif: mitigasi berbasis KRI dini, terintegrasi di semua jenjang, dan memandang risiko sebagai pelindung SEKALIGUS pencipta nilai. Evaluasi reaktif adalah ciri yang secara eksplisit ingin ditinggalkan oleh paradigma manajemen risiko modern.",
+  "difficulty": "medium"
+ }
+]
