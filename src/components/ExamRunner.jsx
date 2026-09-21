@@ -4,9 +4,10 @@ import { addHistoryEntry } from '../lib/history';
 import SourceBadge from './SourceBadge';
 
 const LOW_TIME_THRESHOLD_SEC = 60;
-const PAGE_SIZE = 10;
+const DEFAULT_PAGE_SIZE = 10;
 
-export default function ExamRunner({ title, questions, timeLimitMin, onFinish, onExit }) {
+export default function ExamRunner({ title, questions, timeLimitMin, pageSize = DEFAULT_PAGE_SIZE, onFinish, onExit }) {
+  const PAGE_SIZE = pageSize;
   const shuffled = useMemo(() => shuffle(questions).map(shuffleQuestionOptions), [questions]);
   const total = shuffled.length;
   const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
@@ -110,7 +111,10 @@ export default function ExamRunner({ title, questions, timeLimitMin, onFinish, o
           </div>
           <div className="flex items-center justify-between">
             <button onClick={() => setShowNavigator(true)} className="text-xs text-ink-soft/60 font-semibold underline lg:no-underline lg:pointer-events-none">
-              Halaman {currentPage + 1}/{totalPages} · Soal {pageStart + 1}-{Math.min(pageStart + PAGE_SIZE, total)} dari {total} · {answeredCount} terjawab
+              {PAGE_SIZE === 1
+                ? `Soal ${pageStart + 1} dari ${total}`
+                : `Halaman ${currentPage + 1}/${totalPages} · Soal ${pageStart + 1}-${Math.min(pageStart + PAGE_SIZE, total)} dari ${total}`}{' '}
+              · {answeredCount} terjawab
             </button>
           </div>
         </header>
@@ -174,7 +178,7 @@ export default function ExamRunner({ title, questions, timeLimitMin, onFinish, o
             disabled={currentPage === 0}
             className="flex-1 rounded-2xl border-2 border-tekad-redSoft py-3 font-display font-bold text-ink disabled:opacity-30"
           >
-            Halaman Sebelumnya
+            {PAGE_SIZE === 1 ? 'Soal Sebelumnya' : 'Halaman Sebelumnya'}
           </button>
           {isLastPage ? (
             <button
@@ -188,7 +192,7 @@ export default function ExamRunner({ title, questions, timeLimitMin, onFinish, o
               onClick={() => goToPage(currentPage + 1)}
               className="btn-solid flex-[1.4] rounded-2xl bg-tekad-red border-b-4 border-tekad-redDark py-3 font-display font-bold text-white"
             >
-              Halaman Berikutnya
+              {PAGE_SIZE === 1 ? 'Soal Berikutnya' : 'Halaman Berikutnya'}
             </button>
           )}
         </div>

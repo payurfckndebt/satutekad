@@ -2,10 +2,12 @@ import { useState } from 'react';
 import bahanBacaan from '../data/bahanBacaan.json';
 import modul1Categories from '../data/modul1Categories.json';
 import modul2Categories from '../data/modul2Categories.json';
+import modul3Categories from '../data/modul3Categories.json';
 
 const MODULES = [
   { id: 1, name: 'Modul 1', desc: 'Pendekatan Pengawasan', categories: modul1Categories },
   { id: 2, name: 'Modul 2', desc: 'Kelembagaan, Struktur, Produk, Aktivitas SJK', categories: modul2Categories },
+  { id: 3, name: 'Modul 3', desc: 'Manajemen Risiko & Cyber Risk', categories: modul3Categories },
 ];
 
 export default function BahanBacaanScreen({ onExit }) {

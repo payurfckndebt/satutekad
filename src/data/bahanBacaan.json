@@ -1497,5 +1497,169 @@
    "Soal struktur organ: mana yang di bawah Direksi (Unit Audit Internal, Sekretaris Perusahaan) vs di bawah Dekom (Komite Audit, Komite Nominasi & Remunerasi).",
    "Soal syarat lengkap Komisaris Independen dan Comply or Explain 5 kelompok rekomendasi tata kelola Emiten."
   ]
+ },
+ {
+  "slug": "m3-manajemen-risiko",
+  "title": "Fundamental, Tata Kelola & Pengawasan Risiko SJK",
+  "overview": "Materi Aditya Rachman (PCAM 9 & MLE) — dari konsep dasar ISO 31000, siklus manajemen risiko, taksonomi 8 risiko utama SJK, KRI dan tata kelola tiga lini, sampai bagaimana Pelaksana bersikap risk-aware sehari-hari.",
+  "sections": [
+   {
+    "heading": "Definisi Risiko & Penetapan Sasaran (Sesi 1)",
+    "items": [
+     "SNI ISO 31000:2018: Risk = effect of uncertainty on objectives — pergeseran fokus dari PERISTIWA (event) ke DAMPAK terhadap SASARAN.",
+     "Risiko timbul karena adanya SASARAN, dan penyebabnya adalah KETIDAKPASTIAN — tanpa sasaran yang jelas, risiko tidak bisa diidentifikasi dengan baik.",
+     "Sasaran harus SMART: Specific, Measurable, Achievable (menantang tapi tetap bisa dicapai), Relevant, Time-bound.",
+     "Formula inti: Likelihood (peluang kejadian) × Impact (besaran dampak) = Risk Level.",
+     "Risk Owner (ISO Guide 73) = orang/entitas dengan akuntabilitas DAN kewenangan mengelola risiko — biasanya melekat pada pemilik KPI/penanggung jawab sasaran, bukan otomatis diambil alih Lini 2."
+    ]
+   },
+   {
+    "heading": "Karakteristik Risiko SJK & Risk Universe",
+    "items": [
+     "6 karakteristik SJK yang membentuk profil risikonya: Interconnected, Information-Intensive, Highly Regulated, Technology-Dependent, Confidence-Based, Systemically Connected.",
+     "Systemically Connected = gangguan pada satu institusi bisa cepat merambat ke seluruh industri (contagion) — ciri paling unik SJK dibanding sektor riil.",
+     "Risk Universe terbagi 2: Financial Risks (Kredit, Pasar, Likuiditas) dan Non-Financial Risks (Operasional, Legal & Compliance, Strategic & Reputation, IT & Technology, Consumer Protection).",
+     "Risiko non-finansial (IT/reputasi) dapat MENTRANSMISIKAN dampak menjadi risiko finansial secara cepat — interkoneksi inilah alasan semua jenis risiko harus dipantau terintegrasi."
+    ]
+   },
+   {
+    "heading": "Siklus Manajemen Risiko & Kriteria Kemungkinan-Dampak",
+    "items": [
+     "Siklus 5 tahap: 01 Identify (apa yang bisa terjadi) → 02 Assess (seberapa besar) → 03 Treat (apa yang dilakukan) → 04 Monitor (apakah berubah) → 05 Communicate (siapa perlu tahu).",
+     "Level Kemungkinan (5 tingkat, dua cara ukur — persentase ATAU jumlah frekuensi per tahun): (1) Hampir tidak terjadi x≤1% / <2 kali setahun; (2) Jarang terjadi 1-10% / 2-5 kali; (3) Kadang terjadi 10-20% / 6-9 kali; (4) Sering terjadi 20-50% / 10-12 kali; (5) Hampir pasti terjadi x>50% / >12 kali.",
+     "Low Tolerance Event (korupsi, krisis ekonomi, kecelakaan kerja fatal, bencana alam, kebakaran gedung) pakai skala TERPISAH: 1 kejadian dalam >5 tahun=Level 1, dalam 5 tahun=Level 2, dalam 3 tahun=Level 3, dalam 2 tahun=Level 4, minimal 1 kali setahun=Level 5.",
+     "Level Dampak K-Wide (skala organisasi luas): Tidak Signifikan ≤Rp10jt (1); Minor Rp10-100jt (2); Moderat Rp100jt-Rp1M (3); Signifikan Rp1M-Rp10M (4); Sangat Signifikan >Rp10M (5). K-One/K-Two/K-Three pakai ambang lebih kecil sesuai skala unit.",
+     "5 Area Dampak: Penurunan Reputasi, Sanksi pidana/perdata/administratif, Kecelakaan & penyakit kerja, Gangguan layanan organisasi, Penurunan kinerja."
+    ]
+   },
+   {
+    "heading": "Matriks Risiko, Prioritas & Appetite/Tolerance",
+    "items": [
+     "Matriks 5x5: Sangat Tinggi 20-25 (Merah); Tinggi 16-19 (Oranye); Sedang 12-15 (Kuning); Rendah 6-11 (Hijau); Sangat Rendah 1-5 (Biru).",
+     "Kalau besaran risiko SAMA, urutan tie-breaker: (1) area dampak tertinggi→terendah, (2) kategori risiko tertinggi→terendah, (3) judgement pimpinan UPR.",
+     "Risk Appetite (jenis/tingkat risiko yang BERSEDIA diambil, ditetapkan Direksi+disetujui Komisaris tahunan) vs Risk Tolerance (penyimpangan MAKSIMAL dari appetite yang masih diterima, diturunkan jadi limit operasional unit).",
+     "Mitigasi WAJIB dilakukan untuk seluruh risiko UTAMA (level sedang/tinggi/sangat tinggi); risiko BUKAN utama dimitigasi hanya kalau berpotensi naik melampaui area penerimaan risiko.",
+     "5 pilihan Risk Treatment: Avoid (hentikan aktivitas), Reduce (perkuat kontrol), Transfer/Share (asuransi/hedging/outsource), Accept (terima residual dalam batas toleransi) — treatment harus selaras Risk Appetite.",
+     "Risiko Residual = Inherent Risk − efektivitas kontrol (KPMR); urutan: Inherent Risk → Internal Control → Residual after Control → Mitigation Activity → Residual after Mitigation."
+    ]
+   },
+   {
+    "heading": "Taksonomi 8 Risiko Utama SJK (Sesi 2)",
+    "items": [
+     "8 risiko (regulasi OJK): Kredit, Pasar, Likuiditas, Operasional, Kepatuhan, Siber, Strategik, Reputasi — Risiko Hukum TIDAK masuk 8 pilar ini (ia bagian Risk Universe sebagai legal & compliance risk).",
+     "Risiko Pasar: pergerakan suku bunga, nilai tukar, harga portofolio instrumen keuangan (bukan gagal bayar debitur — itu Risiko Kredit).",
+     "Risiko Likuiditas: institusi kesulitan penuhi kewajiban jangka pendek karena aset tertanam pada instrumen tidak likuid (contoh klasik: rush nasabah).",
+     "Risiko Operasional: kegagalan proses/manusia/sistem internal — contoh human error salah input nominal yang lolos verifikasi."
+    ]
+   },
+   {
+    "heading": "4 Pilar Regulasi, KRI & Tata Kelola Tiga Lini",
+    "items": [
+     "4 Pilar Penerapan MR: Pilar 1 Pengawasan Aktif Direksi/Dekom; Pilar 2 Kecukupan Prosedur & Limit; Pilar 3 Proses & Sistem Informasi Manajemen (siklus identifikasi-pengukuran-pemantauan-pengendalian); Pilar 4 Pengendalian Intern (evaluasi independen audit internal) — Pilar 4, BUKAN Pilar 3, yang berisi audit internal.",
+     "KRI 3 status: GREEN (Normal Threshold, dalam selera risiko), AMBER (Warning Threshold, mendekati limit, perlu mitigasi aktif), RED (Breach Threshold, limit dilampaui, wajib eskalasi ke Dekom).",
+     "Prinsip KRI: wajib forward-looking/leading indicator (sinyal dini), bukan lagging indicator (sekadar catat kerugian lalu).",
+     "Three Lines Model: Lini 1 (unit bisnis — identifikasi & kendalikan risiko harian, risk owner); Lini 2 (manajemen risiko & kepatuhan — beri challenge & metodologi independen, TIDAK boleh ambil alih keputusan bisnis harian); Lini 3 (audit internal — independent assurance ke Direksi).",
+     "Risk Management Maturity Level (4 tingkat): Ad-hoc/Reaktif → Compliance Driven → Integrated Framework/Established → Value Creating. Target OJK: seluruh LJK minimal Level 3 (Established) SECARA BERKELANJUTAN.",
+     "Paradigma modern vs tradisional: tradisional = cost center, reaktif setelah insiden, terisolasi di unit MR saja; modern = pelindung & pencipta nilai, proaktif berbasis KRI, terintegrasi tone-at-the-top di semua jenjang.",
+     "Anatomi kegagalan tata kelola (Paper Compliance): dokumen lengkap (kebijakan, register, notulen) tapi KRI dilanggar tanpa tindakan nyata — respons cuma \"dalam pemantauan\" tanpa batas waktu. Corrective Action Plan wajib maksimal 3x24 jam saat limit breach."
+    ]
+   },
+   {
+    "heading": "Risk Awareness — Dari Paham ke Bertindak (Sesi 3)",
+    "items": [
+     "3 tingkat kesadaran risiko: (1) Risk Understanding — tahap kognitif, tahu definisi & taksonomi risiko; (2) Risk Awareness — tahap persepsi, peka mendeteksi red flags/kejanggalan data; (3) Risk-Aware Action — tahap perilaku, direalisasikan lewat respons prosedural tepat waktu & konsisten.",
+     "Refleks personal SEE → UNDERSTAND → ACT: SEE (peka anomali data/keterlambatan laporan), UNDERSTAND (kaitkan temuan dengan dampak lebih luas), ACT (verifikasi awal, catat fakta, eskalasi sesuai kewenangan tanpa menunda).",
+     "Alur operasional R-V-R-E-F (versi lebih rinci, dari bank soal): Recognize (kenali red flags) → Verify (pastikan fakta) → Report (catat terstruktur bebas asumsi) → Escalate (teruskan ke jenjang tepat) → Follow Up (pantau hingga mitigasi pasti).",
+     "Kewenangan Pelaksana TERBATAS pada recognize/verify/escalate — menetapkan sanksi atau memutus diskresi pengawasan berada DI LUAR kewenangannya.",
+     "Disiplin analisis: Fact → Signal → Hypothesis → Conclusion — dilarang melompat dari Signal langsung ke vonis/Conclusion.",
+     "Near Miss = kegagalan operasional yang HAMPIR merugikan tapi tertahan kebetulan/kontrol darurat — kritikal dilaporkan sebagai sumber pembelajaran SEBELUM insiden fatal terjadi."
+    ]
+   }
+  ],
+  "mnemonic": [
+   "ISO 31000: Risk = effect of uncertainty on objectives. Matriks 5x5: Merah(20-25)-Oranye(16-19)-Kuning(12-15)-Hijau(6-11)-Biru(1-5).",
+   "Three Lines: Lini 1 jalankan & kendalikan, Lini 2 tantang & pandu, Lini 3 assurance independen."
+  ],
+  "prediction": [
+   "Soal definisi risiko ISO 31000:2018 dan pergeseran fokus event→effect on objectives — sangat sering diuji persis dengan kutipan Kevin W. Knight.",
+   "Soal angka-angka matriks (rentang persen/frekuensi kemungkinan, rentang rupiah K-Wide, rentang skor matriks 5x5) — area paling padat angka di seluruh materi.",
+   "Soal taksonomi 8 risiko utama dan jebakan 'risiko hukum' yang sengaja tidak dimasukkan ke 8 pilar itu.",
+   "Soal perbedaan Risk Appetite vs Risk Tolerance, dan siapa yang berwenang menetapkan masing-masing.",
+   "Soal Three Lines Model — terutama batas kewenangan Lini 2 (menantang, BUKAN mengambil alih keputusan bisnis).",
+   "Soal alur Risk Awareness (SEE-UNDERSTAND-ACT atau R-V-R-E-F) dan disiplin Fact→Signal→Hypothesis→Conclusion."
+  ]
+ },
+ {
+  "slug": "m3-cyber-risk",
+  "title": "Cyber-Technology Risk Management",
+  "overview": "Materi Izazi Mubarok (LPFA-OJK) — dibangun di atas SATU studi kasus anonim transaksi tak sah Rp2,75 Miliar, dari anatomi risiko siber, attack surface, investigasi digital, sampai evaluasi kontrol dan risk treatment P1-P2-P3.",
+  "sections": [
+   {
+    "heading": "Risk Lens — Sistem Online ≠ Transaksi Sah",
+    "items": [
+     "Premis inti: sistem bisa tetap ONLINE (Availability terpenuhi) tapi INTEGRITAS transaksi tetap bisa gagal — status online cuma membuktikan ketersediaan teknis, bukan keabsahan otorisasi.",
+     "Cyber technology risk muncul saat kelemahan teknologi/kontrol memungkinkan penyalahgunaan layanan dan mengganggu tujuan bisnis — dari Control Conditions (excessive trust, weak validation, misused access) ke Risk Event (transaksi tak sah diproses) ke Business Consequences (kerugian finansial, eksposur regulasi, gangguan operasional, hilang kepercayaan).",
+     "Risk Statement yang bisa diuji wajib berstruktur: BECAUSE [kondisi/kelemahan kontrol] → THERE IS A POSSIBILITY [peristiwa risiko] → WHICH MAY RESULT IN [dampak bisnis] — 4 kriteria: Specific, Plausible, Business-Linked, Actionable.",
+     "3 objek yang menentukan fokus perlindungan: Critical Business Service (layanan yang harus tetap tersedia — dalam kasus ini Digital Fund Transfer), Critical Transaction (tindakan yang berdampak material bila dimanipulasi), Trust Boundary (titik sistem menerima identitas/request/data sebagai sah).",
+     "Rantai Trust Decision: Channel → Middleware → Core Gateway (titik trust decision) → Payment Service → Callback."
+    ]
+   },
+   {
+    "heading": "Attack Surface — Tiga Bidang Arsitektur",
+    "items": [
+     "Business Transaction Plane: request integrity, authorization, routing, konteks transaksi — mencakup Digital Channel, API Gateway, Middleware, Core Gateway, Payment Service, External Network, Callback.",
+     "Administration and Change Plane: identity, privileged access, configuration change, code deployment — mencakup Third Party, VPN, PAM, Server & Configuration, Source-code Repository, CI/CD Pipeline.",
+     "Observability and Response Plane: visibility, detection, correlation, response — mencakup Application Logs, Network Security, Endpoint Security, Centralized Logging (SIEM), Fraud Detection, Incident Response.",
+     "4 Trust Decisions berurutan (satu transaksi harus lolos SEMUA, lolos satu belum membuktikan lapisan lain): Recognized Route (dari mana asalnya?) → Verified Identity (siapa/apa yang minta — kredensial terverifikasi) → Permitted Action (apa yang diizinkan dilakukan identitas itu) → Valid Business Context (apakah nilai/tujuan/waktu/pola sesuai kebutuhan bisnis sah).",
+     "Kredensial valid membuktikan IDENTITAS, bukan keabsahan TRANSAKSI — keabsahan ditentukan otorisasi + konteks bisnis.",
+     "Penelusuran end-to-end 6 titik (Channel-Middleware-Gateway-Payment-Network-Callback) diuji lewat 5 pertanyaan: Identity, Integrity (payload utuh?), Authorization, Routing, Evidence."
+    ]
+   },
+   {
+    "heading": "Investigasi Digital — Hipotesis, Bukti & Timeline",
+    "items": [
+     "Working Hypotheses mengarahkan pencarian bukti dan diuji apakah bukti mendukung (STRENGTHEN), membantah (WEAKEN), atau tetap terbuka (KEEP OPEN)/belum terselesaikan (UNRESOLVED).",
+     "4 kategori sumber bukti: Transaction Evidence (Transaction ID, nominal, beneficiary, status, timestamp), Identity & Access Evidence (IdP/IAM, akun, VPN, PAM session, akses vendor), Change & Infrastructure Evidence (actor, change ID, deployment time, file hash), Security & Network Telemetry (firewall/WAF, IDS/IPS, EDR, SIEM).",
+     "Time Normalization wajib dilakukan LEBIH DULU sebelum rekonstruksi timeline — samakan zona waktu/clock offset ke satu waktu acuan (misal UTC+7).",
+     "Skala keyakinan bukti: VERIFIED (terbukti penuh) → SUPPORTED (konsisten tapi ada gap) → UNRESOLVED (belum bisa dipastikan).",
+     "4 jenis Evidence Gap: Coverage Gap (peristiwa kritis tak tercatat), Context Gap (tercatat tapi tak jelaskan konteks: siapa/dari mana/otorisasi apa), Retention Gap (bukti sudah terhapus/masa simpan pendek), Correlation Gap (sumber bukti tak bisa dihubungkan, timestamp tak sinkron).",
+     "Prinsip forensik: ketiadaan log MENYISAKAN KETIDAKPASTIAN, bukan bukti bahwa aktivitas tidak pernah terjadi.",
+     "Minimum Evidence Standard (4 pilar): Critical Event Coverage & Synchronized Time, Shared Identifiers & Centralized Correlation, Tamper-Evident Retention — TIDAK termasuk izin edit log bebas bagi staf (itu justru merusak integritas bukti)."
+    ]
+   },
+   {
+    "heading": "Evaluasi Kontrol — 5 Dimensi",
+    "items": [
+     "5 dimensi Control Effectiveness Testing: Design (dirancang untuk risiko yang tepat?), Coverage (mencakup semua jalur kritis?), Operation (bekerja konsisten?), Evidence (keputusan allow/deny tercatat & bisa dikorelasikan?), Resilience (apa yang terjadi kalau kontrol gagal/dilewati — bisa dihentikan sebelum dampak meluas?).",
+     "3 predikat hasil: EFFECTIVE (mengubah hasil skenario risiko + jejak bukti utuh), PARTIALLY EFFECTIVE (bekerja pada kondisi standar, gagal pada jalur/parameter tertentu), NOT TESTABLE / INEFFECTIVE (bukti tidak cukup / skenario berhasil tanpa kontrol memadai).",
+     "Dua status kekuatan korelasi bukti: CORROBORATED (didukung beberapa sumber independen yang saling menguatkan) vs SUPPORTED (konsisten dengan bukti yang ada, tapi masih ada evidence gap)."
+    ]
+   },
+   {
+    "heading": "Studi Kasus Rp2,75 Miliar & Risk Treatment P1-P2-P3",
+    "items": [
+     "Kronologi inti: transaksi Rp2,75 Miliar diproses 08.42 pakai service account svc_payment_prod sah dari IP internal ter-whitelist; TIDAK ada di approved payment batch hari itu; penerima BARU didaftarkan; payload hash TIDAK TERCATAT; callback endpoint berubah 1-2 hari sebelumnya via akun shared-admin tanpa tiket perubahan; terdeteksi 09.16 via rekonsiliasi — Detection Gap ±34 menit.",
+     "Proses `worker-03` (di luar jalur batch normal) yang menjalankan transaksi ini — beda dari proses terjadwal rutin `scheduler-prod-01`.",
+     "Hash biner aplikasi identik baseline, tidak ada deployment baru → hipotesis 'backdoor lewat deployment' MELEMAH (WEAKEN), bukan menguat.",
+     "P1 CONTAIN & PRESERVE (Immediate, 0-30 hari): isolasi akses, rotasi kredensial, bekukan callback asing, preservasi bukti forensik — JANGAN format ulang server (merusak bukti).",
+     "P2 FIX THE CONTROL PATH (Near term, 31-90 hari): validasi integritas request end-to-end, ikat parameter kritis (batch/amount/beneficiary) dalam keputusan otorisasi, allowlist ketat endpoint callback, perkuat MFA/RBAC/PAM/segregation of duties.",
+     "P3 SUSTAIN ASSURANCE (Structural, 90+ hari): pantau KRI teknis — Callback Drift Rate, penggunaan Shared Account, Detection Delay — secara berkelanjutan.",
+     "4 langkah metodologi penutup: Start with the Service → Follow the Transaction → Correlate the Evidence → Test the Outcome.",
+     "Prinsip Zero Trust Architecture: \"Trust must be proven at every transaction, on every trust boundary\" — bukan dipercaya otomatis karena berada di jaringan internal."
+    ]
+   }
+  ],
+  "mnemonic": [
+   "4 Trust Decisions: Recognized Route → Verified Identity → Permitted Action → Valid Business Context.",
+   "5 dimensi kontrol: Design-Coverage-Operation-Evidence-Resilience. P1 Contain, P2 Fix, P3 Sustain."
+  ],
+  "prediction": [
+   "Soal studi kasus Rp2,75 Miliar — detail angka (waktu, detection gap 34 menit, nama proses worker-03) sangat sering jadi soal turunan.",
+   "Soal 4 Trust Decisions dan perbedaan kredensial valid vs transaksi sah — konsep inti seluruh materi.",
+   "Soal 3 bidang Attack Surface (Business Transaction / Administration & Change / Observability & Response Plane) dan komponen di masing-masing.",
+   "Soal 4 jenis Evidence Gap (Coverage/Context/Retention/Correlation) — distraktornya sengaja mirip.",
+   "Soal 5 dimensi Control Effectiveness dan predikat EFFECTIVE/PARTIALLY EFFECTIVE/NOT TESTABLE.",
+   "Soal roadmap P1-P2-P3 beserta rentang waktunya (0-30 / 31-90 / 90+ hari)."
+  ]
  }
 ]

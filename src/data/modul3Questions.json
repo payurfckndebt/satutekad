@@ -1598,5 +1598,805 @@
   "sourceType": "prediksi",
   "pembahasan": "Pandangan tradisional (compliance-driven) mengevaluasi risiko secara REAKTIF setelah insiden terjadi — ini bertentangan dengan pandangan modern (value-creation driven) yang proaktif: mitigasi berbasis KRI dini, terintegrasi di semua jenjang, dan memandang risiko sebagai pelindung SEKALIGUS pencipta nilai. Evaluasi reaktif adalah ciri yang secara eksplisit ingin ditinggalkan oleh paradigma manajemen risiko modern.",
   "difficulty": "medium"
+ },
+ {
+  "stem": "Kerangka kerja NIST Cybersecurity Framework (CSF) 2.0 terdiri atas enam fungsi inti. Fungsi yang ditambahkan pada versi 2.0 dan diletakkan sebagai fondasi kelima fungsi lainnya adalah...",
+  "options": [
+   "Identify",
+   "Govern",
+   "Detect",
+   "Recover"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-051",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "NIST CSF 2.0 menambahkan Govern sebagai fungsi BARU yang jadi FONDASI lintas seluruh fungsi lain (Identify, Protect, Detect, Respond, Recover) — bukan fungsi sejajar biasa. Govern menekankan bahwa strategi, kebijakan, dan akuntabilitas keamanan siber harus ditetapkan di level pimpinan SEBELUM fungsi teknis lainnya bisa berjalan efektif; inilah kenapa ia diposisikan sebagai fondasi, bukan sekadar tahap ke-6.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam prinsip keamanan informasi CIA Triad, unsur 'Integrity' merujuk pada...",
+  "options": [
+   "Kerahasiaan data dari pihak yang tidak berwenang",
+   "Keakuratan dan keutuhan data agar tidak diubah secara tidak sah",
+   "Ketersediaan sistem saat dibutuhkan pengguna",
+   "Kecepatan pemrosesan transaksi"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-052",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Segitiga CIA (Confidentiality, Integrity, Availability) adalah model dasar keamanan informasi paling fundamental — Confidentiality menjaga data hanya diakses pihak berwenang, Integrity menjaga data tidak diubah tanpa otorisasi, dan Availability menjaga sistem tetap bisa diakses saat dibutuhkan. Ketiganya sering diuji berpasangan karena kompromi satu aspek (misalnya sistem online/Availability terjaga) tidak menjamin aspek lain (Integrity) tetap aman.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Serangan yang memanipulasi psikologis korban agar secara sukarela memberikan kredensial atau informasi sensitif disebut...",
+  "options": [
+   "Brute force attack",
+   "Social engineering",
+   "SQL injection",
+   "Denial of service"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-053",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "RTO (Recovery Time Objective) mengukur BERAPA LAMA maksimal sistem boleh down sebelum pulih, sedangkan RPO (Recovery Point Objective) mengukur BERAPA BANYAK data maksimal boleh hilang (diukur mundur dari waktu insiden). Dua metrik ini sering tertukar karena sama-sama soal 'target waktu', tapi RTO bicara soal KECEPATAN pemulihan layanan, RPO bicara soal TOLERANSI kehilangan data.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Serangan siber yang mengenkripsi data korban dan meminta tebusan untuk memulihkannya disebut...",
+  "options": [
+   "Ransomware",
+   "Spyware",
+   "Adware",
+   "Rootkit"
+  ],
+  "correctIndex": 0,
+  "id": "M3CYB-054",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "IDS (Intrusion Detection System) bersifat pasif — ia MENDETEKSI dan memberi peringatan tanpa menghentikan trafik, sedangkan IPS (Intrusion Prevention System) bersifat aktif — ia bisa langsung MEMBLOKIR trafik mencurigakan secara real-time. Perbedaan inti: IDS = alarm, IPS = alarm + tindakan otomatis.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Serangan siber yang membanjiri server dengan lalu lintas dari banyak sumber terdistribusi sehingga layanan tidak dapat diakses disebut...",
+  "options": [
+   "Man-in-the-middle attack",
+   "Distributed Denial of Service (DDoS)",
+   "Cross-site scripting (XSS)",
+   "Privilege escalation"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-055",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "MITRE ATT&CK adalah basis pengetahuan taktik dan teknik penyerang yang disusun berdasarkan OBSERVASI SERANGAN NYATA di dunia — fungsinya membantu tim keamanan memetakan bagaimana penyerang sebenarnya bergerak (tactics, techniques, procedures) untuk membangun deteksi dan pertahanan yang lebih presisi, bukan sekadar daftar kerentanan generik seperti CVE.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam kerangka Zero Trust Architecture, prinsip dasar yang dianut adalah...",
+  "options": [
+   "Percaya penuh terhadap seluruh trafik yang berasal dari jaringan internal",
+   "Never trust, always verify - setiap akses harus diverifikasi terlepas dari asal jaringannya",
+   "Cukup memverifikasi identitas satu kali di awal sesi",
+   "Mengandalkan firewall perimeter sebagai satu-satunya lapisan kontrol"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-056",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Serangan phishing secara spesifik mengeksploitasi kelemahan MANUSIA (social engineering) — menipu pengguna agar memberikan kredensial atau mengklik tautan berbahaya — bukan mengeksploitasi celah teknis pada sistem. Inilah kenapa pelatihan kesadaran keamanan (security awareness) jadi kontrol utama melawan phishing, bukan sekadar patch teknis.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam manajemen risiko siber, RTO (Recovery Time Objective) mengacu pada...",
+  "options": [
+   "Jumlah data maksimum yang boleh hilang akibat insiden",
+   "Target waktu maksimum yang dapat diterima untuk memulihkan sistem setelah gangguan",
+   "Frekuensi backup data yang harus dilakukan",
+   "Biaya maksimum yang dianggarkan untuk pemulihan bencana"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-057",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Zero-Day Vulnerability adalah kerentanan yang BELUM diketahui vendor/publik dan BELUM ada patch resminya — istilah 'zero-day' merujuk pada nol hari yang dimiliki vendor untuk memperbaikinya sebelum dieksploitasi. Ini beda dari kerentanan biasa yang sudah punya CVE dan patch tersedia, hanya belum diterapkan organisasi.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Berikut termasuk dalam kategori kontrol keamanan siber PREVENTIVE, KECUALI...",
+  "options": [
+   "Firewall",
+   "Multi-factor authentication",
+   "Intrusion Detection System (IDS)",
+   "Access control list"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-058",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Ransomware secara spesifik mengenkripsi data korban dan menuntut TEBUSAN untuk kunci dekripsinya — berbeda dari malware jenis lain seperti trojan (menyamar sebagai program sah) atau worm (menyebar sendiri tanpa interaksi pengguna). Karakteristik 'enkripsi + tebusan' adalah pembeda utama ransomware dari kategori malware lainnya.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Perangkat yang berfungsi memantau lalu lintas jaringan untuk mendeteksi aktivitas mencurigakan namun tidak secara otomatis memblokirnya disebut...",
+  "options": [
+   "Intrusion Prevention System (IPS)",
+   "Intrusion Detection System (IDS)",
+   "Web Application Firewall (WAF)",
+   "Load balancer"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-059",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Prinsip Least Privilege mewajibkan setiap pengguna/sistem hanya diberi akses SEMINIMAL yang diperlukan untuk menjalankan tugasnya — bukan akses seluas mungkin untuk kenyamanan. Prinsip ini membatasi dampak kalau satu akun dikompromikan, karena penyerang hanya mendapat akses terbatas, bukan akses penuh ke seluruh sistem.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "SIEM (Security Information and Event Management) dalam ekosistem keamanan siber berfungsi utama untuk...",
+  "options": [
+   "Mengelola akses istimewa pengguna (privileged access)",
+   "Mengumpulkan, mengorelasikan, dan menganalisis log keamanan dari berbagai sumber secara terpusat",
+   "Mengenkripsi lalu lintas data pada jaringan",
+   "Menguji kerentanan aplikasi secara otomatis"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-060",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Multi-Factor Authentication (MFA) mengharuskan verifikasi dari LEBIH DARI SATU kategori faktor berbeda — sesuatu yang diketahui (password), sesuatu yang dimiliki (token/HP), atau sesuatu yang melekat (biometrik). Menggunakan dua password sekaligus BUKAN MFA sejati, karena keduanya berasal dari kategori faktor yang SAMA (sesuatu yang diketahui).",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Sistem yang berfungsi mengelola, memonitor, dan membatasi penggunaan akun dengan hak akses istimewa (administrator/root) disebut...",
+  "options": [
+   "Identity and Access Management (IAM)",
+   "Privileged Access Management (PAM)",
+   "Data Loss Prevention (DLP)",
+   "Endpoint Detection and Response (EDR)"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-061",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "SIEM (Security Information and Event Management) berfungsi mengumpulkan, menormalisasi, dan MENGORELASIKAN log dari berbagai sumber sistem menjadi satu pandangan terpusat — ini memungkinkan deteksi pola anomali lintas sistem yang tidak akan terlihat kalau log masing-masing sistem diperiksa terpisah.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Solusi keamanan yang berfokus mendeteksi dan merespons ancaman pada perangkat pengguna akhir (laptop, server) secara real-time disebut...",
+  "options": [
+   "Endpoint Detection and Response (EDR)",
+   "Network Access Control (NAC)",
+   "Data Loss Prevention (DLP)",
+   "Web Application Firewall (WAF)"
+  ],
+  "correctIndex": 0,
+  "id": "M3CYB-062",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Prinsip Defense in Depth membangun PERTAHANAN BERLAPIS — kalau satu lapisan kontrol gagal/dilewati, masih ada lapisan lain yang menahan ancaman. Ini beda dari strategi mengandalkan satu kontrol tunggal yang kuat, karena satu titik kegagalan tunggal (single point of failure) tetap berisiko besar meski kontrolnya canggih.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Kerangka kerja MITRE ATT&CK digunakan dalam keamanan siber untuk...",
+  "options": [
+   "Menetapkan standar enkripsi data",
+   "Memetakan taktik, teknik, dan prosedur (TTP) yang digunakan penyerang siber",
+   "Mengatur kebijakan privasi data pribadi",
+   "Menentukan struktur organisasi tim keamanan"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-063",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Social Engineering mengeksploitasi PSIKOLOGI dan kepercayaan manusia (memanipulasi orang agar melakukan sesuatu atau membocorkan informasi) — bukan mengeksploitasi celah kode/sistem. Serangan seperti pretexting, baiting, atau phishing semuanya masuk kategori ini karena titik lemahnya adalah manusia, bukan teknologi.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Kerentanan aplikasi web berikut termasuk dalam OWASP Top 10, KECUALI...",
+  "options": [
+   "Broken access control",
+   "SQL injection",
+   "Insecure design",
+   "Hardware firmware corruption"
+  ],
+  "correctIndex": 3,
+  "id": "M3CYB-064",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Patch Management adalah proses SISTEMATIS mengidentifikasi, menguji, dan menerapkan pembaruan keamanan pada sistem — proses ini krusial karena banyak serangan berhasil justru lewat kerentanan yang SUDAH ADA PATCH-nya tapi belum diterapkan organisasi, bukan lewat zero-day yang memang belum ada obatnya.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Prinsip pemberian hak akses seminimal mungkin sesuai kebutuhan tugas pengguna disebut...",
+  "options": [
+   "Segregation of duties",
+   "Principle of least privilege",
+   "Defense in depth",
+   "Need to share"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-065",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "DDoS (Distributed Denial of Service) menyerang ASPEK AVAILABILITY dengan membanjiri sistem menggunakan trafik masif dari banyak sumber terdistribusi sampai layanan tidak bisa diakses pengguna sah — beda dari serangan yang mencuri/mengubah data (menyerang confidentiality/integrity), DDoS murni membuat layanan lumpuh.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Strategi keamanan berlapis yang menempatkan beberapa kontrol keamanan secara bertingkat agar kegagalan satu lapisan tidak langsung berakibat fatal disebut...",
+  "options": [
+   "Zero trust",
+   "Defense in depth",
+   "Fail-open design",
+   "Single point of control"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-066",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Man-in-the-Middle (MITM) terjadi ketika penyerang menyisip DI TENGAH komunikasi dua pihak dan bisa membaca atau mengubah data yang lewat tanpa sepengetahuan keduanya — ini mengancam Confidentiality (data disadap) dan Integrity (data diubah) sekaligus, itulah kenapa enkripsi end-to-end jadi pertahanan utama melawan MITM.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Kerentanan pada perangkat lunak yang belum diketahui oleh vendor maupun publik dan belum memiliki patch disebut...",
+  "options": [
+   "Zero-day vulnerability",
+   "Known vulnerability",
+   "Legacy vulnerability",
+   "Configuration drift"
+  ],
+  "correctIndex": 0,
+  "id": "M3CYB-067",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Penetration Testing adalah simulasi serangan TERKENDALI dan DIOTORISASI untuk menemukan celah keamanan sebelum penyerang sungguhan menemukannya — bedanya dari audit keamanan biasa adalah sifatnya AKTIF mencoba menembus sistem (bukan sekadar memeriksa dokumentasi/konfigurasi).",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam siklus tanggap insiden siber (incident response lifecycle) menurut kerangka umum NIST, urutan tahapan yang benar adalah...",
+  "options": [
+   "Detection - Containment - Preparation - Eradication - Recovery - Lessons Learned",
+   "Preparation - Detection and Analysis - Containment, Eradication, and Recovery - Post-Incident Activity",
+   "Containment - Preparation - Detection - Recovery - Eradication",
+   "Preparation - Recovery - Detection - Containment - Eradication"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-068",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Business Continuity Plan (BCP) berfokus menjaga OPERASIONAL BISNIS tetap berjalan (atau cepat pulih) saat terjadi gangguan besar — ini mencakup lebih dari sekadar pemulihan sistem TI (itu cakupan Disaster Recovery Plan/DRP yang lebih sempit); BCP mencakup people, proses, dan lokasi kerja alternatif juga.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pada tahap CONTAINMENT dalam penanganan insiden siber, tujuan utamanya adalah...",
+  "options": [
+   "Menghapus seluruh malware dari sistem secara permanen",
+   "Membatasi penyebaran dampak insiden agar tidak meluas ke sistem lain",
+   "Menyusun laporan akhir kepada regulator",
+   "Melatih pegawai mengenai kesadaran keamanan siber"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-069",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Data Loss Prevention (DLP) secara spesifik memantau dan mencegah data SENSITIF keluar dari lingkungan organisasi tanpa otorisasi (lewat email, USB, upload, dsb) — fungsinya melindungi Confidentiality data secara aktif, berbeda dari backup yang fungsinya memulihkan data yang hilang, bukan mencegah kebocoran.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Undang-Undang yang mengatur perlindungan data pribadi di Indonesia adalah...",
+  "options": [
+   "UU No. 11 Tahun 2008 tentang ITE",
+   "UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi",
+   "UU No. 19 Tahun 2016 tentang Perubahan UU ITE",
+   "UU No. 8 Tahun 1999 tentang Perlindungan Konsumen"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-070",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Encryption at Rest melindungi data yang TERSIMPAN (di disk/database), sedangkan Encryption in Transit melindungi data yang SEDANG BERPINDAH (lewat jaringan) — organisasi yang matang menerapkan KEDUANYA, karena data bisa dicuri baik saat diam di penyimpanan maupun saat mengalir di jaringan.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam manajemen risiko teknologi informasi di sektor jasa keuangan, istilah 'cyber resilience' merujuk pada...",
+  "options": [
+   "Kemampuan sistem untuk sepenuhnya kebal terhadap serangan siber",
+   "Kemampuan organisasi mencegah, mendeteksi, merespons, dan pulih dari insiden siber sambil menjaga keberlangsungan fungsi bisnis",
+   "Jumlah anggaran keamanan siber yang dialokasikan setiap tahun",
+   "Sertifikasi ISO yang wajib dimiliki lembaga jasa keuangan"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-071",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Privileged Access Management (PAM) secara khusus mengelola dan mengawasi akun-akun BERHAK ISTIMEWA (administratif) — mencakup perekaman sesi, rotasi kredensial, dan akses just-in-time — karena akun-akun ini paling berbahaya kalau disalahgunakan, mengingat cakupan aksesnya yang luas ke sistem kritis.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Standar internasional yang menjadi acuan utama untuk sistem manajemen keamanan informasi (SMKI/ISMS) adalah...",
+  "options": [
+   "ISO 9001",
+   "ISO 27001",
+   "ISO 22301",
+   "ISO 20000"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-072",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Supply Chain Attack menyerang organisasi lewat VENDOR atau PIHAK KETIGA yang terhubung ke sistemnya — penyerang menyusup lewat celah di rantai pasok (software vendor, kontraktor TI) yang dipercaya, alih-alih menyerang organisasi target secara langsung yang mungkin pertahanannya lebih kuat.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Standar internasional yang secara khusus mengatur manajemen kelangsungan bisnis (Business Continuity Management System) adalah...",
+  "options": [
+   "ISO 27001",
+   "ISO 31000",
+   "ISO 22301",
+   "ISO 27701"
+  ],
+  "correctIndex": 2,
+  "id": "M3CYB-073",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Security Operations Center (SOC) adalah tim/fasilitas terpusat yang memantau, mendeteksi, dan merespons insiden keamanan SECARA BERKELANJUTAN (24/7) — fungsinya menggabungkan orang, proses, dan teknologi (termasuk SIEM) untuk deteksi dan respons dini terhadap ancaman.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "STUDI KASUS: Sebuah bank menerima laporan bahwa server internal mengalami lonjakan trafik keluar (outbound) yang tidak wajar menuju alamat IP di luar negeri pada dini hari, disertai proses aplikasi yang tidak dikenal berjalan di latar belakang. Indikasi paling kuat dari kondisi ini adalah...",
+  "options": [
+   "Kegagalan sistem backup rutin",
+   "Kemungkinan eksfiltrasi data oleh malware atau aktor yang telah memperoleh akses tidak sah",
+   "Kesalahan konfigurasi load balancer",
+   "Peningkatan traffic normal akibat maintenance terjadwal"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-074",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Vulnerability Assessment mengIDENTIFIKASI dan mengKATALOGKAN celah keamanan yang ADA di sistem — ini berbeda dari penetration testing yang secara AKTIF mencoba MENGEKSPLOITASI celah itu untuk membuktikan dampaknya nyata. Vulnerability assessment = 'apa saja celahnya', penetration test = 'seberapa parah kalau dieksploitasi'.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "STUDI KASUS: Tim keamanan menemukan bahwa seorang mantan pegawai TI masih memiliki akses VPN aktif tiga bulan setelah resign, dan akses tersebut sempat digunakan untuk login ke sistem internal. Kelemahan kontrol yang paling mendasar dalam kasus ini adalah...",
+  "options": [
+   "Kurangnya pelatihan kesadaran keamanan siber bagi pegawai",
+   "Lemahnya proses offboarding/deprovisioning akses saat pegawai berhenti bekerja",
+   "Tidak adanya firewall pada jaringan VPN",
+   "Kurangnya kapasitas bandwidth jaringan"
+  ],
+  "correctIndex": 1,
+  "id": "M3CYB-075",
+  "categorySlug": "m3-cyber-risk",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Studi kasus ini menunjukkan kegagalan proses OFFBOARDING/DEPROVISIONING — akses VPN mantan pegawai yang seharusnya langsung dicabut saat resign justru masih aktif 3 bulan kemudian. Ini bukan soal pelatihan kesadaran (opsi A) atau firewall (opsi C), melainkan kegagalan PROSES tata kelola identitas — siklus hidup akses (identity lifecycle management) tidak dijalankan konsisten sampai tahap akhir (offboarding).",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Kerangka manajemen risiko perusahaan (Enterprise Risk Management) yang banyak diadopsi secara global selain ISO 31000 adalah kerangka yang diterbitkan oleh...",
+  "options": [
+   "COSO (Committee of Sponsoring Organizations of the Treadway Commission)",
+   "IFRS Foundation",
+   "GRI (Global Reporting Initiative)",
+   "IIA (Institute of Internal Auditors)"
+  ],
+  "correctIndex": 0,
+  "id": "M3MRK-051",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "COSO ERM Framework adalah kerangka manajemen risiko perusahaan paling banyak diadopsi secara global SELAIN ISO 31000 — bedanya, COSO lebih menekankan integrasi risiko dengan STRATEGI dan KINERJA organisasi (lahir dari konteks pengendalian internal & pelaporan keuangan), sedangkan ISO 31000 lebih bersifat prinsip umum manajemen risiko lintas sektor.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam kerangka Basel III, rasio kecukupan modal minimum (Capital Adequacy Ratio) yang harus dipenuhi bank secara umum adalah...",
+  "options": [
+   "4%",
+   "6%",
+   "8%",
+   "12%"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-052",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "CAR (Capital Adequacy Ratio) mengukur KECUKUPAN MODAL bank relatif terhadap aset tertimbang risiko (RWA) — rasio ini jadi indikator utama ketahanan bank menyerap kerugian sebelum berdampak ke nasabah/sistem keuangan, dan menjadi salah satu pilar utama Basel III yang paling sering diuji beserta ambang minimumnya.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Rasio likuiditas Basel III yang mengukur kemampuan bank memenuhi kebutuhan arus kas jangka pendek (30 hari) dalam kondisi stres disebut...",
+  "options": [
+   "Net Stable Funding Ratio (NSFR)",
+   "Liquidity Coverage Ratio (LCR)",
+   "Loan to Deposit Ratio (LDR)",
+   "Capital Adequacy Ratio (CAR)"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-053",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "LCR (Liquidity Coverage Ratio) mengukur apakah bank punya CUKUP aset likuid berkualitas tinggi untuk bertahan 30 HARI dalam skenario stres likuiditas jangka PENDEK — ini beda dari NSFR (Net Stable Funding Ratio) yang mengukur kestabilan pendanaan jangka PANJANG (horizon 1 tahun). LCR = ketahanan jangka pendek, NSFR = struktur pendanaan jangka panjang.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Rasio Basel III yang mengukur kestabilan sumber pendanaan bank dalam horizon waktu satu tahun disebut...",
+  "options": [
+   "Liquidity Coverage Ratio (LCR)",
+   "Net Stable Funding Ratio (NSFR)",
+   "Tier 1 Capital Ratio",
+   "Leverage Ratio"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-054",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "BIA (Basic Indicator Approach), SA (Standardized Approach), dan AMA (Advanced Measurement Approach) adalah tiga metode PENGUKURAN RISIKO OPERASIONAL dengan tingkat kompleksitas meningkat — BIA paling sederhana (persentase tunggal dari pendapatan kotor), SA membagi per lini bisnis, AMA memakai model internal bank sendiri yang paling canggih tapi butuh validasi regulator paling ketat.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Value at Risk (VaR) dalam manajemen risiko pasar digunakan untuk mengukur...",
+  "options": [
+   "Rata-rata keuntungan portofolio dalam satu periode",
+   "Estimasi kerugian maksimum suatu portofolio pada tingkat kepercayaan tertentu dalam periode waktu tertentu",
+   "Total aset yang dimiliki suatu lembaga keuangan",
+   "Jumlah nasabah yang berisiko gagal bayar"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-055",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Value at Risk (VaR) mengukur POTENSI KERUGIAN MAKSIMUM suatu portofolio dalam periode waktu tertentu pada tingkat KEYAKINAN tertentu (misalnya 95% atau 99%) — VaR menjawab pertanyaan 'seberapa besar saya bisa rugi dalam kondisi normal-ekstrem', bukan kerugian pasti maupun kerugian ekstrem tanpa batas (itu ranah stress testing).",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pengujian yang dilakukan untuk menilai ketahanan bank terhadap skenario ekonomi ekstrem namun plausible disebut...",
+  "options": [
+   "Backtesting",
+   "Stress testing",
+   "A/B testing",
+   "Compliance testing"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-056",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "BMPK (Batas Maksimum Pemberian Kredit) membatasi PORSI MAKSIMUM kredit yang boleh diberikan bank kepada satu peminjam atau kelompok peminjam terkait — tujuannya mencegah konsentrasi risiko kredit berlebihan pada satu pihak, yang bisa mengancam kesehatan bank kalau peminjam itu gagal bayar.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Metode pengujian yang membandingkan hasil prediksi model risiko dengan realisasi aktual untuk memvalidasi keakuratan model disebut...",
+  "options": [
+   "Stress testing",
+   "Backtesting",
+   "Scenario analysis",
+   "Sensitivity analysis"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-057",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Stress Testing menguji ketahanan institusi dalam skenario EKSTREM namun MASUK AKAL (severe but plausible) — bedanya dari VaR yang mengukur kerugian dalam kondisi pasar NORMAL pada tingkat keyakinan statistik tertentu, stress testing justru sengaja mensimulasikan kondisi krisis di luar pola data historis normal.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Rasio kredit bermasalah terhadap total kredit yang disalurkan dikenal dengan istilah...",
+  "options": [
+   "Loan to Deposit Ratio (LDR)",
+   "Non-Performing Loan (NPL)",
+   "Cost to Income Ratio (CIR)",
+   "Return on Assets (ROA)"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-058",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Prinsip Three Lines (Tata Kelola Tiga Lini) membagi tanggung jawab manajemen risiko: Lini 1 (unit bisnis, pemilik risiko operasional harian), Lini 2 (manajemen risiko & kepatuhan, memberi tantangan independen), Lini 3 (audit internal, assurance independen ke Direksi). Pembagian ini mencegah konflik kepentingan karena masing-masing lini punya peran dan independensi berbeda.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Cadangan yang dibentuk bank untuk mengantisipasi potensi kerugian akibat penurunan kualitas aset keuangan disebut...",
+  "options": [
+   "Cadangan Kerugian Penurunan Nilai (CKPN)",
+   "Dana Pihak Ketiga (DPK)",
+   "Modal Inti Utama (CET1)",
+   "Giro Wajib Minimum (GWM)"
+  ],
+  "correctIndex": 0,
+  "id": "M3MRK-059",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Risiko Reputasi berbeda dari risiko finansial langsung — ia muncul dari PERSEPSI NEGATIF publik/stakeholder terhadap institusi (akibat skandal, pelayanan buruk, atau insiden lain), dan dampaknya bisa MERAMBAT jadi kerugian finansial nyata (nasabah lari, saham turun) meski awalnya bukan kerugian langsung.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Risiko yang timbul akibat ketidakcukupan atau kegagalan proses internal, manusia, sistem, atau kejadian eksternal menurut kerangka Basel disebut...",
+  "options": [
+   "Risiko pasar",
+   "Risiko kredit",
+   "Risiko operasional",
+   "Risiko likuiditas"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-060",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "CKPN (Cadangan Kerugian Penurunan Nilai) adalah cadangan yang WAJIB dibentuk bank untuk mengantisipasi potensi gagal bayar kredit — semakin buruk kualitas kredit (semakin tinggi kemungkinan gagal bayar), semakin besar CKPN yang harus dicadangkan, yang langsung menekan laba bank karena dibebankan sebagai biaya.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pendekatan pengukuran risiko operasional Basel yang paling sederhana, berdasarkan persentase tetap dari pendapatan bruto rata-rata, disebut...",
+  "options": [
+   "Advanced Measurement Approach (AMA)",
+   "Standardized Approach (SA)",
+   "Basic Indicator Approach (BIA)",
+   "Internal Ratings-Based Approach (IRB)"
+  ],
+  "correctIndex": 2,
+  "id": "M3MRK-061",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Risiko Kepatuhan (Compliance Risk) muncul dari KEGAGALAN mematuhi peraturan perundang-undangan, standar, atau kode etik yang berlaku — konsekuensinya bisa berupa sanksi regulator, denda, atau pembatasan kegiatan usaha, terpisah dari risiko hukum yang lebih spesifik ke sengketa/litigasi kontraktual.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Struktur tata kelola risiko yang membagi peran menjadi unit bisnis, fungsi manajemen risiko/kepatuhan, dan audit internal dikenal secara umum dengan istilah...",
+  "options": [
+   "Four Eyes Principle",
+   "Three Lines Model (Three Lines of Defense)",
+   "Segregation of Duties Matrix",
+   "Dual Control System"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-062",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Fraud Triangle menjelaskan tiga kondisi yang BERSAMA-SAMA mendorong terjadinya kecurangan: Pressure (tekanan/motif melakukan fraud), Opportunity (kesempatan karena kontrol lemah), dan Rationalization (pembenaran diri atas tindakannya). Ketiadaan SALAH SATU elemen ini secara teori mengurangi kemungkinan fraud terjadi — inilah dasar strategi anti-fraud yang menyasar ketiganya sekaligus.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam praktik tata kelola risiko yang baik, siapa yang paling tepat berperan sebagai 'risk owner' atas suatu proses bisnis?",
+  "options": [
+   "Fungsi manajemen risiko selaku pembuat kerangka kerja",
+   "Unit bisnis/operasional yang menjalankan proses dan aktivitas sehari-hari",
+   "Auditor internal yang menilai efektivitas kontrol",
+   "Regulator yang menetapkan ketentuan"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-063",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Risiko Strategis muncul dari KEPUTUSAN BISNIS yang keliru atau kegagalan beradaptasi dengan perubahan lingkungan usaha (kompetisi, teknologi, regulasi) — ini beda dari risiko operasional yang bersumber dari kegagalan PROSES internal sehari-hari; risiko strategis lebih ke arah kesalahan ARAH jangka panjang organisasi.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam segregation of duties (pemisahan tugas), tujuan utamanya adalah...",
+  "options": [
+   "Mempercepat proses persetujuan transaksi",
+   "Mencegah satu individu memiliki kendali penuh atas seluruh tahapan suatu transaksi sehingga mengurangi risiko fraud",
+   "Mengurangi jumlah pegawai yang dibutuhkan dalam suatu proses",
+   "Menyederhanakan struktur organisasi"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-064",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Konsentrasi risiko terjadi ketika eksposur institusi TERPUSAT berlebihan pada satu debitur, sektor, atau wilayah tertentu — bahayanya, kalau satu titik konsentrasi itu bermasalah, dampaknya jauh lebih besar dibanding portofolio yang terdiversifikasi, karena kerugian tidak tersebar merata.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Risiko yang timbul dari ketidakmampuan lembaga memenuhi kewajiban keuangan jangka pendek tanpa menanggung kerugian signifikan disebut...",
+  "options": [
+   "Risiko kredit",
+   "Risiko likuiditas",
+   "Risiko pasar",
+   "Risiko strategik"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-065",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Risiko Likuiditas Pendanaan (Funding Liquidity Risk) muncul ketika institusi kesulitan memperoleh dana untuk memenuhi kewajiban jatuh tempo — ini beda dari Risiko Likuiditas Pasar (Market Liquidity Risk) yang muncul ketika institusi kesulitan MENJUAL aset dengan cepat tanpa mengorbankan harga secara signifikan; keduanya sama-sama 'likuiditas' tapi sumbernya beda (pendanaan vs pasar aset).",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Risiko yang timbul dari fluktuasi variabel pasar seperti suku bunga, nilai tukar, dan harga saham/komoditas disebut...",
+  "options": [
+   "Risiko kredit",
+   "Risiko pasar",
+   "Risiko operasional",
+   "Risiko reputasi"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-066",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Whistleblowing System (WBS) memberi kanal AMAN dan RAHASIA bagi pegawai/pihak lain melaporkan dugaan pelanggaran tanpa takut retaliasi — efektivitasnya bergantung pada JAMINAN KERAHASIAAN pelapor dan tindak lanjut yang konsisten, karena sistem yang tidak menjamin keduanya akan ditinggalkan pelapor potensial.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Segitiga fraud (fraud triangle) yang dikemukakan oleh Donald Cressey terdiri atas tiga elemen, yaitu...",
+  "options": [
+   "Opportunity, Pressure, dan Rationalization",
+   "Opportunity, Capability, dan Motive",
+   "Pressure, Capability, dan Concealment",
+   "Motive, Means, dan Opportunity"
+  ],
+  "correctIndex": 0,
+  "id": "M3MRK-067",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Risiko Hukum (Legal Risk) muncul dari KELEMAHAN aspek yuridis — kontrak tidak sah, dokumentasi tidak lengkap, atau perubahan regulasi yang membuat perjanjian jadi tidak dapat dilaksanakan — ini beda dari risiko kepatuhan yang soal MEMATUHI aturan yang berlaku, risiko hukum lebih ke soal KEABSAHAN dan KEKUATAN hukum suatu hubungan/transaksi.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Pendekatan pengukuran risiko operasional berbasis Basel berikut ini termasuk pendekatan yang diakui secara umum, KECUALI...",
+  "options": [
+   "Basic Indicator Approach (BIA)",
+   "Standardized Approach (SA)",
+   "Advanced Measurement Approach (AMA)",
+   "Value at Risk Approach (VaR-A)"
+  ],
+  "correctIndex": 3,
+  "id": "M3MRK-068",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Governance, Risk, and Compliance (GRC) adalah pendekatan TERINTEGRASI yang menyatukan tata kelola, manajemen risiko, dan kepatuhan dalam satu kerangka kerja — tujuannya menghindari duplikasi upaya dan silo antar fungsi yang seharusnya saling melengkapi, bukan berjalan terpisah-pisah.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Sistem pelaporan yang memungkinkan pegawai melaporkan dugaan pelanggaran atau kecurangan secara rahasia dan terlindungi disebut...",
+  "options": [
+   "Whistleblowing System (WBS)",
+   "Key Risk Indicator (KRI)",
+   "Risk Control Self-Assessment (RCSA)",
+   "Single Customer View (SCV)"
+  ],
+  "correctIndex": 0,
+  "id": "M3MRK-069",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Risk Culture (budaya risiko) mencerminkan NILAI dan PERILAKU kolektif organisasi terhadap risiko — organisasi dengan budaya risiko yang kuat membuat SETIAP pegawai (bukan cuma tim manajemen risiko) merasa bertanggung jawab mengenali dan melaporkan risiko, bukan menyerahkan sepenuhnya ke satu unit khusus.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Metode identifikasi dan penilaian risiko operasional di mana unit kerja menilai sendiri risiko dan efektivitas kontrol pada proses bisnisnya disebut...",
+  "options": [
+   "Risk Control Self-Assessment (RCSA)",
+   "Key Risk Indicator (KRI) Monitoring",
+   "External Loss Data Analysis",
+   "Scenario Analysis"
+  ],
+  "correctIndex": 0,
+  "id": "M3MRK-070",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Key Control Indicator (KCI) mengukur EFEKTIVITAS suatu kontrol dalam mencegah/mendeteksi risiko — ini beda dari Key Risk Indicator (KRI) yang mengukur TINGKAT PAPARAN risiko itu sendiri. KCI menjawab 'apakah kontrolnya bekerja', KRI menjawab 'seberapa besar risikonya sekarang'.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Dalam manajemen risiko kredit, istilah 'collateral' merujuk pada...",
+  "options": [
+   "Jaminan yang diserahkan debitur untuk mengurangi risiko kerugian bank jika terjadi gagal bayar",
+   "Batas maksimum plafon kredit yang dapat diberikan",
+   "Suku bunga yang dikenakan atas fasilitas kredit",
+   "Jangka waktu pelunasan kredit"
+  ],
+  "correctIndex": 0,
+  "id": "M3MRK-071",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Risk Register adalah dokumen/basis data terstruktur yang mencatat SELURUH risiko teridentifikasi organisasi berikut penilaian, pemilik, dan status mitigasinya — fungsinya sebagai satu sumber kebenaran (single source of truth) untuk pemantauan risiko secara sistematis dan terlacak.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Prinsip kehati-hatian yang membatasi jumlah maksimum penyediaan dana kepada satu peminjam atau kelompok peminjam dikenal dengan istilah...",
+  "options": [
+   "Legal Lending Limit (LLL) / Batas Maksimum Pemberian Kredit (BMPK)",
+   "Loan to Value (LTV)",
+   "Debt Service Coverage Ratio (DSCR)",
+   "Weighted Average Cost of Capital (WACC)"
+  ],
+  "correctIndex": 0,
+  "id": "M3MRK-072",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Prinsip Segregation of Duties (pemisahan tugas) mewajibkan fungsi INISIASI, OTORISASI, dan PENCATATAN suatu transaksi dipegang oleh PIHAK BERBEDA — tujuannya mencegah satu individu memiliki kendali penuh atas satu siklus transaksi yang bisa disalahgunakan tanpa terdeteksi.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "Berikut ini termasuk kategori risiko keuangan (financial risk) dalam kerangka manajemen risiko lembaga jasa keuangan, KECUALI...",
+  "options": [
+   "Risiko kredit",
+   "Risiko pasar",
+   "Risiko likuiditas",
+   "Risiko reputasi"
+  ],
+  "correctIndex": 3,
+  "id": "M3MRK-073",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Operational Resilience (ketahanan operasional) menekankan kemampuan organisasi TETAP MEMBERIKAN layanan kritis meski terjadi gangguan — ini lebih luas dari sekadar Business Continuity Plan (yang fokus pemulihan setelah gangguan), karena resilience juga mencakup kemampuan BERADAPTASI dan mencegah gangguan berdampak ke layanan yang paling penting bagi nasabah.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "STUDI KASUS: Sebuah perusahaan pembiayaan mencatat pertumbuhan penyaluran kredit konsumtif yang sangat agresif dalam dua kuartal terakhir, jauh melampaui pertumbuhan Dana Pihak Ketiga dan modal. Risiko utama yang paling mungkin meningkat akibat kondisi tersebut adalah...",
+  "options": [
+   "Risiko reputasi semata",
+   "Risiko kredit dan risiko likuiditas secara bersamaan akibat mismatch pertumbuhan aset dan sumber pendanaan/modal",
+   "Risiko pasar akibat fluktuasi nilai tukar",
+   "Risiko kepatuhan terhadap pelaporan pajak"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-074",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Risk Appetite Framework (RAF) adalah dokumen menyeluruh yang menetapkan JENIS dan TINGKAT risiko yang bersedia diambil organisasi dalam mengejar tujuan strategisnya — RAF menjadi acuan tertinggi yang kemudian diturunkan jadi limit-limit operasional lebih spesifik di setiap unit bisnis.",
+  "difficulty": "medium"
+ },
+ {
+  "stem": "STUDI KASUS: Divisi tresuri sebuah bank memiliki wewenang untuk menginisiasi transaksi valuta asing, melakukan konfirmasi transaksi, sekaligus mencatatnya pada sistem akuntansi tanpa keterlibatan unit lain. Kelemahan tata kelola risiko paling mendasar dalam kondisi ini adalah...",
+  "options": [
+   "Kurangnya modal kerja tresuri",
+   "Pelanggaran prinsip segregation of duties yang meningkatkan risiko fraud dan kesalahan pencatatan",
+   "Ketidaksesuaian dengan strategi bisnis jangka panjang",
+   "Kurangnya diversifikasi mata uang transaksi"
+  ],
+  "correctIndex": 1,
+  "id": "M3MRK-075",
+  "categorySlug": "m3-manajemen-risiko",
+  "source": "existing",
+  "sourceType": "prediksi",
+  "pembahasan": "Studi kasus tresuri ini adalah pelanggaran Segregation of Duties yang jelas: satu unit memegang tiga fungsi sekaligus (inisiasi transaksi, konfirmasi, DAN pencatatan) — kombinasi ini membuka peluang fraud atau kesalahan yang tidak akan terdeteksi karena tidak ada pihak independen yang mengecek silang pekerjaan pihak lain, melanggar prinsip dasar pengendalian internal.",
+  "difficulty": "medium"
  }
 ]

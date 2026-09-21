@@ -49,6 +49,12 @@ const MODUL_DATA = {
     // 70% Manajemen Risiko / 30% Cyber Risk — fixed ratio, not an even split.
     buildExam: buildModul3Exam,
     breakdown: modul3ExamBreakdown,
+    // Every Modul 3 question is uniformly "Prediksi dari materi" — there's no
+    // real vs AI distinction to offer, so it skips the submode picker
+    // entirely and goes straight to a single try-out button. Questions are
+    // also shown one at a time instead of a page of 10.
+    singleMode: true,
+    pageSize: 1,
   },
 };
 
@@ -105,12 +111,16 @@ export default function PerModulScreen({ onExit }) {
   }
 
   if (examSet) {
+    const title = modulData.singleMode
+      ? `Modul ${activeModul}`
+      : `Modul ${activeModul} · ${SUBMODES.find((s) => s.id === activeSubmode)?.title}`;
     return (
       <ExamRunner
         key={runKey}
-        title={`Modul ${activeModul} · ${SUBMODES.find((s) => s.id === activeSubmode)?.title}`}
+        title={title}
         questions={examSet}
         timeLimitMin={examConfig.minutes}
+        pageSize={modulData.pageSize || 10}
         onFinish={setResult}
         onExit={onExit}
       />
@@ -123,6 +133,35 @@ export default function PerModulScreen({ onExit }) {
     setActiveSubmode(sm.id);
     setExamSet(set);
     setRunKey((k) => k + 1);
+  }
+
+  if (activeModul && modulData?.singleMode) {
+    const breakdown = modulData.breakdown(categories, poolFor('ai'), examConfig.target);
+    const total = breakdown.reduce((n, b) => n + b.count, 0);
+    return (
+      <div className="min-h-screen bg-paper flex flex-col px-6 safe-top pb-safe">
+        <button onClick={() => setActiveModul(null)} className="self-start text-ink text-2xl leading-none mb-4">←</button>
+        <h1 className="font-display font-extrabold text-2xl text-ink mb-1">Modul {activeModul}</h1>
+        <p className="text-ink-soft/70 mb-6">
+          {examConfig.target} soal · {examConfig.minutes} menit · KKM {KKM}
+        </p>
+        <div className="rounded-2xl border-2 border-tekad-redSoft bg-paper-raised p-5">
+          <h2 className="font-display font-bold text-ink mb-1">Try Out</h2>
+          <p className="text-ink-soft/60 text-sm mb-3">
+            Seluruh soal modul ini berasal dari prediksi materi (belum ada soal ujian/kuis kelas asli untuk modul ini), jadi hanya satu mode try out — tanpa perlu pisah sumber soal.
+          </p>
+          <p className="text-xs text-ink-soft/50 mb-3">
+            {total} soal siap · {breakdown.map((b) => `${b.name} (${b.count})`).join(' · ')}
+          </p>
+          <button
+            onClick={() => startSubmode({ id: 'ai' })}
+            className="btn-solid w-full rounded-2xl border-b-4 py-3 font-display font-bold bg-tekad-red border-tekad-redDark text-white"
+          >
+            Mulai Try Out
+          </button>
+        </div>
+      </div>
+    );
   }
 
   if (activeModul) {

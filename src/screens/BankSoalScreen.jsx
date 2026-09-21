@@ -1,8 +1,15 @@
 import { useMemo, useState } from 'react';
-import questions from '../data/questions.json';
-import categories from '../data/categories.json';
+import baseQuestions from '../data/questions.json';
+import baseCategories from '../data/categories.json';
+import modul3Questions from '../data/modul3Questions.json';
+import modul3Categories from '../data/modul3Categories.json';
 import SourceBadge from '../components/SourceBadge';
 import { shuffleQuestionOptions } from '../lib/utils';
+
+// Bank Soal covers the original Modul 1 set plus the two Modul 3 materials
+// (Manajemen Risiko & Cyber Risk).
+const questions = [...baseQuestions, ...modul3Questions];
+const categories = [...baseCategories, ...modul3Categories];
 
 export default function BankSoalScreen({ onExit }) {
   const [activeCategory, setActiveCategory] = useState('all');

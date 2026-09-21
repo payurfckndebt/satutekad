@@ -1,4 +1,6 @@
 import questions from '../data/questions.json';
+import TriviaCard from '../components/TriviaCard';
+import HighlightCarousel from '../components/HighlightCarousel';
 
 export default function HomeScreen({ onSelect, theme, onToggleTheme }) {
   return (
@@ -12,7 +14,7 @@ export default function HomeScreen({ onSelect, theme, onToggleTheme }) {
             <img src="/tekad-mark.svg" alt="" className="h-11 w-11 rounded-xl" />
             <h1 className="font-display font-extrabold text-3xl text-ink">SatuTekad</h1>
           </div>
-          <p className="text-ink-soft/60 text-sm">{questions.length} soal siap latihan, empat cara belajar.</p>
+          <p className="text-ink-soft/60 text-sm">{questions.length} soal siap latihan.</p>
         </div>
         <div className="shrink-0 mt-1 flex items-center gap-2">
           {onToggleTheme && (
@@ -41,32 +43,14 @@ export default function HomeScreen({ onSelect, theme, onToggleTheme }) {
           onClick={() => onSelect('permodul')}
           filled
         />
-        <BigCard
-          eyebrow="Mode Game"
-          title="JWARA"
-          desc="Nyawa, kombo, dan lima jenis mini-game ringan."
-          badge="BARU"
-          onClick={() => onSelect('jwara')}
-        />
-        <BigCard
-          eyebrow="Terstruktur"
-          title="Latihan Berdasarkan Hari"
-          desc="Materi dibagi per hari pelatihan dan per sesi."
-          onClick={() => onSelect('harian')}
-        />
-        <BigCard
-          eyebrow="Lintas Modul"
-          title="Irisan Modul 1 & 2"
-          desc="Soal asli ujian yang topiknya beririsan antar modul, ditampilkan berdampingan."
-          badge="BARU"
-          onClick={() => onSelect('irisan')}
-        />
 
-        <div className="grid grid-cols-2 gap-3 pt-1">
-          <SmallCard title="YDBBA" desc="Latihan fokus" onClick={() => onSelect('ydbba')} />
+        <div className="grid grid-cols-2 gap-3 pt-1 pb-2">
           <SmallCard title="Bank Soal" desc="Semua + pembahasan" onClick={() => onSelect('banksoal')} />
           <SmallCard title="Bahan Bacaan" desc="Rangkuman + prediksi" onClick={() => onSelect('bahanbacaan')} />
         </div>
+
+        <TriviaCard />
+        <HighlightCarousel />
       </div>
 
       <p className="relative text-center text-ink-soft/30 text-xs pb-6 pt-8">SatuTekad · PCAM 9 &amp; MLE 2026</p>
