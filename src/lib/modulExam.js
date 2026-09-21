@@ -23,10 +23,10 @@ export const MODUL_EXAM_CONFIG = {
 };
 
 // Modul 3 has a fixed topic weighting instead of an even split across
-// categories — 60% Manajemen Risiko, 40% Cyber Risk.
+// categories — 45 soal Manajemen Risiko, 15 soal Cyber Risk (out of 60 total).
 export const MODUL3_TOPIC_WEIGHTS = {
-  'm3-manajemen-risiko': 0.6,
-  'm3-cyber-risk': 0.4,
+  'm3-manajemen-risiko': 0.75,
+  'm3-cyber-risk': 0.25,
 };
 
 export function examConfigForModul(modulId) {

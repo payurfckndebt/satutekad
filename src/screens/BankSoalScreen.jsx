@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import baseQuestions from '../data/questions.json';
 import baseCategories from '../data/categories.json';
 import modul3Questions from '../data/modul3Questions.json';
@@ -7,14 +7,23 @@ import SourceBadge from '../components/SourceBadge';
 import { shuffleQuestionOptions } from '../lib/utils';
 
 // Bank Soal covers the original Modul 1 set plus the two Modul 3 materials
-// (Manajemen Risiko & Cyber Risk).
-const questions = [...baseQuestions, ...modul3Questions];
-const categories = [...baseCategories, ...modul3Categories];
+// (Manajemen Risiko & Cyber Risk) — Modul 3 topics are listed first since
+// that's the current focus.
+const questions = [...modul3Questions, ...baseQuestions];
+const categories = [...modul3Categories, ...baseCategories];
 
 export default function BankSoalScreen({ onExit }) {
   const [activeCategory, setActiveCategory] = useState('all');
   const [query, setQuery] = useState('');
+  const [topicQuery, setTopicQuery] = useState('');
   const [openId, setOpenId] = useState(null);
+  const pillScrollerRef = useRef(null);
+
+  const visibleCategories = useMemo(() => {
+    const q = topicQuery.trim().toLowerCase();
+    if (!q) return categories;
+    return categories.filter((c) => c.name.toLowerCase().includes(q));
+  }, [topicQuery]);
 
   const filtered = useMemo(() => {
     return questions.filter((q) => {
@@ -23,6 +32,10 @@ export default function BankSoalScreen({ onExit }) {
       return true;
     });
   }, [activeCategory, query]);
+
+  function scrollPills(dir) {
+    pillScrollerRef.current?.scrollBy({ left: dir * 220, behavior: 'smooth' });
+  }
 
   return (
     <div className="min-h-screen bg-paper flex flex-col">
@@ -37,15 +50,44 @@ export default function BankSoalScreen({ onExit }) {
           placeholder="Cari soal..."
           className="w-full rounded-2xl border-2 border-tekad-redSoft bg-tekad-redSoft/40 px-4 py-2.5 text-sm text-ink placeholder:text-ink-soft/50 focus:outline-none focus:border-tekad-red"
         />
-        <div className="flex gap-2 overflow-x-auto mt-3 pb-1 -mx-5 px-5 no-scrollbar">
-          <Pill active={activeCategory === 'all'} onClick={() => setActiveCategory('all')}>
-            Semua ({questions.length})
-          </Pill>
-          {categories.map((c) => (
+
+        <div className="flex items-center gap-2 mt-3">
+          <input
+            value={topicQuery}
+            onChange={(e) => setTopicQuery(e.target.value)}
+            placeholder="🔎 Cari topik/kategori..."
+            className="flex-1 rounded-xl border-2 border-tekad-redSoft/60 bg-paper-raised px-3 py-1.5 text-xs text-ink placeholder:text-ink-soft/40 focus:outline-none focus:border-tekad-red"
+          />
+          <button
+            onClick={() => scrollPills(-1)}
+            aria-label="Geser kiri"
+            className="h-7 w-7 shrink-0 rounded-full border-2 border-tekad-redSoft bg-paper-raised text-tekad-red text-xs font-bold flex items-center justify-center"
+          >
+            ‹
+          </button>
+          <button
+            onClick={() => scrollPills(1)}
+            aria-label="Geser kanan"
+            className="h-7 w-7 shrink-0 rounded-full border-2 border-tekad-redSoft bg-paper-raised text-tekad-red text-xs font-bold flex items-center justify-center"
+          >
+            ›
+          </button>
+        </div>
+
+        <div ref={pillScrollerRef} className="flex gap-2 overflow-x-auto mt-2 pb-1 -mx-5 px-5 no-scrollbar">
+          {!topicQuery.trim() && (
+            <Pill active={activeCategory === 'all'} onClick={() => setActiveCategory('all')}>
+              Semua ({questions.length})
+            </Pill>
+          )}
+          {visibleCategories.map((c) => (
             <Pill key={c.slug} active={activeCategory === c.slug} onClick={() => setActiveCategory(c.slug)}>
               {c.name} ({c.count})
             </Pill>
           ))}
+          {visibleCategories.length === 0 && (
+            <p className="text-xs text-ink-soft/40 py-1.5">Topik tidak ditemukan.</p>
+          )}
         </div>
       </header>
 

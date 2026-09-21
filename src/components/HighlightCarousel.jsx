@@ -2,18 +2,27 @@ import { useRef, useState } from 'react';
 import bahanBacaan from '../data/bahanBacaan.json';
 import { getSessionHighlightKeys, rerollSessionHighlightKeys } from '../lib/sessionPicks';
 
-const HIGHLIGHT_COUNT = 5;
+const HIGHLIGHT_COUNT = 10;
 
-// Modul 3 only — flatten each topic's prediction bullets into pickable cards.
+// Modul 3 only — flatten each topic's prediction bullets AND must-memorize
+// points into pickable cards. Combining both sources (12 + 33 items) gives
+// enough variety for meaningful 10-card batches with a real reroll.
 const MODUL3_HIGHLIGHTS = bahanBacaan
   .filter((topic) => topic.slug.startsWith('m3-'))
-  .flatMap((topic) =>
-    (topic.prediction || []).map((text, i) => ({
-      key: `${topic.slug}__${i}`,
+  .flatMap((topic) => [
+    ...(topic.prediction || []).map((text, i) => ({
+      key: `${topic.slug}__pred__${i}`,
       text,
+      tag: 'Berpotensi Keluar',
       topicTitle: topic.title,
-    }))
-  );
+    })),
+    ...(topic.wajibHafal || []).map((text, i) => ({
+      key: `${topic.slug}__hafal__${i}`,
+      text,
+      tag: 'Wajib Dihafal',
+      topicTitle: topic.title,
+    })),
+  ]);
 const ALL_KEYS = MODUL3_HIGHLIGHTS.map((h) => h.key);
 
 function resolvePicks(keys) {
@@ -93,7 +102,17 @@ export default function HighlightCarousel() {
             key={h.key}
             className="shrink-0 w-full snap-center rounded-3xl border-2 border-tekad-redSoft bg-paper-raised px-5 py-5 shadow-soft"
           >
-            <p className="text-[10px] font-bold text-tekad-red uppercase tracking-wide mb-2">{h.topicTitle}</p>
+            <div className="flex items-center gap-1.5 mb-2 flex-wrap">
+              <span
+                className={`text-[9px] font-bold uppercase tracking-wide px-1.5 py-0.5 rounded-full ${
+                  h.tag === 'Wajib Dihafal' ? 'bg-goldSoft text-gold' : 'bg-tekad-redSoft text-tekad-red'
+                }`}
+              >
+                {h.tag === 'Wajib Dihafal' ? '📌 ' : '✨ '}
+                {h.tag}
+              </span>
+              <p className="text-[10px] font-bold text-ink-soft/50 uppercase tracking-wide">{h.topicTitle}</p>
+            </div>
             <p className="text-sm text-ink leading-relaxed">{h.text}</p>
           </div>
         ))}
