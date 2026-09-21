@@ -19,16 +19,14 @@ export const KKM = 75;
 export const MODUL_EXAM_CONFIG = {
   1: { target: 100, minutes: 120 },
   2: { target: 70, minutes: 90 },
-  3: { target: 50, minutes: 100 },
+  3: { target: 60, minutes: 100 },
 };
 
 // Modul 3 has a fixed topic weighting instead of an even split across
-// categories — 70% Manajemen Risiko, 30% Cyber Risk — reflecting how the
-// source bank soal itself is weighted (50/50 raw, but the exam draws more
-// heavily from Manajemen Risiko per the requested ratio).
+// categories — 60% Manajemen Risiko, 40% Cyber Risk.
 export const MODUL3_TOPIC_WEIGHTS = {
-  'm3-manajemen-risiko': 0.7,
-  'm3-cyber-risk': 0.3,
+  'm3-manajemen-risiko': 0.6,
+  'm3-cyber-risk': 0.4,
 };
 
 export function examConfigForModul(modulId) {

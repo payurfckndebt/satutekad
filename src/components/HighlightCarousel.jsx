@@ -1,6 +1,8 @@
-import { useMemo, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import bahanBacaan from '../data/bahanBacaan.json';
-import { getSessionHighlightKeys } from '../lib/sessionPicks';
+import { getSessionHighlightKeys, rerollSessionHighlightKeys } from '../lib/sessionPicks';
+
+const HIGHLIGHT_COUNT = 5;
 
 // Modul 3 only — flatten each topic's prediction bullets into pickable cards.
 const MODUL3_HIGHLIGHTS = bahanBacaan
@@ -12,19 +14,26 @@ const MODUL3_HIGHLIGHTS = bahanBacaan
       topicTitle: topic.title,
     }))
   );
+const ALL_KEYS = MODUL3_HIGHLIGHTS.map((h) => h.key);
+
+function resolvePicks(keys) {
+  return keys.map((k) => MODUL3_HIGHLIGHTS.find((h) => h.key === k)).filter(Boolean);
+}
 
 export default function HighlightCarousel() {
-  const picks = useMemo(() => {
-    const keys = getSessionHighlightKeys(
-      MODUL3_HIGHLIGHTS.map((h) => h.key),
-      5
-    );
-    return keys.map((k) => MODUL3_HIGHLIGHTS.find((h) => h.key === k)).filter(Boolean);
-  }, []);
+  const [picks, setPicks] = useState(() => resolvePicks(getSessionHighlightKeys(ALL_KEYS, HIGHLIGHT_COUNT)));
   const [active, setActive] = useState(0);
   const scrollerRef = useRef(null);
 
   if (picks.length === 0) return null;
+
+  function reroll() {
+    const currentKeys = picks.map((p) => p.key);
+    const fresh = rerollSessionHighlightKeys(ALL_KEYS, HIGHLIGHT_COUNT, currentKeys);
+    setPicks(resolvePicks(fresh));
+    setActive(0);
+    scrollerRef.current?.scrollTo({ left: 0, behavior: 'instant' });
+  }
 
   function scrollToIndex(idx) {
     const clamped = Math.max(0, Math.min(picks.length - 1, idx));
@@ -47,6 +56,13 @@ export default function HighlightCarousel() {
           ✨ Modul 3 · Berpotensi Keluar di Ujian
         </p>
         <div className="flex items-center gap-1.5">
+          <button
+            onClick={reroll}
+            aria-label="Acak 5 fakta baru"
+            className="h-6 px-2 rounded-full border-2 border-tekad-redSoft bg-paper-raised text-tekad-red text-[10px] font-bold flex items-center gap-1"
+          >
+            🔀 Acak
+          </button>
           <button
             onClick={() => scrollToIndex(active - 1)}
             disabled={active === 0}

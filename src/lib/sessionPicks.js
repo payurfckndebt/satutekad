@@ -57,3 +57,12 @@ export function getSessionHighlightKeys(allKeys, count) {
   writeRaw(HIGHLIGHTS_KEY, fresh);
   return fresh;
 }
+
+/** Re-rolls the highlight carousel to N fresh picks, excluding the current ones where possible. */
+export function rerollSessionHighlightKeys(allKeys, count, excludeKeys = []) {
+  const remaining = allKeys.filter((k) => !excludeKeys.includes(k));
+  const source = remaining.length >= count ? remaining : allKeys;
+  const fresh = shuffleCopy(source).slice(0, count);
+  writeRaw(HIGHLIGHTS_KEY, fresh);
+  return fresh;
+}
